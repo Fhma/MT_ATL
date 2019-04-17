@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ant:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ant="Ant" name="pellentesque at nulla suspendisse potenti cras in purus eu" description="potenti nullam porttitor lacus at turpis donec posuere metus" default="//@targets.0">
+  <properties xsi:type="ant:PropertyValue" name="tellus nisi eu orci mauris lacinia sapien quis libero" value="molestie hendrerit at vulputate vitae"/>
+  <properties xsi:type="ant:PropertyValue" name="pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis" value="sed ante vivamus tortor duis mattis egestas metus"/>
+  <targets name="nulla integer pede justo lacinia eget tincidunt eget tempus vel" depends="//@targets.3">
+    <tasks xsi:type="ant:Exec" executable="crlrefresh"/>
+    <tasks xsi:type="ant:Echo" message="autoreconf"/>
+    <tasks xsi:type="ant:Exec" executable="autoreconf"/>
+  </targets>
+  <targets name="et magnis dis parturient montes" depends="//@targets.3 //@targets.2">
+    <tasks xsi:type="ant:Echo" message="caffeinate"/>
+    <tasks xsi:type="ant:Exec" executable="caffeinate"/>
+  </targets>
+  <targets name="interdum mauris ullamcorper purus sit amet nulla quisque">
+    <tasks xsi:type="ant:Echo" message="asr"/>
+    <tasks xsi:type="ant:Exec" executable="asr"/>
+  </targets>
+  <targets name="odio donec vitae nisi nam ultrices libero non mattis pulvinar">
+    <tasks xsi:type="ant:Exec" executable="apply"/>
+  </targets>
+</ant:Project>

@@ -1,0 +1,26 @@
+// operator: Binding.isAssignment-REP
+// desc: see below.
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////
+
+// Replacing  a binding with a new binding where details
+// of property isAssignment changed.
+//
+// Remark 1.1: changing the value of isAssignmen to either true
+// or false always generates equivalant mutant. When isAssignment
+// is set to true, this implies that the assginment of a binding is
+// extracted as "<:=" in the ATL code; and when tue isAssignment
+// is set to false it imples that the binding of ourPatternElement
+// is extraxted as "<-". However, the two assignments (ie. "<:=" 
+// and "<-") are semantically equivalant according to the ATL 
+// Language specificatioins/definitions. Hence, there is no
+// mutation operators designed to mutate the Binding.isAssignment
+// modelling concept.
+// 
+// Remarks 1.2: Although the metamodel of ATL (
+// "http://www.eclipse.org/gmt/2005/ATL") represented in Ecore
+// require a value for Binding.isAssignment modelling concept,
+// the ATLInjector that is used to generate the EMF model
+// for the given ATL code produces a model that has no value
+// assigned to isAssignment property.

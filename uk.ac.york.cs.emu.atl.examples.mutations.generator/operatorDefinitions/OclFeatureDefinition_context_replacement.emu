@@ -1,0 +1,8 @@
+// operator: OclFeatureDefinition.context_-REP
+// desc: There is no replacement operator implementation
+// for this modelling concept because an instance of
+// OclFeatureDefinition.context_:OclContextDefinition has no
+// sibling to replace with the original instance.
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////

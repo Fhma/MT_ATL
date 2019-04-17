@@ -1,0 +1,68 @@
+	\--> Processed mutants-> 488
+	\--> Invalid mutants-> 24
+	\--> Killed mutants-> 400
+	\--> Not killed mutants-> 64
+		\-->SimpleInPatternElement_type_replace_58.xmi E
+		\-->SimpleInPatternElement_type_replace_88.xmi L
+		\-->SimpleInPatternElement_type_replace_48.xmi E
+		\-->SimpleInPatternElement_type_replace_61.xmi E
+		\-->SimpleInPatternElement_type_replace_10.xmi E
+		\-->SimpleInPatternElement_type_replace_124.xmi E
+		\-->SimpleInPatternElement_type_replace_02.xmi E
+		\-->SimpleInPatternElement_type_replace_34.xmi E
+		\-->SimpleInPatternElement_type_replace_53.xmi E
+		\-->SimpleInPatternElement_type_replace_56.xmi E
+		\-->SimpleOutPatternElement_bindings_delete_18.xmi E, the deleted binding has been override by subrules
+		\-->SimpleOutPatternElement_type_replace_07.xmi E 
+		\-->SimpleOutPatternElement_type_replace_01.xmi E
+		\-->SimpleOutPatternElement_type_replace_58.xmi E
+		\-->SimpleOutPatternElement_type_replace_45.xmi E
+		\-->SimpleOutPatternElement_type_replace_44.xmi E
+		\-->SimpleOutPatternElement_type_replace_33.xmi E
+		\-->SimpleOutPatternElement_type_replace_30.xmi E
+		\-->SimpleOutPatternElement_type_replace_34.xmi E
+		\-->MatchedRule_children_replace_61.xmi E
+		\-->MatchedRule_children_replace_80.xmi E
+		\-->MatchedRule_children_replace_30.xmi E
+		\-->Parameter_varName_replace_03.xmi E
+		\-->Parameter_varName_replace_02.xmi E
+		\-->Parameter_varName_replace_01.xmi E
+		\-->MatchedRule_isAbstract_replace_01.xmi E
+		\-->MatchedRule_isAbstract_replace_02.xmi E
+		\-->MatchedRule_isAbstract_replace_03.xmi E
+		\-->Parameter_type_replace_01.xmi LS, In a CalledRule, the modification of one parameters type was ignored and the engine executed the mutation regardless of parameter type.
+		\-->Parameter_type_replace_03.xmi LS In a CalledRule, the modification of one parameters type was ignored and the engine executed the mutation regardless of parameter type.
+		\-->Parameter_type_replace_02.xmi LS In a CalledRule, the modification of one parameters type was ignored and the engine executed the mutation regardless of parameter type.
+		\-->Parameter_type_replace_06.xmi LS In a CalledRule, the modification of one parameters type was ignored and the engine executed the mutation regardless of parameter type.
+		\-->Parameter_type_replace_07.xmi LS In a CalledRule, the modification of one parameters type was ignored and the engine executed the mutation regardless of parameter type.
+		\-->Parameter_type_replace_05.xmi LS In a CalledRule, the modification of one parameters type was ignored and the engine executed the mutation regardless of parameter type.
+		\-->Parameter_type_replace_04.xmi LS In a CalledRule, the modification of one parameters type was ignored and the engine executed the mutation regardless of parameter type.
+		\-->Parameter_type_replace_09.xmi LS In a CalledRule, the modification of one parameters type was ignored and the engine executed the mutation regardless of parameter type.
+		\-->Parameter_type_replace_08.xmi LS In a CalledRule, the modification of one parameters type was ignored and the engine executed the mutation regardless of parameter type.
+		\-->OclModelElement_name_replace_24.xmi E
+		\-->OclModelElement_name_replace_25.xmi E
+		\-->OclModelElement_name_replace_04.xmi E
+		\-->OclModelElement_name_replace_15.xmi E
+		\-->OclModel_name_replace_12.xmi E
+		\-->OclModel_name_replace_07.xmi E
+		\-->OclModel_name_replace_16.xmi E
+		\-->SimpleOutPatternElement_varName_replace_08.xmi E
+		\-->SimpleOutPatternElement_varName_replace_02.xmi E
+		\-->SimpleOutPatternElement_varName_replace_14.xmi E
+		\-->MatchedRule_name_replace_05.xmi E
+		\-->MatchedRule_name_replace_11.xmi E
+		\-->MatchedRule_name_replace_10.xmi E
+		\-->MatchedRule_name_replace_04.xmi E
+		\-->MatchedRule_name_replace_12.xmi E
+		\-->MatchedRule_name_replace_06.xmi E
+		\-->MatchedRule_name_replace_07.xmi E
+		\-->MatchedRule_name_replace_03.xmi E
+		\-->MatchedRule_name_replace_02.xmi E
+		\-->MatchedRule_name_replace_01.xmi E
+		\-->MatchedRule_name_replace_09.xmi E
+		\-->MatchedRule_name_replace_08.xmi E
+		\-->MatchedRule_children_delete_06.xmi E
+		\-->MatchedRule_children_delete_02.xmi E
+		\-->MatchedRule_children_delete_09.xmi E
+		\-->SimpleInPatternElement_varName_replace_09.xmi E
+		\-->Module_elements_delete_10.xmi E

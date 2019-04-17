@@ -1,0 +1,22 @@
+// operator: Operation.parameters-DEL
+// desc: this operator deletes parameters of one operation.
+// The operator mimics the the error of forgetting to called
+// an operation with sufficent arguments.
+//
+// Inherited operators: OclFeature
+////////////////////////////////////////////////////////////
+
+// Impl1.1: change paramenters of OclOperation: remove one 
+// paramenter at a time
+@action delete
+@property parameters
+@role instance
+pattern operation_remove_one_parameter
+instance:Operation
+	in: Operation.all.select(e|e.parameters.size() >= 1),
+param:Parameter
+	from: instance.parameters {
+	do {
+		instance.parameters.remove(param);
+	}
+}

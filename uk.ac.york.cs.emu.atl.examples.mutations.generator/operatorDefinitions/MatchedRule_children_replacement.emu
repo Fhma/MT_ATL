@@ -1,0 +1,71 @@
+// operator: MatchedRule.children-REP
+// desc: this operator replaces one extending matchedrule from
+// list from MatchedRule.children. This operator mimics the
+// error of extending wrong matchedrule
+// 
+// Inherited operators: Rule, ModuleElement
+////////////////////////////////////////////////////////////
+
+// Sec 1: replaces one extending matched rule with another one
+@action replace
+@property children
+@role instance
+pattern replace_one_child_at_a_time_with_different_matchedrule
+instance:MatchedRule,
+child:MatchedRule
+	from: instance.children,
+new_child:MatchedRule
+	in: MatchedRule.all.select(e| (e <> instance)
+		or (instance.children.isDefined() and instance.children.includes(e))) {
+	do {
+		instance.children.remove(child);
+		instance.children.add(new_child);
+	}
+}
+
+// Sec 2: replaces one extending matchedrule with another one
+// Impl 2.1: change one child from MatchedRule to unique LazyMatchedRule
+@action replace
+@property children
+@role instance
+pattern change_matchedrule_to_unique_lazyrule
+instance:MatchedRule,
+child:MatchedRule
+	in: instance.children {
+	do {
+		var lazy = LazyMatchedRule.createInstance();
+		lazy.isUnique = true;
+		
+		// copy values from matchedrule to lazyrule
+		lazy.inPattern = child.inPattern;
+		lazy.outPattern = child.outPattern;
+		lazy.actionBlock = child.actionBlock;
+		lazy.variables = child.variables;
+		lazy.name = child.name;
+		instance.children.remove(child);
+		instance.children.add(lazy);
+	}
+}
+
+// Impl 2.2: change one child from MatchedRule to not unique LazyMatchedRule
+@action replace
+@property children
+@role instance
+pattern change_matchedrule_to_not_unique_lazyrule
+instance:MatchedRule,
+child:MatchedRule
+	in: instance.children {
+	do {
+		var lazy = LazyMatchedRule.createInstance();
+		lazy.isUnique = false;
+		
+		// copy values from matchedrule to lazyrule
+		lazy.inPattern = child.inPattern;
+		lazy.outPattern = child.outPattern;
+		lazy.actionBlock = child.actionBlock;
+		lazy.variables = child.variables;
+		lazy.name = child.name;
+		instance.children.remove(child);
+		instance.children.add(lazy);
+	}
+}

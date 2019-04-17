@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ant:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ant="Ant" name="ante ipsum primis in faucibus orci luctus et ultrices" description="convallis nulla neque libero convallis eget eleifend luctus ultricies eu" default="//@targets.0">
+  <properties xsi:type="ant:PropertyValue" name="sapien varius ut blandit non" value="proin leo odio porttitor id consequat in"/>
+  <properties xsi:type="ant:PropertyValue" name="dolor sit amet consectetuer adipiscing" value="accumsan odio curabitur convallis duis consequat dui"/>
+  <targets name="duis consequat dui nec nisi volutpat eleifend donec ut" depends="//@targets.3">
+    <tasks xsi:type="ant:Exec" executable="asctl"/>
+    <tasks xsi:type="ant:Echo" message="cvt"/>
+    <tasks xsi:type="ant:Exec" executable="cvt"/>
+  </targets>
+  <targets name="ut at dolor quis odio consequat varius integer ac" depends="//@targets.3 //@targets.2">
+    <tasks xsi:type="ant:Exec" executable="gc"/>
+  </targets>
+  <targets name="pellentesque quisque porta volutpat erat quisque erat eros">
+    <tasks xsi:type="ant:Echo" message="chktex"/>
+    <tasks xsi:type="ant:Exec" executable="chktex"/>
+  </targets>
+  <targets name="magna bibendum imperdiet nullam orci pede venenatis non sodales">
+    <tasks xsi:type="ant:Echo" message="gc"/>
+    <tasks xsi:type="ant:Exec" executable="gc"/>
+  </targets>
+</ant:Project>

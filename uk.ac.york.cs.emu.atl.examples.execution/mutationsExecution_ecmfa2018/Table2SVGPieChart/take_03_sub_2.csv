@@ -1,0 +1,9 @@
+Mutation Operator,Gen.,Green,Yellow,Orange,Red,Trivial,Not Killed,Not Compiled
+LazyMatchedRule_name_replace,6,0,0,6,0,0,0,0
+Module_elements_delete,33,0,0,19,0,14,0,0
+LazyMatchedRule_outPattern_delete,6,0,0,0,0,4,0,2
+LazyMatchedRule_inPattern_delete,6,0,0,0,0,0,0,6
+LazyMatchedRule_variables_delete,5,0,0,0,0,0,0,5
+LazyMatchedRule_actionBlock_delete,2,0,0,2,0,0,0,0
+Total,,0,0,27,0,18
+Total,58,45,,,,,0,13

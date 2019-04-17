@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="popup:org.eclipse.jdt.ui.PackageExplorer">
+         <command
+               commandId="uk.ac.york.cs.m2m.atl.model2code.convert"
+               label="Generate ATL Code"
+               style="push">
+            <visibleWhen
+                  checkEnabled="false">
+               <with
+                     variable="activeMenuSelection">
+                  <iterate
+                        ifEmpty="false"
+                        operator="or">
+                     <adapt
+                           type="org.eclipse.core.resources.IFile">
+                     </adapt>
+                  </iterate>
+               </with>
+            </visibleWhen>
+         </command>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="uk.ac.york.cs.m2m.atl.model2code.converter.handler.CodeGenerator"
+            id="uk.ac.york.cs.m2m.atl.model2code.convert"
+            name="Generate an ATL source code from an ATL model">
+      </command>
+   </extension>
+</plugin>

@@ -1,0 +1,9 @@
+# This Java application is to execute the mutation operators located at "operatorDefinitions" upon
+# transformations located in "uk.ac.york.cs.emu.atl.examples.mutations.generator.transformations".
+# The output of this stage is a collection of mutations stored in "mutations". A summary of this 
+# execution is stored in folder "operatorsApplication"
+Book2Publication
+Make2Ant
+Table2TabularHTML
+TabularHTML2XML
+Table2SVGPieChart

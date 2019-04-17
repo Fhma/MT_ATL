@@ -1,0 +1,23 @@
+// operator: LazyMatchedRule.isUnique-REP
+// desc: this operator alter the nature of a lazy rule.
+// The operator imitates the error of whether specifying 
+// a lazy rule as unique or not. If lazy rule is unique, this implies
+// the lazy rule will generate same output elements in each
+// execution while not unique rule does not.
+// 
+// Remards:
+// Although the metamodel rquires a value to be contained by
+// isUnique modelling concept, the EMF model that is produced
+// by ATLInjector gives a model that has no value assgined to
+// this required feature isUnique.
+//
+// Inherited operators: Rule, ModuleElement
+////////////////////////////////////////////////////////////
+
+// Impl 1: change a lazy rule nature to opposite in case 
+// value of isUnique is given in the model
+@action replace
+@property isUnique
+pattern change_LazyMatchedRule_uniqueness_nature_to_opposite
+instance: LazyMatchedRule
+	guard: instance.isUnique.isDefined()

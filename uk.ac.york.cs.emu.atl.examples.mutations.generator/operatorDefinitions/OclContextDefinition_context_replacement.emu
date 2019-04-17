@@ -1,0 +1,158 @@
+// operator: OclContextDefinition_context_-REP
+// desc: This operator replace the context_ (OclType) of an
+// OclContextDefinition to another type. This operator 
+// imitates the error of specifying differnt context to be
+// matched.
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////
+
+// Sec 1: change the context_ (type) of Primitive of an
+// OclContextDefinition to another primitive type   
+// Impl 1.1: change to string
+@action replace
+@property context_
+pattern OclContextDefinition_context_primitive_change2string
+instance:OclContextDefinition
+	in: OclContextDefinition.all.select(e|e.context_.isKindOf(Primitive))
+	guard: not (instance.context_.isTypeOf(StringType)) {
+	do { 
+		instance.context_ = StringType.createInstance();
+	}
+}
+
+// Impl 1.2: change to boolean
+@action replace
+@property context_
+pattern OclContextDefinition_context_primitive_change2boolean
+instance:OclContextDefinition
+	in: OclContextDefinition.all.select(e|e.context_.isKindOf(Primitive))
+	guard: not (instance.context_.isTypeOf(BooleanType)) {
+	do { 
+		instance.context_ = BooleanType.createInstance();
+	}
+}
+
+// Impl 1.3: change to integer
+@action replace
+@property context_
+pattern OclContextDefinition_context_primitive_change2integer
+instance:OclContextDefinition
+	in: OclContextDefinition.all.select(e|e.context_.isKindOf(Primitive))
+	guard: not (instance.context_.isTypeOf(IntegerType)) {
+	do { 
+		instance.context_ = IntegerType.createInstance();
+	}
+}
+
+// Impl 1.4: change to real
+@action replace
+@property context_
+pattern OclContextDefinition_context_primitive_change2real
+instance:OclContextDefinition
+	in: OclContextDefinition.all.select(e|e.context_.isKindOf(Primitive))
+	guard: not (instance.context_.isTypeOf(RealType)) {
+	do { 
+		instance.context_ = RealType.createInstance();
+	}
+}
+
+// Sec 2: change the context type of OclModelElement of an
+// OclContextDefinition to new different OclModelElement
+// Impl 2.1: change OclModelElement.name
+@action replace
+@property context_
+@role instance
+pattern OclContextDefinition_context_change_name_oclmodelelement
+instance:OclContextDefinition
+	in: OclContextDefinition.all.select(e| e.context_.isTypeOf(OclModelElement)),
+othertype:OclModelElement
+	in: OclModelElement.all.select(e| e <> instance.context_)
+	guard: instance.context_.name <> othertype.name {
+	do {
+		var new_type = OclModelElement.createInstance();
+		new_type.name = othertype.name;
+		new_type.`model` = instance.context_.`model`; 
+		instance.context_ = new_type;
+	}
+}
+
+// Impl 2.1: change OclModelElement.model
+@action replace
+@property context_
+@role instance
+pattern OclContextDefinition_context_change_model_oclmodelelement
+instance:OclContextDefinition
+	in: OclContextDefinition.all.select(e| e.context_.isTypeOf(OclModelElement)),
+othertype:OclModelElement
+	in: OclModelElement.all.select(e| e <> instance.context_)
+	guard: instance.context_.`model` <> othertype.`model` {
+	do {
+		var new_type = OclModelElement.createInstance();
+		new_type.name = instance.context_.name;
+		new_type.`model` = othertype.`model`; 
+		instance.context_ = new_type;
+	}
+}
+
+// Sec 3: change the context type of an OCL.Collection
+// of an OclContextDefinition
+// Impl 3.1: change the context collection type to BagType
+@action replace
+@property context_
+pattern oclContextDefinitioin_context_type_change_collection2BagType
+instance:OclContextDefinition
+	in: OclContextDefinition.all.select(e| e.context_.isKindOf(CollectionType))
+	guard: not instance.context_.isTypeOf(BagType) {
+	do {
+		var new_type = BagType.createInstance();
+		new_type.elementType = instance.context_.elementType;
+		new_type.attribute = instance.context_.attribute;  
+		instance.context_ = new_type;
+	}
+}
+
+// Impl 3.2: change the context collection type to OrderedSetType
+@action replace
+@property context_
+pattern oclContextDefinitioin_context_type_change_collection2OrderedSetType
+instance:OclContextDefinition
+	in: OclContextDefinition.all.select(e| e.context_.isKindOf(CollectionType))
+	guard: not instance.context_.isTypeOf(OrderedSetType) {
+	do {
+		var new_type = OrderedSetType.createInstance();
+		new_type.elementType = instance.context_.elementType;
+		new_type.attribute = instance.context_.attribute;  
+		instance.context_ = new_type;
+	}
+}
+
+// Impl 3.3: change the context collection type to SequenceType
+@action replace
+@property context_
+pattern oclContextDefinitioin_context_type_change_collection2SequenceType
+instance:OclContextDefinition
+	in: OclContextDefinition.all.select(e| e.context_.isKindOf(CollectionType))
+	guard: not instance.context_.isTypeOf(SequenceType) {
+	do {
+		var new_type = SequenceType.createInstance();
+		new_type.elementType = instance.context_.elementType;
+		new_type.attribute = instance.context_.attribute;  
+		instance.context_ = new_type;
+	}
+}
+
+// Impl 3.4: change the context collection type to SetType
+@action replace
+@property context_
+pattern oclContextDefinitioin_context_type_change_collection2SetType
+instance:OclContextDefinition
+	in: OclContextDefinition.all.select(e| e.context_.isKindOf(CollectionType))
+	guard: not instance.context_.isTypeOf(SetType) {
+	do {
+		var new_type = SetType.createInstance();
+		new_type.elementType = instance.context_.elementType;
+		new_type.attribute = instance.context_.attribute;  
+		instance.context_ = new_type;
+	}
+}

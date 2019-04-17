@@ -1,0 +1,31 @@
+// operator: Binding.propertyName-REP
+// desc: this operator changes the value of propertyName.
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////
+
+// Sec 1: replace the value of property propertyName.
+// Impl 1.1: replacing with new string
+@action replace
+@property propertyName
+@role instance
+pattern propertyName_changed_to_new
+instance:Binding {
+	do {
+		instance.propertyName = instance.propertyName + "_";
+	}
+}
+
+// Impl 1.2: replacing with another name copied over from 
+// existing one
+@action replace
+@property propertyName
+@role instance
+pattern propertyName_copied_over_from_another_binding
+instance:Binding,
+otherBinding:Binding 
+	from: instance.outPatternElement.bindings.select(e|e <> instance) {
+	do {
+		instance.propertyName = otherBinding.propertyName;
+	}
+}

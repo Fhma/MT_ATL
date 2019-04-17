@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<make:Makefile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:make="Make" name="pellentesque at nulla suspendisse potenti cras in purus eu">
+  <comment text="potenti nullam porttitor lacus at turpis donec posuere metus"/>
+  <elements xsi:type="make:Rule" name="nulla integer pede justo lacinia eget tincidunt eget tempus vel">
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.3"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.3"/>
+    <dependencies xsi:type="make:FileDep" date="09/12/2018" name="sapien varius ut blandit non"/>
+    <shellLines command="crlrefresh"/>
+    <shellLines command="autoreconf" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="et magnis dis parturient montes">
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.3"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.2"/>
+    <dependencies xsi:type="make:FileDep" date="03/05/2015" name="tempor convallis nulla neque libero convallis eget eleifend"/>
+    <dependencies xsi:type="make:FileDep" date="12/10/2017" name="scelerisque mauris sit amet eros suspendisse accumsan tortor"/>
+    <dependencies xsi:type="make:FileDep" date="26/12/2017" name="lobortis convallis tortor risus dapibus augue vel accumsan"/>
+    <shellLines command="caffeinate" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="interdum mauris ullamcorper purus sit amet nulla quisque">
+    <shellLines command="asr" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="odio donec vitae nisi nam ultrices libero non mattis pulvinar">
+    <shellLines command="apply"/>
+  </elements>
+  <elements xsi:type="make:Macro" name="tellus nisi eu orci mauris lacinia sapien quis libero" value="molestie hendrerit at vulputate vitae"/>
+  <elements xsi:type="make:Macro" name="pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis" value="sed ante vivamus tortor duis mattis egestas metus"/>
+</make:Makefile>

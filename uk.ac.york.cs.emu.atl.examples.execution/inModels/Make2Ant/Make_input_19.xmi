@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ASCII"?>
+<make:Makefile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:make="Make" name="nibh fusce lacus purus aliquet">
+  <comment text="imperdiet sapien urna pretium nisl ut volutpat"/>
+  <elements xsi:type="make:Rule" name="velit donec diam neque vestibulum eget vulputate ut ultrices">
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.4"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.3"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.1"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.6"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.1"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.1"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.4"/>
+    <dependencies xsi:type="make:FileDep" date="06/03/2015" name="duis consequat dui nec nisi volutpat eleifend donec ut"/>
+    <dependencies xsi:type="make:FileDep" date="04/05/2015" name="sapien sapien non mi integer ac neque duis bibendum"/>
+    <dependencies xsi:type="make:FileDep" date="20/05/2016" name="eget rutrum at lorem integer tincidunt ante"/>
+    <dependencies xsi:type="make:FileDep" date="01/10/2016" name="sit amet justo morbi ut"/>
+    <dependencies xsi:type="make:FileDep" date="31/05/2017" name="erat id mauris vulputate elementum nullam varius nulla facilisi"/>
+    <shellLines command="afconvert" display="true"/>
+    <shellLines command="crlrefresh"/>
+    <shellLines command="colldef" display="true"/>
+    <shellLines command="cupsctl" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="duis consequat dui nec nisi volutpat eleifend donec ut">
+    <dependencies xsi:type="make:FileDep" date="27/02/2018" name="mi in porttitor pede justo eu massa donec"/>
+    <shellLines command="caffeinate"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="imperdiet nullam orci pede venenatis non sodales">
+    <dependencies xsi:type="make:FileDep" date="03/04/2016" name="sapien sapien non mi integer ac neque duis bibendum"/>
+    <shellLines command="case" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="tempus sit amet sem fusce consequat nulla nisl nunc">
+    <shellLines command="allneeded" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="dapibus nulla suscipit ligula in lacus curabitur at">
+    <shellLines command="clang"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="iaculis diam erat fermentum justo nec">
+    <shellLines command="crlrefresh"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="iaculis diam erat fermentum justo">
+    <shellLines command="cpuwalk.d" display="true"/>
+  </elements>
+  <elements xsi:type="make:Macro" name="mauris non ligula pellentesque ultrices phasellus id" value="vestibulum vestibulum ante ipsum primis in faucibus"/>
+  <elements xsi:type="make:Macro" name="rhoncus dui vel sem sed sagittis nam congue risus" value="proin risus praesent lectus vestibulum quam sapien"/>
+  <elements xsi:type="make:Macro" name="dui luctus rutrum nulla tellus in sagittis" value="eu magna vulputate luctus cum sociis natoque penatibus et"/>
+  <elements xsi:type="make:Macro" name="pellentesque at nulla suspendisse potenti cras in purus eu" value="morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed"/>
+</make:Makefile>

@@ -1,0 +1,8 @@
+// operator: Operation.parameters-REP
+// desc: There is no replacement operator implementation
+// for this modelling concept because an instance of
+// Operation.parameters:Parameter has no sibling to replace
+// with the original instance.
+//
+// Inherited operators: OclFeature
+////////////////////////////////////////////////////////////

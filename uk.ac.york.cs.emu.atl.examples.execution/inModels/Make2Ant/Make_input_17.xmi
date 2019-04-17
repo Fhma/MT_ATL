@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<make:Makefile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:make="Make" name="accumsan odio curabitur convallis duis">
+  <comment text="blandit lacinia erat vestibulum sed magna at nunc"/>
+  <elements xsi:type="make:Rule" name="vestibulum vestibulum ante ipsum primis in faucibus">
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.1"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.1"/>
+    <dependencies xsi:type="make:FileDep" date="17/02/2018" name="mi sit amet lobortis sapien sapien"/>
+    <dependencies xsi:type="make:FileDep" date="21/04/2018" name="morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed"/>
+    <shellLines command="dvipdf" display="true"/>
+    <shellLines command="cpan2dist5.18"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="dapibus nulla suscipit ligula in lacus curabitur at">
+    <shellLines command="afscexpand" display="true"/>
+  </elements>
+  <elements xsi:type="make:Macro" name="accumsan felis ut at dolor quis odio consequat varius integer" value="amet lobortis sapien sapien non mi integer"/>
+</make:Makefile>

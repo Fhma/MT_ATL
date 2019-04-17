@@ -1,0 +1,8 @@
+// operator: Module.outModels-REP
+// desc: There is no replacement operator implementation
+// for this modelling concept because an instance of
+// Module.outModels:OclModel has no sibling to be used and
+// to replace with the original instance.
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////

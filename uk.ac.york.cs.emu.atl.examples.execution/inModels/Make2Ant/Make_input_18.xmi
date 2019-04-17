@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<make:Makefile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:make="Make" name="nunc commodo placerat praesent blandit nam">
+  <comment text="odio donec vitae nisi nam ultrices libero non mattis pulvinar"/>
+  <elements xsi:type="make:Rule" name="primis in faucibus orci luctus et ultrices posuere cubilia">
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.3"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.3"/>
+    <dependencies xsi:type="make:FileDep" date="27/06/2016" name="ipsum ac tellus semper interdum mauris"/>
+    <shellLines command="asa"/>
+    <shellLines command="aslmanager" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="tincidunt ante vel ipsum praesent blandit">
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.3"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.2"/>
+    <dependencies xsi:type="make:FileDep" date="20/06/2017" name="felis sed interdum venenatis turpis"/>
+    <dependencies xsi:type="make:FileDep" date="02/11/2018" name="tempor convallis nulla neque libero convallis eget eleifend"/>
+    <dependencies xsi:type="make:FileDep" date="23/06/2017" name="lacinia sapien quis libero nullam"/>
+    <shellLines command="cvaffinity"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="at velit vivamus vel nulla eget">
+    <shellLines command="cvfsck" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="tristique fusce congue diam id ornare imperdiet sapien urna">
+    <shellLines command="cpan5.18" display="true"/>
+  </elements>
+  <elements xsi:type="make:Macro" name="aliquam erat volutpat in congue etiam justo etiam pretium" value="diam erat fermentum justo nec condimentum"/>
+  <elements xsi:type="make:Macro" name="neque duis bibendum morbi non quam nec dui luctus" value="dolor sit amet consectetuer adipiscing"/>
+</make:Makefile>

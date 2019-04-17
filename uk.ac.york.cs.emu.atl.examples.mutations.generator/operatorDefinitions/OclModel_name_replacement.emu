@@ -1,0 +1,29 @@
+// operator: OclModel.name-REP
+// desc: This operator changes the name of an OclModel.
+//
+// Inherited operators: n/a 
+////////////////////////////////////////////////////////////
+
+// Impl 1: replaces an OclModel name with new string
+@action replace
+@property name
+pattern change_oclmodel_name_new_string
+instance:OclModel {
+	do {
+		instance.name = instance.name + "_";
+	}
+}
+
+// Impl 2: replaces an OclModel name with an exsiting name from
+// another OclModel
+@action replace
+@property name
+@role instance
+pattern change_oclmodel_name_copied_over_from_another_oclModel
+instance:OclModel,
+other_model:OclModel
+	in: OclModel.all.select(e|e.name <> instance.name){
+	do {
+		instance.name = other_model.name;
+	}
+}

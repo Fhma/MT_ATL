@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ant:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ant="Ant" name="in faucibus orci luctus et ultrices posuere" description="orci luctus et ultrices posuere cubilia" default="//@targets.0">
+  <properties xsi:type="ant:PropertyValue" name="eget rutrum at lorem integer tincidunt ante" value="id ligula suspendisse ornare consequat lectus in est risus"/>
+  <properties xsi:type="ant:PropertyValue" name="dolor sit amet consectetuer adipiscing elit" value="eget rutrum at lorem integer tincidunt ante"/>
+  <properties xsi:type="ant:PropertyValue" name="nunc nisl duis bibendum felis sed interdum venenatis turpis enim" value="commodo placerat praesent blandit nam nulla integer pede justo"/>
+  <properties xsi:type="ant:PropertyValue" name="est lacinia nisi venenatis tristique" value="accumsan odio curabitur convallis duis"/>
+  <properties xsi:type="ant:PropertyValue" name="vestibulum ante ipsum primis in faucibus orci luctus et ultrices" value="nisl venenatis lacinia aenean sit"/>
+  <properties xsi:type="ant:PropertyValue" name="nunc proin at turpis a pede posuere" value="elementum nullam varius nulla facilisi cras non velit nec"/>
+  <properties xsi:type="ant:PropertyValue" name="hendrerit at vulputate vitae nisl" value="nullam molestie nibh in lectus pellentesque"/>
+  <targets name="interdum mauris ullamcorper purus sit amet nulla quisque" depends="//@targets.7 //@targets.6 //@targets.8 //@targets.12 //@targets.2 //@targets.9 //@targets.10 //@targets.1">
+    <tasks xsi:type="ant:Exec" executable="clang++"/>
+    <tasks xsi:type="ant:Exec" executable="cvlabel"/>
+    <tasks xsi:type="ant:Echo" message="cvupdatefs"/>
+    <tasks xsi:type="ant:Echo" message="dosepsbin"/>
+    <tasks xsi:type="ant:Echo" message="db_printlog"/>
+    <tasks xsi:type="ant:Exec" executable="cfftot1"/>
+    <tasks xsi:type="ant:Exec" executable="cvmkfile"/>
+    <tasks xsi:type="ant:Exec" executable="dosepsbin"/>
+    <tasks xsi:type="ant:Exec" executable="cvupdatefs"/>
+    <tasks xsi:type="ant:Exec" executable="dosepsbin"/>
+    <tasks xsi:type="ant:Exec" executable="db_printlog"/>
+  </targets>
+  <targets name="interdum mauris non ligula pellentesque ultrices" depends="//@targets.5">
+    <tasks xsi:type="ant:Exec" executable="comm"/>
+  </targets>
+  <targets name="iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate" depends="//@targets.9">
+    <tasks xsi:type="ant:Exec" executable="dtruss"/>
+  </targets>
+  <targets name="morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl" depends="//@targets.10">
+    <tasks xsi:type="ant:Echo" message="db_printlog"/>
+    <tasks xsi:type="ant:Exec" executable="db_printlog"/>
+  </targets>
+  <targets name="luctus et ultrices posuere cubilia curae nulla dapibus dolor vel">
+    <tasks xsi:type="ant:Echo" message="ar"/>
+    <tasks xsi:type="ant:Exec" executable="ar"/>
+  </targets>
+  <targets name="lacus morbi quis tortor id nulla ultrices aliquet">
+    <tasks xsi:type="ant:Exec" executable="autoconf"/>
+  </targets>
+  <targets name="eu magna vulputate luctus cum sociis natoque penatibus et">
+    <tasks xsi:type="ant:Echo" message="auvaltool"/>
+    <tasks xsi:type="ant:Exec" executable="auvaltool"/>
+  </targets>
+  <targets name="vehicula consequat morbi a ipsum integer a">
+    <tasks xsi:type="ant:Echo" message="checknr"/>
+    <tasks xsi:type="ant:Exec" executable="checknr"/>
+  </targets>
+  <targets name="ac diam cras pellentesque volutpat dui">
+    <tasks xsi:type="ant:Echo" message="javac"/>
+    <tasks xsi:type="ant:Exec" executable="javac"/>
+  </targets>
+  <targets name="nunc commodo placerat praesent blandit nam">
+    <tasks xsi:type="ant:Echo" message="cvgather"/>
+    <tasks xsi:type="ant:Exec" executable="cvgather"/>
+  </targets>
+  <targets name="accumsan tortor quis turpis sed ante vivamus tortor">
+    <tasks xsi:type="ant:Echo" message="dev_mkdb"/>
+    <tasks xsi:type="ant:Exec" executable="dev_mkdb"/>
+  </targets>
+  <targets name="at velit vivamus vel nulla eget">
+    <tasks xsi:type="ant:Echo" message="dtxgen"/>
+    <tasks xsi:type="ant:Exec" executable="dtxgen"/>
+  </targets>
+  <targets name="bibendum imperdiet nullam orci pede venenatis non sodales sed">
+    <tasks xsi:type="ant:Exec" executable="amstex"/>
+  </targets>
+</ant:Project>

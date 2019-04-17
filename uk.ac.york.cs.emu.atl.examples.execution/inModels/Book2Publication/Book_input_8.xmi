@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:book="Book">
+  <book:Book title="porttitor id consequat in consequat ut nulla sed"/>
+  <book:Book title="aliquam erat volutpat in congue etiam">
+    <chapters title="at velit eu est congue" nbPages="3" author="Lucita Dubarry"/>
+  </book:Book>
+  <book:Book title="est phasellus sit amet erat nulla tempus vivamus">
+    <chapters title="at turpis a pede posuere nonummy integer non velit" nbPages="4" author="Ed Kirkwood"/>
+    <chapters title="nec condimentum neque sapien placerat ante" nbPages="2" author="Ronnie Burgess"/>
+  </book:Book>
+  <book:Book title="pellentesque quisque porta volutpat erat quisque erat eros">
+    <chapters title="sapien ut nunc vestibulum ante ipsum" nbPages="7" author="Teriann Brunone"/>
+    <chapters title="eleifend donec ut dolor morbi vel lectus in quam fringilla" nbPages="4" author="Opaline Gagen"/>
+  </book:Book>
+</xmi:XMI>

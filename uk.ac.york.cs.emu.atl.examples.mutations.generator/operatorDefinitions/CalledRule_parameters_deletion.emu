@@ -1,0 +1,20 @@
+// operator: CalledRule.parameters-DEL
+// desc: This operator delete one parameters from a list
+// CalledRule.parameters.
+//
+// Inherited operators: Rule, ModuleElement
+////////////////////////////////////////////////////////////
+
+// Impl 1: remove one parameter at a time
+@action delete
+@property parameters
+@role instance
+pattern delete_one_paramter
+instance:CalledRule
+	in: CalledRule.all.select(e|e.parameters.size>=1),
+param:Parameter
+	from: instance.parameters {
+	do {
+		instance.parameters.remove(param);
+	}
+}

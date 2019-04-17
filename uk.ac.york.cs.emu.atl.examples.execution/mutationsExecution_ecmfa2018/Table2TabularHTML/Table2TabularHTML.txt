@@ -1,0 +1,191 @@
+	\--> Processed mutants-> 494
+	\--> Invalid mutants-> 13
+	\--> Killed mutants-> 294
+	\--> Not killed mutants-> 187
+		\-->OclFeatureDefinition_context__delete_09.xmi E, the operation/helper never called
+		\-->OclFeatureDefinition_context__delete_08.xmi E, the operation/helper never called
+		\-->SimpleOutPatternElement_bindings_delete_10.xmi E
+		\-->Operation_returnType_replace_26.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation 
+		\-->Operation_returnType_replace_27.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_19.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_25.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_24.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_18.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_20.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_08.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_09.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_21.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_23.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_22.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_07.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_13.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_12.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_06.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_10.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_04.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_05.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_11.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_15.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_01.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_28.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_14.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_02.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_16.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_17.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->Operation_returnType_replace_03.xmi LS, the engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->OclContextDefinition_context__replace_02.xmi E, the helper/operation never called.
+		\-->OclContextDefinition_context__replace_03.xmi E, the helper/operation never called.
+		\-->OclContextDefinition_context__replace_07.xmi E, the helper/operation never called.
+		\-->OclContextDefinition_context__replace_38.xmi E, the helper/operation never called. 
+		\-->OclContextDefinition_context__replace_76.xmi E, the helper/operation never called.
+		\-->OclContextDefinition_context__replace_70.xmi E, the helper/operation never called.
+		\-->OclContextDefinition_context__replace_57.xmi E, the helper/operation never called.
+		\-->OclContextDefinition_context__replace_92.xmi E, the helper/operation never called.
+		\-->OclContextDefinition_context__replace_79.xmi E, the helper/operation never called.
+		\-->OclContextDefinition_context__replace_23.xmi E, the helper/operation never called.
+		\-->Attribute_type_replace_09.xmi E
+		\-->Attribute_type_replace_21.xmi E
+		\-->Attribute_type_replace_34.xmi E
+		\-->Attribute_type_replace_20.xmi E
+		\-->Attribute_type_replace_08.xmi E
+		\-->Attribute_type_replace_22.xmi E
+		\-->Attribute_type_replace_23.xmi E
+		\-->Attribute_type_replace_33.xmi E
+		\-->Attribute_type_replace_27.xmi E
+		\-->Attribute_type_replace_26.xmi E
+		\-->Attribute_type_replace_32.xmi E
+		\-->Attribute_type_replace_24.xmi E
+		\-->Attribute_type_replace_30.xmi E
+		\-->Attribute_type_replace_18.xmi E
+		\-->Attribute_type_replace_19.xmi E
+		\-->Attribute_type_replace_31.xmi E
+		\-->Attribute_type_replace_25.xmi E
+		\-->Attribute_type_replace_28.xmi E
+		\-->Attribute_type_replace_14.xmi E
+		\-->Attribute_type_replace_15.xmi E
+		\-->Attribute_type_replace_01.xmi E
+		\-->Attribute_type_replace_29.xmi E
+		\-->Attribute_type_replace_17.xmi E
+		\-->Attribute_type_replace_03.xmi E
+		\-->Attribute_type_replace_02.xmi E
+		\-->Attribute_type_replace_16.xmi E
+		\-->Attribute_type_replace_12.xmi E
+		\-->Attribute_type_replace_06.xmi E
+		\-->Attribute_type_replace_07.xmi E
+		\-->Attribute_type_replace_13.xmi E
+		\-->Attribute_type_replace_05.xmi E
+		\-->Attribute_type_replace_11.xmi E
+		\-->Attribute_type_replace_10.xmi E
+		\-->Attribute_type_replace_04.xmi E
+		\-->OclFeatureDefinition_feature_replace_01.xmi E, the helper/operation was never called
+		\-->OclFeatureDefinition_feature_replace_03.xmi E, the helper/operation was never called
+		\-->OclFeatureDefinition_feature_replace_02.xmi E, the helper/operation was never called
+		\-->OclFeatureDefinition_feature_replace_05.xmi E, the helper/operation was never called
+		\-->OclModelElement_name_replace_08.xmi E
+		\-->OclModelElement_name_replace_05.xmi E
+		\-->OclModelElement_name_replace_04.xmi E
+		\-->OclModelElement_name_replace_10.xmi E
+		\-->OclModelElement_name_replace_15.xmi E
+		\-->OclModelElement_name_replace_03.xmi E
+		\-->OclModelElement_name_replace_16.xmi E
+		\-->Attribute_name_replace_01.xmi E
+		\-->Attribute_name_replace_02.xmi E
+		\-->OclModel_name_replace_08.xmi E
+		\-->OclModel_name_replace_10.xmi E
+		\-->OclModel_name_replace_13.xmi E
+		\-->SimpleOutPatternElement_varName_replace_09.xmi E
+		\-->SimpleOutPatternElement_varName_replace_08.xmi E
+		\-->SimpleOutPatternElement_varName_replace_05.xmi E
+		\-->SimpleOutPatternElement_varName_replace_04.xmi E
+		\-->SimpleOutPatternElement_varName_replace_10.xmi E
+		\-->SimpleOutPatternElement_varName_replace_06.xmi E
+		\-->SimpleOutPatternElement_varName_replace_07.xmi E
+		\-->SimpleOutPatternElement_varName_replace_03.xmi E
+		\-->SimpleOutPatternElement_varName_replace_02.xmi E
+		\-->SimpleOutPatternElement_varName_replace_01.xmi E
+		\-->SimpleInPatternElement_type_replace_06.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_07.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_13.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_05.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_10.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_04.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_14.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_28.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_29.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_15.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_01.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible 
+		\-->SimpleInPatternElement_type_replace_17.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_03.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_02.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible 
+		\-->SimpleInPatternElement_type_replace_16.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_33.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_27.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_32.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_18.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_24.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_30.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_31.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_25.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_19.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_21.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_35.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_09.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_34.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_20.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_22.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_23.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_37.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SimpleInPatternElement_type_replace_41.xmi LS, in the lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutant even when the new type of variable is not compatible
+		\-->SequenceType_elementType_replace_02.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_16.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_17.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_03.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_29.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_15.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_01.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_14.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_28.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_10.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_04.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_05.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_11.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_07.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_13.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_12.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_06.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_23.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_22.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_08.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_20.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_21.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_09.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_25.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_19.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_18.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_24.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_30.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_26.xmi E, the operation/helper that contains the modification never has been called
+		\-->SequenceType_elementType_replace_27.xmi E, the operation/helper that contains the modification never has been called
+		\-->Operation_name_replace_02.xmi E
+		\-->Operation_name_replace_04.xmi E
+		\-->Module_elements_delete_13.xmi E
+		\-->Module_elements_delete_17.xmi E
+		\-->Module_elements_delete_14.xmi E
+		\-->Module_elements_delete_01.xmi E
+		\-->MatchedRule_name_replace_01.xmi E
+		\-->InPattern_filter_delete_01.xmi L, the mutant can be killed by adding a test input that has a 0-rows table
+		\-->SimpleInPatternElement_varName_replace_03.xmi E
+		\-->SimpleInPatternElement_varName_replace_02.xmi E
+		\-->SimpleInPatternElement_varName_replace_01.xmi E
+		\-->SimpleInPatternElement_varName_replace_05.xmi E
+		\-->SimpleInPatternElement_varName_replace_04.xmi E
+		\-->SimpleInPatternElement_varName_replace_06.xmi E
+		\-->InPattern_filter_replace_03.xmi L, the mutant can be killed by adding a test input that has a 0-rows table
+		\-->InPattern_filter_replace_01.xmi L, the mutant can be killed by adding a test input that has a 0-rows table
+		\-->Iterator_varName_replace_02.xmi E
+		\-->Iterator_varName_replace_03.xmi E
+		\-->Iterator_varName_replace_01.xmi E
+		\-->Iterator_varName_replace_04.xmi E
+		\-->Iterator_varName_replace_05.xmi E
+		\-->Iterator_varName_replace_06.xmi E
+		\-->CalledRule_name_replace_01.xmi E

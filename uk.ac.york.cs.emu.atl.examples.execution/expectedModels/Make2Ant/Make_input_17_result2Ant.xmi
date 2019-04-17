@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ant:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ant="Ant" name="accumsan odio curabitur convallis duis" description="blandit lacinia erat vestibulum sed magna at nunc" default="//@targets.0">
+  <properties xsi:type="ant:PropertyValue" name="accumsan felis ut at dolor quis odio consequat varius integer" value="amet lobortis sapien sapien non mi integer"/>
+  <targets name="vestibulum vestibulum ante ipsum primis in faucibus" depends="//@targets.1">
+    <tasks xsi:type="ant:Echo" message="dvipdf"/>
+    <tasks xsi:type="ant:Exec" executable="cpan2dist5.18"/>
+    <tasks xsi:type="ant:Exec" executable="dvipdf"/>
+  </targets>
+  <targets name="dapibus nulla suscipit ligula in lacus curabitur at">
+    <tasks xsi:type="ant:Echo" message="afscexpand"/>
+    <tasks xsi:type="ant:Exec" executable="afscexpand"/>
+  </targets>
+</ant:Project>

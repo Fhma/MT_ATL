@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<make:Makefile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:make="Make" name="nisl nunc rhoncus dui vel sem sed sagittis nam">
+  <comment text="vestibulum vestibulum ante ipsum primis"/>
+  <elements xsi:type="make:Rule" name="neque duis bibendum morbi non quam nec dui luctus">
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.3"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.3"/>
+    <dependencies xsi:type="make:FileDep" date="07/05/2016" name="ultrices mattis odio donec vitae nisi nam ultrices libero"/>
+    <shellLines command="autoscan"/>
+    <shellLines command="cut" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="aenean auctor gravida sem praesent id massa id nisl venenatis">
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.3"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.2"/>
+    <dependencies xsi:type="make:FileDep" date="02/07/2017" name="magna bibendum imperdiet nullam orci pede venenatis"/>
+    <dependencies xsi:type="make:FileDep" date="10/06/2017" name="blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing"/>
+    <dependencies xsi:type="make:FileDep" date="27/01/2018" name="aenean auctor gravida sem praesent id massa id nisl venenatis"/>
+    <shellLines command="afclip"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="lectus in est risus auctor sed tristique in tempus">
+    <shellLines command="cweave" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="at velit vivamus vel nulla eget">
+    <shellLines command="c2ph5.16" display="true"/>
+  </elements>
+  <elements xsi:type="make:Macro" name="porttitor id consequat in consequat ut nulla sed" value="pede venenatis non sodales sed tincidunt eu felis"/>
+  <elements xsi:type="make:Macro" name="tempus sit amet sem fusce consequat nulla nisl nunc" value="justo lacinia eget tincidunt eget tempus vel"/>
+</make:Makefile>

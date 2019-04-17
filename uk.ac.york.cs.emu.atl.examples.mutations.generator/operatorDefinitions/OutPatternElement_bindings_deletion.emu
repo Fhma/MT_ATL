@@ -1,0 +1,23 @@
+// operator: OutPatternElement.bindings-DEL
+// desc: This operator deletes one binding from a list of
+// bindings used to create elements in output model. This
+// operator therefore imitates the situation in which users
+// forgot to include a particular output element.
+//
+// Inherited operators: PatternElement, VariableDeclaration
+////////////////////////////////////////////////////////////
+
+// Impl 1: delete one Binding instance from list of 
+// OutPatternElement.bindings
+@action delete
+@property bindings
+@role instance
+pattern delete_one_binding
+instance:OutPatternElement
+	in:OutPatternElement.all.select(e|e.bindings.size>=1),
+binding:Binding
+	from: instance.bindings	{
+	do {
+		instance.bindings.remove(binding);
+	}	
+}

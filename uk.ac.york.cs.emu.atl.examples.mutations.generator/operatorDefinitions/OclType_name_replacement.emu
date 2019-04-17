@@ -1,0 +1,14 @@
+// operator: OclType.name-REP
+// desc: This operator replaces the name of an OclType name
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////
+
+@action replace
+@property name
+pattern replace_name_of_oclType
+instance:OclType {
+	do {
+		instance.name = instance.name + "_";
+	}
+}

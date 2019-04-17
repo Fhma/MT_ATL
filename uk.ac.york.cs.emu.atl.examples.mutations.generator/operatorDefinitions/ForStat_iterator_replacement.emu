@@ -1,0 +1,8 @@
+// operator: ForStat.iterator-REP
+// desc: There is no replacement operator implementation
+// for this modelling concept because an instance of
+// ForStat.iterator:Iterator has no suitable siblings
+// to be replaced with.
+//
+// Inherited operators: OCL.VariableDeclaration 
+////////////////////////////////////////////////////////////

@@ -1,0 +1,13 @@
+Mutation Operator,Gen.,Green,Yellow,Orange,Red,Trivial,Not Killed,Not Compiled
+InPattern_elements_delete,18,0,0,5,0,0,0,13
+Iterator_varName_replace,21,0,0,21,0,0,0,0
+CalledRule_variables_delete,2,0,0,0,0,0,0,2
+IfStat_thenStatements_delete,3,0,0,1,0,2,0,0
+CalledRule_isEntrypoint_replace,1,0,0,0,0,1,0,0
+IfStat_condition_replace,6,0,0,2,0,4,0,0
+CalledRule_outPattern_delete,1,0,0,0,0,0,0,1
+CalledRule_actionBlock_delete,1,0,0,0,0,1,0,0
+ForStat_statements_delete,4,0,0,4,0,0,0,0
+CalledRule_name_replace,1,0,0,1,0,0,0,0
+Total,,0,0,34,0,8
+Total,58,42,,,,,0,16

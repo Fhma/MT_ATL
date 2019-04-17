@@ -1,0 +1,19 @@
+Mutation Operator,Gen.,Killed,Trivial,Live,Equiv.,Invalid
+CMO-S-REP_OclModel_name,13,0,9,,3,1
+CMO-S-REP_SimpleOutPatternElement_varName,6,0,0,,6,0
+CMO-S-DEL_MatchedRule_inPattern,5,0,0,,0,5
+CMO-S-REP_SimpleOutPatternElement_type,23,3,20,,0,0
+CMO-S-REP_Binding_propertyName,50,5,45,,0,0
+CMO-M-DEL_SimpleOutPatternElement_bindings,16,2,12,,2,0
+CMO-S-REP_SimpleInPatternElement_type,35,1,34,,0,0
+CMO-S-REP_OclModelElement_name,15,1,14,,0,0
+CMO-M-REP_Module_elements,10,2,8,,0,0
+CMO-S-REP_MatchedRule_name,5,0,0,,5,0
+CMO-S-REP_SimpleInPatternElement_varName,5,0,0,,5,0
+CMO-S-REP_InPattern_filter,2,0,2,,0,0
+CMO-S-DEL_InPattern_filter,2,1,1,,0,0
+CMO-M-DEL_Module_elements,5,1,4,,0,0
+CMO-M-DEL_OutPattern_elements,2,0,2,,0,0
+CMO-S-DEL_MatchedRule_outPattern,5,1,4,,0,0
+CMO-S-REP_Iterator_varName,5,0,0,,5,0
+Total,204,17,155,,26,6

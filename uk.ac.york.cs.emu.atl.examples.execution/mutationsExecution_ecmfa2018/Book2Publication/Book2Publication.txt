@@ -1,0 +1,20 @@
+	\--> Processed mutants-> 66
+	\--> Invalid mutants-> 2
+	\--> Killed mutants-> 48
+	\--> Not killed mutants-> 16
+		\-->OclModel_name_replace_05.xmi E
+		\-->OclModel_name_replace_10.xmi E
+		\-->OclModel_name_replace_07.xmi E
+		\-->MatchedRule_name_replace_01.xmi E
+		\-->SimpleInPatternElement_varName_replace_01.xmi E
+		\-->Iterator_varName_replace_02.xmi E
+		\-->Iterator_varName_replace_03.xmi E 
+		\-->Iterator_varName_replace_01.xmi E
+		\-->Iterator_varName_replace_04.xmi E
+		\-->Operation_returnType_replace_06.xmi LS, the engine allowed the execution of this mutant that produced the same output as the original program even although the type was changed to incompatible type
+		\-->Operation_returnType_replace_04.xmi LS, the engine allowed the execution of this mutant that produced the same output as the original program even although the type was changed to incompatible type
+		\-->Operation_returnType_replace_05.xmi LS, the engine allowed the execution of this mutant that produced the same output as the original program even although the type was changed to incompatible type 
+		\-->Operation_returnType_replace_01.xmi LS, the engine allowed the execution of this mutant that produced the same output as the original program even although the type was changed to incompatible type
+		\-->Operation_returnType_replace_02.xmi LS, the engine allowed the execution of this mutant that produced the same output as the original program even although the type was changed to incompatible type
+		\-->Operation_returnType_replace_03.xmi LS, the engine allowed the execution of this mutant that produced the same output as the original program even although the type was changed to incompatible type
+		\-->SimpleOutPatternElement_varName_replace_01.xmi E

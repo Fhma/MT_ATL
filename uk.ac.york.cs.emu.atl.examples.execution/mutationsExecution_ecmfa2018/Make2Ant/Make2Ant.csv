@@ -1,0 +1,20 @@
+Mutation Operator,Gen.,Green,Yellow,Orange,Red,Trivial,Not Killed,Not Compiled
+Binding_propertyName_replace,50,5,0,8,4,33,0,0
+SimpleOutPatternElement_bindings_delete,16,3,0,3,1,7,2,0
+SimpleOutPatternElement_type_replace,23,0,0,7,3,13,0,0
+OclModelElement_name_replace,15,0,0,2,1,12,0,0
+OclModel_name_replace,13,0,0,0,0,9,3,1
+MatchedRule_name_replace,5,0,0,0,0,0,5,0
+SimpleInPatternElement_type_replace,35,0,0,0,0,35,0,0
+Module_elements_replace,10,0,0,2,2,6,0,0
+InPattern_filter_delete,2,0,0,1,1,0,0,0
+SimpleInPatternElement_varName_replace,5,0,0,0,0,0,5,0
+Module_elements_delete,5,0,0,1,1,3,0,0
+MatchedRule_inPattern_delete,5,0,0,0,0,0,0,5
+InPattern_filter_replace,2,0,0,0,0,2,0,0
+OutPattern_elements_delete,2,0,0,2,0,0,0,0
+Iterator_varName_replace,5,0,0,0,0,0,5,0
+MatchedRule_outPattern_delete,5,0,0,1,1,3,0,0
+SimpleOutPatternElement_varName_replace,6,0,0,0,0,0,6,0
+Total,,8,0,27,14,123
+Total,204,172,,,,,26,6

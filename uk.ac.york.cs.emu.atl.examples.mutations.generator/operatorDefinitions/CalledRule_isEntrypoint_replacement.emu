@@ -1,0 +1,32 @@
+// operator: CalledRule.isEntrypoint-REP
+// desc: This operator changes the value of isEntrypoint 
+// modelling concept.
+//
+// Inherited operators: Rule, ModuleElement
+////////////////////////////////////////////////////////////
+
+// Impl 1: change the value of isEntrypoint to true
+@action replace
+@property isEntrypoint
+@role instance
+pattern change_entryPoint_to_true
+instance:CalledRule 
+	guard: (instance.isEntrypoint.isDefined()
+		and instance.isEntrypoint <> true) {
+	do {
+		instance.isEntrypoint = true;
+	}
+}
+
+// Impl 2: change the value of isEntrypoint to false
+@action replace
+@property isEntrypoint
+@role instance
+pattern change_entryPoint_to_false
+instance:CalledRule 
+	guard: (instance.isEntrypoint.isDefined()
+		and instance.isEntrypoint <> false) {
+	do {
+		instance.isEntrypoint = false;
+	}
+}

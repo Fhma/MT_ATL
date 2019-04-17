@@ -1,0 +1,66 @@
+// operator: VariableDeclaration.initExpression-DEL
+// desc: this operator deletes the initExpressiong property of 
+// an VariableDeclaration. This mimics the error missing the
+// initialisation of a variable. The targeted VariableDeclaration
+// types that are related to ATL modelling concepts are:
+//	1) RuleVariableDeclaration
+//	2) PatternElement (subtypes: (In|Out)PatternElements)
+//	3) Parameter
+//	4) Iterator
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////
+
+// Impl 1: delete the initExpression of RuleVariableDeclaratio
+// Althoug the EMU allows this mutation based on the ATL meta-
+// model ("http://www.eclipse.org/gmt/2005/ATL"), the operator
+// generates invalid mutants. Hence, the ATL metamodel that is
+// currently in use should be enhanced such that the modelling 
+// concept RuleVariableDeclaration.initExpression is mandatory
+// concept.
+@action delete
+@property initExpression
+pattern delete_ruleVariableDeclaration_initExp
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isTypeOf(RuleVariableDeclaration))
+	guard: instance.initExpression.isDefined() {
+	do {
+		instance.initExpression = null;
+	}
+}
+
+// Impl 2: delete the initExpression of PatternElement
+@action delete
+@property initExpression
+pattern delete_PatternElement_initExp
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(PatternElement))
+	guard: instance.initExpression.isDefined() {
+	do {
+		instance.initExpression = null;
+	}
+}
+
+// Impl 3: delete the initExpression of Parameter
+@action delete
+@property initExpression
+pattern delete_Parameter_initExp
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Parameter))
+	guard: instance.initExpression.isDefined() {
+	do {
+		instance.initExpression = null;
+	}
+}
+
+// Impl 4: delete the initExpression of Iterator
+@action delete
+@property initExpression
+pattern delete_Iterator_initExp
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Iterator))
+	guard: instance.initExpression.isDefined() {
+	do {
+		instance.initExpression = null;
+	}
+}

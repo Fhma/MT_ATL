@@ -1,0 +1,17 @@
+// operator: OclFeatureDefinition.context_-DEL
+// desc: This operator deletes the context of an
+// OclFeatureDefinition. This operator mimics the error of
+// forgeting the context while defining an OclFeature (e.g.
+// when defining a helper method)
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////
+
+@action delete
+@property context_
+pattern delete_context_of_OclFeatureDefinition
+instance: OclFeatureDefinition {
+	do {
+		instance.context_=null;
+	}
+}

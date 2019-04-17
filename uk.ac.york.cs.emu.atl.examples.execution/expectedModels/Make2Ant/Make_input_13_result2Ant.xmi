@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ant:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ant="Ant" name="porttitor pede justo eu massa donec dapibus" description="ac diam cras pellentesque volutpat dui maecenas tristique est et" default="//@targets.0">
+  <properties xsi:type="ant:PropertyValue" name="bibendum imperdiet nullam orci pede venenatis non sodales sed" value="lectus in est risus auctor sed tristique in tempus"/>
+  <targets name="felis sed interdum venenatis turpis enim blandit">
+    <tasks xsi:type="ant:Echo" message="cefpdflatex"/>
+    <tasks xsi:type="ant:Echo" message="corelist5.18"/>
+    <tasks xsi:type="ant:Exec" executable="cefpdflatex"/>
+    <tasks xsi:type="ant:Exec" executable="corelist5.18"/>
+  </targets>
+</ant:Project>

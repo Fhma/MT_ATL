@@ -1,0 +1,37 @@
+// operator: BindingStat.propertyName-REP
+// desc: The operator replaces the property name of a binding
+// with another name.
+// 
+// RemarK: Although the metamodel of ATL
+// ("http://www.eclipse.org/gmt/2005/ATL") requires a value
+// for the modelling feature BindingStat.propertyName, the ATL
+// Injector that is used to extract the model produces a model
+// that does not have a value for this modelling concept.
+//
+// Inherited operators: Statement 
+////////////////////////////////////////////////////////////
+
+// Impl 1: replace with a new name
+@action replace
+@property propertyName
+pattern replace_with_new_name
+instance:BindingStat {
+	do {
+		instance.propertyName = instance.propertyName + "_";
+	}
+}
+
+// Impl 2: replace with a name from other binding from
+// same ActionBlock
+@action replace
+@property propertyName
+@role instance
+pattern replace_with_another_name
+instance:BindingStat,
+statement:BindingStat
+	from: BindingStat.all.excluding(instance)
+	guard: statement.propertyName <> instance.propertyName {
+	do {
+		instance.propertyName = statement.propertyName; 
+	}
+}

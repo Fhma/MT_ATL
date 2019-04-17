@@ -1,0 +1,13 @@
+Mutation Operator,Gen.,Green,Yellow,Orange,Red,Trivial,Not Killed,Not Compiled
+OutPattern_elements_delete,30,0,0,5,0,0,0,25
+RuleVariableDeclaration_varName_replace,7,0,0,7,0,0,0,0
+Operation_returnType_replace,43,0,0,43,0,0,0,0
+Parameter_varName_replace,2,0,0,2,0,0,0,0
+Parameter_type_replace,6,0,0,6,0,0,0,0
+RuleVariableDeclaration_initExpression_delete,7,0,0,0,0,0,0,7
+RuleVariableDeclaration_type_replace,21,0,0,21,0,0,0,0
+Operation_parameters_delete,2,0,0,0,0,0,0,2
+Parameter_type_delete,2,0,0,0,0,0,0,2
+RuleVariableDeclaration_type_delete,7,0,0,0,0,0,0,7
+Total,,0,0,84,0,0
+Total,127,84,,,,,0,43

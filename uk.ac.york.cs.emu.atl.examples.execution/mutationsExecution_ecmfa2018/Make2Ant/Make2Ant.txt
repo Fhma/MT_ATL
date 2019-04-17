@@ -1,0 +1,30 @@
+	\--> Processed mutants-> 204
+	\--> Invalid mutants-> 6
+	\--> Killed mutants-> 172
+	\--> Not killed mutants-> 26
+		\-->SimpleOutPatternElement_bindings_delete_08.xmi E
+		\-->SimpleOutPatternElement_bindings_delete_09.xmi E
+		\-->OclModel_name_replace_09.xmi E
+		\-->OclModel_name_replace_06.xmi E
+		\-->OclModel_name_replace_03.xmi E
+		\-->MatchedRule_name_replace_05.xmi E
+		\-->MatchedRule_name_replace_04.xmi E
+		\-->MatchedRule_name_replace_03.xmi E
+		\-->MatchedRule_name_replace_02.xmi E
+		\-->MatchedRule_name_replace_01.xmi E
+		\-->SimpleInPatternElement_varName_replace_03.xmi E
+		\-->SimpleInPatternElement_varName_replace_02.xmi E
+		\-->SimpleInPatternElement_varName_replace_01.xmi E
+		\-->SimpleInPatternElement_varName_replace_05.xmi E
+		\-->SimpleInPatternElement_varName_replace_04.xmi E
+		\-->Iterator_varName_replace_02.xmi E
+		\-->Iterator_varName_replace_03.xmi E
+		\-->Iterator_varName_replace_01.xmi E 
+		\-->Iterator_varName_replace_04.xmi E
+		\-->Iterator_varName_replace_05.xmi E
+		\-->SimpleOutPatternElement_varName_replace_05.xmi E
+		\-->SimpleOutPatternElement_varName_replace_04.xmi E
+		\-->SimpleOutPatternElement_varName_replace_06.xmi E
+		\-->SimpleOutPatternElement_varName_replace_03.xmi E
+		\-->SimpleOutPatternElement_varName_replace_02.xmi E
+		\-->SimpleOutPatternElement_varName_replace_01.xmi E

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:book="Book">
+  <book:Book title="blandit ultrices enim lorem ipsum dolor sit amet consectetuer"/>
+  <book:Book title="nullam molestie nibh in lectus pellentesque">
+    <chapters title="quam a odio in hac habitasse platea dictumst maecenas" nbPages="3" author="Guy Bonnefin"/>
+  </book:Book>
+  <book:Book title="interdum mauris ullamcorper purus sit amet nulla quisque">
+    <chapters title="faucibus orci luctus et ultrices" nbPages="4" author="Amargo Jellings"/>
+    <chapters title="libero convallis eget eleifend luctus ultricies eu nibh quisque id" nbPages="2" author="Dniren Domengue"/>
+  </book:Book>
+  <book:Book title="mi integer ac neque duis bibendum">
+    <chapters title="blandit non interdum in ante vestibulum ante ipsum primis in" nbPages="7" author="Ryley Gornal"/>
+    <chapters title="morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed" nbPages="4" author="Adeline Gariff"/>
+  </book:Book>
+</xmi:XMI>

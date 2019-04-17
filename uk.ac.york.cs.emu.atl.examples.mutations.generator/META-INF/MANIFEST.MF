@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: uk.ac.york.cs.emu.atl.examples.mutations.generator
+Bundle-SymbolicName: uk.ac.york.cs.emu.atl.examples.mutations.generator
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.epsilon.emu.engine,
+ org.eclipse.epsilon.eol.engine;bundle-version="1.4.0",
+ org.eclipse.epsilon.epl.engine;bundle-version="1.4.0",
+ org.eclipse.epsilon.emc.emf;bundle-version="1.4.0",
+ org.eclipse.epsilon.emc.mutant;bundle-version="1.0.0"

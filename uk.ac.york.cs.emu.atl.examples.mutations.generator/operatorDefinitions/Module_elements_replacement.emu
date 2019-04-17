@@ -1,0 +1,123 @@
+// operator: Module.elements-REP
+// desc: this mutation program manipulates the modelling
+// concept Module.elements by replacement. Elements that
+// could be replaced are:
+//	1) MatchedRule -> LazyMatchedRule
+//	2) LazyMatchedRule -> MatchedRule
+//	3) CalledRule -> MatchedRule
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////
+
+// Impl 1: replace a MathcedRule with unique LazyMatchedRule
+@action replace
+@property elements
+@role instance
+pattern matchedrule2uiquelazyrule_replacement
+instance:Module,
+rule:MatchedRule
+	from: instance.elements.select(e|e.isTypeOf(MatchedRule))
+	guard: (rule.children.isUndefined() or rule.children.size() = 0)
+		and (rule.superRule.isUndefined() or rule.superRule.size() = 0) {
+	do {
+		var lazy = LazyMatchedRule.createInstance();
+		lazy.isUnique = true;
+		
+		// copy values from matchedrule to lazyrule
+		lazy.inPattern = rule.inPattern;
+		lazy.outPattern = rule.outPattern;
+		lazy.actionBlock = rule.actionBlock;
+		lazy.variables = rule.variables;
+		lazy.name = rule.name;
+		instance.elements.remove(rule);
+		instance.elements.add(lazy);
+	}
+}
+
+// Impl 2: replace MatchedRule with not unique LazyMatchedRule
+@action replace
+@property elements
+@role instance
+pattern matchedrule2lazyrule_replacement
+instance:Module,
+rule:MatchedRule
+	from: instance.elements.select(e|e.isTypeOf(MatchedRule))
+	guard: (rule.children.isUndefined() or rule.children.size() = 0)
+		and (rule.superRule.isUndefined() or rule.superRule.size() = 0) {
+	do {
+		var lazy = LazyMatchedRule.createInstance();
+		lazy.isUnique = false;
+		
+		// copy values from matchedrule to lazyrule
+		lazy.inPattern = rule.inPattern;
+		lazy.outPattern = rule.outPattern;
+		lazy.actionBlock = rule.actionBlock;
+		lazy.variables = rule.variables;
+		lazy.name = rule.name;
+		instance.elements.remove(rule);
+		instance.elements.add(lazy);
+	}
+}
+
+
+// Impl 3: replace LazyMatchedRule with MatchedRule
+@action replace
+@property elements
+@role instance
+pattern lazyrule2matchedrule_replacement
+instance:Module,
+rule:LazyMatchedRule
+	from: instance.elements.select(e|e.isTypeOf(LazyMatchedRule))
+	guard: (rule.children.isUndefined() or rule.children.size=0)
+		and (rule.superRule.isUndefined() or rule.superRule.size = 0) {
+	do {
+		var new_rule = MatchedRule.createInstance();
+		
+		new_rule.inPattern = rule.inPattern;
+		new_rule.outPattern = rule.outPattern;
+		new_rule.actionBlock = rule.actionBlock;
+		new_rule.variables = rule.variables;
+		new_rule.name = rule.name;
+		instance.elements.remove(rule);
+		instance.elements.add(new_rule);
+	}
+}
+
+// Impl 4: replace CalledRule with MatchedRule
+@action replace
+@property elements
+@role instance
+pattern calledrule2matchedrule_replacement
+instance:Module,
+called_rule:CalledRule
+	from:instance.elements.select(e|e.isTypeOf(CalledRule)) {
+		do {
+		var new_rule = MatchedRule.createInstance();
+		
+		//generate fake inpattern element
+		var pattern_element = SimpleInPatternElement.createInstance();
+		pattern_element.varName = "fake_name";
+		var ocl_model = OclModelElement.createInstance();
+		var model_element = OclModelElement.all.select(e | e.variableDeclaration.isDefined() and instance.inModels.random.metamodel = e.`model`)->asSet.random();
+		ocl_model.name = model_element.name;
+		ocl_model.`model` = model_element.`model`;
+		pattern_element.type = ocl_model;
+		
+		// add inpattern element to inpattern matching
+		var in_pattern = InPattern.createInstance();
+		in_pattern.elements.add(pattern_element);
+		
+		// add the matching pattern to new rule as well as the values of calledrule
+		new_rule.inPattern = in_pattern;
+		new_rule.outPattern = called_rule.outPattern;
+		new_rule.actionBlock = called_rule.actionBlock;
+		new_rule.variables.addAll(called_rule.variables);
+		new_rule.name = called_rule.name;
+		
+		// remove old called rule
+		instance.elements.remove(called_rule);
+		
+		// add new matching rule
+		instance.elements.add(new_rule);
+	}
+}

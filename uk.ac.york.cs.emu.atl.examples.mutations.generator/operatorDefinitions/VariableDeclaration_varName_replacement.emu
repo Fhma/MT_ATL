@@ -1,0 +1,60 @@
+// operator: VariableDeclaration.varName-REP
+// desc: this operator changes the varName property of 
+// VariableDeclaration. This mimics the error of referencing
+// an invalid variable name. The targeted VariableDeclaration
+// types that are related to ATL modelling concepts are:
+//	1) RuleVariableDeclaration
+//	2) PatternElement (subtypes: (In|Out)PatternElements)
+//	3) Parameter
+//	4) Iterator 
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////
+
+// Impl 1: change the varName of RuleVariableDeclaration with
+// different name
+@action replace
+@property varName
+pattern change_ruleVariableDeclaration_varName
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isTypeOf(RuleVariableDeclaration)) {
+	do {
+		instance.varName = instance.varName + "_";
+	}
+}
+
+// Impl 2: change the varName of PatternElement with
+// different name
+@action replace
+@property varName
+pattern change_PatternElement_varName
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(PatternElement)) {
+	do {
+		instance.varName = instance.varName + "_";
+	}
+}
+
+// Impl 3: change the varName of OclParameter with
+// different name
+@action replace
+@property varName
+pattern change_Parameter_varName
+instance:Parameter
+	in: VariableDeclaration.all.select(e|e.isKindOf(Parameter)) {
+	do {
+		instance.varName = instance.varName + "_";
+	}
+}
+
+// Impl 4: change the varName of Iterator with
+// different name
+@action replace
+@property varName
+pattern change_Iterator_varName
+instance:Iterator
+	in: VariableDeclaration.all.select(e|e.isKindOf(Iterator)) {
+	do {
+		instance.varName = instance.varName + "_";
+	}
+}

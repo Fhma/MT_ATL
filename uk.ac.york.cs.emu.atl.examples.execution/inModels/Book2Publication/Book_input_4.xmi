@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:book="Book">
+  <book:Book title="risus auctor sed tristique in tempus sit amet sem fusce"/>
+  <book:Book title="duis faucibus accumsan odio curabitur convallis duis consequat">
+    <chapters title="turpis enim blandit mi in porttitor pede" nbPages="6" author="Caroline Measor"/>
+  </book:Book>
+  <book:Book title="diam erat fermentum justo nec condimentum neque sapien placerat">
+    <chapters title="suscipit nulla elit ac nulla sed vel enim sit" nbPages="8" author="Marcus Craney"/>
+  </book:Book>
+  <book:Book title="sagittis dui vel nisl duis">
+    <chapters title="ornare consequat lectus in est risus" nbPages="10" author="Arnoldo Kerrane"/>
+  </book:Book>
+  <book:Book title="morbi non lectus aliquam sit amet">
+    <chapters title="turpis enim blandit mi in porttitor pede" nbPages="2" author="Alidia Impy"/>
+  </book:Book>
+  <book:Book title="cursus id turpis integer aliquet massa id lobortis">
+    <chapters title="sollicitudin mi sit amet lobortis" nbPages="3" author="Morna Bruford"/>
+    <chapters title="id turpis integer aliquet massa id lobortis convallis tortor" nbPages="4" author="Robbyn Pavluk"/>
+  </book:Book>
+  <book:Book title="eu magna vulputate luctus cum sociis natoque penatibus et">
+    <chapters title="accumsan odio curabitur convallis duis consequat dui" nbPages="4" author="Loleta Petri"/>
+    <chapters title="turpis a pede posuere nonummy" nbPages="4" author="Dan McKniely"/>
+    <chapters title="lobortis vel dapibus at diam nam tristique tortor eu pede" nbPages="6" author="Joseph Minett"/>
+    <chapters title="pulvinar sed nisl nunc rhoncus" nbPages="9" author="Gabe Snepp"/>
+    <chapters title="lacinia sapien quis libero nullam" nbPages="9" author="Devlin Schuck"/>
+  </book:Book>
+  <book:Book title="maecenas tristique est et tempus semper"/>
+  <book:Book title="lectus pellentesque at nulla suspendisse">
+    <chapters title="in lectus pellentesque at nulla" nbPages="10" author="Licha Shead"/>
+  </book:Book>
+  <book:Book title="iaculis diam erat fermentum justo nec">
+    <chapters title="proin risus praesent lectus vestibulum quam sapien" nbPages="4" author="Lanette Glowacha"/>
+  </book:Book>
+  <book:Book title="augue vestibulum rutrum rutrum neque">
+    <chapters title="quam a odio in hac habitasse platea dictumst maecenas" nbPages="7" author="Suzi Crocombe"/>
+    <chapters title="accumsan odio curabitur convallis duis" nbPages="1" author="Kellen Reames"/>
+  </book:Book>
+  <book:Book title="in hac habitasse platea dictumst etiam faucibus cursus">
+    <chapters title="blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing" nbPages="2" author="Harriette Kerwen"/>
+    <chapters title="sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie" nbPages="7" author="Aryn Marrion"/>
+  </book:Book>
+  <book:Book title="diam id ornare imperdiet sapien urna pretium">
+    <chapters title="tempus vivamus in felis eu" nbPages="7" author="Maridel Eaken"/>
+    <chapters title="hac habitasse platea dictumst aliquam augue quam sollicitudin" nbPages="9" author="Jammal Odams"/>
+    <chapters title="viverra eget congue eget semper rutrum nulla nunc purus phasellus" nbPages="1" author="Conan Flament"/>
+  </book:Book>
+</xmi:XMI>

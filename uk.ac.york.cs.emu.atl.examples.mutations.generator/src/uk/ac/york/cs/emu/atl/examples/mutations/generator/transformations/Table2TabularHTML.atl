@@ -1,0 +1,149 @@
+module Table2TabularHTML;
+create OUT: HTML from IN: Table;
+
+helper def: html: HTML!HTML =
+	OclUndefined;
+
+entrypoint rule HTML() {
+	to
+		html: HTML!HTML (
+			head <- head,
+			body <- body
+		),
+		head: HTML!HEAD (
+			headElements <- title
+		),
+		title: HTML!TITLE (
+			value <- ''
+		),
+		body: HTML!BODY
+	do {
+		thisModule.html <- html;
+	}
+}
+
+rule Table2TABLE {
+	from
+		table: Table!Table (
+			table.rows -> size() > 0
+		)
+	to
+		tab: HTML!TABLE (
+			border <- '1',
+			trs <- thisModule.Row2TRwithTH(table.rows -> first()),
+			trs <- table.rows -> subSequence(2, table.rows -> size()) -> collect(row | thisModule.Row2TRwithTD(row))
+		)
+	do {
+		thisModule.html.body.bodyElements <- tab;
+	}
+}
+
+lazy rule Row2TRwithTH {
+	from
+		row: Table!Row
+	to
+		tr: HTML!TR (
+			tds <- row.cells -> collect(cell | thisModule.Cell2TH(cell))
+		)
+}
+
+lazy rule Cell2TH {
+	from
+		cell: Table!Cell
+	to
+		th: HTML!TH (
+			value <- cell.value()
+		)
+}
+
+lazy rule Row2TRwithTD {
+	from
+		row: Table!Row
+	to
+		tr: HTML!TR (
+			tds <- thisModule.Cell2TD(row.cells -> first()),
+			tds <- row.cells -> subSequence(2, row.cells -> size()) -> collect(cell | thisModule.Cell2TDRightAlign(cell))
+		)
+}
+
+lazy rule Cell2TD {
+	from
+		cell: Table!Cell
+	to
+		td: HTML!TD (
+			value <- cell.value()
+		)
+}
+
+lazy rule Cell2TDRightAlign {
+	from
+		cell: Table!Cell
+	to
+		td: HTML!TD (
+			value <- cell.value(),
+			align <- 'right'
+		)
+}
+
+helper context String def: isInteger(): Boolean =
+	if self.split('\\.') -> size() - 1 = 0 then
+		let value: String =
+			self -> regexReplaceAll('\\d', '')
+		in
+			(value = '') or (value = '-')
+	else
+		false
+	endif;
+
+helper context String def: isReal(): Boolean =
+	let dotNb: Integer =
+		self.split('\\.') -> size() - 1
+	in
+		if dotNb = 1 then
+			let value: String =
+				self -> regexReplaceAll('\\.', '') -> regexReplaceAll('\\d', '')
+			in
+				(value = '') or (value = '-')
+		else
+			false
+		endif;
+
+helper context String def: isPercentage(): Boolean =
+	if self.endsWith('%') and not self.startsWith('-') then
+		let value: String =
+			self -> substring(1, self -> size() - 1)
+		in
+			if value.isInteger() or value.isReal() then
+				(0 <= value.toReal()) and (value.toReal() <= 100)
+			else
+				false
+			endif
+	else
+		false
+	endif;
+
+helper context String def: value(): String =
+	self;
+
+helper context Table!Cell def: value(): String =
+	if self.content.isPercentage() then
+		self.content -> substring(1, self.content -> size() - 1).value() + '%'
+	else
+		self.content.value()
+	endif;
+
+helper context Table!Cell def: realValue(): Real =
+	if self.content.isPercentage() then
+		self.content -> substring(1, self.content -> size() - 1).toReal() / 100
+	else
+		self.content.toReal()
+	endif;
+
+helper context OclAny def: seqWithoutFirst(): Sequence(OclAny) =
+	self -> subSequence(2, self -> size());
+
+helper def: allValidTables: Sequence(Table!Table) =
+	Table!Table.allInstances() -> select(t | t.rows -> seqWithoutFirst() -> forAll(r | r.cells -> seqWithoutFirst() -> forAll(c | (c.content.isInteger() or c.content.isReal() or c.content.isPercentage()))));
+
+helper context Table!Cell def: valueNotNull(): Boolean =
+	self.realValue() <> 0;

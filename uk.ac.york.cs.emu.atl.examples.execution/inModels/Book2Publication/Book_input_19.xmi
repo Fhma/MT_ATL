@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:book="Book">
+  <book:Book title="convallis duis consequat dui nec nisi">
+    <chapters title="leo pellentesque ultrices mattis odio donec vitae nisi" nbPages="4" author="Ronalda Guyver"/>
+    <chapters title="duis faucibus accumsan odio curabitur convallis duis consequat" nbPages="4" author="Opaline Gagen"/>
+    <chapters title="tempus sit amet sem fusce consequat nulla nisl nunc" nbPages="10" author="Elsinore Baddow"/>
+  </book:Book>
+  <book:Book title="rhoncus dui vel sem sed sagittis nam congue risus">
+    <chapters title="leo pellentesque ultrices mattis odio donec vitae nisi" nbPages="6" author="Rufus Rosi"/>
+  </book:Book>
+  <book:Book title="consequat nulla nisl nunc nisl duis bibendum felis sed interdum">
+    <chapters title="ornare consequat lectus in est risus" nbPages="7" author="Lilia Nattrass"/>
+    <chapters title="consequat nulla nisl nunc nisl duis bibendum felis sed interdum" nbPages="2" author="Jolee Sayer"/>
+  </book:Book>
+  <book:Book title="scelerisque mauris sit amet eros suspendisse accumsan tortor">
+    <chapters title="accumsan odio curabitur convallis duis" nbPages="8" author="Iosep Gerrish"/>
+  </book:Book>
+  <book:Book title="consectetuer adipiscing elit proin risus praesent">
+    <chapters title="eget tempus vel pede morbi porttitor lorem id ligula suspendisse" nbPages="2" author="Maxine Gayden"/>
+  </book:Book>
+  <book:Book title="iaculis diam erat fermentum justo">
+    <chapters title="odio elementum eu interdum eu tincidunt in leo" nbPages="7" author="Norry Sitwell"/>
+    <chapters title="vitae consectetuer eget rutrum at" nbPages="3" author="Jervis Korn"/>
+  </book:Book>
+  <book:Book title="tempus sit amet sem fusce consequat nulla nisl nunc"/>
+</xmi:XMI>

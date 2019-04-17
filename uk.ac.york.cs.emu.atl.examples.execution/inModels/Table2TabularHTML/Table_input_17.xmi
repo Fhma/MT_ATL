@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<table:Table xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:table="Table">
+  <rows>
+    <cells content="ac diam cras pellentesque volutpat dui"/>
+    <cells content="diam erat fermentum justo nec condimentum neque sapien placerat"/>
+    <cells content="tincidunt ante vel ipsum praesent blandit"/>
+    <cells content="volutpat dui maecenas tristique est et tempus"/>
+  </rows>
+  <rows>
+    <cells content="4"/>
+    <cells content="77"/>
+    <cells content="33"/>
+    <cells content="37"/>
+  </rows>
+</table:Table>

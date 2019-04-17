@@ -1,0 +1,8 @@
+// operator: Operation.body-REP
+// desc: There is no replacement operator implementation
+// for this modelling concept because an instance of
+// Operation.body:OclExpression has no sibling to be used
+// and to be replaced with the original instance.
+//
+// Inherited operators: OclFeature
+////////////////////////////////////////////////////////////

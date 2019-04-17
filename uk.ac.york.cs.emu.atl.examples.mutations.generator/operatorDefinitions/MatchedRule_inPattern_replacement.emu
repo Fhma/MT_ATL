@@ -1,0 +1,9 @@
+// operator: MatchedRule.inPattern-REP
+// desc: There is no replacement operator implementation
+// for this modelling concept because an instance of
+//  MatchedRule.inPattern:InPattern has no compatible
+// sibling to be used and to be replaced with the original
+// instance.
+//
+// Inherited operators: Rule, ModuleElement
+////////////////////////////////////////////////////////////

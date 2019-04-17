@@ -1,0 +1,191 @@
+	\--> Processed mutants-> 494
+	\--> Invalid mutants-> 18
+	\--> Killed mutants-> 0
+	\--> Not killed mutants-> 187
+		\-->CMO-S-REP_SequenceType_elementType_21.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_5.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_4.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_20.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_22.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_6.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_7.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_23.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_27.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_3.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_2.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_26.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_24.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_30.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_18.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_1.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_19.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_25.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_28.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_14.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_15.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_29.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_17.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_16.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_12.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_13.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_11.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_9.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_8.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_SequenceType_elementType_10.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_OclContextDefinition_context__31.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_OclContextDefinition_context__33.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_OclContextDefinition_context__6.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_OclContextDefinition_context__82.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_OclContextDefinition_context__40.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_OclContextDefinition_context__72.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_OclContextDefinition_context__88.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_OclContextDefinition_context__77.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_OclContextDefinition_context__10.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_OclContextDefinition_context__13.xmi <E> the operation/helper that contains the modification never has been called
+		\-->CMO-S-REP_OclModel_name_16.xmi <E> 
+		\-->CMO-S-REP_OclModel_name_10.xmi <E>
+		\-->CMO-S-REP_OclModel_name_12.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_varName_4.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_varName_5.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_varName_7.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_varName_6.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_varName_2.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_varName_3.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_varName_1.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_varName_10.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_varName_8.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_varName_9.xmi <E>
+		\-->CMO-S-REP_Operation_returnType_11.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_10.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_12.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_13.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_17.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_16.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_28.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_14.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_15.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_1.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_3.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_2.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_6.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_7.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_5.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_4.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_9.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_8.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_24.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_18.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_19.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_25.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_27.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_26.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_22.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_23.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_21.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_Operation_returnType_20.xmi <L By Engine> the ATL engine allowed the execution of the mutation regardless of the change of the return type of helper/operation
+		\-->CMO-S-REP_OclModelElement_name_20.xmi <E>
+		\-->CMO-S-REP_OclModelElement_name_5.xmi <E>
+		\-->CMO-S-REP_OclModelElement_name_6.xmi <E>
+		\-->CMO-S-REP_OclModelElement_name_13.xmi <E>
+		\-->CMO-S-REP_OclModelElement_name_11.xmi <E>
+		\-->CMO-S-REP_OclModelElement_name_10.xmi <E>
+		\-->CMO-S-REP_OclModelElement_name_15.xmi <E>
+		\-->CMO-M-DEL_Module_elements_9.xmi <E>
+		\-->CMO-M-DEL_Module_elements_17.xmi <E>
+		\-->CMO-M-DEL_Module_elements_4.xmi <E>
+		\-->CMO-M-DEL_Module_elements_7.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_type_40.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_41.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_19.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_31.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_25.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_9.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_24.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_30.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_18.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_26.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_32.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_33.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_37.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_36.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_34.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_20.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_21.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_35.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_38.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_10.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_39.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_13.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_2.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_12.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_16.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_7.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_17.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_15.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_29.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_5.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_4.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_28.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-REP_SimpleInPatternElement_type_14.xmi <L By Engine>, in a lazy rule, the modification of variable type of an InPattern has no affect and the engine executed the mutatioin even when the new type of variable is not compatible
+		\-->CMO-S-DEL_OclFeatureDefinition_context__6.xmi <E> the operation/helper never called
+		\-->CMO-S-DEL_OclFeatureDefinition_context__3.xmi <E> the operation/helper never called
+		\-->CMO-M-DEL_SimpleOutPatternElement_bindings_13.xmi <E>
+		\-->CMO-S-REP_OclFeatureDefinition_feature_4.xmi <E> the operation/helper never called
+		\-->CMO-S-REP_OclFeatureDefinition_feature_3.xmi <E> the operation/helper never called
+		\-->CMO-S-REP_OclFeatureDefinition_feature_2.xmi <E> the operation/helper never called
+		\-->CMO-S-REP_OclFeatureDefinition_feature_9.xmi <E> the operation/helper never called
+		\-->CMO-S-REP_Attribute_type_21.xmi <E>
+		\-->CMO-S-REP_Attribute_type_34.xmi <E>
+		\-->CMO-S-REP_Attribute_type_20.xmi <E>
+		\-->CMO-S-REP_Attribute_type_22.xmi <E>
+		\-->CMO-S-REP_Attribute_type_23.xmi <E>
+		\-->CMO-S-REP_Attribute_type_8.xmi <E>
+		\-->CMO-S-REP_Attribute_type_33.xmi <E>
+		\-->CMO-S-REP_Attribute_type_27.xmi <E>
+		\-->CMO-S-REP_Attribute_type_26.xmi <E>
+		\-->CMO-S-REP_Attribute_type_32.xmi <E>
+		\-->CMO-S-REP_Attribute_type_9.xmi <E>
+		\-->CMO-S-REP_Attribute_type_18.xmi <E>
+		\-->CMO-S-REP_Attribute_type_24.xmi <E>
+		\-->CMO-S-REP_Attribute_type_30.xmi <E>
+		\-->CMO-S-REP_Attribute_type_31.xmi <E>
+		\-->CMO-S-REP_Attribute_type_25.xmi <E>
+		\-->CMO-S-REP_Attribute_type_19.xmi <E> <E>
+		\-->CMO-S-REP_Attribute_type_7.xmi <E>
+		\-->CMO-S-REP_Attribute_type_14.xmi <E>
+		\-->CMO-S-REP_Attribute_type_28.xmi <E>
+		\-->CMO-S-REP_Attribute_type_29.xmi <E>
+		\-->CMO-S-REP_Attribute_type_15.xmi <E>
+		\-->CMO-S-REP_Attribute_type_6.xmi <E>
+		\-->CMO-S-REP_Attribute_type_4.xmi <E>
+		\-->CMO-S-REP_Attribute_type_17.xmi <E>
+		\-->CMO-S-REP_Attribute_type_16.xmi <E>
+		\-->CMO-S-REP_Attribute_type_5.xmi <E>
+		\-->CMO-S-REP_Attribute_type_1.xmi <E>
+		\-->CMO-S-REP_Attribute_type_12.xmi <E>
+		\-->CMO-S-REP_Attribute_type_13.xmi <E>
+		\-->CMO-S-REP_Attribute_type_2.xmi <E>
+		\-->CMO-S-REP_Attribute_type_11.xmi <E>
+		\-->CMO-S-REP_Attribute_type_10.xmi <E>
+		\-->CMO-S-REP_Attribute_type_3.xmi <E>
+		\-->CMO-S-REP_Operation_name_8.xmi <E>
+		\-->CMO-S-REP_Operation_name_5.xmi <E>
+		\-->CMO-S-REP_Attribute_name_1.xmi <E>
+		\-->CMO-S-REP_Attribute_name_2.xmi <E>
+		\-->CMO-S-REP_CalledRule_name_1.xmi <E>
+		\-->CMO-S-REP_InPattern_filter_5.xmi <L> the mutant is be killed by adding more test inputs
+		\-->CMO-S-REP_InPattern_filter_2.xmi <L> the mutant is be killed by adding more test inputs
+		\-->CMO-S-REP_MatchedRule_name_1.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_varName_1.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_varName_3.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_varName_2.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_varName_6.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_varName_5.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_varName_4.xmi <E>
+		\-->CMO-S-DEL_InPattern_filter_1.xmi <L> the mutant is be killed by adding more test inputs
+		\-->CMO-S-REP_Iterator_varName_6.xmi <E> 
+		\-->CMO-S-REP_Iterator_varName_4.xmi <E>
+		\-->CMO-S-REP_Iterator_varName_5.xmi <E>
+		\-->CMO-S-REP_Iterator_varName_1.xmi <E>
+		\-->CMO-S-REP_Iterator_varName_2.xmi <E>
+		\-->CMO-S-REP_Iterator_varName_3.xmi <E>

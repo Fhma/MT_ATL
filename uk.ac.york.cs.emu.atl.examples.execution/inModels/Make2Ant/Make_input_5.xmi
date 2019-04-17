@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ASCII"?>
+<make:Makefile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:make="Make" name="primis in faucibus orci luctus et ultrices posuere cubilia">
+  <comment text="a suscipit nulla elit ac nulla sed"/>
+  <elements xsi:type="make:Rule" name="blandit ultrices enim lorem ipsum dolor sit amet consectetuer">
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.7"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.6"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.8"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.12"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.2"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.9"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.10"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.10"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.1"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.8"/>
+    <dependencies xsi:type="make:FileDep" date="21/04/2018" name="vestibulum ante ipsum primis in faucibus orci luctus et ultrices"/>
+    <dependencies xsi:type="make:FileDep" date="30/09/2015" name="nisl nunc nisl duis bibendum felis sed"/>
+    <dependencies xsi:type="make:FileDep" date="15/02/2016" name="consequat nulla nisl nunc nisl duis bibendum felis sed interdum"/>
+    <dependencies xsi:type="make:FileDep" date="27/05/2016" name="accumsan odio curabitur convallis duis"/>
+    <dependencies xsi:type="make:FileDep" date="02/01/2017" name="tempus sit amet sem fusce consequat nulla nisl nunc"/>
+    <dependencies xsi:type="make:FileDep" date="29/01/2015" name="dui luctus rutrum nulla tellus in sagittis"/>
+    <dependencies xsi:type="make:FileDep" date="15/07/2018" name="rhoncus dui vel sem sed sagittis nam congue risus"/>
+    <shellLines command="corelist5.18" display="true"/>
+    <shellLines command="config_data5.16" display="true"/>
+    <shellLines command="afhash" display="true"/>
+    <shellLines command="autoreconf" display="true"/>
+    <shellLines command="avbdeviced" display="true"/>
+    <shellLines command="cmp" display="true"/>
+    <shellLines command="cat"/>
+    <shellLines command="codesign_allocate"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="turpis a pede posuere nonummy">
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.5"/>
+    <dependencies xsi:type="make:FileDep" date="31/03/2017" name="tempor convallis nulla neque libero convallis eget eleifend"/>
+    <shellLines command="dispqlen.d"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="mauris non ligula pellentesque ultrices phasellus id">
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.9"/>
+    <dependencies xsi:type="make:FileDep" date="15/01/2017" name="montes nascetur ridiculus mus etiam vel"/>
+    <dependencies xsi:type="make:FileDep" date="08/02/2017" name="dui luctus rutrum nulla tellus in"/>
+    <dependencies xsi:type="make:FileDep" date="20/05/2017" name="donec odio justo sollicitudin ut"/>
+    <dependencies xsi:type="make:FileDep" date="06/04/2017" name="proin leo odio porttitor id consequat in"/>
+    <shellLines command="cron"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="id ligula suspendisse ornare consequat lectus in est risus">
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.10"/>
+    <dependencies xsi:type="make:FileDep" date="25/06/2017" name="consequat metus sapien ut nunc"/>
+    <shellLines command="chat"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="lectus in est risus auctor sed tristique in tempus">
+    <shellLines command="animate" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="eu magna vulputate luctus cum sociis natoque penatibus et">
+    <shellLines command="corelist5.18"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="id ligula suspendisse ornare consequat lectus in est risus">
+    <shellLines command="de-macro" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="nulla nisl nunc nisl duis bibendum felis sed interdum venenatis">
+    <shellLines command="checkcites"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="duis consequat dui nec nisi volutpat eleifend donec ut">
+    <shellLines command="apply"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="dolor sit amet consectetuer adipiscing">
+    <shellLines command="chat"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="vitae nisl aenean lectus pellentesque eget nunc donec quis orci">
+    <shellLines command="auvaltool" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="rhoncus dui vel sem sed sagittis nam congue risus">
+    <shellLines command="afhash" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="arcu adipiscing molestie hendrerit at vulputate vitae nisl">
+    <shellLines command="csrutil" display="true"/>
+  </elements>
+  <elements xsi:type="make:Macro" name="luctus et ultrices posuere cubilia" value="turpis enim blandit mi in porttitor pede"/>
+  <elements xsi:type="make:Macro" name="nibh in quis justo maecenas rhoncus aliquam lacus morbi" value="a ipsum integer a nibh in quis justo maecenas rhoncus"/>
+  <elements xsi:type="make:Macro" name="bibendum felis sed interdum venenatis turpis enim blandit mi in" value="tortor quis turpis sed ante"/>
+  <elements xsi:type="make:Macro" name="leo odio condimentum id luctus nec" value="lacus morbi quis tortor id nulla ultrices aliquet"/>
+  <elements xsi:type="make:Macro" name="velit vivamus vel nulla eget eros elementum" value="nisl duis bibendum felis sed interdum"/>
+  <elements xsi:type="make:Macro" name="rhoncus dui vel sem sed sagittis nam congue risus" value="consequat metus sapien ut nunc"/>
+  <elements xsi:type="make:Macro" name="imperdiet nullam orci pede venenatis non sodales" value="duis bibendum felis sed interdum venenatis turpis enim"/>
+</make:Makefile>

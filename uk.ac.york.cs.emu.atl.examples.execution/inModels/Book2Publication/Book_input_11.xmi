@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:book="Book">
+  <book:Book title="dolor sit amet consectetuer adipiscing elit"/>
+  <book:Book title="convallis nulla neque libero convallis eget eleifend luctus ultricies">
+    <chapters title="amet sem fusce consequat nulla nisl nunc" nbPages="3" author="Andrew McGarahan"/>
+  </book:Book>
+  <book:Book title="eget rutrum at lorem integer tincidunt ante">
+    <chapters title="orci luctus et ultrices posuere cubilia" nbPages="4" author="Harlan Dyball"/>
+    <chapters title="in magna bibendum imperdiet nullam orci pede venenatis" nbPages="2" author="Arnoldo Kerrane"/>
+  </book:Book>
+  <book:Book title="vitae consectetuer eget rutrum at">
+    <chapters title="viverra pede ac diam cras pellentesque volutpat" nbPages="7" author="Elissa Miranda"/>
+    <chapters title="congue diam id ornare imperdiet sapien urna pretium nisl" nbPages="4" author="Elsbeth Mayoral"/>
+  </book:Book>
+</xmi:XMI>

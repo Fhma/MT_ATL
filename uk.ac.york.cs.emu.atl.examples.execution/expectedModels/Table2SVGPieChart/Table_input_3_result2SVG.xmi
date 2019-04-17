@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:svg="SVG">
+  <svg:SvgFile tag="/1"/>
+  <svg:Svg viewBox="0 0 416.0 280.0" owner_SVG="/0" namespace="http://www.w3.org/2000/svg" version="1.1">
+    <size width="416.0" height="280.0"/>
+    <children xsi:type="svg:G" attribute="/2">
+      <groupContent xsi:type="svg:Rect" fill="none" stroke="black">
+        <position xsi:type="svg:AbsoluteCoord" x="-198.0" y="-130.0"/>
+        <size width="396.0" height="260.0"/>
+      </groupContent>
+      <groupContent xsi:type="svg:Text" stroke="black" fontSize="20.0" lengthAdjust="middle" content="mauris ullamcorper purus sit amet nulla quisque">
+        <position xsi:type="svg:AbsoluteCoord" x="-88.0" y="115.0"/>
+      </groupContent>
+      <groupContent xsi:type="svg:G" attribute="/3">
+        <groupContent xsi:type="svg:Circle" fill="rgb(255,0,0)" stroke="black">
+          <position xsi:type="svg:AbsoluteCoord"/>
+          <size width="100.0" height="100.0"/>
+        </groupContent>
+      </groupContent>
+      <groupContent xsi:type="svg:G">
+        <groupContent xsi:type="svg:Rect" fill="none" stroke="black">
+          <position xsi:type="svg:AbsoluteCoord" x="22.0" y="-18.5"/>
+          <size width="166.0" height="37.0"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(255,0,0)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="27.0" y="-7.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(100.0%) 4 (77)">
+            <position xsi:type="svg:AbsoluteCoord" x="59.0" y="6.9"/>
+          </groupContent>
+        </groupContent>
+      </groupContent>
+    </children>
+  </svg:Svg>
+  <svg:Translate attOwner="/1/@children.0" tx="208.0" ty="140.0"/>
+  <svg:Translate attOwner="/1/@children.0/@groupContent.2" tx="-88.0" ty="-20.0"/>
+</xmi:XMI>

@@ -1,0 +1,65 @@
+	\--> Processed mutants-> 494
+	\--> Invalid mutants-> 44
+	\--> Killed mutants-> 0
+	\--> Not killed mutants-> 61
+		\-->CMO-S-REP_SimpleInPatternElement_type_86.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_type_87.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_type_41.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_type_9.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_type_8.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_type_20.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_type_101.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_type_113.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_type_107.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_type_112.xmi <L>
+		\-->CMO-S-REP_OclModel_name_6.xmi <E>
+		\-->CMO-S-REP_OclModel_name_4.xmi <E>
+		\-->CMO-S-REP_OclModel_name_12.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_varName_4.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_varName_2.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_varName_14.xmi <E>
+		\-->CMO-M-REP_MatchedRule_children_108.xmi <E>
+		\-->CMO-M-REP_MatchedRule_children_43.xmi <E>
+		\-->CMO-M-REP_MatchedRule_children_110.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_type_9.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_type_40.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_type_27.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_type_11.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_type_15.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_type_29.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_type_28.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_type_2.xmi <E>
+		\-->CMO-S-REP_OclModelElement_name_26.xmi <E>
+		\-->CMO-S-REP_OclModelElement_name_7.xmi <E>
+		\-->CMO-S-REP_OclModelElement_name_8.xmi <E>
+		\-->CMO-S-REP_OclModelElement_name_16.xmi <E>
+		\-->CMO-M-DEL_Module_elements_11.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_varName_7.xmi <E>
+		\-->CMO-M-DEL_SimpleOutPatternElement_bindings_9.xmi <E>
+		\-->CMO-M-DEL_MatchedRule_children_6.xmi <E>
+		\-->CMO-M-DEL_MatchedRule_children_2.xmi <E>
+		\-->CMO-M-DEL_MatchedRule_children_10.xmi <E>
+		\-->CMO-S-REP_MatchedRule_name_9.xmi <E>
+		\-->CMO-S-REP_MatchedRule_name_8.xmi <E>
+		\-->CMO-S-REP_MatchedRule_name_1.xmi <E>
+		\-->CMO-S-REP_MatchedRule_name_3.xmi <E>
+		\-->CMO-S-REP_MatchedRule_name_2.xmi <E>
+		\-->CMO-S-REP_MatchedRule_name_6.xmi <E>
+		\-->CMO-S-REP_MatchedRule_name_7.xmi <E>
+		\-->CMO-S-REP_MatchedRule_name_5.xmi <E>
+		\-->CMO-S-REP_MatchedRule_name_4.xmi <E>
+		\-->CMO-S-REP_MatchedRule_name_11.xmi <E>
+		\-->CMO-S-REP_MatchedRule_name_10.xmi <E>
+		\-->CMO-S-REP_MatchedRule_name_12.xmi <E>
+		\-->CMO-S-REP_Parameter_type_8.xmi <L By Engine> in a Called rule, the modification of one parameters type was ignored and the engine executed the mutation regardless of parameter type.
+		\-->CMO-S-REP_Parameter_type_9.xmi <L By Engine> in a Called rule, the modification of one parameters type was ignored and the engine executed the mutation regardless of parameter type.
+		\-->CMO-S-REP_Parameter_type_4.xmi <L By Engine> in a Called rule, the modification of one parameters type was ignored and the engine executed the mutation regardless of parameter type.
+		\-->CMO-S-REP_Parameter_type_5.xmi <L By Engine> in a Called rule, the modification of one parameters type was ignored and the engine executed the mutation regardless of parameter type.
+		\-->CMO-S-REP_Parameter_type_7.xmi <L By Engine> in a Called rule, the modification of one parameters type was ignored and the engine executed the mutation regardless of parameter type.
+		\-->CMO-S-REP_Parameter_type_6.xmi <L By Engine> in a Called rule, the modification of one parameters type was ignored and the engine executed the mutation regardless of parameter type.
+		\-->CMO-S-REP_Parameter_type_2.xmi <L By Engine> in a Called rule, the modification of one parameters type was ignored and the engine executed the mutation regardless of parameter type.
+		\-->CMO-S-REP_Parameter_type_3.xmi <L By Engine> in a Called rule, the modification of one parameters type was ignored and the engine executed the mutation regardless of parameter type.
+		\-->CMO-S-REP_Parameter_type_1.xmi <L By Engine> in a Called rule, the modification of one parameters type was ignored and the engine executed the mutation regardless of parameter type.
+		\-->CMO-S-REP_Parameter_varName_1.xmi <E>
+		\-->CMO-S-REP_Parameter_varName_2.xmi <E>
+		\-->CMO-S-REP_Parameter_varName_3.xmi <E>

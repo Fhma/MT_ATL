@@ -1,0 +1,4 @@
+	\--> Processed mutants-> 3
+	\--> Invalid mutants-> 0
+	\--> Killed mutants-> 3
+	\--> Not killed mutants-> 0

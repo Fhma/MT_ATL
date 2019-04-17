@@ -1,0 +1,62 @@
+// operator: IfStat.thenStatements-DEL
+// desc: This operator deletes an instance of Statement
+// from list of statements given be IfStat.thenStatements.
+//
+// Inherited operators: Statement 
+////////////////////////////////////////////////////////////
+
+// Impl 1: delete an ExpressionStat instance from list of 
+// statements given by IfStat.thenStatements
+@action delete
+@property thenStatements
+@role instance
+pattern delete_ExpressionStat
+instance:IfStat,
+statement:Statement
+	from: instance.thenStatements.select(e|e.isTypeOf(ExpressionStat)) {
+	do {
+		instance.thenStatements.remove(statement);
+	}		
+}
+
+// Impl 2: delete an BindingStat instance from list of 
+// statements given by IfStat.thenStatements
+@action delete
+@property thenStatements
+@role instance
+pattern delete_BindingStat
+instance:IfStat,
+statement:Statement
+	from: instance.thenStatements.select(e|e.isTypeOf(BindingStat)) {
+	do {
+		instance.thenStatements.remove(statement);
+	}		
+}
+
+// Impl 3: delete an IfStat instance from from list of 
+// statements given by IfStat.thenStatements
+@action delete
+@property thenStatements
+@role instance
+pattern delete_IfStat
+instance:IfStat,
+statement:Statement
+	from: instance.thenStatements.select(e|e.isTypeOf(IfStat)) {
+	do {
+		instance.thenStatements.remove(statement);
+	}		
+}
+
+// Impl 4: delete an ForStat instance from list of 
+// statements given by IfStat.thenStatements
+@action delete
+@property thenStatements
+@role instance
+pattern delete_ForStat
+instance:IfStat,
+statement:Statement
+	from: instance.thenStatements.select(e|e.isTypeOf(ForStat)) {
+	do {
+		instance.thenStatements.remove(statement);
+	}		
+}

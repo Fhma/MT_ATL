@@ -1,0 +1,8 @@
+// operator: ExpressionStat.expression-REP
+// desc: There is no replacement operator implementation
+// for this modelling concept because an instance of
+// ExpressionStat.expression:Statement has no sibling
+// to be replaced with.
+//
+// Inherited operators: Statement 
+////////////////////////////////////////////////////////////

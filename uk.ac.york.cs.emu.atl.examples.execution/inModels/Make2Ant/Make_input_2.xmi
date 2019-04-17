@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<make:Makefile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:make="Make" name="risus auctor sed tristique in tempus sit amet sem fusce">
+  <comment text="leo pellentesque ultrices mattis odio donec vitae nisi"/>
+  <elements xsi:type="make:Rule" name="sit amet sapien dignissim vestibulum">
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.1"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.1"/>
+    <dependencies xsi:type="make:FileDep" date="28/07/2018" name="iaculis diam erat fermentum justo nec"/>
+    <dependencies xsi:type="make:FileDep" date="25/04/2015" name="ut mauris eget massa tempor convallis nulla neque libero convallis"/>
+    <shellLines command="accton" display="true"/>
+    <shellLines command="column"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="duis at velit eu est">
+    <shellLines command="apropos" display="true"/>
+  </elements>
+  <elements xsi:type="make:Macro" name="lectus pellentesque at nulla suspendisse" value="pede venenatis non sodales sed tincidunt eu felis"/>
+</make:Makefile>

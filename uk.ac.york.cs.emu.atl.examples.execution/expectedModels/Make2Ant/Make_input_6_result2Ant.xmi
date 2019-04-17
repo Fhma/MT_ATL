@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ant:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ant="Ant" name="aenean sit amet justo morbi" description="duis bibendum felis sed interdum venenatis turpis enim" default="//@targets.0">
+  <properties xsi:type="ant:PropertyValue" name="arcu adipiscing molestie hendrerit at vulputate vitae nisl" value="in faucibus orci luctus et ultrices posuere"/>
+  <properties xsi:type="ant:PropertyValue" name="fusce lacus purus aliquet at" value="nisl nunc nisl duis bibendum felis sed"/>
+  <properties xsi:type="ant:PropertyValue" name="nullam orci pede venenatis non sodales sed tincidunt eu felis" value="sit amet nunc viverra dapibus nulla suscipit ligula"/>
+  <properties xsi:type="ant:PropertyValue" name="iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate" value="lectus pellentesque at nulla suspendisse"/>
+  <targets name="viverra diam vitae quam suspendisse potenti" depends="//@targets.4 //@targets.3 //@targets.1 //@targets.6">
+    <tasks xsi:type="ant:Exec" executable="atobm"/>
+    <tasks xsi:type="ant:Exec" executable="corelist5.16"/>
+    <tasks xsi:type="ant:Echo" message="cmpdylib"/>
+    <tasks xsi:type="ant:Echo" message="cpu_profiler.d"/>
+    <tasks xsi:type="ant:Exec" executable="cmpdylib"/>
+    <tasks xsi:type="ant:Exec" executable="cpu_profiler.d"/>
+  </targets>
+  <targets name="in faucibus orci luctus et ultrices">
+    <tasks xsi:type="ant:Exec" executable="codesign"/>
+  </targets>
+  <targets name="in libero ut massa volutpat convallis">
+    <tasks xsi:type="ant:Echo" message="cachepic"/>
+    <tasks xsi:type="ant:Exec" executable="cachepic"/>
+  </targets>
+  <targets name="pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis">
+    <tasks xsi:type="ant:Echo" message="apropos"/>
+    <tasks xsi:type="ant:Exec" executable="apropos"/>
+  </targets>
+  <targets name="pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis">
+    <tasks xsi:type="ant:Echo" message="c2ph5.18"/>
+    <tasks xsi:type="ant:Exec" executable="c2ph5.18"/>
+  </targets>
+  <targets name="id pretium iaculis diam erat fermentum justo nec condimentum">
+    <tasks xsi:type="ant:Echo" message="afplay"/>
+    <tasks xsi:type="ant:Exec" executable="afplay"/>
+  </targets>
+  <targets name="nisl nunc rhoncus dui vel sem sed sagittis nam">
+    <tasks xsi:type="ant:Exec" executable="arp"/>
+  </targets>
+</ant:Project>

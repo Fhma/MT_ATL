@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="ASCII"?>
+<MutationOperatorMM:MutationOperatorCollection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MutationOperatorMM="MutationOperatorMM" xsi:schemaLocation="MutationOperatorMM /Users/AFADF_F/Git/Fhma/Emagine/uk.ac.york.cs.mutation.operators.generator/bin/uk/ac/york/cs/mutation/operators/generator/resources/MutationOperatorMM.ecore">
+  <all_operator_sets containingClass="ATL.Query">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="body" signature="Query [ OclExpression [ 1, 1 ] body, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="body" signature="Query [ OclExpression [ 1, 1 ] body, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="body" signature="Query [ OclExpression [ 1, 1 ] body, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="Helper" upperBound="-1" feature_name="helpers" signature="Query [ Helper [ 0, -1 ] helpers, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="Helper" upperBound="-1" feature_name="helpers" signature="Query [ Helper [ 0, -1 ] helpers, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="Helper" upperBound="-1" feature_name="helpers" signature="Query [ Helper [ 0, -1 ] helpers, replace]"/>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.Module">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isRefining" signature="Module [ EBoolean [ 1, 1 ] isRefining, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isRefining" signature="Module [ EBoolean [ 1, 1 ] isRefining, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isRefining" signature="Module [ EBoolean [ 1, 1 ] isRefining, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclModel" lowerBound="1" upperBound="-1" feature_name="inModels" signature="Module [ OclModel [ 1, -1 ] inModels, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclModel" lowerBound="1" upperBound="-1" feature_name="inModels" signature="Module [ OclModel [ 1, -1 ] inModels, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclModel" lowerBound="1" upperBound="-1" feature_name="inModels" signature="Module [ OclModel [ 1, -1 ] inModels, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclModel" lowerBound="1" upperBound="-1" feature_name="outModels" signature="Module [ OclModel [ 1, -1 ] outModels, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclModel" lowerBound="1" upperBound="-1" feature_name="outModels" signature="Module [ OclModel [ 1, -1 ] outModels, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclModel" lowerBound="1" upperBound="-1" feature_name="outModels" signature="Module [ OclModel [ 1, -1 ] outModels, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="ModuleElement" upperBound="-1" feature_name="elements" signature="Module [ ModuleElement [ 0, -1 ] elements, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="ModuleElement" upperBound="-1" feature_name="elements" signature="Module [ ModuleElement [ 0, -1 ] elements, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="ModuleElement" upperBound="-1" feature_name="elements" signature="Module [ ModuleElement [ 0, -1 ] elements, replace]"/>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.ModuleElement"/>
+  <all_operator_sets containingClass="ATL.Helper">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclFeatureDefinition" lowerBound="1" upperBound="1" feature_name="definition" signature="Helper [ OclFeatureDefinition [ 1, 1 ] definition, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclFeatureDefinition" lowerBound="1" upperBound="1" feature_name="definition" signature="Helper [ OclFeatureDefinition [ 1, 1 ] definition, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclFeatureDefinition" lowerBound="1" upperBound="1" feature_name="definition" signature="Helper [ OclFeatureDefinition [ 1, 1 ] definition, replace]"/>
+    <extended_sets>ATL.ModuleElement</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.Rule">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OutPattern" upperBound="1" feature_name="outPattern" signature="Rule [ OutPattern [ 0, 1 ] outPattern, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OutPattern" upperBound="1" feature_name="outPattern" signature="Rule [ OutPattern [ 0, 1 ] outPattern, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OutPattern" upperBound="1" feature_name="outPattern" signature="Rule [ OutPattern [ 0, 1 ] outPattern, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="ActionBlock" upperBound="1" feature_name="actionBlock" signature="Rule [ ActionBlock [ 0, 1 ] actionBlock, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="ActionBlock" upperBound="1" feature_name="actionBlock" signature="Rule [ ActionBlock [ 0, 1 ] actionBlock, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="ActionBlock" upperBound="1" feature_name="actionBlock" signature="Rule [ ActionBlock [ 0, 1 ] actionBlock, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="RuleVariableDeclaration" upperBound="-1" feature_name="variables" signature="Rule [ RuleVariableDeclaration [ 0, -1 ] variables, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="RuleVariableDeclaration" upperBound="-1" feature_name="variables" signature="Rule [ RuleVariableDeclaration [ 0, -1 ] variables, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="RuleVariableDeclaration" upperBound="-1" feature_name="variables" signature="Rule [ RuleVariableDeclaration [ 0, -1 ] variables, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="Rule [ EString [ 1, 1 ] name, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="Rule [ EString [ 1, 1 ] name, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="Rule [ EString [ 1, 1 ] name, replace]"/>
+    <extended_sets>ATL.ModuleElement</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.MatchedRule">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="InPattern" upperBound="1" feature_name="inPattern" signature="MatchedRule [ InPattern [ 0, 1 ] inPattern, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="InPattern" upperBound="1" feature_name="inPattern" signature="MatchedRule [ InPattern [ 0, 1 ] inPattern, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="InPattern" upperBound="1" feature_name="inPattern" signature="MatchedRule [ InPattern [ 0, 1 ] inPattern, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="MatchedRule" upperBound="-1" feature_name="children" signature="MatchedRule [ MatchedRule [ 0, -1 ] children, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="MatchedRule" upperBound="-1" feature_name="children" signature="MatchedRule [ MatchedRule [ 0, -1 ] children, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="MatchedRule" upperBound="-1" feature_name="children" signature="MatchedRule [ MatchedRule [ 0, -1 ] children, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isAbstract" signature="MatchedRule [ EBoolean [ 1, 1 ] isAbstract, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isAbstract" signature="MatchedRule [ EBoolean [ 1, 1 ] isAbstract, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isAbstract" signature="MatchedRule [ EBoolean [ 1, 1 ] isAbstract, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isRefining" signature="MatchedRule [ EBoolean [ 1, 1 ] isRefining, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isRefining" signature="MatchedRule [ EBoolean [ 1, 1 ] isRefining, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isRefining" signature="MatchedRule [ EBoolean [ 1, 1 ] isRefining, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isNoDefault" signature="MatchedRule [ EBoolean [ 1, 1 ] isNoDefault, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isNoDefault" signature="MatchedRule [ EBoolean [ 1, 1 ] isNoDefault, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isNoDefault" signature="MatchedRule [ EBoolean [ 1, 1 ] isNoDefault, replace]"/>
+    <extended_sets>ATL.ModuleElement</extended_sets>
+    <extended_sets>ATL.Rule</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.LazyMatchedRule">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isUnique" signature="LazyMatchedRule [ EBoolean [ 1, 1 ] isUnique, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isUnique" signature="LazyMatchedRule [ EBoolean [ 1, 1 ] isUnique, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isUnique" signature="LazyMatchedRule [ EBoolean [ 1, 1 ] isUnique, replace]"/>
+    <extended_sets>ATL.ModuleElement</extended_sets>
+    <extended_sets>ATL.Rule</extended_sets>
+    <extended_sets>ATL.MatchedRule</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.CalledRule">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="Parameter" upperBound="-1" feature_name="parameters" signature="CalledRule [ Parameter [ 0, -1 ] parameters, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="Parameter" upperBound="-1" feature_name="parameters" signature="CalledRule [ Parameter [ 0, -1 ] parameters, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="Parameter" upperBound="-1" feature_name="parameters" signature="CalledRule [ Parameter [ 0, -1 ] parameters, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isEntrypoint" signature="CalledRule [ EBoolean [ 1, 1 ] isEntrypoint, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isEntrypoint" signature="CalledRule [ EBoolean [ 1, 1 ] isEntrypoint, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isEntrypoint" signature="CalledRule [ EBoolean [ 1, 1 ] isEntrypoint, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isEndpoint" signature="CalledRule [ EBoolean [ 1, 1 ] isEndpoint, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isEndpoint" signature="CalledRule [ EBoolean [ 1, 1 ] isEndpoint, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isEndpoint" signature="CalledRule [ EBoolean [ 1, 1 ] isEndpoint, replace]"/>
+    <extended_sets>ATL.ModuleElement</extended_sets>
+    <extended_sets>ATL.Rule</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.InPattern">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="InPatternElement" lowerBound="1" upperBound="-1" feature_name="elements" signature="InPattern [ InPatternElement [ 1, -1 ] elements, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="InPatternElement" lowerBound="1" upperBound="-1" feature_name="elements" signature="InPattern [ InPatternElement [ 1, -1 ] elements, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="InPatternElement" lowerBound="1" upperBound="-1" feature_name="elements" signature="InPattern [ InPatternElement [ 1, -1 ] elements, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" upperBound="1" feature_name="filter" signature="InPattern [ OclExpression [ 0, 1 ] filter, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" upperBound="1" feature_name="filter" signature="InPattern [ OclExpression [ 0, 1 ] filter, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" upperBound="1" feature_name="filter" signature="InPattern [ OclExpression [ 0, 1 ] filter, replace]"/>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.OutPattern">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="DropPattern" upperBound="1" feature_name="dropPattern" signature="OutPattern [ DropPattern [ 0, 1 ] dropPattern, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="DropPattern" upperBound="1" feature_name="dropPattern" signature="OutPattern [ DropPattern [ 0, 1 ] dropPattern, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="DropPattern" upperBound="1" feature_name="dropPattern" signature="OutPattern [ DropPattern [ 0, 1 ] dropPattern, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OutPatternElement" lowerBound="1" upperBound="-1" feature_name="elements" signature="OutPattern [ OutPatternElement [ 1, -1 ] elements, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OutPatternElement" lowerBound="1" upperBound="-1" feature_name="elements" signature="OutPattern [ OutPatternElement [ 1, -1 ] elements, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OutPatternElement" lowerBound="1" upperBound="-1" feature_name="elements" signature="OutPattern [ OutPatternElement [ 1, -1 ] elements, replace]"/>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.DropPattern">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OutPattern" lowerBound="1" upperBound="1" feature_name="outPattern" signature="DropPattern [ OutPattern [ 1, 1 ] outPattern, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OutPattern" lowerBound="1" upperBound="1" feature_name="outPattern" signature="DropPattern [ OutPattern [ 1, 1 ] outPattern, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OutPattern" lowerBound="1" upperBound="1" feature_name="outPattern" signature="DropPattern [ OutPattern [ 1, 1 ] outPattern, replace]"/>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.PatternElement">
+    <extended_sets>OCL.VariableDeclaration</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.InPatternElement">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclModel" upperBound="-1" feature_name="models" signature="InPatternElement [ OclModel [ 0, -1 ] models, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclModel" upperBound="-1" feature_name="models" signature="InPatternElement [ OclModel [ 0, -1 ] models, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclModel" upperBound="-1" feature_name="models" signature="InPatternElement [ OclModel [ 0, -1 ] models, replace]"/>
+    <extended_sets>OCL.VariableDeclaration</extended_sets>
+    <extended_sets>ATL.PatternElement</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.SimpleInPatternElement">
+    <extended_sets>OCL.VariableDeclaration</extended_sets>
+    <extended_sets>ATL.PatternElement</extended_sets>
+    <extended_sets>ATL.InPatternElement</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.OutPatternElement">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="InPatternElement" upperBound="1" feature_name="sourceElement" signature="OutPatternElement [ InPatternElement [ 0, 1 ] sourceElement, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="InPatternElement" upperBound="1" feature_name="sourceElement" signature="OutPatternElement [ InPatternElement [ 0, 1 ] sourceElement, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="InPatternElement" upperBound="1" feature_name="sourceElement" signature="OutPatternElement [ InPatternElement [ 0, 1 ] sourceElement, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="Binding" upperBound="-1" feature_name="bindings" signature="OutPatternElement [ Binding [ 0, -1 ] bindings, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="Binding" upperBound="-1" feature_name="bindings" signature="OutPatternElement [ Binding [ 0, -1 ] bindings, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="Binding" upperBound="-1" feature_name="bindings" signature="OutPatternElement [ Binding [ 0, -1 ] bindings, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclModel" upperBound="1" feature_name="model" signature="OutPatternElement [ OclModel [ 0, 1 ] model, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclModel" upperBound="1" feature_name="model" signature="OutPatternElement [ OclModel [ 0, 1 ] model, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclModel" upperBound="1" feature_name="model" signature="OutPatternElement [ OclModel [ 0, 1 ] model, replace]"/>
+    <extended_sets>OCL.VariableDeclaration</extended_sets>
+    <extended_sets>ATL.PatternElement</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.SimpleOutPatternElement">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" upperBound="-1" feature_name="reverseBindings" signature="SimpleOutPatternElement [ OclExpression [ 0, -1 ] reverseBindings, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" upperBound="-1" feature_name="reverseBindings" signature="SimpleOutPatternElement [ OclExpression [ 0, -1 ] reverseBindings, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" upperBound="-1" feature_name="reverseBindings" signature="SimpleOutPatternElement [ OclExpression [ 0, -1 ] reverseBindings, replace]"/>
+    <extended_sets>OCL.VariableDeclaration</extended_sets>
+    <extended_sets>ATL.PatternElement</extended_sets>
+    <extended_sets>ATL.OutPatternElement</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.ForEachOutPatternElement">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="collection" signature="ForEachOutPatternElement [ OclExpression [ 1, 1 ] collection, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="collection" signature="ForEachOutPatternElement [ OclExpression [ 1, 1 ] collection, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="collection" signature="ForEachOutPatternElement [ OclExpression [ 1, 1 ] collection, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="Iterator" lowerBound="1" upperBound="1" feature_name="iterator" signature="ForEachOutPatternElement [ Iterator [ 1, 1 ] iterator, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="Iterator" lowerBound="1" upperBound="1" feature_name="iterator" signature="ForEachOutPatternElement [ Iterator [ 1, 1 ] iterator, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="Iterator" lowerBound="1" upperBound="1" feature_name="iterator" signature="ForEachOutPatternElement [ Iterator [ 1, 1 ] iterator, replace]"/>
+    <extended_sets>OCL.VariableDeclaration</extended_sets>
+    <extended_sets>ATL.PatternElement</extended_sets>
+    <extended_sets>ATL.OutPatternElement</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.Binding">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="value" signature="Binding [ OclExpression [ 1, 1 ] value, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="value" signature="Binding [ OclExpression [ 1, 1 ] value, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="value" signature="Binding [ OclExpression [ 1, 1 ] value, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="propertyName" signature="Binding [ EString [ 1, 1 ] propertyName, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="propertyName" signature="Binding [ EString [ 1, 1 ] propertyName, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="propertyName" signature="Binding [ EString [ 1, 1 ] propertyName, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isAssignment" signature="Binding [ EBoolean [ 1, 1 ] isAssignment, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isAssignment" signature="Binding [ EBoolean [ 1, 1 ] isAssignment, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isAssignment" signature="Binding [ EBoolean [ 1, 1 ] isAssignment, replace]"/>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.RuleVariableDeclaration">
+    <extended_sets>OCL.VariableDeclaration</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.ActionBlock">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="Statement" upperBound="-1" feature_name="statements" signature="ActionBlock [ Statement [ 0, -1 ] statements, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="Statement" upperBound="-1" feature_name="statements" signature="ActionBlock [ Statement [ 0, -1 ] statements, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="Statement" upperBound="-1" feature_name="statements" signature="ActionBlock [ Statement [ 0, -1 ] statements, replace]"/>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.Statement"/>
+  <all_operator_sets containingClass="ATL.ExpressionStat">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="expression" signature="ExpressionStat [ OclExpression [ 1, 1 ] expression, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="expression" signature="ExpressionStat [ OclExpression [ 1, 1 ] expression, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="expression" signature="ExpressionStat [ OclExpression [ 1, 1 ] expression, replace]"/>
+    <extended_sets>ATL.Statement</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.BindingStat">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="source" signature="BindingStat [ OclExpression [ 1, 1 ] source, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="source" signature="BindingStat [ OclExpression [ 1, 1 ] source, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="source" signature="BindingStat [ OclExpression [ 1, 1 ] source, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="propertyName" signature="BindingStat [ EString [ 1, 1 ] propertyName, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="propertyName" signature="BindingStat [ EString [ 1, 1 ] propertyName, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="propertyName" signature="BindingStat [ EString [ 1, 1 ] propertyName, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isAssignment" signature="BindingStat [ EBoolean [ 1, 1 ] isAssignment, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isAssignment" signature="BindingStat [ EBoolean [ 1, 1 ] isAssignment, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="isAssignment" signature="BindingStat [ EBoolean [ 1, 1 ] isAssignment, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="value" signature="BindingStat [ OclExpression [ 1, 1 ] value, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="value" signature="BindingStat [ OclExpression [ 1, 1 ] value, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="value" signature="BindingStat [ OclExpression [ 1, 1 ] value, replace]"/>
+    <extended_sets>ATL.Statement</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.IfStat">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="condition" signature="IfStat [ OclExpression [ 1, 1 ] condition, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="condition" signature="IfStat [ OclExpression [ 1, 1 ] condition, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="condition" signature="IfStat [ OclExpression [ 1, 1 ] condition, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="Statement" upperBound="-1" feature_name="thenStatements" signature="IfStat [ Statement [ 0, -1 ] thenStatements, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="Statement" upperBound="-1" feature_name="thenStatements" signature="IfStat [ Statement [ 0, -1 ] thenStatements, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="Statement" upperBound="-1" feature_name="thenStatements" signature="IfStat [ Statement [ 0, -1 ] thenStatements, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="Statement" upperBound="-1" feature_name="elseStatements" signature="IfStat [ Statement [ 0, -1 ] elseStatements, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="Statement" upperBound="-1" feature_name="elseStatements" signature="IfStat [ Statement [ 0, -1 ] elseStatements, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="Statement" upperBound="-1" feature_name="elseStatements" signature="IfStat [ Statement [ 0, -1 ] elseStatements, replace]"/>
+    <extended_sets>ATL.Statement</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="ATL.ForStat">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="Iterator" lowerBound="1" upperBound="1" feature_name="iterator" signature="ForStat [ Iterator [ 1, 1 ] iterator, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="Iterator" lowerBound="1" upperBound="1" feature_name="iterator" signature="ForStat [ Iterator [ 1, 1 ] iterator, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="Iterator" lowerBound="1" upperBound="1" feature_name="iterator" signature="ForStat [ Iterator [ 1, 1 ] iterator, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="collection" signature="ForStat [ OclExpression [ 1, 1 ] collection, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="collection" signature="ForStat [ OclExpression [ 1, 1 ] collection, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="collection" signature="ForStat [ OclExpression [ 1, 1 ] collection, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="Statement" upperBound="-1" feature_name="statements" signature="ForStat [ Statement [ 0, -1 ] statements, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="Statement" upperBound="-1" feature_name="statements" signature="ForStat [ Statement [ 0, -1 ] statements, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="Statement" upperBound="-1" feature_name="statements" signature="ForStat [ Statement [ 0, -1 ] statements, replace]"/>
+    <extended_sets>ATL.Statement</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.OclExpression">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclType" upperBound="1" feature_name="type" signature="OclExpression [ OclType [ 0, 1 ] type, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclType" upperBound="1" feature_name="type" signature="OclExpression [ OclType [ 0, 1 ] type, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclType" upperBound="1" feature_name="type" signature="OclExpression [ OclType [ 0, 1 ] type, replace]"/>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.VariableExp">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="VariableDeclaration" lowerBound="1" upperBound="1" feature_name="referredVariable" signature="VariableExp [ VariableDeclaration [ 1, 1 ] referredVariable, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="VariableDeclaration" lowerBound="1" upperBound="1" feature_name="referredVariable" signature="VariableExp [ VariableDeclaration [ 1, 1 ] referredVariable, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="VariableDeclaration" lowerBound="1" upperBound="1" feature_name="referredVariable" signature="VariableExp [ VariableDeclaration [ 1, 1 ] referredVariable, replace]"/>
+    <extended_sets>OCL.OclExpression</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.SuperExp">
+    <extended_sets>OCL.OclExpression</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.PrimitiveExp">
+    <extended_sets>OCL.OclExpression</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.StringExp">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="stringSymbol" signature="StringExp [ EString [ 1, 1 ] stringSymbol, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="stringSymbol" signature="StringExp [ EString [ 1, 1 ] stringSymbol, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="stringSymbol" signature="StringExp [ EString [ 1, 1 ] stringSymbol, replace]"/>
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.PrimitiveExp</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.BooleanExp">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="booleanSymbol" signature="BooleanExp [ EBoolean [ 1, 1 ] booleanSymbol, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="booleanSymbol" signature="BooleanExp [ EBoolean [ 1, 1 ] booleanSymbol, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EBoolean" lowerBound="1" upperBound="1" feature_name="booleanSymbol" signature="BooleanExp [ EBoolean [ 1, 1 ] booleanSymbol, replace]"/>
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.PrimitiveExp</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.NumericExp">
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.PrimitiveExp</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.RealExp">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EDouble" lowerBound="1" upperBound="1" feature_name="realSymbol" signature="RealExp [ EDouble [ 1, 1 ] realSymbol, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EDouble" lowerBound="1" upperBound="1" feature_name="realSymbol" signature="RealExp [ EDouble [ 1, 1 ] realSymbol, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EDouble" lowerBound="1" upperBound="1" feature_name="realSymbol" signature="RealExp [ EDouble [ 1, 1 ] realSymbol, replace]"/>
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.PrimitiveExp</extended_sets>
+    <extended_sets>OCL.NumericExp</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.IntegerExp">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EInt" lowerBound="1" upperBound="1" feature_name="integerSymbol" signature="IntegerExp [ EInt [ 1, 1 ] integerSymbol, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EInt" lowerBound="1" upperBound="1" feature_name="integerSymbol" signature="IntegerExp [ EInt [ 1, 1 ] integerSymbol, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EInt" lowerBound="1" upperBound="1" feature_name="integerSymbol" signature="IntegerExp [ EInt [ 1, 1 ] integerSymbol, replace]"/>
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.PrimitiveExp</extended_sets>
+    <extended_sets>OCL.NumericExp</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.CollectionExp">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" upperBound="-1" feature_name="elements" signature="CollectionExp [ OclExpression [ 0, -1 ] elements, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" upperBound="-1" feature_name="elements" signature="CollectionExp [ OclExpression [ 0, -1 ] elements, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" upperBound="-1" feature_name="elements" signature="CollectionExp [ OclExpression [ 0, -1 ] elements, replace]"/>
+    <extended_sets>OCL.OclExpression</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.BagExp">
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.CollectionExp</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.OrderedSetExp">
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.CollectionExp</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.SequenceExp">
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.CollectionExp</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.SetExp">
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.CollectionExp</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.TupleExp">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="TuplePart" upperBound="-1" feature_name="tuplePart" signature="TupleExp [ TuplePart [ 0, -1 ] tuplePart, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="TuplePart" upperBound="-1" feature_name="tuplePart" signature="TupleExp [ TuplePart [ 0, -1 ] tuplePart, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="TuplePart" upperBound="-1" feature_name="tuplePart" signature="TupleExp [ TuplePart [ 0, -1 ] tuplePart, replace]"/>
+    <extended_sets>OCL.OclExpression</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.TuplePart">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="TupleExp" lowerBound="1" upperBound="1" feature_name="tuple" signature="TuplePart [ TupleExp [ 1, 1 ] tuple, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="TupleExp" lowerBound="1" upperBound="1" feature_name="tuple" signature="TuplePart [ TupleExp [ 1, 1 ] tuple, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="TupleExp" lowerBound="1" upperBound="1" feature_name="tuple" signature="TuplePart [ TupleExp [ 1, 1 ] tuple, replace]"/>
+    <extended_sets>OCL.VariableDeclaration</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.MapExp">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="MapElement" upperBound="-1" feature_name="elements" signature="MapExp [ MapElement [ 0, -1 ] elements, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="MapElement" upperBound="-1" feature_name="elements" signature="MapExp [ MapElement [ 0, -1 ] elements, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="MapElement" upperBound="-1" feature_name="elements" signature="MapExp [ MapElement [ 0, -1 ] elements, replace]"/>
+    <extended_sets>OCL.OclExpression</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.MapElement">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="key" signature="MapElement [ OclExpression [ 1, 1 ] key, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="key" signature="MapElement [ OclExpression [ 1, 1 ] key, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="key" signature="MapElement [ OclExpression [ 1, 1 ] key, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="value" signature="MapElement [ OclExpression [ 1, 1 ] value, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="value" signature="MapElement [ OclExpression [ 1, 1 ] value, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="value" signature="MapElement [ OclExpression [ 1, 1 ] value, replace]"/>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.EnumLiteralExp">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="EnumLiteralExp [ EString [ 1, 1 ] name, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="EnumLiteralExp [ EString [ 1, 1 ] name, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="EnumLiteralExp [ EString [ 1, 1 ] name, replace]"/>
+    <extended_sets>OCL.OclExpression</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.OclUndefinedExp">
+    <extended_sets>OCL.OclExpression</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.PropertyCallExp">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="source" signature="PropertyCallExp [ OclExpression [ 1, 1 ] source, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="source" signature="PropertyCallExp [ OclExpression [ 1, 1 ] source, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="source" signature="PropertyCallExp [ OclExpression [ 1, 1 ] source, replace]"/>
+    <extended_sets>OCL.OclExpression</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.NavigationOrAttributeCallExp">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="NavigationOrAttributeCallExp [ EString [ 1, 1 ] name, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="NavigationOrAttributeCallExp [ EString [ 1, 1 ] name, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="NavigationOrAttributeCallExp [ EString [ 1, 1 ] name, replace]"/>
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.PropertyCallExp</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.OperationCallExp">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" upperBound="-1" feature_name="arguments" signature="OperationCallExp [ OclExpression [ 0, -1 ] arguments, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" upperBound="-1" feature_name="arguments" signature="OperationCallExp [ OclExpression [ 0, -1 ] arguments, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" upperBound="-1" feature_name="arguments" signature="OperationCallExp [ OclExpression [ 0, -1 ] arguments, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="operationName" signature="OperationCallExp [ EString [ 1, 1 ] operationName, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="operationName" signature="OperationCallExp [ EString [ 1, 1 ] operationName, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="operationName" signature="OperationCallExp [ EString [ 1, 1 ] operationName, replace]"/>
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.PropertyCallExp</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.OperatorCallExp">
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.PropertyCallExp</extended_sets>
+    <extended_sets>OCL.OperationCallExp</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.CollectionOperationCallExp">
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.PropertyCallExp</extended_sets>
+    <extended_sets>OCL.OperationCallExp</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.LoopExp">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="body" signature="LoopExp [ OclExpression [ 1, 1 ] body, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="body" signature="LoopExp [ OclExpression [ 1, 1 ] body, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="body" signature="LoopExp [ OclExpression [ 1, 1 ] body, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="Iterator" lowerBound="1" upperBound="-1" feature_name="iterators" signature="LoopExp [ Iterator [ 1, -1 ] iterators, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="Iterator" lowerBound="1" upperBound="-1" feature_name="iterators" signature="LoopExp [ Iterator [ 1, -1 ] iterators, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="Iterator" lowerBound="1" upperBound="-1" feature_name="iterators" signature="LoopExp [ Iterator [ 1, -1 ] iterators, replace]"/>
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.PropertyCallExp</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.IterateExp">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="VariableDeclaration" lowerBound="1" upperBound="1" feature_name="result" signature="IterateExp [ VariableDeclaration [ 1, 1 ] result, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="VariableDeclaration" lowerBound="1" upperBound="1" feature_name="result" signature="IterateExp [ VariableDeclaration [ 1, 1 ] result, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="VariableDeclaration" lowerBound="1" upperBound="1" feature_name="result" signature="IterateExp [ VariableDeclaration [ 1, 1 ] result, replace]"/>
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.PropertyCallExp</extended_sets>
+    <extended_sets>OCL.LoopExp</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.IteratorExp">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="IteratorExp [ EString [ 1, 1 ] name, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="IteratorExp [ EString [ 1, 1 ] name, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="IteratorExp [ EString [ 1, 1 ] name, replace]"/>
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.PropertyCallExp</extended_sets>
+    <extended_sets>OCL.LoopExp</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.LetExp">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="VariableDeclaration" lowerBound="1" upperBound="1" feature_name="variable" signature="LetExp [ VariableDeclaration [ 1, 1 ] variable, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="VariableDeclaration" lowerBound="1" upperBound="1" feature_name="variable" signature="LetExp [ VariableDeclaration [ 1, 1 ] variable, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="VariableDeclaration" lowerBound="1" upperBound="1" feature_name="variable" signature="LetExp [ VariableDeclaration [ 1, 1 ] variable, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="in_" signature="LetExp [ OclExpression [ 1, 1 ] in_, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="in_" signature="LetExp [ OclExpression [ 1, 1 ] in_, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="in_" signature="LetExp [ OclExpression [ 1, 1 ] in_, replace]"/>
+    <extended_sets>OCL.OclExpression</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.IfExp">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="thenExpression" signature="IfExp [ OclExpression [ 1, 1 ] thenExpression, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="thenExpression" signature="IfExp [ OclExpression [ 1, 1 ] thenExpression, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="thenExpression" signature="IfExp [ OclExpression [ 1, 1 ] thenExpression, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="condition" signature="IfExp [ OclExpression [ 1, 1 ] condition, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="condition" signature="IfExp [ OclExpression [ 1, 1 ] condition, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="condition" signature="IfExp [ OclExpression [ 1, 1 ] condition, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="elseExpression" signature="IfExp [ OclExpression [ 1, 1 ] elseExpression, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="elseExpression" signature="IfExp [ OclExpression [ 1, 1 ] elseExpression, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="elseExpression" signature="IfExp [ OclExpression [ 1, 1 ] elseExpression, replace]"/>
+    <extended_sets>OCL.OclExpression</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.VariableDeclaration">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EString" upperBound="1" feature_name="id" signature="VariableDeclaration [ EString [ 0, 1 ] id, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EString" upperBound="1" feature_name="id" signature="VariableDeclaration [ EString [ 0, 1 ] id, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EString" upperBound="1" feature_name="id" signature="VariableDeclaration [ EString [ 0, 1 ] id, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="varName" signature="VariableDeclaration [ EString [ 1, 1 ] varName, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="varName" signature="VariableDeclaration [ EString [ 1, 1 ] varName, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="varName" signature="VariableDeclaration [ EString [ 1, 1 ] varName, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclType" upperBound="1" feature_name="type" signature="VariableDeclaration [ OclType [ 0, 1 ] type, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclType" upperBound="1" feature_name="type" signature="VariableDeclaration [ OclType [ 0, 1 ] type, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclType" upperBound="1" feature_name="type" signature="VariableDeclaration [ OclType [ 0, 1 ] type, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" upperBound="1" feature_name="initExpression" signature="VariableDeclaration [ OclExpression [ 0, 1 ] initExpression, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" upperBound="1" feature_name="initExpression" signature="VariableDeclaration [ OclExpression [ 0, 1 ] initExpression, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" upperBound="1" feature_name="initExpression" signature="VariableDeclaration [ OclExpression [ 0, 1 ] initExpression, replace]"/>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.Iterator">
+    <extended_sets>OCL.VariableDeclaration</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.Parameter">
+    <extended_sets>OCL.VariableDeclaration</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.CollectionType">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclType" lowerBound="1" upperBound="1" feature_name="elementType" signature="CollectionType [ OclType [ 1, 1 ] elementType, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclType" lowerBound="1" upperBound="1" feature_name="elementType" signature="CollectionType [ OclType [ 1, 1 ] elementType, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclType" lowerBound="1" upperBound="1" feature_name="elementType" signature="CollectionType [ OclType [ 1, 1 ] elementType, replace]"/>
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.OclType</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.OclType">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="OclType [ EString [ 1, 1 ] name, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="OclType [ EString [ 1, 1 ] name, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="OclType [ EString [ 1, 1 ] name, replace]"/>
+    <extended_sets>OCL.OclExpression</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.Primitive">
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.OclType</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.StringType">
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.OclType</extended_sets>
+    <extended_sets>OCL.Primitive</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.BooleanType">
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.OclType</extended_sets>
+    <extended_sets>OCL.Primitive</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.NumericType">
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.OclType</extended_sets>
+    <extended_sets>OCL.Primitive</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.IntegerType">
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.OclType</extended_sets>
+    <extended_sets>OCL.Primitive</extended_sets>
+    <extended_sets>OCL.NumericType</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.RealType">
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.OclType</extended_sets>
+    <extended_sets>OCL.Primitive</extended_sets>
+    <extended_sets>OCL.NumericType</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.BagType">
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.OclType</extended_sets>
+    <extended_sets>OCL.CollectionType</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.OrderedSetType">
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.OclType</extended_sets>
+    <extended_sets>OCL.CollectionType</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.SequenceType">
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.OclType</extended_sets>
+    <extended_sets>OCL.CollectionType</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.SetType">
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.OclType</extended_sets>
+    <extended_sets>OCL.CollectionType</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.OclAnyType">
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.OclType</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.TupleType">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="TupleTypeAttribute" upperBound="-1" feature_name="attributes" signature="TupleType [ TupleTypeAttribute [ 0, -1 ] attributes, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="TupleTypeAttribute" upperBound="-1" feature_name="attributes" signature="TupleType [ TupleTypeAttribute [ 0, -1 ] attributes, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="TupleTypeAttribute" upperBound="-1" feature_name="attributes" signature="TupleType [ TupleTypeAttribute [ 0, -1 ] attributes, replace]"/>
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.OclType</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.TupleTypeAttribute">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclType" lowerBound="1" upperBound="1" feature_name="type" signature="TupleTypeAttribute [ OclType [ 1, 1 ] type, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclType" lowerBound="1" upperBound="1" feature_name="type" signature="TupleTypeAttribute [ OclType [ 1, 1 ] type, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclType" lowerBound="1" upperBound="1" feature_name="type" signature="TupleTypeAttribute [ OclType [ 1, 1 ] type, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="TupleTypeAttribute [ EString [ 1, 1 ] name, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="TupleTypeAttribute [ EString [ 1, 1 ] name, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="TupleTypeAttribute [ EString [ 1, 1 ] name, replace]"/>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.OclModelElement">
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.OclType</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.MapType">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclType" lowerBound="1" upperBound="1" feature_name="valueType" signature="MapType [ OclType [ 1, 1 ] valueType, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclType" lowerBound="1" upperBound="1" feature_name="valueType" signature="MapType [ OclType [ 1, 1 ] valueType, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclType" lowerBound="1" upperBound="1" feature_name="valueType" signature="MapType [ OclType [ 1, 1 ] valueType, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclType" lowerBound="1" upperBound="1" feature_name="keyType" signature="MapType [ OclType [ 1, 1 ] keyType, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclType" lowerBound="1" upperBound="1" feature_name="keyType" signature="MapType [ OclType [ 1, 1 ] keyType, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclType" lowerBound="1" upperBound="1" feature_name="keyType" signature="MapType [ OclType [ 1, 1 ] keyType, replace]"/>
+    <extended_sets>OCL.OclExpression</extended_sets>
+    <extended_sets>OCL.OclType</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.OclFeatureDefinition">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclFeature" lowerBound="1" upperBound="1" feature_name="feature" signature="OclFeatureDefinition [ OclFeature [ 1, 1 ] feature, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclFeature" lowerBound="1" upperBound="1" feature_name="feature" signature="OclFeatureDefinition [ OclFeature [ 1, 1 ] feature, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclFeature" lowerBound="1" upperBound="1" feature_name="feature" signature="OclFeatureDefinition [ OclFeature [ 1, 1 ] feature, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclContextDefinition" upperBound="1" feature_name="context_" signature="OclFeatureDefinition [ OclContextDefinition [ 0, 1 ] context_, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclContextDefinition" upperBound="1" feature_name="context_" signature="OclFeatureDefinition [ OclContextDefinition [ 0, 1 ] context_, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclContextDefinition" upperBound="1" feature_name="context_" signature="OclFeatureDefinition [ OclContextDefinition [ 0, 1 ] context_, replace]"/>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.OclContextDefinition">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclType" lowerBound="1" upperBound="1" feature_name="context_" signature="OclContextDefinition [ OclType [ 1, 1 ] context_, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclType" lowerBound="1" upperBound="1" feature_name="context_" signature="OclContextDefinition [ OclType [ 1, 1 ] context_, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclType" lowerBound="1" upperBound="1" feature_name="context_" signature="OclContextDefinition [ OclType [ 1, 1 ] context_, replace]"/>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.OclFeature"/>
+  <all_operator_sets containingClass="OCL.Attribute">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="Attribute [ EString [ 1, 1 ] name, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="Attribute [ EString [ 1, 1 ] name, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="Attribute [ EString [ 1, 1 ] name, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="initExpression" signature="Attribute [ OclExpression [ 1, 1 ] initExpression, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="initExpression" signature="Attribute [ OclExpression [ 1, 1 ] initExpression, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="initExpression" signature="Attribute [ OclExpression [ 1, 1 ] initExpression, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclType" lowerBound="1" upperBound="1" feature_name="type" signature="Attribute [ OclType [ 1, 1 ] type, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclType" lowerBound="1" upperBound="1" feature_name="type" signature="Attribute [ OclType [ 1, 1 ] type, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclType" lowerBound="1" upperBound="1" feature_name="type" signature="Attribute [ OclType [ 1, 1 ] type, replace]"/>
+    <extended_sets>OCL.OclFeature</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.Operation">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="Operation [ EString [ 1, 1 ] name, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="Operation [ EString [ 1, 1 ] name, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="Operation [ EString [ 1, 1 ] name, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="Parameter" upperBound="-1" feature_name="parameters" signature="Operation [ Parameter [ 0, -1 ] parameters, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="Parameter" upperBound="-1" feature_name="parameters" signature="Operation [ Parameter [ 0, -1 ] parameters, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="Parameter" upperBound="-1" feature_name="parameters" signature="Operation [ Parameter [ 0, -1 ] parameters, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclType" lowerBound="1" upperBound="1" feature_name="returnType" signature="Operation [ OclType [ 1, 1 ] returnType, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclType" lowerBound="1" upperBound="1" feature_name="returnType" signature="Operation [ OclType [ 1, 1 ] returnType, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclType" lowerBound="1" upperBound="1" feature_name="returnType" signature="Operation [ OclType [ 1, 1 ] returnType, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="body" signature="Operation [ OclExpression [ 1, 1 ] body, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="body" signature="Operation [ OclExpression [ 1, 1 ] body, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclExpression" lowerBound="1" upperBound="1" feature_name="body" signature="Operation [ OclExpression [ 1, 1 ] body, replace]"/>
+    <extended_sets>OCL.OclFeature</extended_sets>
+  </all_operator_sets>
+  <all_operator_sets containingClass="OCL.OclModel">
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="OclModel [ EString [ 1, 1 ] name, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="OclModel [ EString [ 1, 1 ] name, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="EString" lowerBound="1" upperBound="1" feature_name="name" signature="OclModel [ EString [ 1, 1 ] name, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclModel" lowerBound="1" upperBound="1" feature_name="metamodel" signature="OclModel [ OclModel [ 1, 1 ] metamodel, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclModel" lowerBound="1" upperBound="1" feature_name="metamodel" signature="OclModel [ OclModel [ 1, 1 ] metamodel, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclModel" lowerBound="1" upperBound="1" feature_name="metamodel" signature="OclModel [ OclModel [ 1, 1 ] metamodel, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclModelElement" upperBound="-1" feature_name="elements" signature="OclModel [ OclModelElement [ 0, -1 ] elements, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclModelElement" upperBound="-1" feature_name="elements" signature="OclModel [ OclModelElement [ 0, -1 ] elements, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclModelElement" upperBound="-1" feature_name="elements" signature="OclModel [ OclModelElement [ 0, -1 ] elements, replace]"/>
+    <operators xsi:type="MutationOperatorMM:AddMutationOperator" feature_type="OclModel" upperBound="-1" feature_name="model" signature="OclModel [ OclModel [ 0, -1 ] model, add]"/>
+    <operators xsi:type="MutationOperatorMM:DeleteMutationOperator" feature_type="OclModel" upperBound="-1" feature_name="model" signature="OclModel [ OclModel [ 0, -1 ] model, delete]"/>
+    <operators xsi:type="MutationOperatorMM:ReplaceMutationOperator" feature_type="OclModel" upperBound="-1" feature_name="model" signature="OclModel [ OclModel [ 0, -1 ] model, replace]"/>
+  </all_operator_sets>
+</MutationOperatorMM:MutationOperatorCollection>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<_xml:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:_xml="XML" name="html">
+  <children xsi:type="_xml:Element" name="head">
+    <children xsi:type="_xml:Element" name="title">
+      <children xsi:type="_xml:Text" value="est quam pharetra magna ac consequat metus sapien"/>
+    </children>
+  </children>
+  <children xsi:type="_xml:Element" name="body">
+    <children xsi:type="_xml:Element" name="table">
+      <children xsi:type="_xml:Attribute" name="border" value="0"/>
+      <children xsi:type="_xml:Element" name="tr">
+        <children xsi:type="_xml:Element" name="th">
+          <children xsi:type="_xml:Text" value="consequat metus sapien ut nunc"/>
+        </children>
+      </children>
+      <children xsi:type="_xml:Element" name="tr">
+        <children xsi:type="_xml:Element" name="td">
+          <children xsi:type="_xml:Text" value="53"/>
+          <children xsi:type="_xml:Attribute" name="align" value="left"/>
+        </children>
+      </children>
+    </children>
+  </children>
+</_xml:Root>
