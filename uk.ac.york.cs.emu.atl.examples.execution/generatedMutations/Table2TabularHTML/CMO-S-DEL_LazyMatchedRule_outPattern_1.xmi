@@ -113,25 +113,8 @@
       </inPattern>
     </elements>
     <elements xsi:type="atl:LazyMatchedRule" location="41:1-48:2" name="Row2TRwithTH">
-      <outPattern location="44:2-47:4">
-        <elements xsi:type="atl:SimpleOutPatternElement" location="45:3-47:4" varName="tr">
-          <type xsi:type="ocl:OclModelElement" location="45:7-45:14" name="TR" model="/1"/>
-          <bindings location="46:4-46:64" propertyName="tds">
-            <value xsi:type="ocl:IteratorExp" location="46:11-46:64" name="collect">
-              <source xsi:type="ocl:NavigationOrAttributeCallExp" location="46:11-46:20" name="cells">
-                <source xsi:type="ocl:VariableExp" location="46:11-46:14" referredVariable="/0/@elements.3/@inPattern/@elements.0"/>
-              </source>
-              <body xsi:type="ocl:OperationCallExp" location="46:39-46:63" operationName="Cell2TH">
-                <source xsi:type="ocl:VariableExp" location="46:39-46:49" referredVariable="/7"/>
-                <arguments xsi:type="ocl:VariableExp" location="46:58-46:62" referredVariable="/0/@elements.3/@outPattern/@elements.0/@bindings.0/@value/@iterators.0"/>
-              </body>
-              <iterators location="46:32-46:36" varName="cell" variableExp="/0/@elements.3/@outPattern/@elements.0/@bindings.0/@value/@body/@arguments.0"/>
-            </value>
-          </bindings>
-        </elements>
-      </outPattern>
       <inPattern location="42:2-43:17">
-        <elements xsi:type="atl:SimpleInPatternElement" location="43:3-43:17" varName="row" variableExp="/0/@elements.3/@outPattern/@elements.0/@bindings.0/@value/@source/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="43:3-43:17" varName="row">
           <type xsi:type="ocl:OclModelElement" location="43:8-43:17" name="Row" model="/2"/>
         </elements>
       </inPattern>
@@ -196,8 +179,18 @@
       </inPattern>
     </elements>
     <elements xsi:type="atl:LazyMatchedRule" location="69:1-76:2" name="Cell2TD">
+      <outPattern location="72:2-75:4">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="73:3-75:4" varName="td">
+          <type xsi:type="ocl:OclModelElement" location="73:7-73:14" name="TD" model="/1"/>
+          <bindings location="74:4-74:25" propertyName="value">
+            <value xsi:type="ocl:OperationCallExp" location="74:13-74:25" operationName="value">
+              <source xsi:type="ocl:VariableExp" location="74:13-74:17" referredVariable="/0/@elements.6/@inPattern/@elements.0"/>
+            </value>
+          </bindings>
+        </elements>
+      </outPattern>
       <inPattern location="70:2-71:19">
-        <elements xsi:type="atl:SimpleInPatternElement" location="71:3-71:19" varName="cell">
+        <elements xsi:type="atl:SimpleInPatternElement" location="71:3-71:19" varName="cell" variableExp="/0/@elements.6/@outPattern/@elements.0/@bindings.0/@value/@source">
           <type xsi:type="ocl:OclModelElement" location="71:9-71:19" name="Cell" model="/2"/>
         </elements>
       </inPattern>
@@ -566,13 +559,13 @@
       </definition>
     </elements>
   </atl:Module>
-  <ocl:OclModel location="2:13-2:17" name="HTML" elements="/0/@elements.0/@definition/@feature/@type /0/@elements.1/@outPattern/@elements.0/@type /0/@elements.1/@outPattern/@elements.1/@type /0/@elements.1/@outPattern/@elements.2/@type /0/@elements.1/@outPattern/@elements.3/@type /0/@elements.2/@outPattern/@elements.0/@type /0/@elements.3/@outPattern/@elements.0/@type /0/@elements.4/@outPattern/@elements.0/@type /0/@elements.5/@outPattern/@elements.0/@type /0/@elements.7/@outPattern/@elements.0/@type" model="/0/@outModels.0"/>
+  <ocl:OclModel location="2:13-2:17" name="HTML" elements="/0/@elements.0/@definition/@feature/@type /0/@elements.1/@outPattern/@elements.0/@type /0/@elements.1/@outPattern/@elements.1/@type /0/@elements.1/@outPattern/@elements.2/@type /0/@elements.1/@outPattern/@elements.3/@type /0/@elements.2/@outPattern/@elements.0/@type /0/@elements.4/@outPattern/@elements.0/@type /0/@elements.5/@outPattern/@elements.0/@type /0/@elements.6/@outPattern/@elements.0/@type /0/@elements.7/@outPattern/@elements.0/@type" model="/0/@outModels.0"/>
   <ocl:OclModel location="2:27-2:32" name="Table" elements="/0/@elements.2/@inPattern/@elements.0/@type /0/@elements.3/@inPattern/@elements.0/@type /0/@elements.4/@inPattern/@elements.0/@type /0/@elements.5/@inPattern/@elements.0/@type /0/@elements.6/@inPattern/@elements.0/@type /0/@elements.7/@inPattern/@elements.0/@type /0/@elements.12/@definition/@context_/@context_ /0/@elements.13/@definition/@context_/@context_ /0/@elements.15/@definition/@feature/@type/@elementType /0/@elements.15/@definition/@feature/@initExpression/@source/@source /0/@elements.16/@definition/@context_/@context_" model="/0/@inModels.0"/>
   <ocl:VariableDeclaration location="21:3-21:13" varName="thisModule" variableExp="/0/@elements.1/@actionBlock/@statements.0/@source/@source"/>
   <ocl:VariableDeclaration location="33:11-33:21" varName="thisModule" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.1/@value/@source"/>
   <ocl:VariableDeclaration location="34:79-34:89" varName="thisModule" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@body/@source"/>
   <ocl:VariableDeclaration location="37:3-37:13" varName="thisModule" variableExp="/0/@elements.2/@actionBlock/@statements.0/@source/@source/@source/@source"/>
-  <ocl:VariableDeclaration location="46:39-46:49" varName="thisModule" variableExp="/0/@elements.3/@outPattern/@elements.0/@bindings.0/@value/@body/@source"/>
+  <ocl:VariableDeclaration location="46:39-46:49" varName="thisModule"/>
   <ocl:VariableDeclaration location="64:11-64:21" varName="thisModule" variableExp="/0/@elements.5/@outPattern/@elements.0/@bindings.0/@value/@source"/>
   <ocl:VariableDeclaration location="65:78-65:88" varName="thisModule" variableExp="/0/@elements.5/@outPattern/@elements.0/@bindings.1/@value/@body/@source"/>
   <ocl:VariableDeclaration location="89:5-89:9" varName="self" variableExp="/0/@elements.8/@definition/@feature/@body/@condition/@source/@source/@source/@source"/>

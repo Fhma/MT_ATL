@@ -63,14 +63,14 @@
     </elements>
     <elements xsi:type="atl:Helper" location="22:1-23:33">
       <definition location="22:8-23:32">
-        <feature xsi:type="ocl:Attribute" location="22:13-23:32" name="fontSize">
-          <initExpression xsi:type="ocl:OperatorCallExp" location="23:2-23:32" operationName="*">
+        <feature xsi:type="ocl:Operation" name="fontSize">
+          <returnType xsi:type="ocl:RealType" location="22:23-22:27"/>
+          <body xsi:type="ocl:OperatorCallExp" location="23:2-23:32" operationName="*">
             <source xsi:type="ocl:NavigationOrAttributeCallExp" location="23:2-23:26" name="titleFontSize">
               <source xsi:type="ocl:VariableExp" location="23:2-23:12" referredVariable="/5"/>
             </source>
             <arguments xsi:type="ocl:RealExp" location="23:29-23:32" realSymbol="0.8"/>
-          </initExpression>
-          <type xsi:type="ocl:RealType" location="22:23-22:27"/>
+          </body>
         </feature>
       </definition>
     </elements>
@@ -2085,51 +2085,51 @@
     </elements>
     <elements xsi:type="atl:Helper" location="391:1-392:205">
       <definition location="391:8-392:204">
-        <feature xsi:type="ocl:Operation" name="allValidTables">
-          <returnType xsi:type="ocl:SequenceType" location="391:29-391:50">
-            <elementType xsi:type="ocl:OclModelElement" location="391:38-391:49" name="Table" model="/2"/>
-          </returnType>
-          <body xsi:type="ocl:IteratorExp" location="392:2-392:204" name="select">
+        <feature xsi:type="ocl:Attribute" location="391:13-392:204" name="allValidTables">
+          <initExpression xsi:type="ocl:IteratorExp" location="392:2-392:204" name="select">
             <source xsi:type="ocl:OperationCallExp" location="392:2-392:28" operationName="allInstances">
               <source xsi:type="ocl:OclModelElement" location="392:2-392:13" name="Table" model="/2"/>
             </source>
             <body xsi:type="ocl:IteratorExp" location="392:43-392:203" name="forAll">
               <source xsi:type="ocl:CollectionOperationCallExp" location="392:43-392:70" operationName="seqWithoutFirst">
                 <source xsi:type="ocl:NavigationOrAttributeCallExp" location="392:43-392:49" name="rows">
-                  <source xsi:type="ocl:VariableExp" location="392:43-392:44" referredVariable="/0/@elements.31/@definition/@feature/@body/@iterators.0"/>
+                  <source xsi:type="ocl:VariableExp" location="392:43-392:44" referredVariable="/0/@elements.31/@definition/@feature/@initExpression/@iterators.0"/>
                 </source>
               </source>
               <body xsi:type="ocl:IteratorExp" location="392:85-392:202" name="forAll">
                 <source xsi:type="ocl:CollectionOperationCallExp" location="392:85-392:113" operationName="seqWithoutFirst">
                   <source xsi:type="ocl:NavigationOrAttributeCallExp" location="392:85-392:92" name="cells">
-                    <source xsi:type="ocl:VariableExp" location="392:85-392:86" referredVariable="/0/@elements.31/@definition/@feature/@body/@body/@iterators.0"/>
+                    <source xsi:type="ocl:VariableExp" location="392:85-392:86" referredVariable="/0/@elements.31/@definition/@feature/@initExpression/@body/@iterators.0"/>
                   </source>
                 </source>
                 <body xsi:type="ocl:OperatorCallExp" location="392:129-392:200" operationName="or">
                   <source xsi:type="ocl:OperatorCallExp" location="392:129-392:172" operationName="or">
                     <source xsi:type="ocl:OperationCallExp" location="392:129-392:150" operationName="isInteger">
                       <source xsi:type="ocl:NavigationOrAttributeCallExp" location="392:129-392:138" name="content">
-                        <source xsi:type="ocl:VariableExp" location="392:129-392:130" referredVariable="/0/@elements.31/@definition/@feature/@body/@body/@body/@iterators.0"/>
+                        <source xsi:type="ocl:VariableExp" location="392:129-392:130" referredVariable="/0/@elements.31/@definition/@feature/@initExpression/@body/@body/@iterators.0"/>
                       </source>
                     </source>
                     <arguments xsi:type="ocl:OperationCallExp" location="392:154-392:172" operationName="isReal">
                       <source xsi:type="ocl:NavigationOrAttributeCallExp" location="392:154-392:163" name="content">
-                        <source xsi:type="ocl:VariableExp" location="392:154-392:155" referredVariable="/0/@elements.31/@definition/@feature/@body/@body/@body/@iterators.0"/>
+                        <source xsi:type="ocl:VariableExp" location="392:154-392:155" referredVariable="/0/@elements.31/@definition/@feature/@initExpression/@body/@body/@iterators.0"/>
                       </source>
                     </arguments>
                   </source>
                   <arguments xsi:type="ocl:OperationCallExp" location="392:176-392:200" operationName="isPercentage">
                     <source xsi:type="ocl:NavigationOrAttributeCallExp" location="392:176-392:185" name="content">
-                      <source xsi:type="ocl:VariableExp" location="392:176-392:177" referredVariable="/0/@elements.31/@definition/@feature/@body/@body/@body/@iterators.0"/>
+                      <source xsi:type="ocl:VariableExp" location="392:176-392:177" referredVariable="/0/@elements.31/@definition/@feature/@initExpression/@body/@body/@iterators.0"/>
                     </source>
                   </arguments>
                 </body>
-                <iterators location="392:124-392:125" varName="c" variableExp="/0/@elements.31/@definition/@feature/@body/@body/@body/@body/@source/@source/@source/@source /0/@elements.31/@definition/@feature/@body/@body/@body/@body/@source/@arguments.0/@source/@source /0/@elements.31/@definition/@feature/@body/@body/@body/@body/@arguments.0/@source/@source"/>
+                <iterators location="392:124-392:125" varName="c" variableExp="/0/@elements.31/@definition/@feature/@initExpression/@body/@body/@body/@source/@source/@source/@source /0/@elements.31/@definition/@feature/@initExpression/@body/@body/@body/@source/@arguments.0/@source/@source /0/@elements.31/@definition/@feature/@initExpression/@body/@body/@body/@arguments.0/@source/@source"/>
               </body>
-              <iterators location="392:81-392:82" varName="r" variableExp="/0/@elements.31/@definition/@feature/@body/@body/@body/@source/@source/@source"/>
+              <iterators location="392:81-392:82" varName="r" variableExp="/0/@elements.31/@definition/@feature/@initExpression/@body/@body/@source/@source/@source"/>
             </body>
-            <iterators location="392:39-392:40" varName="t" variableExp="/0/@elements.31/@definition/@feature/@body/@body/@source/@source/@source"/>
-          </body>
+            <iterators location="392:39-392:40" varName="t" variableExp="/0/@elements.31/@definition/@feature/@initExpression/@body/@source/@source/@source"/>
+          </initExpression>
+          <type xsi:type="ocl:SequenceType" location="391:29-391:50">
+            <elementType xsi:type="ocl:OclModelElement" location="391:38-391:49" name="Table" model="/2"/>
+          </type>
         </feature>
       </definition>
     </elements>
@@ -2151,10 +2151,10 @@
     </elements>
   </atl:Module>
   <ocl:OclModel location="2:13-2:16" name="SVG" elements="/0/@elements.8/@definition/@feature/@type /0/@elements.17/@outPattern/@elements.0/@type /0/@elements.17/@outPattern/@elements.1/@type /0/@elements.17/@outPattern/@elements.2/@type /0/@elements.18/@outPattern/@elements.0/@type /0/@elements.18/@outPattern/@elements.1/@type /0/@elements.18/@outPattern/@elements.2/@type /0/@elements.18/@outPattern/@elements.3/@type /0/@elements.18/@outPattern/@elements.4/@type /0/@elements.18/@outPattern/@elements.5/@type /0/@elements.18/@outPattern/@elements.6/@type /0/@elements.19/@outPattern/@elements.0/@type /0/@elements.19/@outPattern/@elements.1/@type /0/@elements.19/@outPattern/@elements.2/@type /0/@elements.19/@outPattern/@elements.3/@type /0/@elements.19/@outPattern/@elements.4/@type /0/@elements.20/@outPattern/@elements.0/@type /0/@elements.20/@outPattern/@elements.1/@type /0/@elements.21/@outPattern/@elements.0/@type /0/@elements.21/@outPattern/@elements.1/@type /0/@elements.21/@outPattern/@elements.2/@type /0/@elements.22/@outPattern/@elements.0/@type /0/@elements.22/@outPattern/@elements.1/@type /0/@elements.22/@outPattern/@elements.2/@type /0/@elements.22/@outPattern/@elements.3/@type /0/@elements.23/@outPattern/@elements.0/@type /0/@elements.23/@outPattern/@elements.1/@type /0/@elements.23/@outPattern/@elements.2/@type /0/@elements.23/@outPattern/@elements.3/@type /0/@elements.23/@outPattern/@elements.4/@type /0/@elements.23/@outPattern/@elements.5/@type" model="/0/@outModels.0"/>
-  <ocl:OclModel location="2:26-2:31" name="Table" elements="/0/@elements.9/@definition/@context_/@context_ /0/@elements.10/@definition/@context_/@context_ /0/@elements.13/@definition/@context_/@context_ /0/@elements.14/@definition/@context_/@context_ /0/@elements.18/@inPattern/@elements.0/@type /0/@elements.19/@inPattern/@elements.0/@type /0/@elements.20/@inPattern/@elements.0/@type /0/@elements.21/@inPattern/@elements.0/@type /0/@elements.22/@inPattern/@elements.0/@type /0/@elements.23/@inPattern/@elements.0/@type /0/@elements.28/@definition/@context_/@context_ /0/@elements.29/@definition/@context_/@context_ /0/@elements.31/@definition/@feature/@returnType/@elementType /0/@elements.31/@definition/@feature/@body/@source/@source /0/@elements.32/@definition/@context_/@context_" model="/0/@inModels.0"/>
+  <ocl:OclModel location="2:26-2:31" name="Table" elements="/0/@elements.9/@definition/@context_/@context_ /0/@elements.10/@definition/@context_/@context_ /0/@elements.13/@definition/@context_/@context_ /0/@elements.14/@definition/@context_/@context_ /0/@elements.18/@inPattern/@elements.0/@type /0/@elements.19/@inPattern/@elements.0/@type /0/@elements.20/@inPattern/@elements.0/@type /0/@elements.21/@inPattern/@elements.0/@type /0/@elements.22/@inPattern/@elements.0/@type /0/@elements.23/@inPattern/@elements.0/@type /0/@elements.28/@definition/@context_/@context_ /0/@elements.29/@definition/@context_/@context_ /0/@elements.31/@definition/@feature/@type/@elementType /0/@elements.31/@definition/@feature/@initExpression/@source/@source /0/@elements.32/@definition/@context_/@context_" model="/0/@inModels.0"/>
   <ocl:VariableDeclaration location="8:8-8:18" varName="thisModule" variableExp="/0/@elements.1/@definition/@feature/@initExpression/@arguments.0/@source"/>
   <ocl:VariableDeclaration location="20:2-20:12" varName="thisModule" variableExp="/0/@elements.5/@definition/@feature/@initExpression/@source/@source"/>
-  <ocl:VariableDeclaration location="23:2-23:12" varName="thisModule" variableExp="/0/@elements.6/@definition/@feature/@initExpression/@source/@source"/>
+  <ocl:VariableDeclaration location="23:2-23:12" varName="thisModule" variableExp="/0/@elements.6/@definition/@feature/@body/@source/@source"/>
   <ocl:VariableDeclaration location="26:2-26:12" varName="thisModule" variableExp="/0/@elements.7/@definition/@feature/@initExpression/@source"/>
   <ocl:VariableDeclaration location="32:3-32:7" varName="self" variableExp="/0/@elements.9/@definition/@feature/@body/@source/@source/@source/@source/@source"/>
   <ocl:VariableDeclaration location="36:22-36:32" varName="thisModule" variableExp="/0/@elements.9/@definition/@feature/@body/@arguments.0/@source/@source"/>

@@ -84,7 +84,7 @@
           <bindings location="46:4-46:19" propertyName="name">
             <value xsi:type="ocl:StringExp" location="46:12-46:19" stringSymbol="title"/>
           </bindings>
-          <bindings location="47:4-47:43" propertyName="name">
+          <bindings location="47:4-47:43" propertyName="children">
             <value xsi:type="ocl:OperationCallExp" location="47:16-47:43" operationName="Text">
               <source xsi:type="ocl:VariableExp" location="47:16-47:26" referredVariable="/3"/>
               <arguments xsi:type="ocl:NavigationOrAttributeCallExp" location="47:32-47:42" name="value">
@@ -187,7 +187,7 @@
       <outPattern location="92:2-96:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="93:3-96:4" varName="xml">
           <type xsi:type="ocl:OclModelElement" location="93:8-93:19" name="Element" model="/1"/>
-          <bindings location="94:4-94:16" propertyName="name">
+          <bindings location="94:4-94:16" propertyName="children">
             <value xsi:type="ocl:StringExp" location="94:12-94:16" stringSymbol="tr"/>
           </bindings>
           <bindings location="95:4-95:24" propertyName="children">

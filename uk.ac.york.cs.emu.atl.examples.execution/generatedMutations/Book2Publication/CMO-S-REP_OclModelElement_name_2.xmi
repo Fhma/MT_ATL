@@ -41,7 +41,7 @@
           </body>
         </feature>
         <context_ location="4:8-4:25">
-          <context_ xsi:type="ocl:OclModelElement" location="4:16-4:25" name="Book_" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" location="4:16-4:25" name="Book" model="/2"/>
         </context_>
       </definition>
     </elements>
@@ -71,7 +71,7 @@
           </body>
         </feature>
         <context_ location="11:8-11:25">
-          <context_ xsi:type="ocl:OclModelElement" location="11:16-11:25" name="Book" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" location="11:16-11:25" name="Book_" model="/2"/>
         </context_>
       </definition>
     </elements>

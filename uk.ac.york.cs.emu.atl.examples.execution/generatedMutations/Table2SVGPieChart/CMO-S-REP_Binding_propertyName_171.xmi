@@ -801,7 +801,7 @@
           <bindings location="145:4-145:27" propertyName="size">
             <value xsi:type="ocl:VariableExp" location="145:12-145:27" referredVariable="/0/@elements.18/@outPattern/@elements.2"/>
           </bindings>
-          <bindings location="146:4-146:32" propertyName="position">
+          <bindings location="146:4-146:32" propertyName="size">
             <value xsi:type="ocl:VariableExp" location="146:16-146:32" referredVariable="/0/@elements.18/@outPattern/@elements.3"/>
           </bindings>
           <bindings location="147:4-147:27" propertyName="fill">
@@ -919,7 +919,7 @@
               </source>
             </value>
           </bindings>
-          <bindings location="166:4-166:28" propertyName="content">
+          <bindings location="166:4-166:28" propertyName="lengthAdjust">
             <value xsi:type="ocl:StringExp" location="166:20-166:28" stringSymbol="middle"/>
           </bindings>
           <bindings location="167:4-167:61" propertyName="content">

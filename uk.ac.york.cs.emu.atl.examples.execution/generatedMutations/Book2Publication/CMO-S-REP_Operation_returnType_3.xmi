@@ -6,7 +6,7 @@
     <elements xsi:type="atl:Helper" location="4:1-9:10">
       <definition location="4:8-9:9">
         <feature xsi:type="ocl:Operation" location="4:31-9:9" name="getAuthors">
-          <returnType xsi:type="ocl:StringType" location="4:45-4:51"/>
+          <returnType xsi:type="ocl:IntegerType"/>
           <body xsi:type="ocl:IterateExp" location="5:2-9:9">
             <source xsi:type="ocl:CollectionOperationCallExp" location="5:2-5:51" operationName="asSet">
               <source xsi:type="ocl:IteratorExp" location="5:2-5:40" name="collect">
@@ -48,7 +48,7 @@
     <elements xsi:type="atl:Helper" location="11:1-12:92">
       <definition location="11:8-12:91">
         <feature xsi:type="ocl:Operation" location="11:31-12:91" name="getNbPages">
-          <returnType xsi:type="ocl:BooleanType"/>
+          <returnType xsi:type="ocl:IntegerType" location="11:45-11:52"/>
           <body xsi:type="ocl:IterateExp" location="12:2-12:91">
             <source xsi:type="ocl:IteratorExp" location="12:2-12:41" name="collect">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="12:2-12:15" name="chapters">

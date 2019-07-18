@@ -2128,7 +2128,7 @@
             <iterators location="392:39-392:40" varName="t" variableExp="/0/@elements.31/@definition/@feature/@initExpression/@body/@source/@source/@source"/>
           </initExpression>
           <type xsi:type="ocl:SequenceType" location="391:29-391:50">
-            <elementType xsi:type="ocl:OclModelElement" name="Translate" model="/2"/>
+            <elementType xsi:type="ocl:OclModelElement" name="Cell" model="/2"/>
           </type>
         </feature>
       </definition>

@@ -28,7 +28,7 @@
                 <source xsi:type="ocl:VariableExp" location="11:43-11:44" referredVariable="/0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@iterators.0"/>
                 <arguments xsi:type="ocl:OclModelElement" location="11:57-11:67" name="Macro" model="/2"/>
               </body>
-              <iterators location="11:39-11:40" varName="c_" variableExp="/0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@body/@source"/>
+              <iterators location="11:39-11:40" varName="c" variableExp="/0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@body/@source"/>
             </value>
           </bindings>
           <bindings location="12:4-12:65" propertyName="targets">
@@ -40,7 +40,7 @@
                 <source xsi:type="ocl:VariableExp" location="12:40-12:41" referredVariable="/0/@elements.0/@outPattern/@elements.0/@bindings.3/@value/@iterators.0"/>
                 <arguments xsi:type="ocl:OclModelElement" location="12:54-12:63" name="Rule" model="/2"/>
               </body>
-              <iterators location="12:36-12:37" varName="c" variableExp="/0/@elements.0/@outPattern/@elements.0/@bindings.3/@value/@body/@source"/>
+              <iterators location="12:36-12:37" varName="c_" variableExp="/0/@elements.0/@outPattern/@elements.0/@bindings.3/@value/@body/@source"/>
             </value>
           </bindings>
           <bindings location="13:4-13:76" propertyName="default">

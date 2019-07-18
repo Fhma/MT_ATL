@@ -1,0 +1,30 @@
+	\--> Processed mutants-> 204
+	\--> Invalid mutants-> 6
+	\--> Killed mutants-> 17
+	\--> Not killed mutants-> 26
+		\-->CMO-S-REP_OclModel_name_6.xmi <E>
+		\-->CMO-S-REP_OclModel_name_10.xmi <E>
+		\-->CMO-S-REP_OclModel_name_13.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_varName_4.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_varName_5.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_varName_6.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_varName_2.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_varName_3.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_varName_1.xmi <E>
+		\-->CMO-M-DEL_SimpleOutPatternElement_bindings_4.xmi <E>
+		\-->CMO-M-DEL_SimpleOutPatternElement_bindings_15.xmi <E>
+		\-->CMO-S-REP_MatchedRule_name_1.xmi <E>
+		\-->CMO-S-REP_MatchedRule_name_3.xmi <E>
+		\-->CMO-S-REP_MatchedRule_name_2.xmi <E>
+		\-->CMO-S-REP_MatchedRule_name_5.xmi <E>
+		\-->CMO-S-REP_MatchedRule_name_4.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_varName_1.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_varName_3.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_varName_2.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_varName_5.xmi <E>
+		\-->CMO-S-REP_SimpleInPatternElement_varName_4.xmi <E>
+		\-->CMO-S-REP_Iterator_varName_4.xmi <E>
+		\-->CMO-S-REP_Iterator_varName_5.xmi <E>
+		\-->CMO-S-REP_Iterator_varName_1.xmi <E>
+		\-->CMO-S-REP_Iterator_varName_2.xmi <E>
+		\-->CMO-S-REP_Iterator_varName_3.xmi <E>

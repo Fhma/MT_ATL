@@ -1075,7 +1075,7 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="192:4-192:38" propertyName="ty">
+          <bindings location="192:4-192:38" propertyName="tx">
             <value xsi:type="ocl:OperatorCallExp" location="192:10-192:38" operationName="-">
               <source xsi:type="ocl:IntegerExp" location="192:10-192:11"/>
               <arguments xsi:type="ocl:NavigationOrAttributeCallExp" location="192:14-192:38" name="titleFontSize">
@@ -1570,7 +1570,7 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="312:4-312:31" propertyName="position">
+          <bindings location="312:4-312:31" propertyName="stroke">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="312:14-312:31" name="stroke">
               <source xsi:type="ocl:VariableExp" location="312:14-312:24" referredVariable="/79"/>
             </value>

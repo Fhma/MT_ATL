@@ -51,7 +51,7 @@
       <outPattern location="30:2-35:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="31:3-35:4" varName="tab" variableExp="/0/@elements.2/@actionBlock/@statements.0/@value">
           <type xsi:type="ocl:OclModelElement" location="31:8-31:18" name="TABLE" model="/1"/>
-          <bindings location="32:4-32:17" propertyName="trs">
+          <bindings location="32:4-32:17" propertyName="border">
             <value xsi:type="ocl:StringExp" location="32:14-32:17" stringSymbol="1"/>
           </bindings>
           <bindings location="33:4-33:57" propertyName="trs">
@@ -157,7 +157,7 @@
       <outPattern location="62:2-66:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="63:3-66:4" varName="tr">
           <type xsi:type="ocl:OclModelElement" location="63:7-63:14" name="TR" model="/1"/>
-          <bindings location="64:4-64:51" propertyName="tds">
+          <bindings location="64:4-64:51" propertyName="tds_">
             <value xsi:type="ocl:OperationCallExp" location="64:11-64:51" operationName="Cell2TD">
               <source xsi:type="ocl:VariableExp" location="64:11-64:21" referredVariable="/8"/>
               <arguments xsi:type="ocl:CollectionOperationCallExp" location="64:30-64:50" operationName="first">

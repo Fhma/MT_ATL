@@ -155,7 +155,7 @@
     <elements xsi:type="atl:Helper" location="38:1-39:73">
       <definition location="38:8-39:72">
         <feature xsi:type="ocl:Operation" location="38:33-39:72" name="boundingBoxWidth">
-          <returnType xsi:type="ocl:RealType" location="38:53-38:57"/>
+          <returnType xsi:type="ocl:StringType"/>
           <body xsi:type="ocl:OperatorCallExp" location="39:2-39:72" operationName="+">
             <source xsi:type="ocl:OperatorCallExp" location="39:2-39:48" operationName="+">
               <source xsi:type="ocl:OperationCallExp" location="39:2-39:24" operationName="captionBoxWidth">
@@ -2067,7 +2067,9 @@
     <elements xsi:type="atl:Helper" location="388:1-389:41">
       <definition location="388:8-389:40">
         <feature xsi:type="ocl:Operation" location="388:28-389:40" name="seqWithoutFirst">
-          <returnType xsi:type="ocl:StringType"/>
+          <returnType xsi:type="ocl:SequenceType" location="388:47-388:63">
+            <elementType xsi:type="ocl:OclAnyType" location="388:56-388:62"/>
+          </returnType>
           <body xsi:type="ocl:CollectionOperationCallExp" location="389:2-389:40" operationName="subSequence">
             <source xsi:type="ocl:VariableExp" location="389:2-389:6" referredVariable="/110"/>
             <arguments xsi:type="ocl:IntegerExp" location="389:22-389:23" integerSymbol="2"/>

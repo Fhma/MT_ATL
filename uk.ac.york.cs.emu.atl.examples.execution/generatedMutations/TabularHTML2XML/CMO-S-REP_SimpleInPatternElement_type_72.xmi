@@ -245,7 +245,7 @@
       </actionBlock>
       <inPattern location="100:2-101:16">
         <elements xsi:type="atl:SimpleInPatternElement" location="101:3-101:16" varName="html" variableExp="/0/@elements.10/@outPattern/@elements.0/@bindings.1/@value/@arguments.0/@source /0/@elements.10/@actionBlock/@statements.0/@condition/@source/@source/@source /0/@elements.10/@actionBlock/@statements.0/@thenStatements.0/@value/@arguments.1/@source">
-          <type xsi:type="ocl:OclModelElement" name="HTML" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" name="TH" model="/2"/>
         </elements>
       </inPattern>
     </elements>

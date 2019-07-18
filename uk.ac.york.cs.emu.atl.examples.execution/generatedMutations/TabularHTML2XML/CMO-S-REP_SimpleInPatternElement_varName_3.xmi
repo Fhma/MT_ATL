@@ -60,7 +60,7 @@
         </elements>
       </outPattern>
       <inPattern location="25:2-26:18">
-        <elements xsi:type="atl:SimpleInPatternElement" location="26:3-26:18" varName="html_" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.1/@value/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="26:3-26:18" varName="html" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.1/@value/@source">
           <type xsi:type="ocl:OclModelElement" location="26:9-26:18" name="HEAD" model="/2"/>
         </elements>
       </inPattern>
@@ -95,7 +95,7 @@
         </elements>
       </outPattern>
       <inPattern location="42:2-43:19">
-        <elements xsi:type="atl:SimpleInPatternElement" location="43:3-43:19" varName="html" variableExp="/0/@elements.4/@outPattern/@elements.0/@bindings.1/@value/@arguments.0/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="43:3-43:19" varName="html_" variableExp="/0/@elements.4/@outPattern/@elements.0/@bindings.1/@value/@arguments.0/@source">
           <type xsi:type="ocl:OclModelElement" location="43:9-43:19" name="TITLE" model="/2"/>
         </elements>
       </inPattern>

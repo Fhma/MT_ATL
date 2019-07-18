@@ -869,7 +869,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="158:3-161:4" varName="boundingBoxTransl" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.0/@value">
           <type xsi:type="ocl:OclModelElement" location="158:22-158:35" name="Translate" model="/1"/>
-          <bindings location="159:4-159:78" propertyName="ty">
+          <bindings location="159:4-159:78" propertyName="tx">
             <value xsi:type="ocl:OperatorCallExp" location="159:10-159:78" operationName="+">
               <source xsi:type="ocl:OperatorCallExp" location="159:10-159:58" operationName="+">
                 <source xsi:type="ocl:NavigationOrAttributeCallExp" location="159:10-159:30" name="prevWidth">
@@ -1235,7 +1235,7 @@
       <outPattern location="240:2-256:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="241:3-244:4" varName="g">
           <type xsi:type="ocl:OclModelElement" location="241:6-241:11" name="G" model="/1"/>
-          <bindings location="242:4-242:29" propertyName="attribute">
+          <bindings location="242:4-242:29" propertyName="attribute_">
             <value xsi:type="ocl:VariableExp" location="242:17-242:29" referredVariable="/0/@elements.21/@outPattern/@elements.1"/>
           </bindings>
           <bindings location="243:4-243:26" propertyName="groupContent">

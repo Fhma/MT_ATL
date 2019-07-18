@@ -19,7 +19,7 @@
               </source>
             </value>
           </bindings>
-          <bindings location="11:4-11:69" propertyName="properties">
+          <bindings location="11:4-11:69" propertyName="properties_">
             <value xsi:type="ocl:IteratorExp" location="11:18-11:69" name="select">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="11:18-11:28" name="elements">
                 <source xsi:type="ocl:VariableExp" location="11:18-11:19" referredVariable="/0/@elements.0/@inPattern/@elements.0"/>
@@ -101,7 +101,7 @@
               <source xsi:type="ocl:VariableExp" location="33:13-33:14" referredVariable="/0/@elements.2/@inPattern/@elements.0"/>
             </value>
           </bindings>
-          <bindings location="34:4-34:98" propertyName="name">
+          <bindings location="34:4-34:98" propertyName="depends">
             <value xsi:type="ocl:IteratorExp" location="34:15-34:98" name="collect">
               <source xsi:type="ocl:IteratorExp" location="34:15-34:72" name="select">
                 <source xsi:type="ocl:NavigationOrAttributeCallExp" location="34:15-34:29" name="dependencies">

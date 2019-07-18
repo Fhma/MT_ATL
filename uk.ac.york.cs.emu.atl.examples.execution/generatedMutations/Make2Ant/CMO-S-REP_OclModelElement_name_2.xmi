@@ -38,7 +38,7 @@
               </source>
               <body xsi:type="ocl:OperationCallExp" location="12:40-12:64" operationName="oclIsKindOf">
                 <source xsi:type="ocl:VariableExp" location="12:40-12:41" referredVariable="/0/@elements.0/@outPattern/@elements.0/@bindings.3/@value/@iterators.0"/>
-                <arguments xsi:type="ocl:OclModelElement" location="12:54-12:63" name="Rule_" model="/2"/>
+                <arguments xsi:type="ocl:OclModelElement" location="12:54-12:63" name="Rule" model="/2"/>
               </body>
               <iterators location="12:36-12:37" varName="c" variableExp="/0/@elements.0/@outPattern/@elements.0/@bindings.3/@value/@body/@source"/>
             </value>
@@ -90,7 +90,7 @@
     <elements xsi:type="atl:MatchedRule" location="27:1-36:2" name="Rule2Target">
       <outPattern location="30:2-35:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="31:3-35:4" varName="a">
-          <type xsi:type="ocl:OclModelElement" location="31:6-31:16" name="Target" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="31:6-31:16" name="Target_" model="/1"/>
           <bindings location="32:4-32:18" propertyName="name">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="32:12-32:18" name="name">
               <source xsi:type="ocl:VariableExp" location="32:12-32:13" referredVariable="/0/@elements.2/@inPattern/@elements.0"/>

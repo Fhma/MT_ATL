@@ -51,7 +51,7 @@
                 </source>
                 <body xsi:type="ocl:OperationCallExp" location="13:40-13:64" operationName="oclIsKindOf">
                   <source xsi:type="ocl:VariableExp" location="13:40-13:41" referredVariable="/0/@elements.0/@outPattern/@elements.0/@bindings.4/@value/@source/@iterators.0"/>
-                  <arguments xsi:type="ocl:OclModelElement" location="13:54-13:63" name="Rule_" model="/2"/>
+                  <arguments xsi:type="ocl:OclModelElement" location="13:54-13:63" name="Rule" model="/2"/>
                 </body>
                 <iterators location="13:36-13:37" varName="c" variableExp="/0/@elements.0/@outPattern/@elements.0/@bindings.4/@value/@source/@body/@source"/>
               </source>
@@ -130,7 +130,7 @@
     <elements xsi:type="atl:MatchedRule" location="38:1-52:2" name="ShellLine2Task_Display">
       <outPattern location="43:2-51:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="44:3-47:4" varName="e">
-          <type xsi:type="ocl:OclModelElement" location="44:6-44:14" name="Echo" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="44:6-44:14" name="Echo_" model="/1"/>
           <bindings location="45:4-45:24" propertyName="message">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="45:15-45:24" name="command">
               <source xsi:type="ocl:VariableExp" location="45:15-45:16" referredVariable="/0/@elements.3/@inPattern/@elements.0"/>

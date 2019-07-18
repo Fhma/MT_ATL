@@ -311,7 +311,7 @@
         </statements>
       </actionBlock>
       <parameters location="134:11-134:24" varName="value" variableExp="/0/@elements.13/@outPattern/@elements.0/@bindings.0/@value/@condition/@source/@source /0/@elements.13/@outPattern/@elements.0/@bindings.0/@value/@thenExpression">
-        <type xsi:type="ocl:BooleanType"/>
+        <type xsi:type="ocl:IntegerType"/>
       </parameters>
     </elements>
   </atl:Module>

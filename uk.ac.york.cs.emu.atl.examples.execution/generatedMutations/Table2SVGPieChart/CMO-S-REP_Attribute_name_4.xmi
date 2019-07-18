@@ -63,7 +63,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="22:1-23:33">
       <definition location="22:8-23:32">
-        <feature xsi:type="ocl:Attribute" location="22:13-23:32" name="fontSize_">
+        <feature xsi:type="ocl:Attribute" location="22:13-23:32" name="fontSize">
           <initExpression xsi:type="ocl:OperatorCallExp" location="23:2-23:32" operationName="*">
             <source xsi:type="ocl:NavigationOrAttributeCallExp" location="23:2-23:26" name="titleFontSize">
               <source xsi:type="ocl:VariableExp" location="23:2-23:12" referredVariable="/5"/>
@@ -2085,7 +2085,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="391:1-392:205">
       <definition location="391:8-392:204">
-        <feature xsi:type="ocl:Attribute" location="391:13-392:204" name="allValidTables">
+        <feature xsi:type="ocl:Attribute" location="391:13-392:204" name="allValidTables_">
           <initExpression xsi:type="ocl:IteratorExp" location="392:2-392:204" name="select">
             <source xsi:type="ocl:OperationCallExp" location="392:2-392:28" operationName="allInstances">
               <source xsi:type="ocl:OclModelElement" location="392:2-392:13" name="Table" model="/2"/>

@@ -261,7 +261,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="53:1-77:9">
       <definition location="53:8-77:8">
-        <feature xsi:type="ocl:Operation" location="53:13-77:8" name="computeColor">
+        <feature xsi:type="ocl:Operation" location="53:13-77:8" name="computeColor_">
           <parameters location="53:26-53:38" varName="idx" variableExp="/0/@elements.15/@definition/@feature/@body/@variable/@initExpression/@source/@source/@source/@source">
             <type xsi:type="ocl:IntegerType" location="53:31-53:38"/>
           </parameters>
@@ -1973,7 +1973,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="371:1-372:7">
       <definition location="371:8-372:6">
-        <feature xsi:type="ocl:Operation" location="371:28-372:6" name="value_">
+        <feature xsi:type="ocl:Operation" location="371:28-372:6" name="value">
           <returnType xsi:type="ocl:StringType" location="371:37-371:43"/>
           <body xsi:type="ocl:VariableExp" location="372:2-372:6" referredVariable="/101"/>
         </feature>

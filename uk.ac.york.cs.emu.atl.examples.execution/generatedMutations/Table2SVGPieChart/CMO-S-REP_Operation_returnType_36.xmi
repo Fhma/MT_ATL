@@ -226,7 +226,7 @@
     <elements xsi:type="atl:Helper" location="50:1-51:93">
       <definition location="50:8-51:92">
         <feature xsi:type="ocl:Operation" location="50:33-51:92" name="captionBoxHeight">
-          <returnType xsi:type="ocl:RealType" location="50:53-50:57"/>
+          <returnType xsi:type="ocl:IntegerType"/>
           <body xsi:type="ocl:OperatorCallExp" location="51:2-51:92" operationName="-">
             <source xsi:type="ocl:OperatorCallExp" location="51:2-51:68" operationName="*">
               <source xsi:type="ocl:CollectionOperationCallExp" location="51:2-51:21" operationName="size">
@@ -2136,7 +2136,7 @@
     <elements xsi:type="atl:Helper" location="394:1-395:24">
       <definition location="394:8-395:23">
         <feature xsi:type="ocl:Operation" location="394:32-395:23" name="valueNotNull">
-          <returnType xsi:type="ocl:RealType"/>
+          <returnType xsi:type="ocl:BooleanType" location="394:48-394:55"/>
           <body xsi:type="ocl:OperatorCallExp" location="395:2-395:23" operationName="&lt;>">
             <source xsi:type="ocl:OperationCallExp" location="395:2-395:18" operationName="realValue">
               <source xsi:type="ocl:VariableExp" location="395:2-395:6" referredVariable="/112"/>

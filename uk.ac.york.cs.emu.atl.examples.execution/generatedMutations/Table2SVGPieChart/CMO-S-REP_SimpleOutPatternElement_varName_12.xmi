@@ -437,7 +437,7 @@
     </elements>
     <elements xsi:type="atl:CalledRule" location="82:1-123:2" name="SvgFile" isEntrypoint="true">
       <outPattern location="93:2-105:4">
-        <elements xsi:type="atl:SimpleOutPatternElement" location="94:3-96:4" varName="svgFile_" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.0/@value">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="94:3-96:4" varName="svgFile" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.0/@value">
           <type xsi:type="ocl:OclModelElement" location="94:12-94:23" name="SvgFile" model="/1"/>
           <bindings location="95:4-95:14" propertyName="tag">
             <value xsi:type="ocl:VariableExp" location="95:11-95:14" referredVariable="/0/@elements.17/@outPattern/@elements.1"/>
@@ -1250,7 +1250,7 @@
             </value>
           </bindings>
         </elements>
-        <elements xsi:type="atl:SimpleOutPatternElement" location="248:3-256:4" varName="sector" variableExp="/0/@elements.21/@outPattern/@elements.0/@bindings.1/@value">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="248:3-256:4" varName="sector_" variableExp="/0/@elements.21/@outPattern/@elements.0/@bindings.1/@value">
           <type xsi:type="ocl:OclModelElement" location="248:11-248:19" name="Path" model="/1"/>
           <bindings location="249:4-253:53" propertyName="d">
             <value xsi:type="ocl:OperatorCallExp" location="249:9-253:53" operationName="+">

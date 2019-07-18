@@ -774,7 +774,7 @@
                     <body xsi:type="ocl:OperationCallExp" location="137:104-137:120" operationName="valueNotNull">
                       <source xsi:type="ocl:VariableExp" location="137:104-137:105" referredVariable="/0/@elements.18/@outPattern/@elements.0/@bindings.3/@value/@condition/@source/@source/@iterators.0"/>
                     </body>
-                    <iterators location="137:100-137:101" varName="c_" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.3/@value/@condition/@source/@source/@body/@source"/>
+                    <iterators location="137:100-137:101" varName="c" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.3/@value/@condition/@source/@source/@body/@source"/>
                   </source>
                 </source>
                 <arguments xsi:type="ocl:IntegerExp" location="137:134-137:135" integerSymbol="1"/>
@@ -1115,7 +1115,7 @@
                             <arguments xsi:type="ocl:VariableExp" location="197:106-197:109" referredVariable="/0/@elements.19/@inPattern/@elements.1"/>
                           </source>
                         </body>
-                        <iterators location="197:88-197:89" varName="r" variableExp="/0/@elements.19/@outPattern/@elements.2/@bindings.2/@value/@arguments.0/@source/@source/@source/@source/@body/@source/@source/@source"/>
+                        <iterators location="197:88-197:89" varName="r_" variableExp="/0/@elements.19/@outPattern/@elements.2/@bindings.2/@value/@arguments.0/@source/@source/@source/@source/@body/@source/@source/@source"/>
                       </source>
                     </source>
                   </source>

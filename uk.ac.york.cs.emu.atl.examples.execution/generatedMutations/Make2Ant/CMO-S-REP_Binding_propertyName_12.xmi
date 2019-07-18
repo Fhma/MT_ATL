@@ -69,7 +69,7 @@
       <outPattern location="20:2-24:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="21:3-24:4" varName="a">
           <type xsi:type="ocl:OclModelElement" location="21:6-21:23" name="PropertyValue" model="/1"/>
-          <bindings location="22:4-22:18" propertyName="name">
+          <bindings location="22:4-22:18" propertyName="value">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="22:12-22:18" name="name">
               <source xsi:type="ocl:VariableExp" location="22:12-22:13" referredVariable="/0/@elements.1/@inPattern/@elements.0"/>
             </value>
@@ -131,7 +131,7 @@
       <outPattern location="43:2-51:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="44:3-47:4" varName="e">
           <type xsi:type="ocl:OclModelElement" location="44:6-44:14" name="Echo" model="/1"/>
-          <bindings location="45:4-45:24" propertyName="message_">
+          <bindings location="45:4-45:24" propertyName="message">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="45:15-45:24" name="command">
               <source xsi:type="ocl:VariableExp" location="45:15-45:16" referredVariable="/0/@elements.3/@inPattern/@elements.0"/>
             </value>

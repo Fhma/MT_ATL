@@ -438,7 +438,7 @@
     <elements xsi:type="atl:CalledRule" location="82:1-123:2" name="SvgFile" isEntrypoint="true">
       <outPattern location="93:2-105:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="94:3-96:4" varName="svgFile" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.0/@value">
-          <type xsi:type="ocl:OclModelElement" location="94:12-94:23" name="SvgFile_" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="94:12-94:23" name="SvgFile" model="/1"/>
           <bindings location="95:4-95:14" propertyName="tag">
             <value xsi:type="ocl:VariableExp" location="95:11-95:14" referredVariable="/0/@elements.17/@outPattern/@elements.1"/>
           </bindings>
@@ -2019,7 +2019,7 @@
           </body>
         </feature>
         <context_ location="374:8-374:26">
-          <context_ xsi:type="ocl:OclModelElement" location="374:16-374:26" name="Cell" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" location="374:16-374:26" name="Cell_" model="/2"/>
         </context_>
       </definition>
     </elements>

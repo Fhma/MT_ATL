@@ -1305,13 +1305,13 @@
                       </arguments>
                     </source>
                     <arguments xsi:type="ocl:OperationCallExp" location="253:13-253:25" operationName="toString">
-                      <source xsi:type="ocl:VariableExp" location="253:13-253:14" referredVariable="/0/@elements.21/@variables.1"/>
+                      <source xsi:type="ocl:VariableExp" location="253:13-253:14"/>
                     </arguments>
                   </source>
                   <arguments xsi:type="ocl:StringExp" location="253:28-253:31" stringSymbol=","/>
                 </source>
                 <arguments xsi:type="ocl:OperationCallExp" location="253:34-253:46" operationName="toString">
-                  <source xsi:type="ocl:VariableExp" location="253:34-253:35"/>
+                  <source xsi:type="ocl:VariableExp" location="253:34-253:35" referredVariable="/0/@elements.21/@variables.1"/>
                 </arguments>
               </source>
               <arguments xsi:type="ocl:StringExp" location="253:49-253:53" stringSymbol=" z"/>
@@ -1378,17 +1378,17 @@
           </elseExpression>
         </initExpression>
       </variables>
-      <variables location="237:3-237:65" varName="x" variableExp="/0/@elements.21/@outPattern/@elements.2/@bindings.0/@value/@source/@source/@source/@arguments.0/@source">
-        <type xsi:type="ocl:RealType" location="237:6-237:10"/>
-        <initExpression xsi:type="ocl:OperatorCallExp" location="237:13-237:64" operationName="*">
-          <source xsi:type="ocl:NavigationOrAttributeCallExp" location="237:13-237:30" name="radius">
-            <source xsi:type="ocl:VariableExp" location="237:13-237:23" referredVariable="/64"/>
+      <variables location="238:3-238:65" varName="y" variableExp="/0/@elements.21/@outPattern/@elements.2/@bindings.0/@value/@source/@arguments.0/@source">
+        <type xsi:type="ocl:RealType" location="238:6-238:10"/>
+        <initExpression xsi:type="ocl:OperatorCallExp" location="238:13-238:64" operationName="*">
+          <source xsi:type="ocl:NavigationOrAttributeCallExp" location="238:13-238:30" name="radius">
+            <source xsi:type="ocl:VariableExp" location="238:13-238:23" referredVariable="/65"/>
           </source>
-          <arguments xsi:type="ocl:OperationCallExp" location="237:33-237:64" operationName="cos">
-            <source xsi:type="ocl:OperationCallExp" location="237:33-237:58" operationName="toRadians">
-              <source xsi:type="ocl:OperatorCallExp" location="237:34-237:45" operationName="*">
-                <source xsi:type="ocl:VariableExp" location="237:34-237:39" referredVariable="/0/@elements.21/@variables.0"/>
-                <arguments xsi:type="ocl:RealExp" location="237:42-237:45" realSymbol="3.6"/>
+          <arguments xsi:type="ocl:OperationCallExp" location="238:33-238:64" operationName="sin">
+            <source xsi:type="ocl:OperationCallExp" location="238:33-238:58" operationName="toRadians">
+              <source xsi:type="ocl:OperatorCallExp" location="238:34-238:45" operationName="*">
+                <source xsi:type="ocl:VariableExp" location="238:34-238:39" referredVariable="/0/@elements.21/@variables.0"/>
+                <arguments xsi:type="ocl:RealExp" location="238:42-238:45" realSymbol="3.6"/>
               </source>
             </source>
           </arguments>
@@ -2197,8 +2197,8 @@
   <ocl:VariableDeclaration location="218:69-218:79" varName="thisModule" variableExp="/0/@elements.20/@outPattern/@elements.0/@bindings.1/@value/@body/@source"/>
   <ocl:VariableDeclaration location="221:41-221:51" varName="thisModule" variableExp="/0/@elements.20/@outPattern/@elements.1/@bindings.0/@value/@arguments.0/@source/@arguments.0/@source"/>
   <ocl:VariableDeclaration location="222:14-222:24" varName="thisModule" variableExp="/0/@elements.20/@outPattern/@elements.1/@bindings.1/@value/@arguments.0/@source"/>
-  <ocl:VariableDeclaration location="237:13-237:23" varName="thisModule" variableExp="/0/@elements.21/@variables.1/@initExpression/@source/@source"/>
-  <ocl:VariableDeclaration location="238:13-238:23" varName="thisModule"/>
+  <ocl:VariableDeclaration location="237:13-237:23" varName="thisModule"/>
+  <ocl:VariableDeclaration location="238:13-238:23" varName="thisModule" variableExp="/0/@elements.21/@variables.1/@initExpression/@source/@source"/>
   <ocl:VariableDeclaration location="246:13-246:23" varName="thisModule" variableExp="/0/@elements.21/@outPattern/@elements.1/@bindings.0/@value/@source"/>
   <ocl:VariableDeclaration location="249:20-249:30" varName="thisModule" variableExp="/0/@elements.21/@outPattern/@elements.2/@bindings.0/@value/@source/@source/@source/@source/@source/@source/@source/@source/@source/@source/@source/@arguments.0/@source/@source"/>
   <ocl:VariableDeclaration location="249:65-249:75" varName="thisModule" variableExp="/0/@elements.21/@outPattern/@elements.2/@bindings.0/@value/@source/@source/@source/@source/@source/@source/@source/@source/@arguments.0/@source/@source"/>

@@ -1457,7 +1457,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="272:3-277:4" varName="captionBox" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.0/@value">
           <type xsi:type="ocl:OclModelElement" location="272:15-272:23" name="Rect" model="/1"/>
-          <bindings location="273:4-273:26" propertyName="stroke">
+          <bindings location="273:4-273:26" propertyName="size">
             <value xsi:type="ocl:VariableExp" location="273:12-273:26" referredVariable="/0/@elements.22/@outPattern/@elements.2"/>
           </bindings>
           <bindings location="274:4-274:31" propertyName="position">
@@ -1570,7 +1570,7 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="312:4-312:31" propertyName="stroke">
+          <bindings location="312:4-312:31" propertyName="stroke_">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="312:14-312:31" name="stroke">
               <source xsi:type="ocl:VariableExp" location="312:14-312:24" referredVariable="/79"/>
             </value>

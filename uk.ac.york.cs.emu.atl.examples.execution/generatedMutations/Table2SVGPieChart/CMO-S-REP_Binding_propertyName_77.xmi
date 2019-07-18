@@ -1092,7 +1092,7 @@
           <bindings location="196:4-196:24" propertyName="position">
             <value xsi:type="ocl:VariableExp" location="196:16-196:24" referredVariable="/0/@elements.19/@outPattern/@elements.4"/>
           </bindings>
-          <bindings location="197:4-197:163" propertyName="fill">
+          <bindings location="197:4-197:163" propertyName="stroke">
             <value xsi:type="ocl:OperationCallExp" location="197:12-197:163" operationName="get">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="197:12-197:41" name="ColorByElementName">
                 <source xsi:type="ocl:VariableExp" location="197:12-197:22" referredVariable="/58"/>
@@ -1209,7 +1209,7 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="222:4-222:38" propertyName="tx">
+          <bindings location="222:4-222:38" propertyName="ty">
             <value xsi:type="ocl:OperatorCallExp" location="222:10-222:38" operationName="-">
               <source xsi:type="ocl:IntegerExp" location="222:10-222:11"/>
               <arguments xsi:type="ocl:NavigationOrAttributeCallExp" location="222:14-222:38" name="titleFontSize">

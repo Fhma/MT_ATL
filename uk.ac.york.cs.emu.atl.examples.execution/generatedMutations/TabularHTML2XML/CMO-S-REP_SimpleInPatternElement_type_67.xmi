@@ -179,7 +179,7 @@
       </outPattern>
       <inPattern location="76:2-77:19">
         <elements xsi:type="atl:SimpleInPatternElement" location="77:3-77:19" varName="html" variableExp="/0/@elements.8/@outPattern/@elements.0/@bindings.1/@value/@arguments.1/@condition/@source/@source/@source /0/@elements.8/@outPattern/@elements.0/@bindings.1/@value/@arguments.1/@thenExpression/@source /0/@elements.8/@outPattern/@elements.0/@bindings.2/@value/@source">
-          <type xsi:type="ocl:OclModelElement" name="TH" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" name="TABLEElement" model="/2"/>
         </elements>
       </inPattern>
     </elements>

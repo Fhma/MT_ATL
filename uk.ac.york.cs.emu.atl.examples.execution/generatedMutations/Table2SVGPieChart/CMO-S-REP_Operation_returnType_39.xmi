@@ -1909,7 +1909,7 @@
     <elements xsi:type="atl:Helper" location="357:1-369:8">
       <definition location="357:8-369:7">
         <feature xsi:type="ocl:Operation" location="357:28-369:7" name="isPercentage">
-          <returnType xsi:type="ocl:BooleanType" location="357:44-357:51"/>
+          <returnType xsi:type="ocl:StringType"/>
           <body xsi:type="ocl:IfExp" location="358:2-369:7">
             <thenExpression xsi:type="ocl:LetExp" location="359:3-366:9">
               <variable location="359:7-360:44" varName="value" variableExp="/0/@elements.26/@definition/@feature/@body/@thenExpression/@in_/@condition/@source/@source /0/@elements.26/@definition/@feature/@body/@thenExpression/@in_/@condition/@arguments.0/@source /0/@elements.26/@definition/@feature/@body/@thenExpression/@in_/@thenExpression/@source/@arguments.0/@source /0/@elements.26/@definition/@feature/@body/@thenExpression/@in_/@thenExpression/@arguments.0/@source/@source">
@@ -2026,7 +2026,7 @@
     <elements xsi:type="atl:Helper" location="381:1-386:8">
       <definition location="381:8-386:7">
         <feature xsi:type="ocl:Operation" location="381:32-386:7" name="realValue">
-          <returnType xsi:type="ocl:StringType"/>
+          <returnType xsi:type="ocl:RealType" location="381:45-381:49"/>
           <body xsi:type="ocl:IfExp" location="382:2-386:7">
             <thenExpression xsi:type="ocl:OperatorCallExp" location="383:3-383:74" operationName="/">
               <source xsi:type="ocl:OperationCallExp" location="383:3-383:68" operationName="toReal">

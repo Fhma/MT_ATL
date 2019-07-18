@@ -23,7 +23,7 @@
         </elements>
       </outPattern>
       <inPattern location="5:2-6:18">
-        <elements xsi:type="atl:SimpleInPatternElement" location="6:3-6:18" varName="html" variableExp="/0/@elements.0/@outPattern/@elements.0/@bindings.1/@value/@source /0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="6:3-6:18" varName="html_" variableExp="/0/@elements.0/@outPattern/@elements.0/@bindings.1/@value/@source /0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@source">
           <type xsi:type="ocl:OclModelElement" location="6:9-6:18" name="HTML" model="/2"/>
         </elements>
       </inPattern>
@@ -198,7 +198,7 @@
         </elements>
       </outPattern>
       <inPattern location="90:2-91:16">
-        <elements xsi:type="atl:SimpleInPatternElement" location="91:3-91:16" varName="html_" variableExp="/0/@elements.9/@outPattern/@elements.0/@bindings.1/@value/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="91:3-91:16" varName="html" variableExp="/0/@elements.9/@outPattern/@elements.0/@bindings.1/@value/@source">
           <type xsi:type="ocl:OclModelElement" location="91:9-91:16" name="TR" model="/2"/>
         </elements>
       </inPattern>

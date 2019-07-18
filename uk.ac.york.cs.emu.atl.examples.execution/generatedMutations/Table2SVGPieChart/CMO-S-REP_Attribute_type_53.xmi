@@ -57,7 +57,7 @@
             </source>
             <arguments xsi:type="ocl:RealExp" location="20:22-20:25" realSymbol="0.2"/>
           </initExpression>
-          <type xsi:type="ocl:StringType"/>
+          <type xsi:type="ocl:RealType" location="19:28-19:32"/>
         </feature>
       </definition>
     </elements>
@@ -185,7 +185,7 @@
       <definition location="41:8-42:3">
         <feature xsi:type="ocl:Attribute" location="41:13-42:3" name="prevAngle">
           <initExpression xsi:type="ocl:IntegerExp" location="42:2-42:3"/>
-          <type xsi:type="ocl:RealType" location="41:24-41:28"/>
+          <type xsi:type="ocl:IntegerType"/>
         </feature>
       </definition>
     </elements>

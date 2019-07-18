@@ -673,7 +673,7 @@
           </arguments>
         </initExpression>
       </variables>
-      <variables location="85:3-91:52" varName="height_" variableExp="/0/@elements.17/@outPattern/@elements.2/@bindings.1/@value /0/@elements.17/@actionBlock/@statements.0/@thenStatements.1/@value/@arguments.0/@source">
+      <variables location="85:3-91:52" varName="height" variableExp="/0/@elements.17/@outPattern/@elements.2/@bindings.1/@value /0/@elements.17/@actionBlock/@statements.0/@thenStatements.1/@value/@arguments.0/@source">
         <type xsi:type="ocl:RealType" location="85:11-85:15"/>
         <initExpression xsi:type="ocl:LetExp" location="85:18-91:51">
           <variable location="85:22-86:78" varName="heightWithoutCaption" variableExp="/0/@elements.17/@variables.1/@initExpression/@in_/@in_/@source">
@@ -1354,7 +1354,7 @@
           </value>
         </statements>
       </actionBlock>
-      <variables location="233:3-236:10" varName="value" variableExp="/0/@elements.21/@variables.1/@initExpression/@arguments.0/@source/@source/@source /0/@elements.21/@variables.2/@initExpression/@arguments.0/@source/@source/@source /0/@elements.21/@outPattern/@elements.2/@bindings.0/@value/@source/@source/@source/@source/@arguments.0/@condition/@source/@arguments.0 /0/@elements.21/@actionBlock/@statements.0/@value/@arguments.0/@arguments.0">
+      <variables location="233:3-236:10" varName="value_" variableExp="/0/@elements.21/@variables.1/@initExpression/@arguments.0/@source/@source/@source /0/@elements.21/@variables.2/@initExpression/@arguments.0/@source/@source/@source /0/@elements.21/@outPattern/@elements.2/@bindings.0/@value/@source/@source/@source/@source/@arguments.0/@condition/@source/@arguments.0 /0/@elements.21/@actionBlock/@statements.0/@value/@arguments.0/@arguments.0">
         <type xsi:type="ocl:RealType" location="233:10-233:14"/>
         <initExpression xsi:type="ocl:IfExp" location="233:17-236:9">
           <thenExpression xsi:type="ocl:IntegerExp" location="234:10-234:11"/>

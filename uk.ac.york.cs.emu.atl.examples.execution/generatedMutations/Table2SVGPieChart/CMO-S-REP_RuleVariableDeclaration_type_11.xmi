@@ -1355,7 +1355,7 @@
         </statements>
       </actionBlock>
       <variables location="233:3-236:10" varName="value" variableExp="/0/@elements.21/@variables.1/@initExpression/@arguments.0/@source/@source/@source /0/@elements.21/@variables.2/@initExpression/@arguments.0/@source/@source/@source /0/@elements.21/@outPattern/@elements.2/@bindings.0/@value/@source/@source/@source/@source/@arguments.0/@condition/@source/@arguments.0 /0/@elements.21/@actionBlock/@statements.0/@value/@arguments.0/@arguments.0">
-        <type xsi:type="ocl:StringType"/>
+        <type xsi:type="ocl:RealType" location="233:10-233:14"/>
         <initExpression xsi:type="ocl:IfExp" location="233:17-236:9">
           <thenExpression xsi:type="ocl:IntegerExp" location="234:10-234:11"/>
           <condition xsi:type="ocl:OperatorCallExp" location="233:20-233:33" operationName="=">
@@ -1395,7 +1395,7 @@
         </initExpression>
       </variables>
       <variables location="238:3-238:65" varName="y" variableExp="/0/@elements.21/@outPattern/@elements.2/@bindings.0/@value/@source/@arguments.0/@source">
-        <type xsi:type="ocl:RealType" location="238:6-238:10"/>
+        <type xsi:type="ocl:StringType"/>
         <initExpression xsi:type="ocl:OperatorCallExp" location="238:13-238:64" operationName="*">
           <source xsi:type="ocl:NavigationOrAttributeCallExp" location="238:13-238:30" name="radius">
             <source xsi:type="ocl:VariableExp" location="238:13-238:23" referredVariable="/65"/>

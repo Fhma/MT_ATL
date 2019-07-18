@@ -1,0 +1,18 @@
+// operator: EOLLibraryModule_operations-REP
+// desc: deletes one declared operation from. The 
+// intented mutation is to mimic the error of forgeting 
+// an operation definition.
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////
+
+// 1.0: delete one operatioin declaration instance from EOL library
+// module
+@action delete
+@property arrow
+pattern delete_one_operation_declarations
+instance:MethodCallExpression {
+	do {
+	    instance.arrow = true;
+	}
+}

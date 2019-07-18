@@ -289,7 +289,7 @@
         <type xsi:type="ocl:StringType" location="134:18-134:24"/>
       </parameters>
     </elements>
-    <elements xsi:type="atl:LazyMatchedRule" name="HTML" isUnique="false">
+    <elements xsi:type="atl:LazyMatchedRule" name="HTML" isUnique="true">
       <outPattern location="7:2-12:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="8:3-12:4" varName="xml">
           <type xsi:type="ocl:OclModelElement" location="8:8-8:16" name="Root" model="/1"/>

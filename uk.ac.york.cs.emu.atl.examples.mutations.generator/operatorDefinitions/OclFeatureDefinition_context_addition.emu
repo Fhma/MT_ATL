@@ -1,0 +1,7 @@
+// operator: OclFeatureDefinition_context_-ADD
+// desc: This operator is not implementable as it requires complex
+// mutations. The addition eventually should be added to an attribute or 
+// an operation; an action that would override any previous feature definition.
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////

@@ -43,7 +43,7 @@
               <iterators location="12:36-12:37" varName="c" variableExp="/0/@elements.0/@outPattern/@elements.0/@bindings.3/@value/@body/@source"/>
             </value>
           </bindings>
-          <bindings location="13:4-13:76" propertyName="name">
+          <bindings location="13:4-13:76" propertyName="default">
             <value xsi:type="ocl:CollectionOperationCallExp" location="13:15-13:76" operationName="first">
               <source xsi:type="ocl:IteratorExp" location="13:15-13:65" name="select">
                 <source xsi:type="ocl:NavigationOrAttributeCallExp" location="13:15-13:25" name="elements">
@@ -169,7 +169,7 @@
       <outPattern location="59:2-63:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="60:3-63:4" varName="x">
           <type xsi:type="ocl:OclModelElement" location="60:6-60:14" name="Exec" model="/1"/>
-          <bindings location="61:4-61:27" propertyName="executable">
+          <bindings location="61:4-61:27" propertyName="executable_">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="61:18-61:27" name="command">
               <source xsi:type="ocl:VariableExp" location="61:18-61:19" referredVariable="/0/@elements.4/@inPattern/@elements.0"/>
             </value>

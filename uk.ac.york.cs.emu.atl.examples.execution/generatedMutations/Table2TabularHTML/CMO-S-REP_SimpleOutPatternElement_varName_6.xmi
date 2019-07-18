@@ -22,7 +22,7 @@
             <value xsi:type="ocl:VariableExp" location="11:12-11:16" referredVariable="/0/@elements.1/@outPattern/@elements.3"/>
           </bindings>
         </elements>
-        <elements xsi:type="atl:SimpleOutPatternElement" location="13:3-15:4" varName="head" variableExp="/0/@elements.1/@outPattern/@elements.0/@bindings.0/@value">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="13:3-15:4" varName="head_" variableExp="/0/@elements.1/@outPattern/@elements.0/@bindings.0/@value">
           <type xsi:type="ocl:OclModelElement" location="13:9-13:18" name="HEAD" model="/1"/>
           <bindings location="14:4-14:25" propertyName="headElements">
             <value xsi:type="ocl:VariableExp" location="14:20-14:25" referredVariable="/0/@elements.1/@outPattern/@elements.2"/>
@@ -197,7 +197,7 @@
     </elements>
     <elements xsi:type="atl:LazyMatchedRule" location="69:1-76:2" name="Cell2TD">
       <outPattern location="72:2-75:4">
-        <elements xsi:type="atl:SimpleOutPatternElement" location="73:3-75:4" varName="td_">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="73:3-75:4" varName="td">
           <type xsi:type="ocl:OclModelElement" location="73:7-73:14" name="TD" model="/1"/>
           <bindings location="74:4-74:25" propertyName="value">
             <value xsi:type="ocl:OperationCallExp" location="74:13-74:25" operationName="value">

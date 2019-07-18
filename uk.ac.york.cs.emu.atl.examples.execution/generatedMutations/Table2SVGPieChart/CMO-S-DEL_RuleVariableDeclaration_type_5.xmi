@@ -674,6 +674,7 @@
         </initExpression>
       </variables>
       <variables location="85:3-91:52" varName="height" variableExp="/0/@elements.17/@outPattern/@elements.2/@bindings.1/@value /0/@elements.17/@actionBlock/@statements.0/@thenStatements.1/@value/@arguments.0/@source">
+        <type xsi:type="ocl:RealType" location="85:11-85:15"/>
         <initExpression xsi:type="ocl:LetExp" location="85:18-91:51">
           <variable location="85:22-86:78" varName="heightWithoutCaption" variableExp="/0/@elements.17/@variables.1/@initExpression/@in_/@in_/@source">
             <type xsi:type="ocl:RealType" location="85:44-85:48"/>
@@ -1749,7 +1750,6 @@
         </elements>
       </outPattern>
       <variables location="295:3-301:39" varName="value" variableExp="/0/@elements.23/@outPattern/@elements.4/@bindings.3/@value/@source/@source/@source/@source/@source/@arguments.0">
-        <type xsi:type="ocl:StringType" location="295:10-295:16"/>
         <initExpression xsi:type="ocl:LetExp" location="295:19-301:38">
           <variable location="295:23-299:10" varName="realValue" variableExp="/0/@elements.23/@variables.0/@initExpression/@in_/@source/@source/@source">
             <type xsi:type="ocl:RealType" location="295:34-295:38"/>

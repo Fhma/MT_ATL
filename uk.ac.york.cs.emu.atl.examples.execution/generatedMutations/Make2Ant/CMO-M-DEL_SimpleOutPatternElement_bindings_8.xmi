@@ -101,28 +101,10 @@
               <source xsi:type="ocl:VariableExp" location="33:13-33:14" referredVariable="/0/@elements.2/@inPattern/@elements.0"/>
             </value>
           </bindings>
-          <bindings location="34:4-34:98" propertyName="depends">
-            <value xsi:type="ocl:IteratorExp" location="34:15-34:98" name="collect">
-              <source xsi:type="ocl:IteratorExp" location="34:15-34:72" name="select">
-                <source xsi:type="ocl:NavigationOrAttributeCallExp" location="34:15-34:29" name="dependencies">
-                  <source xsi:type="ocl:VariableExp" location="34:15-34:16" referredVariable="/0/@elements.2/@inPattern/@elements.0"/>
-                </source>
-                <body xsi:type="ocl:OperationCallExp" location="34:44-34:71" operationName="oclIsKindOf">
-                  <source xsi:type="ocl:VariableExp" location="34:44-34:45" referredVariable="/0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@iterators.0"/>
-                  <arguments xsi:type="ocl:OclModelElement" location="34:58-34:70" name="RuleDep" model="/2"/>
-                </body>
-                <iterators location="34:40-34:41" varName="e" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@body/@source"/>
-              </source>
-              <body xsi:type="ocl:NavigationOrAttributeCallExp" location="34:88-34:97" name="ruledep">
-                <source xsi:type="ocl:VariableExp" location="34:88-34:89" referredVariable="/0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@iterators.0"/>
-              </body>
-              <iterators location="34:84-34:85" varName="e" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@body/@source"/>
-            </value>
-          </bindings>
         </elements>
       </outPattern>
       <inPattern location="28:2-29:15">
-        <elements xsi:type="atl:SimpleInPatternElement" location="29:3-29:15" varName="m" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.2/@outPattern/@elements.0/@bindings.1/@value/@source /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@source/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="29:3-29:15" varName="m" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.2/@outPattern/@elements.0/@bindings.1/@value/@source">
           <type xsi:type="ocl:OclModelElement" location="29:6-29:15" name="Rule" model="/2"/>
         </elements>
       </inPattern>
@@ -131,6 +113,11 @@
       <outPattern location="43:2-51:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="44:3-47:4" varName="e">
           <type xsi:type="ocl:OclModelElement" location="44:6-44:14" name="Echo" model="/1"/>
+          <bindings location="45:4-45:24" propertyName="message">
+            <value xsi:type="ocl:NavigationOrAttributeCallExp" location="45:15-45:24" name="command">
+              <source xsi:type="ocl:VariableExp" location="45:15-45:16" referredVariable="/0/@elements.3/@inPattern/@elements.0"/>
+            </value>
+          </bindings>
           <bindings location="46:4-46:29" propertyName="target">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="46:14-46:29" name="ruleShellLine">
               <source xsi:type="ocl:VariableExp" location="46:14-46:15" referredVariable="/0/@elements.3/@inPattern/@elements.0"/>
@@ -152,7 +139,7 @@
         </elements>
       </outPattern>
       <inPattern location="39:2-42:4">
-        <elements xsi:type="atl:SimpleInPatternElement" location="40:3-40:20" varName="m" variableExp="/0/@elements.3/@inPattern/@filter/@source /0/@elements.3/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.3/@outPattern/@elements.1/@bindings.0/@value/@source /0/@elements.3/@outPattern/@elements.1/@bindings.1/@value/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="40:3-40:20" varName="m" variableExp="/0/@elements.3/@inPattern/@filter/@source /0/@elements.3/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.3/@outPattern/@elements.0/@bindings.1/@value/@source /0/@elements.3/@outPattern/@elements.1/@bindings.0/@value/@source /0/@elements.3/@outPattern/@elements.1/@bindings.1/@value/@source">
           <type xsi:type="ocl:OclModelElement" location="40:6-40:20" name="ShellLine" model="/2"/>
         </elements>
         <filter xsi:type="ocl:NavigationOrAttributeCallExp" location="41:4-41:13" name="display">
@@ -189,5 +176,5 @@
     </elements>
   </atl:Module>
   <ocl:OclModel location="2:13-2:16" name="Ant" elements="/0/@elements.0/@outPattern/@elements.0/@type /0/@elements.1/@outPattern/@elements.0/@type /0/@elements.2/@outPattern/@elements.0/@type /0/@elements.3/@outPattern/@elements.0/@type /0/@elements.3/@outPattern/@elements.1/@type /0/@elements.4/@outPattern/@elements.0/@type" model="/0/@outModels.0"/>
-  <ocl:OclModel location="2:26-2:30" name="Make" elements="/0/@elements.0/@inPattern/@elements.0/@type /0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@body/@arguments.0 /0/@elements.0/@outPattern/@elements.0/@bindings.3/@value/@body/@arguments.0 /0/@elements.0/@outPattern/@elements.0/@bindings.4/@value/@source/@body/@arguments.0 /0/@elements.1/@inPattern/@elements.0/@type /0/@elements.2/@inPattern/@elements.0/@type /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@body/@arguments.0 /0/@elements.3/@inPattern/@elements.0/@type /0/@elements.4/@inPattern/@elements.0/@type" model="/0/@inModels.0"/>
+  <ocl:OclModel location="2:26-2:30" name="Make" elements="/0/@elements.0/@inPattern/@elements.0/@type /0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@body/@arguments.0 /0/@elements.0/@outPattern/@elements.0/@bindings.3/@value/@body/@arguments.0 /0/@elements.0/@outPattern/@elements.0/@bindings.4/@value/@source/@body/@arguments.0 /0/@elements.1/@inPattern/@elements.0/@type /0/@elements.2/@inPattern/@elements.0/@type /0/@elements.3/@inPattern/@elements.0/@type /0/@elements.4/@inPattern/@elements.0/@type" model="/0/@inModels.0"/>
 </xmi:XMI>

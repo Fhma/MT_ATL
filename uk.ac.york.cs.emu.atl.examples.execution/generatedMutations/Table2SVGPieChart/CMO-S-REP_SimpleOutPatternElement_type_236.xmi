@@ -1130,7 +1130,7 @@
           </bindings>
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="200:3-203:4" varName="pieSize" variableExp="/0/@elements.19/@outPattern/@elements.2/@bindings.0/@value /0/@elements.19/@outPattern/@elements.3/@bindings.1/@value/@source">
-          <type xsi:type="ocl:OclModelElement" name="Rect" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" name="AbsoluteCoord" model="/1"/>
           <bindings location="201:4-201:30" propertyName="width">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="201:13-201:30" name="radius">
               <source xsi:type="ocl:VariableExp" location="201:13-201:23" referredVariable="/60"/>

@@ -16,7 +16,7 @@ function isComparisonOperator(op:String):Boolean {
 	return false;
 }
 
-function isLogicalOpeerator(op:String):Boolean {
+function isLogicalOperator(op:String):Boolean {
 	if(op = "and" or op = "or" or op = "xor")
 		return true;
 	return false;
@@ -180,12 +180,12 @@ instance:InPattern
 // Impl 9: replace the logical expression of
 // an operatorCallExp to "and"
 @action replace
-@property inPattern
+@property filter
 pattern change_operationname_of_operatorcallexp_to_and
 instance:InPattern
 	in: InPattern.all.select(e|e.filter.isDefined()
 		and e.filter.isTypeOf(OperatorCallExp))
-	guard: isLogicalOpeerator(instance.filter.operationName)
+	guard: isLogicalOperator(instance.filter.operationName)
 		and instance.filter.operationName <> "and" {
 	do {
 		var call_exp = OperatorCallExp.createInstance();
@@ -200,12 +200,12 @@ instance:InPattern
 // Impl 10: replace the logical expression of
 // an operatorCallExp to "or" logical
 @action replace
-@property inPattern
+@property filter
 pattern change_operationname_of_operatorcallexp_to_or
 instance:InPattern
 	in: InPattern.all.select(e|e.filter.isDefined()
 		and e.filter.isTypeOf(OperatorCallExp))
-	guard: isLogicalOpeerator(instance.filter.operationName)
+	guard: isLogicalOperator(instance.filter.operationName)
 		and instance.filter.operationName <> "or" {
 	do {
 		var call_exp = OperatorCallExp.createInstance();
@@ -220,12 +220,12 @@ instance:InPattern
 // Impl 11: replace the logical expression of
 // an operatorCallExp to "xor" logical
 @action replace
-@property inPattern
+@property filter
 pattern change_operationname_of_operatorcallexp_to_xor
 instance:InPattern
 	in: InPattern.all.select(e|e.filter.isDefined()
 		and e.filter.isTypeOf(OperatorCallExp))
-	guard: isLogicalOpeerator(instance.filter.operationName)
+	guard: isLogicalOperator(instance.filter.operationName)
 		and instance.filter.operationName <> "xor" {
 	do {
 		var call_exp = OperatorCallExp.createInstance();

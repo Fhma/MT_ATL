@@ -15,7 +15,7 @@
               <source xsi:type="ocl:VariableExp" location="10:16-10:20" referredVariable="/0/@elements.0/@inPattern/@elements.0"/>
             </value>
           </bindings>
-          <bindings location="11:4-11:25" propertyName="children_">
+          <bindings location="11:4-11:25" propertyName="children">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="11:16-11:25" name="body">
               <source xsi:type="ocl:VariableExp" location="11:16-11:20" referredVariable="/0/@elements.0/@inPattern/@elements.0"/>
             </value>
@@ -151,7 +151,7 @@
           <bindings location="80:4-80:19" propertyName="name">
             <value xsi:type="ocl:StringExp" location="80:12-80:19" stringSymbol="table"/>
           </bindings>
-          <bindings location="81:4-84:11" propertyName="children">
+          <bindings location="81:4-84:11" propertyName="name">
             <value xsi:type="ocl:OperationCallExp" location="81:16-84:11" operationName="Attribute">
               <source xsi:type="ocl:VariableExp" location="81:16-81:26" referredVariable="/4"/>
               <arguments xsi:type="ocl:StringExp" location="81:37-81:45" stringSymbol="border"/>

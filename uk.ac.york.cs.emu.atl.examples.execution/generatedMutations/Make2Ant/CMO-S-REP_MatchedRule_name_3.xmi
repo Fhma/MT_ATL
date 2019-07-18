@@ -87,7 +87,7 @@
         </elements>
       </inPattern>
     </elements>
-    <elements xsi:type="atl:MatchedRule" location="27:1-36:2" name="Rule2Target">
+    <elements xsi:type="atl:MatchedRule" location="27:1-36:2" name="Rule2Target_">
       <outPattern location="30:2-35:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="31:3-35:4" varName="a">
           <type xsi:type="ocl:OclModelElement" location="31:6-31:16" name="Target" model="/1"/>
@@ -165,7 +165,7 @@
         </filter>
       </inPattern>
     </elements>
-    <elements xsi:type="atl:MatchedRule" location="54:1-64:2" name="ShellLine2Task_NoDisplay_">
+    <elements xsi:type="atl:MatchedRule" location="54:1-64:2" name="ShellLine2Task_NoDisplay">
       <outPattern location="59:2-63:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="60:3-63:4" varName="x">
           <type xsi:type="ocl:OclModelElement" location="60:6-60:14" name="Exec" model="/1"/>

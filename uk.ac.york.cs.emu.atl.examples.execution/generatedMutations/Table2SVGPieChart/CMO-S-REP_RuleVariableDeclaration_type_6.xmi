@@ -620,7 +620,7 @@
         </statements>
       </actionBlock>
       <variables location="84:3-84:212" varName="width" variableExp="/0/@elements.17/@outPattern/@elements.2/@bindings.0/@value /0/@elements.17/@actionBlock/@statements.0/@thenStatements.1/@value/@source/@source/@arguments.0/@source">
-        <type xsi:type="ocl:BooleanType"/>
+        <type xsi:type="ocl:RealType" location="84:10-84:14"/>
         <initExpression xsi:type="ocl:OperatorCallExp" location="84:17-84:211" operationName="+">
           <source xsi:type="ocl:IterateExp" location="84:17-84:191">
             <source xsi:type="ocl:NavigationOrAttributeCallExp" location="84:17-84:42" name="allValidTables">
@@ -674,7 +674,7 @@
         </initExpression>
       </variables>
       <variables location="85:3-91:52" varName="height" variableExp="/0/@elements.17/@outPattern/@elements.2/@bindings.1/@value /0/@elements.17/@actionBlock/@statements.0/@thenStatements.1/@value/@arguments.0/@source">
-        <type xsi:type="ocl:RealType" location="85:11-85:15"/>
+        <type xsi:type="ocl:BooleanType"/>
         <initExpression xsi:type="ocl:LetExp" location="85:18-91:51">
           <variable location="85:22-86:78" varName="heightWithoutCaption" variableExp="/0/@elements.17/@variables.1/@initExpression/@in_/@in_/@source">
             <type xsi:type="ocl:RealType" location="85:44-85:48"/>

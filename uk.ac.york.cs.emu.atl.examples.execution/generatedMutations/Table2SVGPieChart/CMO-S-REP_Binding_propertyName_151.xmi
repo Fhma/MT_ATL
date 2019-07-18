@@ -1583,7 +1583,7 @@
               <source xsi:type="ocl:VariableExp" location="315:13-315:23" referredVariable="/80"/>
             </value>
           </bindings>
-          <bindings location="316:4-316:32" propertyName="height_">
+          <bindings location="316:4-316:32" propertyName="height">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="316:14-316:32" name="caption">
               <source xsi:type="ocl:VariableExp" location="316:14-316:24" referredVariable="/81"/>
             </value>
@@ -1660,7 +1660,7 @@
               <source xsi:type="ocl:VariableExp" location="324:14-324:24" referredVariable="/87"/>
             </value>
           </bindings>
-          <bindings location="325:4-325:46" propertyName="fontSize">
+          <bindings location="325:4-325:46" propertyName="fontSize_">
             <value xsi:type="ocl:OperationCallExp" location="325:16-325:46" operationName="toString">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="325:16-325:35" name="fontSize">
                 <source xsi:type="ocl:VariableExp" location="325:16-325:26" referredVariable="/88"/>

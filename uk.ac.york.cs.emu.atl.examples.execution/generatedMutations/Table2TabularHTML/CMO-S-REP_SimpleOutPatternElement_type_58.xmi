@@ -139,7 +139,7 @@
     <elements xsi:type="atl:LazyMatchedRule" location="50:1-57:2" name="Cell2TH">
       <outPattern location="53:2-56:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="54:3-56:4" varName="th">
-          <type xsi:type="ocl:OclModelElement" location="54:7-54:14" name="TH" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" name="TD" model="/1"/>
           <bindings location="55:4-55:25" propertyName="value">
             <value xsi:type="ocl:OperationCallExp" location="55:13-55:25" operationName="value">
               <source xsi:type="ocl:VariableExp" location="55:13-55:17" referredVariable="/0/@elements.4/@inPattern/@elements.0"/>
@@ -215,7 +215,7 @@
     <elements xsi:type="atl:LazyMatchedRule" location="78:1-86:2" name="Cell2TDRightAlign">
       <outPattern location="81:2-85:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="82:3-85:4" varName="td">
-          <type xsi:type="ocl:OclModelElement" name="TH" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="82:7-82:14" name="TD" model="/1"/>
           <bindings location="83:4-83:25" propertyName="value">
             <value xsi:type="ocl:OperationCallExp" location="83:13-83:25" operationName="value">
               <source xsi:type="ocl:VariableExp" location="83:13-83:17" referredVariable="/0/@elements.7/@inPattern/@elements.0"/>
@@ -576,7 +576,7 @@
       </definition>
     </elements>
   </atl:Module>
-  <ocl:OclModel location="2:13-2:17" name="HTML" elements="/0/@elements.0/@definition/@feature/@type /0/@elements.1/@outPattern/@elements.0/@type /0/@elements.1/@outPattern/@elements.1/@type /0/@elements.1/@outPattern/@elements.2/@type /0/@elements.1/@outPattern/@elements.3/@type /0/@elements.2/@outPattern/@elements.0/@type /0/@elements.3/@outPattern/@elements.0/@type /0/@elements.4/@outPattern/@elements.0/@type /0/@elements.5/@outPattern/@elements.0/@type /0/@elements.6/@outPattern/@elements.0/@type /0/@elements.7/@outPattern/@elements.0/@type" model="/0/@outModels.0"/>
+  <ocl:OclModel location="2:13-2:17" name="HTML" elements="/0/@elements.0/@definition/@feature/@type /0/@elements.1/@outPattern/@elements.0/@type /0/@elements.1/@outPattern/@elements.1/@type /0/@elements.1/@outPattern/@elements.2/@type /0/@elements.1/@outPattern/@elements.3/@type /0/@elements.2/@outPattern/@elements.0/@type /0/@elements.3/@outPattern/@elements.0/@type /0/@elements.5/@outPattern/@elements.0/@type /0/@elements.6/@outPattern/@elements.0/@type /0/@elements.7/@outPattern/@elements.0/@type /0/@elements.4/@outPattern/@elements.0/@type" model="/0/@outModels.0"/>
   <ocl:OclModel location="2:27-2:32" name="Table" elements="/0/@elements.2/@inPattern/@elements.0/@type /0/@elements.3/@inPattern/@elements.0/@type /0/@elements.4/@inPattern/@elements.0/@type /0/@elements.5/@inPattern/@elements.0/@type /0/@elements.6/@inPattern/@elements.0/@type /0/@elements.7/@inPattern/@elements.0/@type /0/@elements.12/@definition/@context_/@context_ /0/@elements.13/@definition/@context_/@context_ /0/@elements.15/@definition/@feature/@type/@elementType /0/@elements.15/@definition/@feature/@initExpression/@source/@source /0/@elements.16/@definition/@context_/@context_" model="/0/@inModels.0"/>
   <ocl:VariableDeclaration location="21:3-21:13" varName="thisModule" variableExp="/0/@elements.1/@actionBlock/@statements.0/@source/@source"/>
   <ocl:VariableDeclaration location="33:11-33:21" varName="thisModule" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.1/@value/@source"/>

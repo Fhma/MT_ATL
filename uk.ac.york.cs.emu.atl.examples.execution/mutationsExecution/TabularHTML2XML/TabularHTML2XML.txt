@@ -1,7 +1,10 @@
-	\--> Processed mutants-> 494
-	\--> Invalid mutants-> 44
+	\--> Processed mutants-> 495
+	\--> Invalid mutants-> 42
 	\--> Killed mutants-> 0
-	\--> Not killed mutants-> 61
+	\--> Not killed mutants-> 64		
+		\-->CMO-S-REP_MatchedRule_isAbstract_1.xmi <E>
+		\-->CMO-S-REP_MatchedRule_isAbstract_2.xmi <E>
+		\-->CMO-S-REP_MatchedRule_isAbstract_3.xmi <E>
 		\-->CMO-S-REP_SimpleInPatternElement_type_86.xmi <E>
 		\-->CMO-S-REP_SimpleInPatternElement_type_87.xmi <E>
 		\-->CMO-S-REP_SimpleInPatternElement_type_41.xmi <E>
@@ -63,3 +66,4 @@
 		\-->CMO-S-REP_Parameter_varName_1.xmi <E>
 		\-->CMO-S-REP_Parameter_varName_2.xmi <E>
 		\-->CMO-S-REP_Parameter_varName_3.xmi <E>
+		

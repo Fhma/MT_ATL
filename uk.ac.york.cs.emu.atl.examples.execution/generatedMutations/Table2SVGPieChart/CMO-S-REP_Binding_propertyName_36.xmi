@@ -887,7 +887,7 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="160:4-160:48" propertyName="ty_">
+          <bindings location="160:4-160:48" propertyName="ty">
             <value xsi:type="ocl:OperatorCallExp" location="160:10-160:48" operationName="/">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="160:10-160:44" name="height">
                 <source xsi:type="ocl:NavigationOrAttributeCallExp" location="160:10-160:37" name="size">
@@ -1476,7 +1476,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="278:3-281:4" varName="captionBoxSize" variableExp="/0/@elements.22/@outPattern/@elements.1/@bindings.0/@value /0/@elements.22/@outPattern/@elements.3/@bindings.0/@value/@arguments.0/@source/@source/@source /0/@elements.22/@outPattern/@elements.3/@bindings.1/@value/@arguments.0/@source/@source">
           <type xsi:type="ocl:OclModelElement" location="278:19-278:32" name="Dimension" model="/1"/>
-          <bindings location="279:4-279:36" propertyName="width">
+          <bindings location="279:4-279:36" propertyName="height">
             <value xsi:type="ocl:OperationCallExp" location="279:13-279:36" operationName="captionBoxWidth">
               <source xsi:type="ocl:VariableExp" location="279:13-279:18" referredVariable="/0/@elements.22/@inPattern/@elements.0"/>
             </value>

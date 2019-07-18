@@ -457,7 +457,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="102:3-105:4" varName="svgSize" variableExp="/0/@elements.17/@outPattern/@elements.1/@bindings.0/@value">
           <type xsi:type="ocl:OclModelElement" location="102:12-102:25" name="Dimension" model="/1"/>
-          <bindings location="103:4-103:18" propertyName="width">
+          <bindings location="103:4-103:18" propertyName="width_">
             <value xsi:type="ocl:VariableExp" location="103:13-103:18" referredVariable="/0/@elements.17/@variables.0"/>
           </bindings>
           <bindings location="104:4-104:20" propertyName="height">
@@ -787,7 +787,7 @@
               </elseExpression>
             </value>
           </bindings>
-          <bindings location="142:4-142:68" propertyName="attribute">
+          <bindings location="142:4-142:68" propertyName="groupContent">
             <value xsi:type="ocl:OperationCallExp" location="142:20-142:68" operationName="Table2Captions">
               <source xsi:type="ocl:VariableExp" location="142:20-142:30" referredVariable="/38"/>
               <arguments xsi:type="ocl:VariableExp" location="142:46-142:51" referredVariable="/0/@elements.18/@inPattern/@elements.0"/>

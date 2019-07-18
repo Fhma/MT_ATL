@@ -1154,7 +1154,7 @@
       </outPattern>
       <inPattern location="182:2-184:15">
         <elements xsi:type="atl:SimpleInPatternElement" location="183:3-183:20" varName="table" variableExp="/0/@elements.19/@outPattern/@elements.1/@bindings.0/@value/@arguments.0/@source/@source/@source /0/@elements.19/@outPattern/@elements.2/@bindings.2/@value/@arguments.0/@source/@source/@source/@source/@source/@source/@source">
-          <type xsi:type="ocl:OclModelElement" location="183:10-183:20" name="Cell_" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" location="183:10-183:20" name="Cell" model="/2"/>
         </elements>
         <elements xsi:type="atl:SimpleInPatternElement" location="184:3-184:15" varName="idx" variableExp="/0/@elements.19/@outPattern/@elements.2/@bindings.2/@value/@arguments.0/@source/@source/@source/@source/@body/@source/@arguments.0">
           <type xsi:type="ocl:IntegerType" location="184:8-184:15"/>
@@ -1488,7 +1488,7 @@
           </bindings>
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="282:3-285:4" varName="captionBoxCoord" variableExp="/0/@elements.22/@outPattern/@elements.1/@bindings.1/@value">
-          <type xsi:type="ocl:OclModelElement" location="282:20-282:37" name="AbsoluteCoord" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="282:20-282:37" name="AbsoluteCoord_" model="/1"/>
           <bindings location="283:4-283:75" propertyName="x">
             <value xsi:type="ocl:OperatorCallExp" location="283:9-283:75" operationName="-">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="283:9-283:26" name="radius">

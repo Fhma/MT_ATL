@@ -505,7 +505,7 @@
             </value>
           </thenStatements>
           <thenStatements xsi:type="atl:ForStat" location="111:4-120:5">
-            <iterator location="111:9-111:14" varName="table" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@collection/@source/@source/@source/@source /0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.0/@source/@source/@source/@source/@source /0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.1/@source/@source/@source/@source/@source /0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.1/@collection/@source/@source/@source/@source /0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.1/@statements.0/@expression/@arguments.0 /0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.1/@statements.0/@expression/@arguments.1/@source/@source/@source/@source"/>
+            <iterator location="111:9-111:14" varName="table_" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@collection/@source/@source/@source/@source /0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.0/@source/@source/@source/@source/@source /0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.1/@source/@source/@source/@source/@source /0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.1/@collection/@source/@source/@source/@source /0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.1/@statements.0/@expression/@arguments.0 /0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.1/@statements.0/@expression/@arguments.1/@source/@source/@source/@source"/>
             <collection xsi:type="ocl:NavigationOrAttributeCallExp" location="111:18-111:43" name="allValidTables">
               <source xsi:type="ocl:VariableExp" location="111:18-111:28" referredVariable="/31"/>
             </collection>
@@ -769,7 +769,7 @@
                         </source>
                         <arguments xsi:type="ocl:VariableExp" location="137:84-137:87" referredVariable="/0/@elements.18/@inPattern/@elements.1"/>
                       </body>
-                      <iterators location="137:66-137:67" varName="r_" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.3/@value/@condition/@source/@source/@source/@body/@source/@source"/>
+                      <iterators location="137:66-137:67" varName="r" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.3/@value/@condition/@source/@source/@source/@body/@source/@source"/>
                     </source>
                     <body xsi:type="ocl:OperationCallExp" location="137:104-137:120" operationName="valueNotNull">
                       <source xsi:type="ocl:VariableExp" location="137:104-137:105" referredVariable="/0/@elements.18/@outPattern/@elements.0/@bindings.3/@value/@condition/@source/@source/@iterators.0"/>

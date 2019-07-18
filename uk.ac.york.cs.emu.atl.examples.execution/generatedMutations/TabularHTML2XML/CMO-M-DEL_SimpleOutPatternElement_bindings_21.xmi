@@ -81,6 +81,9 @@
       <outPattern location="44:2-48:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="45:3-48:4" varName="xml">
           <type xsi:type="ocl:OclModelElement" location="45:8-45:19" name="Element" model="/1"/>
+          <bindings location="46:4-46:19" propertyName="name">
+            <value xsi:type="ocl:StringExp" location="46:12-46:19" stringSymbol="title"/>
+          </bindings>
           <bindings location="47:4-47:43" propertyName="children">
             <value xsi:type="ocl:OperationCallExp" location="47:16-47:43" operationName="Text">
               <source xsi:type="ocl:VariableExp" location="47:16-47:26" referredVariable="/3"/>
@@ -92,7 +95,7 @@
         </elements>
       </outPattern>
       <inPattern location="42:2-43:19">
-        <elements xsi:type="atl:SimpleInPatternElement" location="43:3-43:19" varName="html" variableExp="/0/@elements.4/@outPattern/@elements.0/@bindings.0/@value/@arguments.0/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="43:3-43:19" varName="html" variableExp="/0/@elements.4/@outPattern/@elements.0/@bindings.1/@value/@arguments.0/@source">
           <type xsi:type="ocl:OclModelElement" location="43:9-43:19" name="TITLE" model="/2"/>
         </elements>
       </inPattern>
@@ -167,15 +170,10 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="85:4-85:24" propertyName="children">
-            <value xsi:type="ocl:NavigationOrAttributeCallExp" location="85:16-85:24" name="trs">
-              <source xsi:type="ocl:VariableExp" location="85:16-85:20" referredVariable="/0/@elements.8/@inPattern/@elements.0"/>
-            </value>
-          </bindings>
         </elements>
       </outPattern>
       <inPattern location="76:2-77:19">
-        <elements xsi:type="atl:SimpleInPatternElement" location="77:3-77:19" varName="html" variableExp="/0/@elements.8/@outPattern/@elements.0/@bindings.1/@value/@arguments.1/@condition/@source/@source/@source /0/@elements.8/@outPattern/@elements.0/@bindings.1/@value/@arguments.1/@thenExpression/@source /0/@elements.8/@outPattern/@elements.0/@bindings.2/@value/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="77:3-77:19" varName="html" variableExp="/0/@elements.8/@outPattern/@elements.0/@bindings.1/@value/@arguments.1/@condition/@source/@source/@source /0/@elements.8/@outPattern/@elements.0/@bindings.1/@value/@arguments.1/@thenExpression/@source">
           <type xsi:type="ocl:OclModelElement" location="77:9-77:19" name="TABLE" model="/2"/>
         </elements>
       </inPattern>
@@ -314,7 +312,7 @@
   </atl:Module>
   <ocl:OclModel location="2:13-2:16" name="XML" elements="/0/@elements.0/@outPattern/@elements.0/@type /0/@elements.1/@outPattern/@elements.0/@type /0/@elements.2/@outPattern/@elements.0/@type /0/@elements.3/@outPattern/@elements.0/@type /0/@elements.4/@outPattern/@elements.0/@type /0/@elements.5/@outPattern/@elements.0/@type /0/@elements.6/@outPattern/@elements.0/@type /0/@elements.7/@outPattern/@elements.0/@type /0/@elements.8/@outPattern/@elements.0/@type /0/@elements.9/@outPattern/@elements.0/@type /0/@elements.10/@outPattern/@elements.0/@type /0/@elements.11/@outPattern/@elements.0/@type /0/@elements.12/@outPattern/@elements.0/@type /0/@elements.13/@outPattern/@elements.0/@type" model="/0/@outModels.0"/>
   <ocl:OclModel location="2:26-2:30" name="HTML" elements="/0/@elements.0/@inPattern/@elements.0/@type /0/@elements.1/@inPattern/@elements.0/@type /0/@elements.2/@inPattern/@elements.0/@type /0/@elements.3/@inPattern/@elements.0/@type /0/@elements.4/@inPattern/@elements.0/@type /0/@elements.5/@inPattern/@elements.0/@type /0/@elements.6/@inPattern/@elements.0/@type /0/@elements.7/@inPattern/@elements.0/@type /0/@elements.8/@inPattern/@elements.0/@type /0/@elements.9/@inPattern/@elements.0/@type /0/@elements.10/@inPattern/@elements.0/@type /0/@elements.11/@inPattern/@elements.0/@type" model="/0/@inModels.0"/>
-  <ocl:VariableDeclaration location="47:16-47:26" varName="thisModule" variableExp="/0/@elements.4/@outPattern/@elements.0/@bindings.0/@value/@source"/>
+  <ocl:VariableDeclaration location="47:16-47:26" varName="thisModule" variableExp="/0/@elements.4/@outPattern/@elements.0/@bindings.1/@value/@source"/>
   <ocl:VariableDeclaration location="81:16-81:26" varName="thisModule" variableExp="/0/@elements.8/@outPattern/@elements.0/@bindings.1/@value/@source"/>
   <ocl:VariableDeclaration location="105:16-105:26" varName="thisModule" variableExp="/0/@elements.10/@outPattern/@elements.0/@bindings.1/@value/@source"/>
   <ocl:VariableDeclaration location="109:20-109:30" varName="thisModule" variableExp="/0/@elements.10/@actionBlock/@statements.0/@thenStatements.0/@value/@source"/>

@@ -5,9 +5,9 @@
     <outModels location="2:8-2:16" name="OUT" metamodel="/1"/>
     <elements xsi:type="atl:Helper" location="4:1-5:4">
       <definition location="4:8-5:3">
-        <feature xsi:type="ocl:Attribute" location="4:13-5:3" name="scale">
-          <initExpression xsi:type="ocl:IntegerExp" location="5:2-5:3" integerSymbol="1"/>
-          <type xsi:type="ocl:RealType" location="4:20-4:24"/>
+        <feature xsi:type="ocl:Operation" name="scale">
+          <returnType xsi:type="ocl:RealType" location="4:20-4:24"/>
+          <body xsi:type="ocl:IntegerExp" location="5:2-5:3" integerSymbol="1"/>
         </feature>
       </definition>
     </elements>
@@ -1984,8 +1984,9 @@
     </elements>
     <elements xsi:type="atl:Helper" location="374:1-379:8">
       <definition location="374:8-379:7">
-        <feature xsi:type="ocl:Attribute" name="value">
-          <initExpression xsi:type="ocl:IfExp" location="375:2-379:7">
+        <feature xsi:type="ocl:Operation" location="374:32-379:7" name="value">
+          <returnType xsi:type="ocl:StringType" location="374:41-374:47"/>
+          <body xsi:type="ocl:IfExp" location="375:2-379:7">
             <thenExpression xsi:type="ocl:OperatorCallExp" location="376:3-376:73" operationName="+">
               <source xsi:type="ocl:OperationCallExp" location="376:3-376:67" operationName="value">
                 <source xsi:type="ocl:CollectionOperationCallExp" location="376:3-376:59" operationName="substring">
@@ -2015,8 +2016,7 @@
                 <source xsi:type="ocl:VariableExp" location="378:3-378:7" referredVariable="/105"/>
               </source>
             </elseExpression>
-          </initExpression>
-          <type xsi:type="ocl:StringType" location="374:41-374:47"/>
+          </body>
         </feature>
         <context_ location="374:8-374:26">
           <context_ xsi:type="ocl:OclModelElement" location="374:16-374:26" name="Cell" model="/2"/>
@@ -2251,10 +2251,10 @@
   <ocl:VariableDeclaration location="360:4-360:8" varName="self" variableExp="/0/@elements.26/@definition/@feature/@body/@thenExpression/@variable/@initExpression/@source"/>
   <ocl:VariableDeclaration location="360:25-360:29" varName="self" variableExp="/0/@elements.26/@definition/@feature/@body/@thenExpression/@variable/@initExpression/@arguments.1/@source/@source"/>
   <ocl:VariableDeclaration location="372:2-372:6" varName="self" variableExp="/0/@elements.27/@definition/@feature/@body"/>
-  <ocl:VariableDeclaration location="375:5-375:9" varName="self" variableExp="/0/@elements.28/@definition/@feature/@initExpression/@condition/@source/@source"/>
-  <ocl:VariableDeclaration location="376:3-376:7" varName="self" variableExp="/0/@elements.28/@definition/@feature/@initExpression/@thenExpression/@source/@source/@source/@source"/>
-  <ocl:VariableDeclaration location="376:32-376:36" varName="self" variableExp="/0/@elements.28/@definition/@feature/@initExpression/@thenExpression/@source/@source/@arguments.1/@source/@source/@source"/>
-  <ocl:VariableDeclaration location="378:3-378:7" varName="self" variableExp="/0/@elements.28/@definition/@feature/@initExpression/@elseExpression/@source/@source"/>
+  <ocl:VariableDeclaration location="375:5-375:9" varName="self" variableExp="/0/@elements.28/@definition/@feature/@body/@condition/@source/@source"/>
+  <ocl:VariableDeclaration location="376:3-376:7" varName="self" variableExp="/0/@elements.28/@definition/@feature/@body/@thenExpression/@source/@source/@source/@source"/>
+  <ocl:VariableDeclaration location="376:32-376:36" varName="self" variableExp="/0/@elements.28/@definition/@feature/@body/@thenExpression/@source/@source/@arguments.1/@source/@source/@source"/>
+  <ocl:VariableDeclaration location="378:3-378:7" varName="self" variableExp="/0/@elements.28/@definition/@feature/@body/@elseExpression/@source/@source"/>
   <ocl:VariableDeclaration location="382:5-382:9" varName="self" variableExp="/0/@elements.29/@definition/@feature/@body/@condition/@source/@source"/>
   <ocl:VariableDeclaration location="383:3-383:7" varName="self" variableExp="/0/@elements.29/@definition/@feature/@body/@thenExpression/@source/@source/@source/@source"/>
   <ocl:VariableDeclaration location="383:32-383:36" varName="self" variableExp="/0/@elements.29/@definition/@feature/@body/@thenExpression/@source/@source/@arguments.1/@source/@source/@source"/>

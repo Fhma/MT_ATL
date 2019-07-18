@@ -451,6 +451,9 @@
           <bindings location="99:4-99:45" propertyName="namespace">
             <value xsi:type="ocl:StringExp" location="99:17-99:45" stringSymbol="http://www.w3.org/2000/svg"/>
           </bindings>
+          <bindings location="100:4-100:20" propertyName="version">
+            <value xsi:type="ocl:StringExp" location="100:15-100:20" stringSymbol="1.1"/>
+          </bindings>
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="102:3-105:4" varName="svgSize" variableExp="/0/@elements.17/@outPattern/@elements.1/@bindings.0/@value">
           <type xsi:type="ocl:OclModelElement" location="102:12-102:25" name="Dimension" model="/1"/>
@@ -1478,11 +1481,6 @@
               <source xsi:type="ocl:VariableExp" location="279:13-279:18" referredVariable="/0/@elements.22/@inPattern/@elements.0"/>
             </value>
           </bindings>
-          <bindings location="280:4-280:38" propertyName="height">
-            <value xsi:type="ocl:OperationCallExp" location="280:14-280:38" operationName="captionBoxHeight">
-              <source xsi:type="ocl:VariableExp" location="280:14-280:19" referredVariable="/0/@elements.22/@inPattern/@elements.0"/>
-            </value>
-          </bindings>
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="282:3-285:4" varName="captionBoxCoord" variableExp="/0/@elements.22/@outPattern/@elements.1/@bindings.1/@value">
           <type xsi:type="ocl:OclModelElement" location="282:20-282:37" name="AbsoluteCoord" model="/1"/>
@@ -1518,7 +1516,7 @@
         </elements>
       </outPattern>
       <inPattern location="263:2-266:18">
-        <elements xsi:type="atl:SimpleInPatternElement" location="264:3-264:20" varName="table" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@source/@source/@source /0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.0 /0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.1/@source/@source /0/@elements.22/@outPattern/@elements.2/@bindings.0/@value/@source /0/@elements.22/@outPattern/@elements.2/@bindings.1/@value/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="264:3-264:20" varName="table" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@source/@source/@source /0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.0 /0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.1/@source/@source /0/@elements.22/@outPattern/@elements.2/@bindings.0/@value/@source">
           <type xsi:type="ocl:OclModelElement" location="264:10-264:20" name="Cell" model="/2"/>
         </elements>
         <elements xsi:type="atl:SimpleInPatternElement" location="265:3-265:15" varName="idx" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.2">

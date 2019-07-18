@@ -907,7 +907,7 @@
           <bindings location="163:4-163:30" propertyName="position">
             <value xsi:type="ocl:VariableExp" location="163:16-163:30" referredVariable="/0/@elements.18/@outPattern/@elements.6"/>
           </bindings>
-          <bindings location="164:4-164:31" propertyName="stroke">
+          <bindings location="164:4-164:31" propertyName="position">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="164:14-164:31" name="stroke">
               <source xsi:type="ocl:VariableExp" location="164:14-164:24" referredVariable="/46"/>
             </value>
@@ -1317,7 +1317,7 @@
               <arguments xsi:type="ocl:StringExp" location="253:49-253:53" stringSymbol=" z"/>
             </value>
           </bindings>
-          <bindings location="254:4-254:75" propertyName="stroke">
+          <bindings location="254:4-254:75" propertyName="fill">
             <value xsi:type="ocl:OperationCallExp" location="254:12-254:75" operationName="get">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="254:12-254:41" name="ColorByElementName">
                 <source xsi:type="ocl:VariableExp" location="254:12-254:22" referredVariable="/70"/>

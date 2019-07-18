@@ -76,7 +76,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="25:1-26:22">
       <definition location="25:8-26:21">
-        <feature xsi:type="ocl:Attribute" location="25:13-26:21" name="caption">
+        <feature xsi:type="ocl:Attribute" location="25:13-26:21" name="caption_">
           <initExpression xsi:type="ocl:NavigationOrAttributeCallExp" location="26:2-26:21" name="fontSize">
             <source xsi:type="ocl:VariableExp" location="26:2-26:12" referredVariable="/6"/>
           </initExpression>
@@ -191,7 +191,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="44:1-45:4">
       <definition location="44:8-45:3">
-        <feature xsi:type="ocl:Attribute" location="44:13-45:3" name="prevWidth_">
+        <feature xsi:type="ocl:Attribute" location="44:13-45:3" name="prevWidth">
           <initExpression xsi:type="ocl:IntegerExp" location="45:2-45:3"/>
           <type xsi:type="ocl:RealType" location="44:24-44:28"/>
         </feature>

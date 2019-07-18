@@ -1164,7 +1164,7 @@
     <elements xsi:type="atl:LazyMatchedRule" location="210:1-224:2" name="Table2Sectors">
       <outPattern location="215:2-223:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="216:3-219:4" varName="g">
-          <type xsi:type="ocl:OclModelElement" location="216:6-216:11" name="G_" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="216:6-216:11" name="G" model="/1"/>
           <bindings location="217:4-217:30" propertyName="attribute">
             <value xsi:type="ocl:VariableExp" location="217:17-217:30" referredVariable="/0/@elements.20/@outPattern/@elements.1"/>
           </bindings>
@@ -2060,7 +2060,7 @@
           </body>
         </feature>
         <context_ location="381:8-381:26">
-          <context_ xsi:type="ocl:OclModelElement" location="381:16-381:26" name="Cell" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" location="381:16-381:26" name="Cell_" model="/2"/>
         </context_>
       </definition>
     </elements>

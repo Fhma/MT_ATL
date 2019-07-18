@@ -796,7 +796,7 @@
             </value>
           </bindings>
         </elements>
-        <elements xsi:type="atl:SimpleOutPatternElement" location="144:3-149:4" varName="boundingBox_" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.1/@value">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="144:3-149:4" varName="boundingBox" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.1/@value">
           <type xsi:type="ocl:OclModelElement" location="144:16-144:24" name="Rect" model="/1"/>
           <bindings location="145:4-145:27" propertyName="size">
             <value xsi:type="ocl:VariableExp" location="145:12-145:27" referredVariable="/0/@elements.18/@outPattern/@elements.2"/>
@@ -902,7 +902,7 @@
             </value>
           </bindings>
         </elements>
-        <elements xsi:type="atl:SimpleOutPatternElement" location="162:3-168:4" varName="textTitle" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.2/@value">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="162:3-168:4" varName="textTitle_" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.2/@value">
           <type xsi:type="ocl:OclModelElement" location="162:14-162:22" name="Text" model="/1"/>
           <bindings location="163:4-163:30" propertyName="position">
             <value xsi:type="ocl:VariableExp" location="163:16-163:30" referredVariable="/0/@elements.18/@outPattern/@elements.6"/>

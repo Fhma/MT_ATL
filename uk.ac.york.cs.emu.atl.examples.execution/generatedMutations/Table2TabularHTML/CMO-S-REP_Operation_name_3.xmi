@@ -410,7 +410,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="128:1-133:8">
       <definition location="128:8-133:7">
-        <feature xsi:type="ocl:Operation" location="128:32-133:7" name="value_">
+        <feature xsi:type="ocl:Operation" location="128:32-133:7" name="value">
           <returnType xsi:type="ocl:StringType" location="128:41-128:47"/>
           <body xsi:type="ocl:IfExp" location="129:2-133:7">
             <thenExpression xsi:type="ocl:OperatorCallExp" location="130:3-130:73" operationName="+">
@@ -451,7 +451,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="135:1-140:8">
       <definition location="135:8-140:7">
-        <feature xsi:type="ocl:Operation" location="135:32-140:7" name="realValue">
+        <feature xsi:type="ocl:Operation" location="135:32-140:7" name="realValue_">
           <returnType xsi:type="ocl:RealType" location="135:45-135:49"/>
           <body xsi:type="ocl:IfExp" location="136:2-140:7">
             <thenExpression xsi:type="ocl:OperatorCallExp" location="137:3-137:74" operationName="/">

@@ -88,7 +88,7 @@
       <definition location="28:8-29:14">
         <feature xsi:type="ocl:Attribute" location="28:13-29:14" name="svgFile">
           <initExpression xsi:type="ocl:OclUndefinedExp" location="29:2-29:14"/>
-          <type xsi:type="ocl:OclModelElement" location="28:22-28:33" name="SvgFile_" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="28:22-28:33" name="SvgFile" model="/1"/>
         </feature>
       </definition>
     </elements>
@@ -2088,7 +2088,7 @@
         <feature xsi:type="ocl:Attribute" location="391:13-392:204" name="allValidTables">
           <initExpression xsi:type="ocl:IteratorExp" location="392:2-392:204" name="select">
             <source xsi:type="ocl:OperationCallExp" location="392:2-392:28" operationName="allInstances">
-              <source xsi:type="ocl:OclModelElement" location="392:2-392:13" name="Table" model="/2"/>
+              <source xsi:type="ocl:OclModelElement" location="392:2-392:13" name="Table_" model="/2"/>
             </source>
             <body xsi:type="ocl:IteratorExp" location="392:43-392:203" name="forAll">
               <source xsi:type="ocl:CollectionOperationCallExp" location="392:43-392:70" operationName="seqWithoutFirst">

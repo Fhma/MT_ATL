@@ -94,7 +94,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="31:1-36:47">
       <definition location="31:8-36:46">
-        <feature xsi:type="ocl:Operation" location="31:33-36:46" name="maxSizeName">
+        <feature xsi:type="ocl:Operation" location="31:33-36:46" name="maxSizeName_">
           <returnType xsi:type="ocl:RealType" location="31:48-31:52"/>
           <body xsi:type="ocl:OperatorCallExp" location="32:2-36:46" operationName="*">
             <source xsi:type="ocl:OperatorCallExp" location="32:3-36:17" operationName="+">
@@ -2066,7 +2066,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="388:1-389:41">
       <definition location="388:8-389:40">
-        <feature xsi:type="ocl:Operation" location="388:28-389:40" name="seqWithoutFirst_">
+        <feature xsi:type="ocl:Operation" location="388:28-389:40" name="seqWithoutFirst">
           <returnType xsi:type="ocl:SequenceType" location="388:47-388:63">
             <elementType xsi:type="ocl:OclAnyType" location="388:56-388:62"/>
           </returnType>

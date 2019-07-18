@@ -16,7 +16,7 @@
                 <body xsi:type="ocl:NavigationOrAttributeCallExp" location="5:31-5:39" name="author">
                   <source xsi:type="ocl:VariableExp" location="5:31-5:32" referredVariable="/0/@elements.0/@definition/@feature/@body/@source/@source/@iterators.0"/>
                 </body>
-                <iterators location="5:27-5:28" varName="e_" variableExp="/0/@elements.0/@definition/@feature/@body/@source/@source/@body/@source"/>
+                <iterators location="5:27-5:28" varName="e" variableExp="/0/@elements.0/@definition/@feature/@body/@source/@source/@body/@source"/>
               </source>
             </source>
             <body xsi:type="ocl:OperatorCallExp" location="5:94-9:8" operationName="+">
@@ -63,7 +63,7 @@
               <source xsi:type="ocl:VariableExp" location="12:79-12:82" referredVariable="/0/@elements.1/@definition/@feature/@body/@result"/>
               <arguments xsi:type="ocl:VariableExp" location="12:85-12:90" referredVariable="/0/@elements.1/@definition/@feature/@body/@iterators.0"/>
             </body>
-            <iterators location="12:53-12:58" varName="pages" variableExp="/0/@elements.1/@definition/@feature/@body/@body/@arguments.0"/>
+            <iterators location="12:53-12:58" varName="pages_" variableExp="/0/@elements.1/@definition/@feature/@body/@body/@arguments.0"/>
             <result location="12:60-12:76" varName="acc" variableExp="/0/@elements.1/@definition/@feature/@body/@body/@source">
               <type xsi:type="ocl:IntegerType" location="12:65-12:72"/>
               <initExpression xsi:type="ocl:IntegerExp" location="12:75-12:76"/>

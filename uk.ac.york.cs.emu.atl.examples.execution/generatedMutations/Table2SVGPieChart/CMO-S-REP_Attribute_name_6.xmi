@@ -5,7 +5,7 @@
     <outModels location="2:8-2:16" name="OUT" metamodel="/1"/>
     <elements xsi:type="atl:Helper" location="4:1-5:4">
       <definition location="4:8-5:3">
-        <feature xsi:type="ocl:Attribute" location="4:13-5:3" name="scale">
+        <feature xsi:type="ocl:Attribute" location="4:13-5:3" name="scale_">
           <initExpression xsi:type="ocl:IntegerExp" location="5:2-5:3" integerSymbol="1"/>
           <type xsi:type="ocl:RealType" location="4:20-4:24"/>
         </feature>
@@ -13,7 +13,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="7:1-8:25">
       <definition location="7:8-8:24">
-        <feature xsi:type="ocl:Attribute" location="7:13-8:24" name="radius_">
+        <feature xsi:type="ocl:Attribute" location="7:13-8:24" name="radius">
           <initExpression xsi:type="ocl:OperatorCallExp" location="8:2-8:24" operationName="*">
             <source xsi:type="ocl:IntegerExp" location="8:2-8:5" integerSymbol="100"/>
             <arguments xsi:type="ocl:NavigationOrAttributeCallExp" location="8:8-8:24" name="scale">

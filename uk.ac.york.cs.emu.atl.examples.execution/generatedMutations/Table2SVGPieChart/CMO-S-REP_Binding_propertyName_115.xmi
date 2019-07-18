@@ -744,7 +744,7 @@
           <bindings location="135:4-135:31" propertyName="groupContent">
             <value xsi:type="ocl:VariableExp" location="135:20-135:31" referredVariable="/0/@elements.18/@outPattern/@elements.1"/>
           </bindings>
-          <bindings location="136:4-136:29" propertyName="groupContent">
+          <bindings location="136:4-136:29" propertyName="attribute">
             <value xsi:type="ocl:VariableExp" location="136:20-136:29" referredVariable="/0/@elements.18/@outPattern/@elements.5"/>
           </bindings>
           <bindings location="137:4-141:10" propertyName="groupContent">
@@ -1460,7 +1460,7 @@
           <bindings location="273:4-273:26" propertyName="size">
             <value xsi:type="ocl:VariableExp" location="273:12-273:26" referredVariable="/0/@elements.22/@outPattern/@elements.2"/>
           </bindings>
-          <bindings location="274:4-274:31" propertyName="fill">
+          <bindings location="274:4-274:31" propertyName="position">
             <value xsi:type="ocl:VariableExp" location="274:16-274:31" referredVariable="/0/@elements.22/@outPattern/@elements.3"/>
           </bindings>
           <bindings location="275:4-275:27" propertyName="fill">

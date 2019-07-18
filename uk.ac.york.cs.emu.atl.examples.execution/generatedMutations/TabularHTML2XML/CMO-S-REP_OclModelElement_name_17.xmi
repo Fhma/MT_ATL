@@ -179,7 +179,7 @@
       </outPattern>
       <inPattern location="76:2-77:19">
         <elements xsi:type="atl:SimpleInPatternElement" location="77:3-77:19" varName="html" variableExp="/0/@elements.8/@outPattern/@elements.0/@bindings.1/@value/@arguments.1/@condition/@source/@source/@source /0/@elements.8/@outPattern/@elements.0/@bindings.1/@value/@arguments.1/@thenExpression/@source /0/@elements.8/@outPattern/@elements.0/@bindings.2/@value/@source">
-          <type xsi:type="ocl:OclModelElement" location="77:9-77:19" name="TABLE_" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" location="77:9-77:19" name="TABLE" model="/2"/>
         </elements>
       </inPattern>
     </elements>
@@ -245,7 +245,7 @@
       </actionBlock>
       <inPattern location="100:2-101:16">
         <elements xsi:type="atl:SimpleInPatternElement" location="101:3-101:16" varName="html" variableExp="/0/@elements.10/@outPattern/@elements.0/@bindings.1/@value/@arguments.0/@source /0/@elements.10/@actionBlock/@statements.0/@condition/@source/@source/@source /0/@elements.10/@actionBlock/@statements.0/@thenStatements.0/@value/@arguments.1/@source">
-          <type xsi:type="ocl:OclModelElement" location="101:9-101:16" name="TD" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" location="101:9-101:16" name="TD_" model="/2"/>
         </elements>
       </inPattern>
     </elements>

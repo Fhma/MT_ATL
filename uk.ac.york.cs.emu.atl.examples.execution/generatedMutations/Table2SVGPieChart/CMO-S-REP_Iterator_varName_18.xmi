@@ -128,7 +128,7 @@
                   </condition>
                   <elseExpression xsi:type="ocl:VariableExp" location="35:4-35:11" referredVariable="/0/@elements.9/@definition/@feature/@body/@source/@source/@result"/>
                 </body>
-                <iterators location="32:42-32:43" varName="r_" variableExp="/0/@elements.9/@definition/@feature/@body/@source/@source/@body/@condition/@source/@source/@source/@source/@source /0/@elements.9/@definition/@feature/@body/@source/@source/@body/@thenExpression/@source/@source/@source/@source"/>
+                <iterators location="32:42-32:43" varName="r" variableExp="/0/@elements.9/@definition/@feature/@body/@source/@source/@body/@condition/@source/@source/@source/@source/@source /0/@elements.9/@definition/@feature/@body/@source/@source/@body/@thenExpression/@source/@source/@source/@source"/>
                 <result location="32:45-32:65" varName="maxSize" variableExp="/0/@elements.9/@definition/@feature/@body/@source/@source/@body/@condition/@arguments.0 /0/@elements.9/@definition/@feature/@body/@source/@source/@body/@elseExpression">
                   <type xsi:type="ocl:IntegerType" location="32:54-32:61"/>
                   <initExpression xsi:type="ocl:IntegerExp" location="32:64-32:65"/>
@@ -525,7 +525,7 @@
                       </source>
                     </source>
                   </body>
-                  <iterators location="112:65-112:66" varName="r" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@collection/@source/@body/@source/@source/@source"/>
+                  <iterators location="112:65-112:66" varName="r_" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@collection/@source/@body/@source/@source/@source"/>
                 </source>
                 <body xsi:type="ocl:VariableExp" location="112:113-112:114" referredVariable="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@collection/@iterators.0"/>
                 <iterators location="112:109-112:110" varName="n" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@collection/@body"/>

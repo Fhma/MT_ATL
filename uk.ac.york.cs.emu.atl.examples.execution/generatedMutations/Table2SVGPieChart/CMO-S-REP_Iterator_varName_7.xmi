@@ -556,7 +556,7 @@
                               </source>
                             </source>
                           </body>
-                          <iterators location="114:124-114:125" varName="r_" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.0/@source/@source/@body/@source/@source/@source"/>
+                          <iterators location="114:124-114:125" varName="r" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.0/@source/@source/@body/@source/@source/@source"/>
                         </source>
                         <body xsi:type="ocl:VariableExp" location="114:172-114:173" referredVariable="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.0/@source/@iterators.0"/>
                         <iterators location="114:168-114:169" varName="n" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.0/@source/@body"/>
@@ -662,7 +662,7 @@
                 </arguments>
               </arguments>
             </body>
-            <iterators location="84:54-84:55" varName="t" variableExp="/0/@elements.17/@variables.0/@initExpression/@source/@body/@arguments.0/@source/@source/@source/@source /0/@elements.17/@variables.0/@initExpression/@source/@body/@arguments.0/@arguments.0/@source/@source/@source/@source/@source"/>
+            <iterators location="84:54-84:55" varName="t_" variableExp="/0/@elements.17/@variables.0/@initExpression/@source/@body/@arguments.0/@source/@source/@source/@source /0/@elements.17/@variables.0/@initExpression/@source/@body/@arguments.0/@arguments.0/@source/@source/@source/@source/@source"/>
             <result location="84:57-84:70" varName="sum" variableExp="/0/@elements.17/@variables.0/@initExpression/@source/@body/@source">
               <type xsi:type="ocl:RealType" location="84:62-84:66"/>
               <initExpression xsi:type="ocl:IntegerExp" location="84:69-84:70"/>

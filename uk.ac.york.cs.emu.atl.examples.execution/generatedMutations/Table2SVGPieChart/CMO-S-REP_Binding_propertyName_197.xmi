@@ -1331,7 +1331,7 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="255:4-255:31" propertyName="stroke">
+          <bindings location="255:4-255:31" propertyName="stroke_">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="255:14-255:31" name="stroke">
               <source xsi:type="ocl:VariableExp" location="255:14-255:24" referredVariable="/71"/>
             </value>
@@ -1660,7 +1660,7 @@
               <source xsi:type="ocl:VariableExp" location="324:14-324:24" referredVariable="/87"/>
             </value>
           </bindings>
-          <bindings location="325:4-325:46" propertyName="fontSize_">
+          <bindings location="325:4-325:46" propertyName="fontSize">
             <value xsi:type="ocl:OperationCallExp" location="325:16-325:46" operationName="toString">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="325:16-325:35" name="fontSize">
                 <source xsi:type="ocl:VariableExp" location="325:16-325:26" referredVariable="/88"/>

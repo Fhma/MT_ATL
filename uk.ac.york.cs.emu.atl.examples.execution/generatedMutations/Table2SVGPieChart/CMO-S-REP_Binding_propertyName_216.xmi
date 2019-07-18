@@ -1165,7 +1165,7 @@
       <outPattern location="215:2-223:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="216:3-219:4" varName="g">
           <type xsi:type="ocl:OclModelElement" location="216:6-216:11" name="G" model="/1"/>
-          <bindings location="217:4-217:30" propertyName="attribute">
+          <bindings location="217:4-217:30" propertyName="groupContent">
             <value xsi:type="ocl:VariableExp" location="217:17-217:30" referredVariable="/0/@elements.20/@outPattern/@elements.1"/>
           </bindings>
           <bindings location="218:4-218:140" propertyName="groupContent">
@@ -1432,7 +1432,7 @@
           <bindings location="269:4-269:30" propertyName="groupContent">
             <value xsi:type="ocl:VariableExp" location="269:20-269:30" referredVariable="/0/@elements.22/@outPattern/@elements.1"/>
           </bindings>
-          <bindings location="270:4-270:142" propertyName="groupContent_">
+          <bindings location="270:4-270:142" propertyName="groupContent">
             <value xsi:type="ocl:IteratorExp" location="270:20-270:142" name="collect">
               <source xsi:type="ocl:OperationCallExp" location="270:20-270:48" operationName="seqWithoutFirst">
                 <source xsi:type="ocl:NavigationOrAttributeCallExp" location="270:20-270:30" name="rows">

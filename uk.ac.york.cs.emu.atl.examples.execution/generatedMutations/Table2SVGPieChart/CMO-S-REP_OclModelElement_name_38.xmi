@@ -177,7 +177,7 @@
           </body>
         </feature>
         <context_ location="38:8-38:27">
-          <context_ xsi:type="ocl:OclModelElement" location="38:16-38:27" name="Table_" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" location="38:16-38:27" name="Table" model="/2"/>
         </context_>
       </definition>
     </elements>
@@ -1085,7 +1085,7 @@
           </bindings>
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="194:3-199:4" varName="pie" variableExp="/0/@elements.19/@outPattern/@elements.0/@bindings.1/@value">
-          <type xsi:type="ocl:OclModelElement" location="194:8-194:18" name="Circle" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="194:8-194:18" name="Circle_" model="/1"/>
           <bindings location="195:4-195:19" propertyName="size">
             <value xsi:type="ocl:VariableExp" location="195:12-195:19" referredVariable="/0/@elements.19/@outPattern/@elements.3"/>
           </bindings>

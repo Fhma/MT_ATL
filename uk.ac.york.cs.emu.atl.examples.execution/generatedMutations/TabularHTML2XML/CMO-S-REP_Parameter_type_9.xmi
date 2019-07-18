@@ -282,7 +282,7 @@
         </statements>
       </actionBlock>
       <parameters location="123:16-123:32" varName="attrName" variableExp="/0/@elements.12/@outPattern/@elements.0/@bindings.0/@value">
-        <type xsi:type="ocl:RealType"/>
+        <type xsi:type="ocl:StringType" location="123:26-123:32"/>
       </parameters>
       <parameters location="123:34-123:51" varName="attrValue" variableExp="/0/@elements.12/@outPattern/@elements.0/@bindings.1/@value">
         <type xsi:type="ocl:StringType" location="123:45-123:51"/>
@@ -311,7 +311,7 @@
         </statements>
       </actionBlock>
       <parameters location="134:11-134:24" varName="value" variableExp="/0/@elements.13/@outPattern/@elements.0/@bindings.0/@value/@condition/@source/@source /0/@elements.13/@outPattern/@elements.0/@bindings.0/@value/@thenExpression">
-        <type xsi:type="ocl:StringType" location="134:18-134:24"/>
+        <type xsi:type="ocl:BooleanType"/>
       </parameters>
     </elements>
   </atl:Module>

@@ -801,7 +801,7 @@
           <bindings location="145:4-145:27" propertyName="size">
             <value xsi:type="ocl:VariableExp" location="145:12-145:27" referredVariable="/0/@elements.18/@outPattern/@elements.2"/>
           </bindings>
-          <bindings location="146:4-146:32" propertyName="position">
+          <bindings location="146:4-146:32" propertyName="stroke">
             <value xsi:type="ocl:VariableExp" location="146:16-146:32" referredVariable="/0/@elements.18/@outPattern/@elements.3"/>
           </bindings>
           <bindings location="147:4-147:27" propertyName="fill">
@@ -907,7 +907,7 @@
           <bindings location="163:4-163:30" propertyName="position">
             <value xsi:type="ocl:VariableExp" location="163:16-163:30" referredVariable="/0/@elements.18/@outPattern/@elements.6"/>
           </bindings>
-          <bindings location="164:4-164:31" propertyName="position">
+          <bindings location="164:4-164:31" propertyName="stroke">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="164:14-164:31" name="stroke">
               <source xsi:type="ocl:VariableExp" location="164:14-164:24" referredVariable="/46"/>
             </value>

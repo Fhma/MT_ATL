@@ -149,7 +149,7 @@
       </outPattern>
       <inPattern location="51:2-52:19">
         <elements xsi:type="atl:SimpleInPatternElement" location="52:3-52:19" varName="cell" variableExp="/0/@elements.4/@outPattern/@elements.0/@bindings.0/@value/@source">
-          <type xsi:type="ocl:OclModelElement" name="Row" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" name="Table" model="/2"/>
         </elements>
       </inPattern>
     </elements>

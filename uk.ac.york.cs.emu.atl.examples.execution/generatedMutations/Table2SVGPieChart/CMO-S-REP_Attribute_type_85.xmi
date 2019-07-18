@@ -28,7 +28,7 @@
       <definition location="10:8-11:8">
         <feature xsi:type="ocl:Attribute" location="10:13-11:8" name="fill">
           <initExpression xsi:type="ocl:StringExp" location="11:2-11:8" stringSymbol="none"/>
-          <type xsi:type="ocl:StringType" location="10:19-10:25"/>
+          <type xsi:type="ocl:RealType"/>
         </feature>
       </definition>
     </elements>
@@ -2127,7 +2127,7 @@
             </body>
             <iterators location="392:39-392:40" varName="t" variableExp="/0/@elements.31/@definition/@feature/@initExpression/@body/@source/@source/@source"/>
           </initExpression>
-          <type xsi:type="ocl:BagType">
+          <type xsi:type="ocl:SequenceType" location="391:29-391:50">
             <elementType xsi:type="ocl:OclModelElement" location="391:38-391:49" name="Table" model="/2"/>
           </type>
         </feature>

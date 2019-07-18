@@ -183,7 +183,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="41:1-42:4">
       <definition location="41:8-42:3">
-        <feature xsi:type="ocl:Attribute" location="41:13-42:3" name="prevAngle_">
+        <feature xsi:type="ocl:Attribute" location="41:13-42:3" name="prevAngle">
           <initExpression xsi:type="ocl:IntegerExp" location="42:2-42:3"/>
           <type xsi:type="ocl:RealType" location="41:24-41:28"/>
         </feature>
@@ -191,7 +191,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="44:1-45:4">
       <definition location="44:8-45:3">
-        <feature xsi:type="ocl:Attribute" location="44:13-45:3" name="prevWidth">
+        <feature xsi:type="ocl:Attribute" location="44:13-45:3" name="prevWidth_">
           <initExpression xsi:type="ocl:IntegerExp" location="45:2-45:3"/>
           <type xsi:type="ocl:RealType" location="44:24-44:28"/>
         </feature>

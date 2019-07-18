@@ -738,7 +738,7 @@
       <outPattern location="132:2-172:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="133:3-143:4" varName="g" variableExp="/0/@elements.18/@actionBlock/@statements.1/@value">
           <type xsi:type="ocl:OclModelElement" location="133:6-133:11" name="G" model="/1"/>
-          <bindings location="134:4-134:34" propertyName="attribute">
+          <bindings location="134:4-134:34" propertyName="groupContent">
             <value xsi:type="ocl:VariableExp" location="134:17-134:34" referredVariable="/0/@elements.18/@outPattern/@elements.4"/>
           </bindings>
           <bindings location="135:4-135:31" propertyName="groupContent">
@@ -1193,7 +1193,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="220:3-223:4" varName="sectorsTransl" variableExp="/0/@elements.20/@outPattern/@elements.0/@bindings.0/@value">
           <type xsi:type="ocl:OclModelElement" location="220:18-220:31" name="Translate" model="/1"/>
-          <bindings location="221:4-221:63" propertyName="tx_">
+          <bindings location="221:4-221:63" propertyName="tx">
             <value xsi:type="ocl:OperatorCallExp" location="221:10-221:63" operationName="-">
               <source xsi:type="ocl:IntegerExp" location="221:10-221:11"/>
               <arguments xsi:type="ocl:OperatorCallExp" location="221:14-221:63" operationName="/">

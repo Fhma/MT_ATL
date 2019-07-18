@@ -1331,11 +1331,6 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="255:4-255:31" propertyName="stroke">
-            <value xsi:type="ocl:NavigationOrAttributeCallExp" location="255:14-255:31" name="stroke">
-              <source xsi:type="ocl:VariableExp" location="255:14-255:24" referredVariable="/71"/>
-            </value>
-          </bindings>
         </elements>
       </outPattern>
       <actionBlock location="257:2-259:3">
@@ -1581,6 +1576,11 @@
           <bindings location="315:4-315:31" propertyName="width">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="315:13-315:31" name="caption">
               <source xsi:type="ocl:VariableExp" location="315:13-315:23" referredVariable="/80"/>
+            </value>
+          </bindings>
+          <bindings location="316:4-316:32" propertyName="height">
+            <value xsi:type="ocl:NavigationOrAttributeCallExp" location="316:14-316:32" name="caption">
+              <source xsi:type="ocl:VariableExp" location="316:14-316:24" referredVariable="/81"/>
             </value>
           </bindings>
         </elements>
@@ -2215,7 +2215,7 @@
   <ocl:VariableDeclaration location="249:65-249:75" varName="thisModule" variableExp="/0/@elements.21/@outPattern/@elements.2/@bindings.0/@value/@source/@source/@source/@source/@source/@source/@source/@source/@arguments.0/@source/@source"/>
   <ocl:VariableDeclaration location="249:102-249:112" varName="thisModule" variableExp="/0/@elements.21/@outPattern/@elements.2/@bindings.0/@value/@source/@source/@source/@source/@source/@source/@arguments.0/@source/@source"/>
   <ocl:VariableDeclaration location="254:12-254:22" varName="thisModule" variableExp="/0/@elements.21/@outPattern/@elements.2/@bindings.1/@value/@source/@source"/>
-  <ocl:VariableDeclaration location="255:14-255:24" varName="thisModule" variableExp="/0/@elements.21/@outPattern/@elements.2/@bindings.2/@value/@source"/>
+  <ocl:VariableDeclaration location="255:14-255:24" varName="thisModule"/>
   <ocl:VariableDeclaration location="258:3-258:13" varName="thisModule" variableExp="/0/@elements.21/@actionBlock/@statements.0/@source/@source"/>
   <ocl:VariableDeclaration location="270:66-270:76" varName="thisModule" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@source"/>
   <ocl:VariableDeclaration location="275:12-275:22" varName="thisModule" variableExp="/0/@elements.22/@outPattern/@elements.1/@bindings.2/@value/@source"/>
@@ -2225,7 +2225,7 @@
   <ocl:VariableDeclaration location="311:12-311:22" varName="thisModule" variableExp="/0/@elements.23/@outPattern/@elements.1/@bindings.2/@value/@source/@source"/>
   <ocl:VariableDeclaration location="312:14-312:24" varName="thisModule" variableExp="/0/@elements.23/@outPattern/@elements.1/@bindings.3/@value/@source"/>
   <ocl:VariableDeclaration location="315:13-315:23" varName="thisModule" variableExp="/0/@elements.23/@outPattern/@elements.2/@bindings.0/@value/@source"/>
-  <ocl:VariableDeclaration location="316:14-316:24" varName="thisModule"/>
+  <ocl:VariableDeclaration location="316:14-316:24" varName="thisModule" variableExp="/0/@elements.23/@outPattern/@elements.2/@bindings.1/@value/@source"/>
   <ocl:VariableDeclaration location="319:37-319:47" varName="thisModule" variableExp="/0/@elements.23/@outPattern/@elements.3/@bindings.0/@value/@source/@source/@source/@arguments.0/@source"/>
   <ocl:VariableDeclaration location="319:62-319:72" varName="thisModule" variableExp="/0/@elements.23/@outPattern/@elements.3/@bindings.0/@value/@source/@arguments.0/@source"/>
   <ocl:VariableDeclaration location="320:46-320:56" varName="thisModule" variableExp="/0/@elements.23/@outPattern/@elements.3/@bindings.1/@value/@source/@arguments.0/@source"/>

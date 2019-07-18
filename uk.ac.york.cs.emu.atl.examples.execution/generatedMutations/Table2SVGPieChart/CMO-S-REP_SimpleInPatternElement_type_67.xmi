@@ -1418,7 +1418,7 @@
           <type xsi:type="ocl:IntegerType" location="229:11-229:18"/>
         </elements>
         <elements xsi:type="atl:SimpleInPatternElement" location="230:3-230:19" varName="cellIdx" variableExp="/0/@elements.21/@variables.0/@initExpression/@elseExpression/@source/@source/@source/@arguments.0">
-          <type xsi:type="ocl:IntegerType" location="230:12-230:19"/>
+          <type xsi:type="ocl:StringType"/>
         </elements>
         <elements xsi:type="atl:SimpleInPatternElement" location="231:3-231:18" varName="valuesSum" variableExp="/0/@elements.21/@variables.0/@initExpression/@condition/@source /0/@elements.21/@variables.0/@initExpression/@elseExpression/@source/@arguments.0">
           <type xsi:type="ocl:RealType" location="231:14-231:18"/>
@@ -1525,7 +1525,7 @@
           <type xsi:type="ocl:OclModelElement" location="264:10-264:20" name="Cell" model="/2"/>
         </elements>
         <elements xsi:type="atl:SimpleInPatternElement" location="265:3-265:15" varName="idx" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.2">
-          <type xsi:type="ocl:RealType"/>
+          <type xsi:type="ocl:IntegerType" location="265:8-265:15"/>
         </elements>
         <elements xsi:type="atl:SimpleInPatternElement" location="266:3-266:18" varName="valuesSum" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.3">
           <type xsi:type="ocl:RealType" location="266:14-266:18"/>

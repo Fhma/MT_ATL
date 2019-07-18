@@ -1429,7 +1429,7 @@
       <outPattern location="267:2-285:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="268:3-271:4" varName="g">
           <type xsi:type="ocl:OclModelElement" location="268:6-268:11" name="G" model="/1"/>
-          <bindings location="269:4-269:30" propertyName="groupContent_">
+          <bindings location="269:4-269:30" propertyName="groupContent">
             <value xsi:type="ocl:VariableExp" location="269:20-269:30" referredVariable="/0/@elements.22/@outPattern/@elements.1"/>
           </bindings>
           <bindings location="270:4-270:142" propertyName="groupContent">
@@ -1660,7 +1660,7 @@
               <source xsi:type="ocl:VariableExp" location="324:14-324:24" referredVariable="/87"/>
             </value>
           </bindings>
-          <bindings location="325:4-325:46" propertyName="fontSize">
+          <bindings location="325:4-325:46" propertyName="stroke">
             <value xsi:type="ocl:OperationCallExp" location="325:16-325:46" operationName="toString">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="325:16-325:35" name="fontSize">
                 <source xsi:type="ocl:VariableExp" location="325:16-325:26" referredVariable="/88"/>

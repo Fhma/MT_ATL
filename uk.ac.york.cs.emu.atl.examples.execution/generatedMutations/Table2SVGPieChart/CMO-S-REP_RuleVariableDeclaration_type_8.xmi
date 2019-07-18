@@ -1355,7 +1355,7 @@
         </statements>
       </actionBlock>
       <variables location="233:3-236:10" varName="value" variableExp="/0/@elements.21/@variables.1/@initExpression/@arguments.0/@source/@source/@source /0/@elements.21/@variables.2/@initExpression/@arguments.0/@source/@source/@source /0/@elements.21/@outPattern/@elements.2/@bindings.0/@value/@source/@source/@source/@source/@arguments.0/@condition/@source/@arguments.0 /0/@elements.21/@actionBlock/@statements.0/@value/@arguments.0/@arguments.0">
-        <type xsi:type="ocl:RealType" location="233:10-233:14"/>
+        <type xsi:type="ocl:StringType"/>
         <initExpression xsi:type="ocl:IfExp" location="233:17-236:9">
           <thenExpression xsi:type="ocl:IntegerExp" location="234:10-234:11"/>
           <condition xsi:type="ocl:OperatorCallExp" location="233:20-233:33" operationName="=">
@@ -1750,7 +1750,7 @@
         </elements>
       </outPattern>
       <variables location="295:3-301:39" varName="value" variableExp="/0/@elements.23/@outPattern/@elements.4/@bindings.3/@value/@source/@source/@source/@source/@source/@arguments.0">
-        <type xsi:type="ocl:IntegerType"/>
+        <type xsi:type="ocl:StringType" location="295:10-295:16"/>
         <initExpression xsi:type="ocl:LetExp" location="295:19-301:38">
           <variable location="295:23-299:10" varName="realValue" variableExp="/0/@elements.23/@variables.0/@initExpression/@in_/@source/@source/@source">
             <type xsi:type="ocl:RealType" location="295:34-295:38"/>

@@ -44,7 +44,7 @@
       <definition location="16:8-17:4">
         <feature xsi:type="ocl:Attribute" location="16:13-17:4" name="margin">
           <initExpression xsi:type="ocl:IntegerExp" location="17:2-17:4" integerSymbol="10"/>
-          <type xsi:type="ocl:StringType"/>
+          <type xsi:type="ocl:RealType" location="16:21-16:25"/>
         </feature>
       </definition>
     </elements>
@@ -80,7 +80,7 @@
           <initExpression xsi:type="ocl:NavigationOrAttributeCallExp" location="26:2-26:21" name="fontSize">
             <source xsi:type="ocl:VariableExp" location="26:2-26:12" referredVariable="/6"/>
           </initExpression>
-          <type xsi:type="ocl:RealType" location="25:22-25:26"/>
+          <type xsi:type="ocl:IntegerType"/>
         </feature>
       </definition>
     </elements>

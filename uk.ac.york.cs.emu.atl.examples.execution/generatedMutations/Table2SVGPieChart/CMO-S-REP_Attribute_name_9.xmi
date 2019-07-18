@@ -50,7 +50,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="19:1-20:26">
       <definition location="19:8-20:25">
-        <feature xsi:type="ocl:Attribute" location="19:13-20:25" name="titleFontSize_">
+        <feature xsi:type="ocl:Attribute" location="19:13-20:25" name="titleFontSize">
           <initExpression xsi:type="ocl:OperatorCallExp" location="20:2-20:25" operationName="*">
             <source xsi:type="ocl:NavigationOrAttributeCallExp" location="20:2-20:19" name="radius">
               <source xsi:type="ocl:VariableExp" location="20:2-20:12" referredVariable="/4"/>
@@ -63,7 +63,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="22:1-23:33">
       <definition location="22:8-23:32">
-        <feature xsi:type="ocl:Attribute" location="22:13-23:32" name="fontSize">
+        <feature xsi:type="ocl:Attribute" location="22:13-23:32" name="fontSize_">
           <initExpression xsi:type="ocl:OperatorCallExp" location="23:2-23:32" operationName="*">
             <source xsi:type="ocl:NavigationOrAttributeCallExp" location="23:2-23:26" name="titleFontSize">
               <source xsi:type="ocl:VariableExp" location="23:2-23:12" referredVariable="/5"/>

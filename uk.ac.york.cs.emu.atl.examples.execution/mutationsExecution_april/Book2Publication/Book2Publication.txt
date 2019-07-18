@@ -1,0 +1,20 @@
+	\--> Processed mutants-> 66
+	\--> Invalid mutants-> 2
+	\--> Killed mutants-> 3
+	\--> Not killed mutants-> 16
+		\-->CMO-S-REP_Iterator_varName_1.xmi <E>
+		\-->CMO-S-REP_Iterator_varName_2.xmi <E>
+		\-->CMO-S-REP_Iterator_varName_3.xmi <E>
+		\-->CMO-S-REP_Iterator_varName_4.xmi <E>
+		\-->CMO-S-REP_MatchedRule_name_1.xmi <E>
+		\-->CMO-S-REP_OclModel_name_14.xmi <E>
+		\-->CMO-S-REP_OclModel_name_2.xmi <E>
+		\-->CMO-S-REP_OclModel_name_3.xmi <E>
+		\-->CMO-S-REP_Operation_returnType_1.xmi <L By Engine> the engine allowed the execution of this mutant that produced the same output as the original program even although the type was changed to incompatible type
+		\-->CMO-S-REP_Operation_returnType_2.xmi <L By Engine> the engine allowed the execution of this mutant that produced the same output as the original program even although the type was changed to incompatible type
+		\-->CMO-S-REP_Operation_returnType_3.xmi <L By Engine> the engine allowed the execution of this mutant that produced the same output as the original program even although the type was changed to incompatible type
+		\-->CMO-S-REP_Operation_returnType_4.xmi <L By Engine> the engine allowed the execution of this mutant that produced the same output as the original program even although the type was changed to incompatible type
+		\-->CMO-S-REP_Operation_returnType_5.xmi <L By Engine> the engine allowed the execution of this mutant that produced the same output as the original program even although the type was changed to incompatible type
+		\-->CMO-S-REP_Operation_returnType_6.xmi <L By Engine> the engine allowed the execution of this mutant that produced the same output as the original program even although the type was changed to incompatible type
+		\-->CMO-S-REP_SimpleInPatternElement_varName_1.xmi <E>
+		\-->CMO-S-REP_SimpleOutPatternElement_varName_1.xmi <E>

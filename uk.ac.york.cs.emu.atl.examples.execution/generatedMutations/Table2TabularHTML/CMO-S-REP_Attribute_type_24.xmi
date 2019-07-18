@@ -7,7 +7,7 @@
       <definition location="4:8-5:14">
         <feature xsi:type="ocl:Attribute" location="4:13-5:14" name="html">
           <initExpression xsi:type="ocl:OclUndefinedExp" location="5:2-5:14"/>
-          <type xsi:type="ocl:OclModelElement" name="Table" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" name="Cell" model="/1"/>
         </feature>
       </definition>
     </elements>

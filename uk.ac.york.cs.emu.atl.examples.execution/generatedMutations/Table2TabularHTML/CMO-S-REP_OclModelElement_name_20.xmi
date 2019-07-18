@@ -7,7 +7,7 @@
       <definition location="4:8-5:14">
         <feature xsi:type="ocl:Attribute" location="4:13-5:14" name="html">
           <initExpression xsi:type="ocl:OclUndefinedExp" location="5:2-5:14"/>
-          <type xsi:type="ocl:OclModelElement" location="4:19-4:28" name="HTML_" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="4:19-4:28" name="HTML" model="/1"/>
         </feature>
       </definition>
     </elements>
@@ -514,7 +514,7 @@
         <feature xsi:type="ocl:Attribute" location="145:13-146:204" name="allValidTables">
           <initExpression xsi:type="ocl:IteratorExp" location="146:2-146:204" name="select">
             <source xsi:type="ocl:OperationCallExp" location="146:2-146:28" operationName="allInstances">
-              <source xsi:type="ocl:OclModelElement" location="146:2-146:13" name="Table" model="/2"/>
+              <source xsi:type="ocl:OclModelElement" location="146:2-146:13" name="Table_" model="/2"/>
             </source>
             <body xsi:type="ocl:IteratorExp" location="146:43-146:203" name="forAll">
               <source xsi:type="ocl:CollectionOperationCallExp" location="146:43-146:70" operationName="seqWithoutFirst">

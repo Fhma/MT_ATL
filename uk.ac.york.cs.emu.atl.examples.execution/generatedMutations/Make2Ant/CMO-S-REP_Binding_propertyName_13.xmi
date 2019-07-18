@@ -19,7 +19,7 @@
               </source>
             </value>
           </bindings>
-          <bindings location="11:4-11:69" propertyName="targets">
+          <bindings location="11:4-11:69" propertyName="properties">
             <value xsi:type="ocl:IteratorExp" location="11:18-11:69" name="select">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="11:18-11:28" name="elements">
                 <source xsi:type="ocl:VariableExp" location="11:18-11:19" referredVariable="/0/@elements.0/@inPattern/@elements.0"/>
@@ -69,7 +69,7 @@
       <outPattern location="20:2-24:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="21:3-24:4" varName="a">
           <type xsi:type="ocl:OclModelElement" location="21:6-21:23" name="PropertyValue" model="/1"/>
-          <bindings location="22:4-22:18" propertyName="name">
+          <bindings location="22:4-22:18" propertyName="name_">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="22:12-22:18" name="name">
               <source xsi:type="ocl:VariableExp" location="22:12-22:13" referredVariable="/0/@elements.1/@inPattern/@elements.0"/>
             </value>

@@ -411,7 +411,7 @@
     <elements xsi:type="atl:Helper" location="128:1-133:8">
       <definition location="128:8-133:7">
         <feature xsi:type="ocl:Operation" location="128:32-133:7" name="value">
-          <returnType xsi:type="ocl:StringType" location="128:41-128:47"/>
+          <returnType xsi:type="ocl:IntegerType"/>
           <body xsi:type="ocl:IfExp" location="129:2-133:7">
             <thenExpression xsi:type="ocl:OperatorCallExp" location="130:3-130:73" operationName="+">
               <source xsi:type="ocl:OperationCallExp" location="130:3-130:67" operationName="value">
@@ -493,7 +493,7 @@
     <elements xsi:type="atl:Helper" location="142:1-143:41">
       <definition location="142:8-143:40">
         <feature xsi:type="ocl:Operation" location="142:28-143:40" name="seqWithoutFirst">
-          <returnType xsi:type="ocl:BagType">
+          <returnType xsi:type="ocl:SequenceType" location="142:47-142:63">
             <elementType xsi:type="ocl:OclAnyType" location="142:56-142:62"/>
           </returnType>
           <body xsi:type="ocl:CollectionOperationCallExp" location="143:2-143:40" operationName="subSequence">

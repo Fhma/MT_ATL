@@ -505,91 +505,12 @@
             </value>
           </thenStatements>
           <thenStatements xsi:type="atl:ForStat" location="111:4-120:5">
-            <iterator location="111:9-111:14" varName="table" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@collection/@source/@source/@source/@source /0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.0/@source/@source/@source/@source/@source /0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.1/@source/@source/@source/@source/@source /0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.1/@collection/@source/@source/@source/@source"/>
+            <iterator location="111:9-111:14" varName="table" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@collection/@source/@source/@source/@source /0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@expression/@arguments.0 /0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@expression/@arguments.1/@source/@source/@source/@source"/>
             <collection xsi:type="ocl:NavigationOrAttributeCallExp" location="111:18-111:43" name="allValidTables">
               <source xsi:type="ocl:VariableExp" location="111:18-111:28" referredVariable="/31"/>
             </collection>
-            <statements xsi:type="atl:ForStat" location="112:5-115:6">
-              <iterator location="112:10-112:18" varName="elmtName" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.0 /0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.0/@arguments.0"/>
-              <collection xsi:type="ocl:IteratorExp" location="112:22-112:115" name="sortedBy">
-                <source xsi:type="ocl:IteratorExp" location="112:22-112:96" name="collect">
-                  <source xsi:type="ocl:CollectionOperationCallExp" location="112:22-112:53" operationName="seqWithoutFirst">
-                    <source xsi:type="ocl:NavigationOrAttributeCallExp" location="112:22-112:32" name="rows">
-                      <source xsi:type="ocl:VariableExp" location="112:22-112:27" referredVariable="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@iterator"/>
-                    </source>
-                  </source>
-                  <body xsi:type="ocl:NavigationOrAttributeCallExp" location="112:69-112:95" name="content">
-                    <source xsi:type="ocl:CollectionOperationCallExp" location="112:69-112:87" operationName="first">
-                      <source xsi:type="ocl:NavigationOrAttributeCallExp" location="112:69-112:76" name="cells">
-                        <source xsi:type="ocl:VariableExp" location="112:69-112:70" referredVariable="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@collection/@source/@iterators.0"/>
-                      </source>
-                    </source>
-                  </body>
-                  <iterators location="112:65-112:66" varName="r" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@collection/@source/@body/@source/@source/@source"/>
-                </source>
-                <body xsi:type="ocl:VariableExp" location="112:113-112:114" referredVariable="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@collection/@iterators.0"/>
-                <iterators location="112:109-112:110" varName="n" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@collection/@body"/>
-              </collection>
-              <statements xsi:type="atl:BindingStat" location="113:6-114:303">
-                <source xsi:type="ocl:NavigationOrAttributeCallExp" location="113:6-113:35" name="ColorByElementName">
-                  <source xsi:type="ocl:VariableExp" location="113:6-113:16" referredVariable="/32"/>
-                </source>
-                <value xsi:type="ocl:OperationCallExp" location="114:7-114:302" operationName="including">
-                  <source xsi:type="ocl:NavigationOrAttributeCallExp" location="114:7-114:36" name="ColorByElementName">
-                    <source xsi:type="ocl:VariableExp" location="114:7-114:17" referredVariable="/33"/>
-                  </source>
-                  <arguments xsi:type="ocl:VariableExp" location="114:47-114:55" referredVariable="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@iterator"/>
-                  <arguments xsi:type="ocl:OperationCallExp" location="114:57-114:301" operationName="computeColor">
-                    <source xsi:type="ocl:VariableExp" location="114:57-114:67" referredVariable="/34"/>
-                    <arguments xsi:type="ocl:CollectionOperationCallExp" location="114:81-114:195" operationName="indexOf">
-                      <source xsi:type="ocl:IteratorExp" location="114:81-114:174" name="sortedBy">
-                        <source xsi:type="ocl:IteratorExp" location="114:81-114:155" name="collect">
-                          <source xsi:type="ocl:CollectionOperationCallExp" location="114:81-114:112" operationName="seqWithoutFirst">
-                            <source xsi:type="ocl:NavigationOrAttributeCallExp" location="114:81-114:91" name="rows">
-                              <source xsi:type="ocl:VariableExp" location="114:81-114:86" referredVariable="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@iterator"/>
-                            </source>
-                          </source>
-                          <body xsi:type="ocl:NavigationOrAttributeCallExp" location="114:128-114:154" name="content">
-                            <source xsi:type="ocl:CollectionOperationCallExp" location="114:128-114:146" operationName="first">
-                              <source xsi:type="ocl:NavigationOrAttributeCallExp" location="114:128-114:135" name="cells">
-                                <source xsi:type="ocl:VariableExp" location="114:128-114:129" referredVariable="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.0/@source/@source/@iterators.0"/>
-                              </source>
-                            </source>
-                          </body>
-                          <iterators location="114:124-114:125" varName="r" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.0/@source/@source/@body/@source/@source/@source"/>
-                        </source>
-                        <body xsi:type="ocl:VariableExp" location="114:172-114:173" referredVariable="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.0/@source/@iterators.0"/>
-                        <iterators location="114:168-114:169" varName="n" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.0/@source/@body"/>
-                      </source>
-                      <arguments xsi:type="ocl:VariableExp" location="114:186-114:194" referredVariable="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@iterator"/>
-                    </arguments>
-                    <arguments xsi:type="ocl:CollectionOperationCallExp" location="114:197-114:300" operationName="size">
-                      <source xsi:type="ocl:IteratorExp" location="114:197-114:290" name="sortedBy">
-                        <source xsi:type="ocl:IteratorExp" location="114:197-114:271" name="collect">
-                          <source xsi:type="ocl:CollectionOperationCallExp" location="114:197-114:228" operationName="seqWithoutFirst">
-                            <source xsi:type="ocl:NavigationOrAttributeCallExp" location="114:197-114:207" name="rows">
-                              <source xsi:type="ocl:VariableExp" location="114:197-114:202" referredVariable="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@iterator"/>
-                            </source>
-                          </source>
-                          <body xsi:type="ocl:NavigationOrAttributeCallExp" location="114:244-114:270" name="content">
-                            <source xsi:type="ocl:CollectionOperationCallExp" location="114:244-114:262" operationName="first">
-                              <source xsi:type="ocl:NavigationOrAttributeCallExp" location="114:244-114:251" name="cells">
-                                <source xsi:type="ocl:VariableExp" location="114:244-114:245" referredVariable="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.1/@source/@source/@iterators.0"/>
-                              </source>
-                            </source>
-                          </body>
-                          <iterators location="114:240-114:241" varName="r" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.1/@source/@source/@body/@source/@source/@source"/>
-                        </source>
-                        <body xsi:type="ocl:VariableExp" location="114:288-114:289" referredVariable="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.1/@source/@iterators.0"/>
-                        <iterators location="114:284-114:285" varName="n" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.1/@source/@body"/>
-                      </source>
-                    </arguments>
-                  </arguments>
-                </value>
-              </statements>
-            </statements>
             <statements xsi:type="atl:ForStat" location="117:5-119:6">
-              <iterator location="117:10-117:14" varName="cell"/>
+              <iterator location="117:10-117:14" varName="cell" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@expression/@arguments.1/@arguments.0"/>
               <collection xsi:type="ocl:CollectionOperationCallExp" location="117:18-117:66" operationName="seqWithoutFirst">
                 <source xsi:type="ocl:NavigationOrAttributeCallExp" location="117:18-117:45" name="cells">
                   <source xsi:type="ocl:CollectionOperationCallExp" location="117:18-117:39" operationName="first">
@@ -599,6 +520,22 @@
                   </source>
                 </source>
               </collection>
+              <statements xsi:type="atl:ExpressionStat" location="118:6-118:85">
+                <expression xsi:type="ocl:OperationCallExp" location="118:6-118:84" operationName="Table2PieChart">
+                  <source xsi:type="ocl:VariableExp" location="118:6-118:16" referredVariable="/35"/>
+                  <arguments xsi:type="ocl:VariableExp" location="118:32-118:37" referredVariable="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@iterator"/>
+                  <arguments xsi:type="ocl:CollectionOperationCallExp" location="118:39-118:83" operationName="indexOf">
+                    <source xsi:type="ocl:NavigationOrAttributeCallExp" location="118:39-118:66" name="cells">
+                      <source xsi:type="ocl:CollectionOperationCallExp" location="118:39-118:60" operationName="first">
+                        <source xsi:type="ocl:NavigationOrAttributeCallExp" location="118:39-118:49" name="rows">
+                          <source xsi:type="ocl:VariableExp" location="118:39-118:44" referredVariable="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@iterator"/>
+                        </source>
+                      </source>
+                    </source>
+                    <arguments xsi:type="ocl:VariableExp" location="118:78-118:82" referredVariable="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@iterator"/>
+                  </arguments>
+                </expression>
+              </statements>
             </statements>
           </thenStatements>
         </statements>
@@ -2165,10 +2102,10 @@
   <ocl:VariableDeclaration location="108:4-108:14" varName="thisModule" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.0/@source/@source"/>
   <ocl:VariableDeclaration location="109:4-109:14" varName="thisModule" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.1/@source/@source/@source/@source"/>
   <ocl:VariableDeclaration location="111:18-111:28" varName="thisModule" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@collection/@source"/>
-  <ocl:VariableDeclaration location="113:6-113:16" varName="thisModule" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@source/@source"/>
-  <ocl:VariableDeclaration location="114:7-114:17" varName="thisModule" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@source/@source"/>
-  <ocl:VariableDeclaration location="114:57-114:67" varName="thisModule" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@source"/>
-  <ocl:VariableDeclaration location="118:6-118:16" varName="thisModule"/>
+  <ocl:VariableDeclaration location="113:6-113:16" varName="thisModule"/>
+  <ocl:VariableDeclaration location="114:7-114:17" varName="thisModule"/>
+  <ocl:VariableDeclaration location="114:57-114:67" varName="thisModule"/>
+  <ocl:VariableDeclaration location="118:6-118:16" varName="thisModule" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@expression/@source"/>
   <ocl:VariableDeclaration location="138:6-138:16" varName="thisModule" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.3/@value/@thenExpression/@source"/>
   <ocl:VariableDeclaration location="140:6-140:16" varName="thisModule" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.3/@value/@elseExpression/@source"/>
   <ocl:VariableDeclaration location="142:20-142:30" varName="thisModule" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.4/@value/@source"/>

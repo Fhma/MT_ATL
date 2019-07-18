@@ -922,7 +922,7 @@
           <bindings location="166:4-166:28" propertyName="lengthAdjust">
             <value xsi:type="ocl:StringExp" location="166:20-166:28" stringSymbol="middle"/>
           </bindings>
-          <bindings location="167:4-167:61" propertyName="content">
+          <bindings location="167:4-167:61" propertyName="lengthAdjust">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="167:15-167:61" name="content">
               <source xsi:type="ocl:CollectionOperationCallExp" location="167:15-167:53" operationName="at">
                 <source xsi:type="ocl:NavigationOrAttributeCallExp" location="167:15-167:42" name="cells">
@@ -1460,7 +1460,7 @@
           <bindings location="273:4-273:26" propertyName="size">
             <value xsi:type="ocl:VariableExp" location="273:12-273:26" referredVariable="/0/@elements.22/@outPattern/@elements.2"/>
           </bindings>
-          <bindings location="274:4-274:31" propertyName="size">
+          <bindings location="274:4-274:31" propertyName="position">
             <value xsi:type="ocl:VariableExp" location="274:16-274:31" referredVariable="/0/@elements.22/@outPattern/@elements.3"/>
           </bindings>
           <bindings location="275:4-275:27" propertyName="fill">

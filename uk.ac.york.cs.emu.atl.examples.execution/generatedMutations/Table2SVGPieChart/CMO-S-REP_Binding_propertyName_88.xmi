@@ -1463,7 +1463,7 @@
           <bindings location="274:4-274:31" propertyName="position">
             <value xsi:type="ocl:VariableExp" location="274:16-274:31" referredVariable="/0/@elements.22/@outPattern/@elements.3"/>
           </bindings>
-          <bindings location="275:4-275:27" propertyName="fill_">
+          <bindings location="275:4-275:27" propertyName="fill">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="275:12-275:27" name="fill">
               <source xsi:type="ocl:VariableExp" location="275:12-275:22" referredVariable="/74"/>
             </value>
@@ -1481,7 +1481,7 @@
               <source xsi:type="ocl:VariableExp" location="279:13-279:18" referredVariable="/0/@elements.22/@inPattern/@elements.0"/>
             </value>
           </bindings>
-          <bindings location="280:4-280:38" propertyName="height">
+          <bindings location="280:4-280:38" propertyName="width">
             <value xsi:type="ocl:OperationCallExp" location="280:14-280:38" operationName="captionBoxHeight">
               <source xsi:type="ocl:VariableExp" location="280:14-280:19" referredVariable="/0/@elements.22/@inPattern/@elements.0"/>
             </value>

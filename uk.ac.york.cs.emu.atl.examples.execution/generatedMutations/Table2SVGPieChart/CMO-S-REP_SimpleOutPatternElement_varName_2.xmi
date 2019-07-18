@@ -736,7 +736,7 @@
     </elements>
     <elements xsi:type="atl:LazyMatchedRule" location="125:1-179:2" name="Table2PieChart">
       <outPattern location="132:2-172:4">
-        <elements xsi:type="atl:SimpleOutPatternElement" location="133:3-143:4" varName="g_" variableExp="/0/@elements.18/@actionBlock/@statements.1/@value">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="133:3-143:4" varName="g" variableExp="/0/@elements.18/@actionBlock/@statements.1/@value">
           <type xsi:type="ocl:OclModelElement" location="133:6-133:11" name="G" model="/1"/>
           <bindings location="134:4-134:34" propertyName="attribute">
             <value xsi:type="ocl:VariableExp" location="134:17-134:34" referredVariable="/0/@elements.18/@outPattern/@elements.4"/>
@@ -842,7 +842,7 @@
             </value>
           </bindings>
         </elements>
-        <elements xsi:type="atl:SimpleOutPatternElement" location="154:3-157:4" varName="boundingBoxCoord" variableExp="/0/@elements.18/@outPattern/@elements.1/@bindings.1/@value">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="154:3-157:4" varName="boundingBoxCoord_" variableExp="/0/@elements.18/@outPattern/@elements.1/@bindings.1/@value">
           <type xsi:type="ocl:OclModelElement" location="154:21-154:38" name="AbsoluteCoord" model="/1"/>
           <bindings location="155:4-155:38" propertyName="x">
             <value xsi:type="ocl:OperatorCallExp" location="155:9-155:38" operationName="-">

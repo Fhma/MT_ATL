@@ -104,7 +104,7 @@
       <outPattern location="54:2-58:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="55:3-58:4" varName="xml">
           <type xsi:type="ocl:OclModelElement" location="55:8-55:19" name="Element" model="/1"/>
-          <bindings location="56:4-56:18" propertyName="name_">
+          <bindings location="56:4-56:18" propertyName="name">
             <value xsi:type="ocl:StringExp" location="56:12-56:18" stringSymbol="body"/>
           </bindings>
           <bindings location="57:4-57:33" propertyName="children">
@@ -207,7 +207,7 @@
       <outPattern location="102:2-106:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="103:3-106:4" varName="xml" variableExp="/0/@elements.10/@actionBlock/@statements.0/@thenStatements.0/@source/@source">
           <type xsi:type="ocl:OclModelElement" location="103:8-103:19" name="Element" model="/1"/>
-          <bindings location="104:4-104:16" propertyName="name">
+          <bindings location="104:4-104:16" propertyName="name_">
             <value xsi:type="ocl:StringExp" location="104:12-104:16" stringSymbol="td"/>
           </bindings>
           <bindings location="105:4-105:43" propertyName="children">

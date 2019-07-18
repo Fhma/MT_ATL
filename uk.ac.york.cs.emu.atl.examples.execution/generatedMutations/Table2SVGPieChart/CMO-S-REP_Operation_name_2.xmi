@@ -1908,7 +1908,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="357:1-369:8">
       <definition location="357:8-369:7">
-        <feature xsi:type="ocl:Operation" location="357:28-369:7" name="isPercentage_">
+        <feature xsi:type="ocl:Operation" location="357:28-369:7" name="isPercentage">
           <returnType xsi:type="ocl:BooleanType" location="357:44-357:51"/>
           <body xsi:type="ocl:IfExp" location="358:2-369:7">
             <thenExpression xsi:type="ocl:LetExp" location="359:3-366:9">
@@ -2135,7 +2135,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="394:1-395:24">
       <definition location="394:8-395:23">
-        <feature xsi:type="ocl:Operation" location="394:32-395:23" name="valueNotNull">
+        <feature xsi:type="ocl:Operation" location="394:32-395:23" name="valueNotNull_">
           <returnType xsi:type="ocl:BooleanType" location="394:48-394:55"/>
           <body xsi:type="ocl:OperatorCallExp" location="395:2-395:23" operationName="&lt;>">
             <source xsi:type="ocl:OperationCallExp" location="395:2-395:18" operationName="realValue">

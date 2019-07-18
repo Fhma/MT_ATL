@@ -29,7 +29,7 @@
           </bindings>
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="16:3-18:4" varName="title" variableExp="/0/@elements.1/@outPattern/@elements.1/@bindings.0/@value">
-          <type xsi:type="ocl:OclModelElement" location="16:10-16:20" name="TITLE" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="16:10-16:20" name="TITLE_" model="/1"/>
           <bindings location="17:4-17:15" propertyName="value">
             <value xsi:type="ocl:StringExp" location="17:13-17:15" stringSymbol=""/>
           </bindings>
@@ -486,7 +486,7 @@
           </body>
         </feature>
         <context_ location="135:8-135:26">
-          <context_ xsi:type="ocl:OclModelElement" location="135:16-135:26" name="Cell_" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" location="135:16-135:26" name="Cell" model="/2"/>
         </context_>
       </definition>
     </elements>

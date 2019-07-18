@@ -620,7 +620,7 @@
         </statements>
       </actionBlock>
       <variables location="84:3-84:212" varName="width" variableExp="/0/@elements.17/@outPattern/@elements.2/@bindings.0/@value /0/@elements.17/@actionBlock/@statements.0/@thenStatements.1/@value/@source/@source/@arguments.0/@source">
-        <type xsi:type="ocl:RealType" location="84:10-84:14"/>
+        <type xsi:type="ocl:StringType"/>
         <initExpression xsi:type="ocl:OperatorCallExp" location="84:17-84:211" operationName="+">
           <source xsi:type="ocl:IterateExp" location="84:17-84:191">
             <source xsi:type="ocl:NavigationOrAttributeCallExp" location="84:17-84:42" name="allValidTables">
@@ -1379,7 +1379,7 @@
         </initExpression>
       </variables>
       <variables location="237:3-237:65" varName="x" variableExp="/0/@elements.21/@outPattern/@elements.2/@bindings.0/@value/@source/@source/@source/@arguments.0/@source">
-        <type xsi:type="ocl:BooleanType"/>
+        <type xsi:type="ocl:RealType" location="237:6-237:10"/>
         <initExpression xsi:type="ocl:OperatorCallExp" location="237:13-237:64" operationName="*">
           <source xsi:type="ocl:NavigationOrAttributeCallExp" location="237:13-237:30" name="radius">
             <source xsi:type="ocl:VariableExp" location="237:13-237:23" referredVariable="/64"/>

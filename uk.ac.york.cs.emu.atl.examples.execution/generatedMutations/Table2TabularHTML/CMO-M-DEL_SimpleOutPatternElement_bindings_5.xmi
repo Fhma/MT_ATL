@@ -157,30 +157,20 @@
       <outPattern location="62:2-66:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="63:3-66:4" varName="tr">
           <type xsi:type="ocl:OclModelElement" location="63:7-63:14" name="TR" model="/1"/>
-          <bindings location="65:4-65:113" propertyName="tds">
-            <value xsi:type="ocl:IteratorExp" location="65:11-65:113" name="collect">
-              <source xsi:type="ocl:CollectionOperationCallExp" location="65:11-65:59" operationName="subSequence">
-                <source xsi:type="ocl:NavigationOrAttributeCallExp" location="65:11-65:20" name="cells">
-                  <source xsi:type="ocl:VariableExp" location="65:11-65:14" referredVariable="/0/@elements.5/@inPattern/@elements.0"/>
+          <bindings location="64:4-64:51" propertyName="tds">
+            <value xsi:type="ocl:OperationCallExp" location="64:11-64:51" operationName="Cell2TD">
+              <source xsi:type="ocl:VariableExp" location="64:11-64:21" referredVariable="/8"/>
+              <arguments xsi:type="ocl:CollectionOperationCallExp" location="64:30-64:50" operationName="first">
+                <source xsi:type="ocl:NavigationOrAttributeCallExp" location="64:30-64:39" name="cells">
+                  <source xsi:type="ocl:VariableExp" location="64:30-64:33" referredVariable="/0/@elements.5/@inPattern/@elements.0"/>
                 </source>
-                <arguments xsi:type="ocl:IntegerExp" location="65:36-65:37" integerSymbol="2"/>
-                <arguments xsi:type="ocl:CollectionOperationCallExp" location="65:39-65:58" operationName="size">
-                  <source xsi:type="ocl:NavigationOrAttributeCallExp" location="65:39-65:48" name="cells">
-                    <source xsi:type="ocl:VariableExp" location="65:39-65:42" referredVariable="/0/@elements.5/@inPattern/@elements.0"/>
-                  </source>
-                </arguments>
-              </source>
-              <body xsi:type="ocl:OperationCallExp" location="65:78-65:112" operationName="Cell2TDRightAlign">
-                <source xsi:type="ocl:VariableExp" location="65:78-65:88" referredVariable="/9"/>
-                <arguments xsi:type="ocl:VariableExp" location="65:107-65:111" referredVariable="/0/@elements.5/@outPattern/@elements.0/@bindings.0/@value/@iterators.0"/>
-              </body>
-              <iterators location="65:71-65:75" varName="cell" variableExp="/0/@elements.5/@outPattern/@elements.0/@bindings.0/@value/@body/@arguments.0"/>
+              </arguments>
             </value>
           </bindings>
         </elements>
       </outPattern>
       <inPattern location="60:2-61:17">
-        <elements xsi:type="atl:SimpleInPatternElement" location="61:3-61:17" varName="row" variableExp="/0/@elements.5/@outPattern/@elements.0/@bindings.0/@value/@source/@source/@source /0/@elements.5/@outPattern/@elements.0/@bindings.0/@value/@source/@arguments.1/@source/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="61:3-61:17" varName="row" variableExp="/0/@elements.5/@outPattern/@elements.0/@bindings.0/@value/@arguments.0/@source/@source">
           <type xsi:type="ocl:OclModelElement" location="61:8-61:17" name="Row" model="/2"/>
         </elements>
       </inPattern>
@@ -573,8 +563,8 @@
   <ocl:VariableDeclaration location="34:79-34:89" varName="thisModule" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@body/@source"/>
   <ocl:VariableDeclaration location="37:3-37:13" varName="thisModule" variableExp="/0/@elements.2/@actionBlock/@statements.0/@source/@source/@source/@source"/>
   <ocl:VariableDeclaration location="46:39-46:49" varName="thisModule" variableExp="/0/@elements.3/@outPattern/@elements.0/@bindings.0/@value/@body/@source"/>
-  <ocl:VariableDeclaration location="64:11-64:21" varName="thisModule"/>
-  <ocl:VariableDeclaration location="65:78-65:88" varName="thisModule" variableExp="/0/@elements.5/@outPattern/@elements.0/@bindings.0/@value/@body/@source"/>
+  <ocl:VariableDeclaration location="64:11-64:21" varName="thisModule" variableExp="/0/@elements.5/@outPattern/@elements.0/@bindings.0/@value/@source"/>
+  <ocl:VariableDeclaration location="65:78-65:88" varName="thisModule"/>
   <ocl:VariableDeclaration location="89:5-89:9" varName="self" variableExp="/0/@elements.8/@definition/@feature/@body/@condition/@source/@source/@source/@source"/>
   <ocl:VariableDeclaration location="91:4-91:8" varName="self" variableExp="/0/@elements.8/@definition/@feature/@body/@thenExpression/@variable/@initExpression/@source"/>
   <ocl:VariableDeclaration location="100:3-100:7" varName="self" variableExp="/0/@elements.9/@definition/@feature/@body/@variable/@initExpression/@source/@source/@source"/>

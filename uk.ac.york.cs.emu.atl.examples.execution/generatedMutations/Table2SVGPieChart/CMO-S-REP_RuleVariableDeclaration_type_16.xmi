@@ -620,7 +620,7 @@
         </statements>
       </actionBlock>
       <variables location="84:3-84:212" varName="width" variableExp="/0/@elements.17/@outPattern/@elements.2/@bindings.0/@value /0/@elements.17/@actionBlock/@statements.0/@thenStatements.1/@value/@source/@source/@arguments.0/@source">
-        <type xsi:type="ocl:IntegerType"/>
+        <type xsi:type="ocl:RealType" location="84:10-84:14"/>
         <initExpression xsi:type="ocl:OperatorCallExp" location="84:17-84:211" operationName="+">
           <source xsi:type="ocl:IterateExp" location="84:17-84:191">
             <source xsi:type="ocl:NavigationOrAttributeCallExp" location="84:17-84:42" name="allValidTables">
@@ -1012,7 +1012,7 @@
         </statements>
       </actionBlock>
       <variables location="130:3-130:125" varName="valuesSum" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.3/@value/@elseExpression/@arguments.2 /0/@elements.18/@outPattern/@elements.0/@bindings.4/@value/@arguments.2">
-        <type xsi:type="ocl:RealType" location="130:14-130:18"/>
+        <type xsi:type="ocl:IntegerType"/>
         <initExpression xsi:type="ocl:IterateExp" location="130:21-130:124">
           <source xsi:type="ocl:CollectionOperationCallExp" location="130:21-130:52" operationName="seqWithoutFirst">
             <source xsi:type="ocl:NavigationOrAttributeCallExp" location="130:21-130:31" name="rows">

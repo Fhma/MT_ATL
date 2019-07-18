@@ -184,7 +184,7 @@
                 <source xsi:type="ocl:VariableExp" location="65:78-65:88" referredVariable="/9"/>
                 <arguments xsi:type="ocl:VariableExp" location="65:107-65:111" referredVariable="/0/@elements.5/@outPattern/@elements.0/@bindings.1/@value/@iterators.0"/>
               </body>
-              <iterators location="65:71-65:75" varName="cell" variableExp="/0/@elements.5/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.0"/>
+              <iterators location="65:71-65:75" varName="cell_" variableExp="/0/@elements.5/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.0"/>
             </value>
           </bindings>
         </elements>
@@ -551,7 +551,7 @@
               </body>
               <iterators location="146:81-146:82" varName="r" variableExp="/0/@elements.15/@definition/@feature/@initExpression/@body/@body/@source/@source/@source"/>
             </body>
-            <iterators location="146:39-146:40" varName="t_" variableExp="/0/@elements.15/@definition/@feature/@initExpression/@body/@source/@source/@source"/>
+            <iterators location="146:39-146:40" varName="t" variableExp="/0/@elements.15/@definition/@feature/@initExpression/@body/@source/@source/@source"/>
           </initExpression>
           <type xsi:type="ocl:SequenceType" location="145:29-145:50">
             <elementType xsi:type="ocl:OclModelElement" location="145:38-145:49" name="Table" model="/2"/>

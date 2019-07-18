@@ -48,7 +48,7 @@
     <elements xsi:type="atl:MatchedRule" location="24:1-32:2" name="HEAD" superRule="/0/@elements.1">
       <outPattern location="27:2-31:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="28:3-31:4" varName="xml">
-          <type xsi:type="ocl:OclModelElement" location="28:8-28:19" name="Element" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="28:8-28:19" name="Element_" model="/1"/>
           <bindings location="29:4-29:18" propertyName="name">
             <value xsi:type="ocl:StringExp" location="29:12-29:18" stringSymbol="head"/>
           </bindings>
@@ -61,7 +61,7 @@
       </outPattern>
       <inPattern location="25:2-26:18">
         <elements xsi:type="atl:SimpleInPatternElement" location="26:3-26:18" varName="html" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.1/@value/@source">
-          <type xsi:type="ocl:OclModelElement" location="26:9-26:18" name="HEAD_" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" location="26:9-26:18" name="HEAD" model="/2"/>
         </elements>
       </inPattern>
     </elements>

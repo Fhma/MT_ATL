@@ -49,7 +49,7 @@
       <outPattern location="27:2-31:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="28:3-31:4" varName="xml">
           <type xsi:type="ocl:OclModelElement" location="28:8-28:19" name="Element" model="/1"/>
-          <bindings location="29:4-29:18" propertyName="name_">
+          <bindings location="29:4-29:18" propertyName="name">
             <value xsi:type="ocl:StringExp" location="29:12-29:18" stringSymbol="head"/>
           </bindings>
           <bindings location="30:4-30:33" propertyName="children">
@@ -253,7 +253,7 @@
       <outPattern location="117:2-120:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="118:3-120:4" varName="xml">
           <type xsi:type="ocl:OclModelElement" location="118:8-118:19" name="Element" model="/1"/>
-          <bindings location="119:4-119:16" propertyName="name">
+          <bindings location="119:4-119:16" propertyName="name_">
             <value xsi:type="ocl:StringExp" location="119:12-119:16" stringSymbol="th"/>
           </bindings>
         </elements>

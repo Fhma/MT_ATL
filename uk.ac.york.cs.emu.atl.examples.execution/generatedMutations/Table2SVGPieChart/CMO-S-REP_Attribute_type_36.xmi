@@ -7,7 +7,7 @@
       <definition location="4:8-5:3">
         <feature xsi:type="ocl:Attribute" location="4:13-5:3" name="scale">
           <initExpression xsi:type="ocl:IntegerExp" location="5:2-5:3" integerSymbol="1"/>
-          <type xsi:type="ocl:BooleanType"/>
+          <type xsi:type="ocl:RealType" location="4:20-4:24"/>
         </feature>
       </definition>
     </elements>
@@ -70,7 +70,7 @@
             </source>
             <arguments xsi:type="ocl:RealExp" location="23:29-23:32" realSymbol="0.8"/>
           </initExpression>
-          <type xsi:type="ocl:RealType" location="22:23-22:27"/>
+          <type xsi:type="ocl:BooleanType"/>
         </feature>
       </definition>
     </elements>

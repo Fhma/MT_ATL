@@ -5,7 +5,7 @@
     <outModels location="2:8-2:16" name="OUT" metamodel="/1"/>
     <elements xsi:type="atl:Helper" location="4:1-5:4">
       <definition location="4:8-5:3">
-        <feature xsi:type="ocl:Attribute" location="4:13-5:3" name="scale_">
+        <feature xsi:type="ocl:Attribute" location="4:13-5:3" name="scale">
           <initExpression xsi:type="ocl:IntegerExp" location="5:2-5:3" integerSymbol="1"/>
           <type xsi:type="ocl:RealType" location="4:20-4:24"/>
         </feature>
@@ -86,7 +86,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="28:1-29:15">
       <definition location="28:8-29:14">
-        <feature xsi:type="ocl:Attribute" location="28:13-29:14" name="svgFile">
+        <feature xsi:type="ocl:Attribute" location="28:13-29:14" name="svgFile_">
           <initExpression xsi:type="ocl:OclUndefinedExp" location="29:2-29:14"/>
           <type xsi:type="ocl:OclModelElement" location="28:22-28:33" name="SvgFile" model="/1"/>
         </feature>

@@ -135,7 +135,7 @@
     <elements xsi:type="atl:MatchedRule" location="68:1-73:2" name="TABLEElement" children="/0/@elements.8 /0/@elements.9 /0/@elements.10" superRule="/0/@elements.6" isAbstract="true">
       <outPattern location="71:2-72:19">
         <elements xsi:type="atl:SimpleOutPatternElement" location="72:3-72:19" varName="xml">
-          <type xsi:type="ocl:OclModelElement" location="72:8-72:19" name="Element" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="72:8-72:19" name="Element_" model="/1"/>
         </elements>
       </outPattern>
       <inPattern location="69:2-70:26">
@@ -147,7 +147,7 @@
     <elements xsi:type="atl:MatchedRule" location="75:1-87:2" name="TABLE" superRule="/0/@elements.7">
       <outPattern location="78:2-86:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="79:3-86:4" varName="xml">
-          <type xsi:type="ocl:OclModelElement" location="79:8-79:19" name="Element_" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="79:8-79:19" name="Element" model="/1"/>
           <bindings location="80:4-80:19" propertyName="name">
             <value xsi:type="ocl:StringExp" location="80:12-80:19" stringSymbol="table"/>
           </bindings>

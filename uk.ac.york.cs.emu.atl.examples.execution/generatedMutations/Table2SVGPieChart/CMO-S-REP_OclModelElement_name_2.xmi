@@ -148,7 +148,7 @@
           </body>
         </feature>
         <context_ location="31:8-31:27">
-          <context_ xsi:type="ocl:OclModelElement" location="31:16-31:27" name="Table_" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" location="31:16-31:27" name="Table" model="/2"/>
         </context_>
       </definition>
     </elements>
@@ -219,7 +219,7 @@
           </body>
         </feature>
         <context_ location="47:8-47:27">
-          <context_ xsi:type="ocl:OclModelElement" location="47:16-47:27" name="Table" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" location="47:16-47:27" name="Table_" model="/2"/>
         </context_>
       </definition>
     </elements>

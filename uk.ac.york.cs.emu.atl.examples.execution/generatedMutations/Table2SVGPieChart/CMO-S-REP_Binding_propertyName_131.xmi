@@ -912,7 +912,7 @@
               <source xsi:type="ocl:VariableExp" location="164:14-164:24" referredVariable="/46"/>
             </value>
           </bindings>
-          <bindings location="165:4-165:51" propertyName="lengthAdjust">
+          <bindings location="165:4-165:51" propertyName="fontSize">
             <value xsi:type="ocl:OperationCallExp" location="165:16-165:51" operationName="toString">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="165:16-165:40" name="titleFontSize">
                 <source xsi:type="ocl:VariableExp" location="165:16-165:26" referredVariable="/47"/>
@@ -1089,7 +1089,7 @@
           <bindings location="195:4-195:19" propertyName="size">
             <value xsi:type="ocl:VariableExp" location="195:12-195:19" referredVariable="/0/@elements.19/@outPattern/@elements.3"/>
           </bindings>
-          <bindings location="196:4-196:24" propertyName="position">
+          <bindings location="196:4-196:24" propertyName="stroke">
             <value xsi:type="ocl:VariableExp" location="196:16-196:24" referredVariable="/0/@elements.19/@outPattern/@elements.4"/>
           </bindings>
           <bindings location="197:4-197:163" propertyName="fill">

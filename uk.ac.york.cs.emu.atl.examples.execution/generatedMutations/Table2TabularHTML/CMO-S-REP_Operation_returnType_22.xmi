@@ -335,7 +335,7 @@
     <elements xsi:type="atl:Helper" location="111:1-123:8">
       <definition location="111:8-123:7">
         <feature xsi:type="ocl:Operation" location="111:28-123:7" name="isPercentage">
-          <returnType xsi:type="ocl:BooleanType" location="111:44-111:51"/>
+          <returnType xsi:type="ocl:StringType"/>
           <body xsi:type="ocl:IfExp" location="112:2-123:7">
             <thenExpression xsi:type="ocl:LetExp" location="113:3-120:9">
               <variable location="113:7-114:44" varName="value" variableExp="/0/@elements.10/@definition/@feature/@body/@thenExpression/@in_/@condition/@source/@source /0/@elements.10/@definition/@feature/@body/@thenExpression/@in_/@condition/@arguments.0/@source /0/@elements.10/@definition/@feature/@body/@thenExpression/@in_/@thenExpression/@source/@arguments.0/@source /0/@elements.10/@definition/@feature/@body/@thenExpression/@in_/@thenExpression/@arguments.0/@source/@source">
@@ -411,7 +411,7 @@
     <elements xsi:type="atl:Helper" location="128:1-133:8">
       <definition location="128:8-133:7">
         <feature xsi:type="ocl:Operation" location="128:32-133:7" name="value">
-          <returnType xsi:type="ocl:IntegerType"/>
+          <returnType xsi:type="ocl:StringType" location="128:41-128:47"/>
           <body xsi:type="ocl:IfExp" location="129:2-133:7">
             <thenExpression xsi:type="ocl:OperatorCallExp" location="130:3-130:73" operationName="+">
               <source xsi:type="ocl:OperationCallExp" location="130:3-130:67" operationName="value">

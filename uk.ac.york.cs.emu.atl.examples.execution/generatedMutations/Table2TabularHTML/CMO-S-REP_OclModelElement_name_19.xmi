@@ -115,7 +115,7 @@
     <elements xsi:type="atl:LazyMatchedRule" location="41:1-48:2" name="Row2TRwithTH">
       <outPattern location="44:2-47:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="45:3-47:4" varName="tr">
-          <type xsi:type="ocl:OclModelElement" location="45:7-45:14" name="TR_" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="45:7-45:14" name="TR" model="/1"/>
           <bindings location="46:4-46:64" propertyName="tds">
             <value xsi:type="ocl:IteratorExp" location="46:11-46:64" name="collect">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="46:11-46:20" name="cells">
@@ -191,7 +191,7 @@
       </outPattern>
       <inPattern location="60:2-61:17">
         <elements xsi:type="atl:SimpleInPatternElement" location="61:3-61:17" varName="row" variableExp="/0/@elements.5/@outPattern/@elements.0/@bindings.0/@value/@arguments.0/@source/@source /0/@elements.5/@outPattern/@elements.0/@bindings.1/@value/@source/@source/@source /0/@elements.5/@outPattern/@elements.0/@bindings.1/@value/@source/@arguments.1/@source/@source">
-          <type xsi:type="ocl:OclModelElement" location="61:8-61:17" name="Row" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" location="61:8-61:17" name="Row_" model="/2"/>
         </elements>
       </inPattern>
     </elements>

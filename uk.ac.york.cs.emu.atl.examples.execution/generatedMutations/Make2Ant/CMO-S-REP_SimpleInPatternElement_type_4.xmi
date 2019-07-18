@@ -61,7 +61,7 @@
       </outPattern>
       <inPattern location="5:2-6:19">
         <elements xsi:type="atl:SimpleInPatternElement" location="6:3-6:19" varName="m" variableExp="/0/@elements.0/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.0/@outPattern/@elements.0/@bindings.1/@value/@source/@source /0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@source/@source /0/@elements.0/@outPattern/@elements.0/@bindings.3/@value/@source/@source /0/@elements.0/@outPattern/@elements.0/@bindings.4/@value/@source/@source/@source">
-          <type xsi:type="ocl:OclModelElement" name="RuleDep" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" name="Rule" model="/2"/>
         </elements>
       </inPattern>
     </elements>

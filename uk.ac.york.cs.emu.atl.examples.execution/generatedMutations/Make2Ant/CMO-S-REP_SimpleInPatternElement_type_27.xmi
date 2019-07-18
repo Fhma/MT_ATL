@@ -123,7 +123,7 @@
       </outPattern>
       <inPattern location="28:2-29:15">
         <elements xsi:type="atl:SimpleInPatternElement" location="29:3-29:15" varName="m" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.2/@outPattern/@elements.0/@bindings.1/@value/@source /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@source/@source">
-          <type xsi:type="ocl:OclModelElement" name="Macro" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" name="RuleDep" model="/2"/>
         </elements>
       </inPattern>
     </elements>

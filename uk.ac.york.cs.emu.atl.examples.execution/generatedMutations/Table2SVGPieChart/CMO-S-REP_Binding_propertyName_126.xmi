@@ -1053,7 +1053,7 @@
           <bindings location="187:4-187:26" propertyName="attribute">
             <value xsi:type="ocl:VariableExp" location="187:17-187:26" referredVariable="/0/@elements.19/@outPattern/@elements.1"/>
           </bindings>
-          <bindings location="188:4-188:23" propertyName="attribute">
+          <bindings location="188:4-188:23" propertyName="groupContent">
             <value xsi:type="ocl:VariableExp" location="188:20-188:23" referredVariable="/0/@elements.19/@outPattern/@elements.2"/>
           </bindings>
         </elements>
@@ -1252,7 +1252,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="248:3-256:4" varName="sector" variableExp="/0/@elements.21/@outPattern/@elements.0/@bindings.1/@value">
           <type xsi:type="ocl:OclModelElement" location="248:11-248:19" name="Path" model="/1"/>
-          <bindings location="249:4-253:53" propertyName="d">
+          <bindings location="249:4-253:53" propertyName="stroke">
             <value xsi:type="ocl:OperatorCallExp" location="249:9-253:53" operationName="+">
               <source xsi:type="ocl:OperatorCallExp" location="249:9-253:46" operationName="+">
                 <source xsi:type="ocl:OperatorCallExp" location="249:9-253:31" operationName="+">

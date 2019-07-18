@@ -177,7 +177,7 @@
           </body>
         </feature>
         <context_ location="38:8-38:27">
-          <context_ xsi:type="ocl:OclModelElement" location="38:16-38:27" name="Table" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" location="38:16-38:27" name="Table_" model="/2"/>
         </context_>
       </definition>
     </elements>
@@ -938,7 +938,7 @@
           </bindings>
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="169:3-172:4" varName="textTitleCoord" variableExp="/0/@elements.18/@outPattern/@elements.5/@bindings.0/@value">
-          <type xsi:type="ocl:OclModelElement" location="169:19-169:36" name="AbsoluteCoord_" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="169:19-169:36" name="AbsoluteCoord" model="/1"/>
           <bindings location="170:4-170:62" propertyName="x">
             <value xsi:type="ocl:OperatorCallExp" location="170:9-170:62" operationName="-">
               <source xsi:type="ocl:IntegerExp" location="170:9-170:10"/>

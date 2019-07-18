@@ -3,7 +3,7 @@
   <atl:Module location="1:1-64:2" name="Make2Ant">
     <inModels location="2:22-2:30" name="IN" metamodel="/2"/>
     <outModels location="2:8-2:16" name="OUT" metamodel="/1"/>
-    <elements xsi:type="atl:MatchedRule" location="4:1-15:2" name="Makefile2Project_">
+    <elements xsi:type="atl:MatchedRule" location="4:1-15:2" name="Makefile2Project">
       <outPattern location="7:2-14:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="8:3-14:4" varName="a">
           <type xsi:type="ocl:OclModelElement" location="8:6-8:17" name="Project" model="/1"/>
@@ -165,7 +165,7 @@
         </filter>
       </inPattern>
     </elements>
-    <elements xsi:type="atl:MatchedRule" location="54:1-64:2" name="ShellLine2Task_NoDisplay">
+    <elements xsi:type="atl:MatchedRule" location="54:1-64:2" name="ShellLine2Task_NoDisplay_">
       <outPattern location="59:2-63:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="60:3-63:4" varName="x">
           <type xsi:type="ocl:OclModelElement" location="60:6-60:14" name="Exec" model="/1"/>

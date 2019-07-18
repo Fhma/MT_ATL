@@ -798,7 +798,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="144:3-149:4" varName="boundingBox" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.1/@value">
           <type xsi:type="ocl:OclModelElement" location="144:16-144:24" name="Rect" model="/1"/>
-          <bindings location="145:4-145:27" propertyName="size">
+          <bindings location="145:4-145:27" propertyName="position">
             <value xsi:type="ocl:VariableExp" location="145:12-145:27" referredVariable="/0/@elements.18/@outPattern/@elements.2"/>
           </bindings>
           <bindings location="146:4-146:32" propertyName="position">
@@ -1086,7 +1086,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="194:3-199:4" varName="pie" variableExp="/0/@elements.19/@outPattern/@elements.0/@bindings.1/@value">
           <type xsi:type="ocl:OclModelElement" location="194:8-194:18" name="Circle" model="/1"/>
-          <bindings location="195:4-195:19" propertyName="stroke">
+          <bindings location="195:4-195:19" propertyName="size">
             <value xsi:type="ocl:VariableExp" location="195:12-195:19" referredVariable="/0/@elements.19/@outPattern/@elements.3"/>
           </bindings>
           <bindings location="196:4-196:24" propertyName="position">

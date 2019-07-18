@@ -110,7 +110,7 @@
     </elements>
   </atl:Module>
   <ocl:OclModel location="2:13-2:24" name="Publication" elements="/0/@elements.2/@outPattern/@elements.0/@type" model="/0/@outModels.0"/>
-  <ocl:OclModel location="2:34-2:38" name="Publication" elements="/0/@elements.0/@definition/@context_/@context_ /0/@elements.1/@definition/@context_/@context_ /0/@elements.2/@inPattern/@elements.0/@type" model="/0/@inModels.0"/>
+  <ocl:OclModel location="2:34-2:38" name="Book_" elements="/0/@elements.0/@definition/@context_/@context_ /0/@elements.1/@definition/@context_/@context_ /0/@elements.2/@inPattern/@elements.0/@type" model="/0/@inModels.0"/>
   <ocl:VariableDeclaration location="5:2-5:6" varName="self" variableExp="/0/@elements.0/@definition/@feature/@body/@source/@source/@source/@source"/>
   <ocl:VariableDeclaration location="12:2-12:6" varName="self" variableExp="/0/@elements.1/@definition/@feature/@body/@source/@source/@source"/>
 </xmi:XMI>

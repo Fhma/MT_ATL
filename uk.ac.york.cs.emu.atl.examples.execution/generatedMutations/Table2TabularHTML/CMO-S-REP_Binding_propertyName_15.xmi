@@ -51,7 +51,7 @@
       <outPattern location="30:2-35:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="31:3-35:4" varName="tab" variableExp="/0/@elements.2/@actionBlock/@statements.0/@value">
           <type xsi:type="ocl:OclModelElement" location="31:8-31:18" name="TABLE" model="/1"/>
-          <bindings location="32:4-32:17" propertyName="border">
+          <bindings location="32:4-32:17" propertyName="border_">
             <value xsi:type="ocl:StringExp" location="32:14-32:17" stringSymbol="1"/>
           </bindings>
           <bindings location="33:4-33:57" propertyName="trs">
@@ -64,7 +64,7 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="34:4-34:108" propertyName="trs_">
+          <bindings location="34:4-34:108" propertyName="trs">
             <value xsi:type="ocl:IteratorExp" location="34:11-34:108" name="collect">
               <source xsi:type="ocl:CollectionOperationCallExp" location="34:11-34:61" operationName="subSequence">
                 <source xsi:type="ocl:NavigationOrAttributeCallExp" location="34:11-34:21" name="rows">

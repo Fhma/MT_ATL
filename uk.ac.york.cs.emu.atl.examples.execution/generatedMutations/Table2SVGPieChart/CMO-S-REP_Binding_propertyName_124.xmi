@@ -747,7 +747,7 @@
           <bindings location="136:4-136:29" propertyName="groupContent">
             <value xsi:type="ocl:VariableExp" location="136:20-136:29" referredVariable="/0/@elements.18/@outPattern/@elements.5"/>
           </bindings>
-          <bindings location="137:4-141:10" propertyName="groupContent_">
+          <bindings location="137:4-141:10" propertyName="groupContent">
             <value xsi:type="ocl:IfExp" location="137:20-141:10">
               <thenExpression xsi:type="ocl:OperationCallExp" location="138:6-138:41" operationName="Table2Circle">
                 <source xsi:type="ocl:VariableExp" location="138:6-138:16" referredVariable="/36"/>
@@ -1551,7 +1551,7 @@
           <bindings location="310:4-310:28" propertyName="position">
             <value xsi:type="ocl:VariableExp" location="310:16-310:28" referredVariable="/0/@elements.23/@outPattern/@elements.3"/>
           </bindings>
-          <bindings location="311:4-311:96" propertyName="fill">
+          <bindings location="311:4-311:96" propertyName="stroke">
             <value xsi:type="ocl:OperationCallExp" location="311:12-311:96" operationName="get">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="311:12-311:41" name="ColorByElementName">
                 <source xsi:type="ocl:VariableExp" location="311:12-311:22" referredVariable="/78"/>

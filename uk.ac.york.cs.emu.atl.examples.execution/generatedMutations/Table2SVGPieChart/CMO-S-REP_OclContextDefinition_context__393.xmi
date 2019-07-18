@@ -2060,7 +2060,7 @@
           </body>
         </feature>
         <context_ location="381:8-381:26">
-          <context_ xsi:type="ocl:OclModelElement" name="Translate" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" name="Path" model="/2"/>
         </context_>
       </definition>
     </elements>

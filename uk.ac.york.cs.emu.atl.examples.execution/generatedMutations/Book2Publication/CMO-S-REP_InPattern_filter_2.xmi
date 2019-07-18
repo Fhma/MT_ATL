@@ -100,7 +100,7 @@
         <elements xsi:type="atl:SimpleInPatternElement" location="16:3-16:15" varName="b" variableExp="/0/@elements.2/@inPattern/@filter/@source/@source /0/@elements.2/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.2/@outPattern/@elements.0/@bindings.1/@value/@source /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source">
           <type xsi:type="ocl:OclModelElement" location="16:6-16:15" name="Book" model="/2"/>
         </elements>
-        <filter xsi:type="ocl:OperatorCallExp" operationName="&lt;">
+        <filter xsi:type="ocl:OperatorCallExp" operationName="&lt;=">
           <source xsi:type="ocl:OperationCallExp" location="17:4-17:18" operationName="getNbPages">
             <source xsi:type="ocl:VariableExp" location="17:4-17:5" referredVariable="/0/@elements.2/@inPattern/@elements.0"/>
           </source>

@@ -57,7 +57,7 @@
             </source>
             <arguments xsi:type="ocl:RealExp" location="20:22-20:25" realSymbol="0.2"/>
           </initExpression>
-          <type xsi:type="ocl:RealType" location="19:28-19:32"/>
+          <type xsi:type="ocl:StringType"/>
         </feature>
       </definition>
     </elements>
@@ -2127,7 +2127,7 @@
             </body>
             <iterators location="392:39-392:40" varName="t" variableExp="/0/@elements.31/@definition/@feature/@initExpression/@body/@source/@source/@source"/>
           </initExpression>
-          <type xsi:type="ocl:OrderedSetType">
+          <type xsi:type="ocl:SequenceType" location="391:29-391:50">
             <elementType xsi:type="ocl:OclModelElement" location="391:38-391:49" name="Table" model="/2"/>
           </type>
         </feature>

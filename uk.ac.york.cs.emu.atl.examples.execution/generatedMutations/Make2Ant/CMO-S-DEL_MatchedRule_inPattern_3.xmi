@@ -9,20 +9,20 @@
           <type xsi:type="ocl:OclModelElement" location="8:6-8:17" name="Project" model="/1"/>
           <bindings location="9:4-9:18" propertyName="name">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="9:12-9:18" name="name">
-              <source xsi:type="ocl:VariableExp" location="9:12-9:13" referredVariable="/0/@elements.0/@inPattern/@elements.0"/>
+              <source xsi:type="ocl:VariableExp" location="9:12-9:13"/>
             </value>
           </bindings>
           <bindings location="10:4-10:33" propertyName="description">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="10:19-10:33" name="text">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="10:19-10:28" name="comment">
-                <source xsi:type="ocl:VariableExp" location="10:19-10:20" referredVariable="/0/@elements.0/@inPattern/@elements.0"/>
+                <source xsi:type="ocl:VariableExp" location="10:19-10:20"/>
               </source>
             </value>
           </bindings>
           <bindings location="11:4-11:69" propertyName="properties">
             <value xsi:type="ocl:IteratorExp" location="11:18-11:69" name="select">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="11:18-11:28" name="elements">
-                <source xsi:type="ocl:VariableExp" location="11:18-11:19" referredVariable="/0/@elements.0/@inPattern/@elements.0"/>
+                <source xsi:type="ocl:VariableExp" location="11:18-11:19"/>
               </source>
               <body xsi:type="ocl:OperationCallExp" location="11:43-11:68" operationName="oclIsKindOf">
                 <source xsi:type="ocl:VariableExp" location="11:43-11:44" referredVariable="/0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@iterators.0"/>
@@ -34,7 +34,7 @@
           <bindings location="12:4-12:65" propertyName="targets">
             <value xsi:type="ocl:IteratorExp" location="12:15-12:65" name="select">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="12:15-12:25" name="elements">
-                <source xsi:type="ocl:VariableExp" location="12:15-12:16" referredVariable="/0/@elements.0/@inPattern/@elements.0"/>
+                <source xsi:type="ocl:VariableExp" location="12:15-12:16"/>
               </source>
               <body xsi:type="ocl:OperationCallExp" location="12:40-12:64" operationName="oclIsKindOf">
                 <source xsi:type="ocl:VariableExp" location="12:40-12:41" referredVariable="/0/@elements.0/@outPattern/@elements.0/@bindings.3/@value/@iterators.0"/>
@@ -47,7 +47,7 @@
             <value xsi:type="ocl:CollectionOperationCallExp" location="13:15-13:76" operationName="first">
               <source xsi:type="ocl:IteratorExp" location="13:15-13:65" name="select">
                 <source xsi:type="ocl:NavigationOrAttributeCallExp" location="13:15-13:25" name="elements">
-                  <source xsi:type="ocl:VariableExp" location="13:15-13:16" referredVariable="/0/@elements.0/@inPattern/@elements.0"/>
+                  <source xsi:type="ocl:VariableExp" location="13:15-13:16"/>
                 </source>
                 <body xsi:type="ocl:OperationCallExp" location="13:40-13:64" operationName="oclIsKindOf">
                   <source xsi:type="ocl:VariableExp" location="13:40-13:41" referredVariable="/0/@elements.0/@outPattern/@elements.0/@bindings.4/@value/@source/@iterators.0"/>
@@ -59,11 +59,6 @@
           </bindings>
         </elements>
       </outPattern>
-      <inPattern location="5:2-6:19">
-        <elements xsi:type="atl:SimpleInPatternElement" location="6:3-6:19" varName="m" variableExp="/0/@elements.0/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.0/@outPattern/@elements.0/@bindings.1/@value/@source/@source /0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@source/@source /0/@elements.0/@outPattern/@elements.0/@bindings.3/@value/@source/@source /0/@elements.0/@outPattern/@elements.0/@bindings.4/@value/@source/@source/@source">
-          <type xsi:type="ocl:OclModelElement" location="6:6-6:19" name="Makefile" model="/2"/>
-        </elements>
-      </inPattern>
     </elements>
     <elements xsi:type="atl:MatchedRule" location="17:1-25:2" name="Macro2Property">
       <outPattern location="20:2-24:4">
@@ -133,12 +128,12 @@
           <type xsi:type="ocl:OclModelElement" location="44:6-44:14" name="Echo" model="/1"/>
           <bindings location="45:4-45:24" propertyName="message">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="45:15-45:24" name="command">
-              <source xsi:type="ocl:VariableExp" location="45:15-45:16"/>
+              <source xsi:type="ocl:VariableExp" location="45:15-45:16" referredVariable="/0/@elements.3/@inPattern/@elements.0"/>
             </value>
           </bindings>
           <bindings location="46:4-46:29" propertyName="target">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="46:14-46:29" name="ruleShellLine">
-              <source xsi:type="ocl:VariableExp" location="46:14-46:15"/>
+              <source xsi:type="ocl:VariableExp" location="46:14-46:15" referredVariable="/0/@elements.3/@inPattern/@elements.0"/>
             </value>
           </bindings>
         </elements>
@@ -146,16 +141,24 @@
           <type xsi:type="ocl:OclModelElement" location="48:6-48:14" name="Exec" model="/1"/>
           <bindings location="49:4-49:27" propertyName="executable">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="49:18-49:27" name="command">
-              <source xsi:type="ocl:VariableExp" location="49:18-49:19"/>
+              <source xsi:type="ocl:VariableExp" location="49:18-49:19" referredVariable="/0/@elements.3/@inPattern/@elements.0"/>
             </value>
           </bindings>
           <bindings location="50:4-50:29" propertyName="target">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="50:14-50:29" name="ruleShellLine">
-              <source xsi:type="ocl:VariableExp" location="50:14-50:15"/>
+              <source xsi:type="ocl:VariableExp" location="50:14-50:15" referredVariable="/0/@elements.3/@inPattern/@elements.0"/>
             </value>
           </bindings>
         </elements>
       </outPattern>
+      <inPattern location="39:2-42:4">
+        <elements xsi:type="atl:SimpleInPatternElement" location="40:3-40:20" varName="m" variableExp="/0/@elements.3/@inPattern/@filter/@source /0/@elements.3/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.3/@outPattern/@elements.0/@bindings.1/@value/@source /0/@elements.3/@outPattern/@elements.1/@bindings.0/@value/@source /0/@elements.3/@outPattern/@elements.1/@bindings.1/@value/@source">
+          <type xsi:type="ocl:OclModelElement" location="40:6-40:20" name="ShellLine" model="/2"/>
+        </elements>
+        <filter xsi:type="ocl:NavigationOrAttributeCallExp" location="41:4-41:13" name="display">
+          <source xsi:type="ocl:VariableExp" location="41:4-41:5" referredVariable="/0/@elements.3/@inPattern/@elements.0"/>
+        </filter>
+      </inPattern>
     </elements>
     <elements xsi:type="atl:MatchedRule" location="54:1-64:2" name="ShellLine2Task_NoDisplay">
       <outPattern location="59:2-63:4">
@@ -186,5 +189,5 @@
     </elements>
   </atl:Module>
   <ocl:OclModel location="2:13-2:16" name="Ant" elements="/0/@elements.0/@outPattern/@elements.0/@type /0/@elements.1/@outPattern/@elements.0/@type /0/@elements.2/@outPattern/@elements.0/@type /0/@elements.3/@outPattern/@elements.0/@type /0/@elements.3/@outPattern/@elements.1/@type /0/@elements.4/@outPattern/@elements.0/@type" model="/0/@outModels.0"/>
-  <ocl:OclModel location="2:26-2:30" name="Make" elements="/0/@elements.0/@inPattern/@elements.0/@type /0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@body/@arguments.0 /0/@elements.0/@outPattern/@elements.0/@bindings.3/@value/@body/@arguments.0 /0/@elements.0/@outPattern/@elements.0/@bindings.4/@value/@source/@body/@arguments.0 /0/@elements.1/@inPattern/@elements.0/@type /0/@elements.2/@inPattern/@elements.0/@type /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@body/@arguments.0 /0/@elements.4/@inPattern/@elements.0/@type" model="/0/@inModels.0"/>
+  <ocl:OclModel location="2:26-2:30" name="Make" elements="/0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@body/@arguments.0 /0/@elements.0/@outPattern/@elements.0/@bindings.3/@value/@body/@arguments.0 /0/@elements.0/@outPattern/@elements.0/@bindings.4/@value/@source/@body/@arguments.0 /0/@elements.1/@inPattern/@elements.0/@type /0/@elements.2/@inPattern/@elements.0/@type /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@body/@arguments.0 /0/@elements.3/@inPattern/@elements.0/@type /0/@elements.4/@inPattern/@elements.0/@type" model="/0/@inModels.0"/>
 </xmi:XMI>

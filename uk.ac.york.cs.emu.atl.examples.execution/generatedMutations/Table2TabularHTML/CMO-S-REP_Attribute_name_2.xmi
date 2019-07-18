@@ -5,7 +5,7 @@
     <outModels location="2:8-2:17" name="OUT" metamodel="/1"/>
     <elements xsi:type="atl:Helper" location="4:1-5:15">
       <definition location="4:8-5:14">
-        <feature xsi:type="ocl:Attribute" location="4:13-5:14" name="html_">
+        <feature xsi:type="ocl:Attribute" location="4:13-5:14" name="html">
           <initExpression xsi:type="ocl:OclUndefinedExp" location="5:2-5:14"/>
           <type xsi:type="ocl:OclModelElement" location="4:19-4:28" name="HTML" model="/1"/>
         </feature>
@@ -511,7 +511,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="145:1-146:205">
       <definition location="145:8-146:204">
-        <feature xsi:type="ocl:Attribute" location="145:13-146:204" name="allValidTables">
+        <feature xsi:type="ocl:Attribute" location="145:13-146:204" name="allValidTables_">
           <initExpression xsi:type="ocl:IteratorExp" location="146:2-146:204" name="select">
             <source xsi:type="ocl:OperationCallExp" location="146:2-146:28" operationName="allInstances">
               <source xsi:type="ocl:OclModelElement" location="146:2-146:13" name="Table" model="/2"/>

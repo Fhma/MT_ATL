@@ -83,7 +83,7 @@
       </outPattern>
       <inPattern location="18:2-19:16">
         <elements xsi:type="atl:SimpleInPatternElement" location="19:3-19:16" varName="m" variableExp="/0/@elements.1/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.1/@outPattern/@elements.0/@bindings.1/@value/@source">
-          <type xsi:type="ocl:OclModelElement" name="Rule" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" name="Makefile" model="/2"/>
         </elements>
       </inPattern>
     </elements>

@@ -559,7 +559,7 @@
                           <iterators location="114:124-114:125" varName="r" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.0/@source/@source/@body/@source/@source/@source"/>
                         </source>
                         <body xsi:type="ocl:VariableExp" location="114:172-114:173" referredVariable="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.0/@source/@iterators.0"/>
-                        <iterators location="114:168-114:169" varName="n_" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.0/@source/@body"/>
+                        <iterators location="114:168-114:169" varName="n" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.0/@source/@body"/>
                       </source>
                       <arguments xsi:type="ocl:VariableExp" location="114:186-114:194" referredVariable="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@iterator"/>
                     </arguments>
@@ -769,7 +769,7 @@
                         </source>
                         <arguments xsi:type="ocl:VariableExp" location="137:84-137:87" referredVariable="/0/@elements.18/@inPattern/@elements.1"/>
                       </body>
-                      <iterators location="137:66-137:67" varName="r" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.3/@value/@condition/@source/@source/@source/@body/@source/@source"/>
+                      <iterators location="137:66-137:67" varName="r_" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.3/@value/@condition/@source/@source/@source/@body/@source/@source"/>
                     </source>
                     <body xsi:type="ocl:OperationCallExp" location="137:104-137:120" operationName="valueNotNull">
                       <source xsi:type="ocl:VariableExp" location="137:104-137:105" referredVariable="/0/@elements.18/@outPattern/@elements.0/@bindings.3/@value/@condition/@source/@source/@iterators.0"/>

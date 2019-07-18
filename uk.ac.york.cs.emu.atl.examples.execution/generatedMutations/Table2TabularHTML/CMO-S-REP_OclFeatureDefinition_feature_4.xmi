@@ -5,9 +5,9 @@
     <outModels location="2:8-2:17" name="OUT" metamodel="/1"/>
     <elements xsi:type="atl:Helper" location="4:1-5:15">
       <definition location="4:8-5:14">
-        <feature xsi:type="ocl:Operation" name="html">
-          <returnType xsi:type="ocl:OclModelElement" location="4:19-4:28" name="HTML" model="/1"/>
-          <body xsi:type="ocl:OclUndefinedExp" location="5:2-5:14"/>
+        <feature xsi:type="ocl:Attribute" location="4:13-5:14" name="html">
+          <initExpression xsi:type="ocl:OclUndefinedExp" location="5:2-5:14"/>
+          <type xsi:type="ocl:OclModelElement" location="4:19-4:28" name="HTML" model="/1"/>
         </feature>
       </definition>
     </elements>
@@ -492,17 +492,17 @@
     </elements>
     <elements xsi:type="atl:Helper" location="142:1-143:41">
       <definition location="142:8-143:40">
-        <feature xsi:type="ocl:Operation" location="142:28-143:40" name="seqWithoutFirst">
-          <returnType xsi:type="ocl:SequenceType" location="142:47-142:63">
-            <elementType xsi:type="ocl:OclAnyType" location="142:56-142:62"/>
-          </returnType>
-          <body xsi:type="ocl:CollectionOperationCallExp" location="143:2-143:40" operationName="subSequence">
+        <feature xsi:type="ocl:Attribute" name="seqWithoutFirst">
+          <initExpression xsi:type="ocl:CollectionOperationCallExp" location="143:2-143:40" operationName="subSequence">
             <source xsi:type="ocl:VariableExp" location="143:2-143:6" referredVariable="/27"/>
             <arguments xsi:type="ocl:IntegerExp" location="143:22-143:23" integerSymbol="2"/>
             <arguments xsi:type="ocl:CollectionOperationCallExp" location="143:25-143:39" operationName="size">
               <source xsi:type="ocl:VariableExp" location="143:25-143:29" referredVariable="/28"/>
             </arguments>
-          </body>
+          </initExpression>
+          <type xsi:type="ocl:SequenceType" location="142:47-142:63">
+            <elementType xsi:type="ocl:OclAnyType" location="142:56-142:62"/>
+          </type>
         </feature>
         <context_ location="142:8-142:22">
           <context_ xsi:type="ocl:OclAnyType" location="142:16-142:22"/>
@@ -576,7 +576,7 @@
       </definition>
     </elements>
   </atl:Module>
-  <ocl:OclModel location="2:13-2:17" name="HTML" elements="/0/@elements.0/@definition/@feature/@returnType /0/@elements.1/@outPattern/@elements.0/@type /0/@elements.1/@outPattern/@elements.1/@type /0/@elements.1/@outPattern/@elements.2/@type /0/@elements.1/@outPattern/@elements.3/@type /0/@elements.2/@outPattern/@elements.0/@type /0/@elements.3/@outPattern/@elements.0/@type /0/@elements.4/@outPattern/@elements.0/@type /0/@elements.5/@outPattern/@elements.0/@type /0/@elements.6/@outPattern/@elements.0/@type /0/@elements.7/@outPattern/@elements.0/@type" model="/0/@outModels.0"/>
+  <ocl:OclModel location="2:13-2:17" name="HTML" elements="/0/@elements.0/@definition/@feature/@type /0/@elements.1/@outPattern/@elements.0/@type /0/@elements.1/@outPattern/@elements.1/@type /0/@elements.1/@outPattern/@elements.2/@type /0/@elements.1/@outPattern/@elements.3/@type /0/@elements.2/@outPattern/@elements.0/@type /0/@elements.3/@outPattern/@elements.0/@type /0/@elements.4/@outPattern/@elements.0/@type /0/@elements.5/@outPattern/@elements.0/@type /0/@elements.6/@outPattern/@elements.0/@type /0/@elements.7/@outPattern/@elements.0/@type" model="/0/@outModels.0"/>
   <ocl:OclModel location="2:27-2:32" name="Table" elements="/0/@elements.2/@inPattern/@elements.0/@type /0/@elements.3/@inPattern/@elements.0/@type /0/@elements.4/@inPattern/@elements.0/@type /0/@elements.5/@inPattern/@elements.0/@type /0/@elements.6/@inPattern/@elements.0/@type /0/@elements.7/@inPattern/@elements.0/@type /0/@elements.12/@definition/@context_/@context_ /0/@elements.13/@definition/@context_/@context_ /0/@elements.15/@definition/@feature/@type/@elementType /0/@elements.15/@definition/@feature/@initExpression/@source/@source /0/@elements.16/@definition/@context_/@context_" model="/0/@inModels.0"/>
   <ocl:VariableDeclaration location="21:3-21:13" varName="thisModule" variableExp="/0/@elements.1/@actionBlock/@statements.0/@source/@source"/>
   <ocl:VariableDeclaration location="33:11-33:21" varName="thisModule" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.1/@value/@source"/>
@@ -602,7 +602,7 @@
   <ocl:VariableDeclaration location="137:3-137:7" varName="self" variableExp="/0/@elements.13/@definition/@feature/@body/@thenExpression/@source/@source/@source/@source"/>
   <ocl:VariableDeclaration location="137:32-137:36" varName="self" variableExp="/0/@elements.13/@definition/@feature/@body/@thenExpression/@source/@source/@arguments.1/@source/@source/@source"/>
   <ocl:VariableDeclaration location="139:3-139:7" varName="self" variableExp="/0/@elements.13/@definition/@feature/@body/@elseExpression/@source/@source"/>
-  <ocl:VariableDeclaration location="143:2-143:6" varName="self" variableExp="/0/@elements.14/@definition/@feature/@body/@source"/>
-  <ocl:VariableDeclaration location="143:25-143:29" varName="self" variableExp="/0/@elements.14/@definition/@feature/@body/@arguments.1/@source"/>
+  <ocl:VariableDeclaration location="143:2-143:6" varName="self" variableExp="/0/@elements.14/@definition/@feature/@initExpression/@source"/>
+  <ocl:VariableDeclaration location="143:25-143:29" varName="self" variableExp="/0/@elements.14/@definition/@feature/@initExpression/@arguments.1/@source"/>
   <ocl:VariableDeclaration location="149:2-149:6" varName="self" variableExp="/0/@elements.16/@definition/@feature/@body/@source/@source"/>
 </xmi:XMI>

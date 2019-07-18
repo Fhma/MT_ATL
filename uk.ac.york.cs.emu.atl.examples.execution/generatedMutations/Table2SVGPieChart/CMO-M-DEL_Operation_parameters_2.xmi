@@ -262,8 +262,8 @@
     <elements xsi:type="atl:Helper" location="53:1-77:9">
       <definition location="53:8-77:8">
         <feature xsi:type="ocl:Operation" location="53:13-77:8" name="computeColor">
-          <parameters location="53:26-53:38" varName="idx" variableExp="/0/@elements.15/@definition/@feature/@body/@variable/@initExpression/@source/@source/@source/@source">
-            <type xsi:type="ocl:IntegerType" location="53:31-53:38"/>
+          <parameters location="53:40-53:56" varName="nbColor" variableExp="/0/@elements.15/@definition/@feature/@body/@variable/@initExpression/@source/@arguments.0">
+            <type xsi:type="ocl:IntegerType" location="53:49-53:56"/>
           </parameters>
           <returnType xsi:type="ocl:StringType" location="53:59-53:65"/>
           <body xsi:type="ocl:LetExp" location="54:2-77:8">
@@ -273,12 +273,12 @@
                 <source xsi:type="ocl:OperatorCallExp" location="55:4-55:27" operationName="/">
                   <source xsi:type="ocl:OperatorCallExp" location="55:4-55:17" operationName="*">
                     <source xsi:type="ocl:OperatorCallExp" location="55:4-55:11" operationName="*">
-                      <source xsi:type="ocl:VariableExp" location="55:4-55:7" referredVariable="/0/@elements.15/@definition/@feature/@parameters.0"/>
+                      <source xsi:type="ocl:VariableExp" location="55:4-55:7"/>
                       <arguments xsi:type="ocl:IntegerExp" location="55:10-55:11" integerSymbol="6"/>
                     </source>
                     <arguments xsi:type="ocl:IntegerExp" location="55:14-55:17" integerSymbol="255"/>
                   </source>
-                  <arguments xsi:type="ocl:VariableExp" location="55:20-55:27"/>
+                  <arguments xsi:type="ocl:VariableExp" location="55:20-55:27" referredVariable="/0/@elements.15/@definition/@feature/@parameters.0"/>
                 </source>
               </initExpression>
             </variable>

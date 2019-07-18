@@ -83,7 +83,7 @@
       </outPattern>
       <inPattern location="18:2-19:16">
         <elements xsi:type="atl:SimpleInPatternElement" location="19:3-19:16" varName="m" variableExp="/0/@elements.1/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.1/@outPattern/@elements.0/@bindings.1/@value/@source">
-          <type xsi:type="ocl:OclModelElement" location="19:6-19:16" name="Macro_" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" location="19:6-19:16" name="Macro" model="/2"/>
         </elements>
       </inPattern>
     </elements>
@@ -123,7 +123,7 @@
       </outPattern>
       <inPattern location="28:2-29:15">
         <elements xsi:type="atl:SimpleInPatternElement" location="29:3-29:15" varName="m" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.2/@outPattern/@elements.0/@bindings.1/@value/@source /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@source/@source">
-          <type xsi:type="ocl:OclModelElement" location="29:6-29:15" name="Rule" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" location="29:6-29:15" name="Rule_" model="/2"/>
         </elements>
       </inPattern>
     </elements>

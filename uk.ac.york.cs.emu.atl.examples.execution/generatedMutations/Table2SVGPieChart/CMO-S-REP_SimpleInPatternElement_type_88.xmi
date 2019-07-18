@@ -1421,7 +1421,7 @@
           <type xsi:type="ocl:IntegerType" location="230:12-230:19"/>
         </elements>
         <elements xsi:type="atl:SimpleInPatternElement" location="231:3-231:18" varName="valuesSum" variableExp="/0/@elements.21/@variables.0/@initExpression/@condition/@source /0/@elements.21/@variables.0/@initExpression/@elseExpression/@source/@arguments.0">
-          <type xsi:type="ocl:IntegerType"/>
+          <type xsi:type="ocl:StringType"/>
         </elements>
       </inPattern>
     </elements>

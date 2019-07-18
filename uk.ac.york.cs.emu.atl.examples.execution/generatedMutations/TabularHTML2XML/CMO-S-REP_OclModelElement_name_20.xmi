@@ -31,7 +31,7 @@
     <elements xsi:type="atl:MatchedRule" location="15:1-22:2" name="HTMLElement" children="/0/@elements.2 /0/@elements.3 /0/@elements.5 /0/@elements.6">
       <outPattern location="18:2-21:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="19:3-21:4" varName="xml">
-          <type xsi:type="ocl:OclModelElement" location="19:8-19:19" name="Element" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="19:8-19:19" name="Element_" model="/1"/>
           <bindings location="20:4-20:29" propertyName="children">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="20:16-20:29" name="children">
               <source xsi:type="ocl:VariableExp" location="20:16-20:20" referredVariable="/0/@elements.1/@inPattern/@elements.0"/>
@@ -199,7 +199,7 @@
       </outPattern>
       <inPattern location="90:2-91:16">
         <elements xsi:type="atl:SimpleInPatternElement" location="91:3-91:16" varName="html" variableExp="/0/@elements.9/@outPattern/@elements.0/@bindings.1/@value/@source">
-          <type xsi:type="ocl:OclModelElement" location="91:9-91:16" name="TR_" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" location="91:9-91:16" name="TR" model="/2"/>
         </elements>
       </inPattern>
     </elements>

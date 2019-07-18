@@ -263,10 +263,10 @@
       <definition location="53:8-77:8">
         <feature xsi:type="ocl:Operation" location="53:13-77:8" name="computeColor">
           <parameters location="53:26-53:38" varName="idx" variableExp="/0/@elements.15/@definition/@feature/@body/@variable/@initExpression/@source/@source/@source/@source">
-            <type xsi:type="ocl:IntegerType" location="53:31-53:38"/>
+            <type xsi:type="ocl:StringType"/>
           </parameters>
           <parameters location="53:40-53:56" varName="nbColor" variableExp="/0/@elements.15/@definition/@feature/@body/@variable/@initExpression/@source/@arguments.0">
-            <type xsi:type="ocl:StringType"/>
+            <type xsi:type="ocl:IntegerType" location="53:49-53:56"/>
           </parameters>
           <returnType xsi:type="ocl:StringType" location="53:59-53:65"/>
           <body xsi:type="ocl:LetExp" location="54:2-77:8">

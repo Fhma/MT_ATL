@@ -100,7 +100,7 @@
       </actionBlock>
       <inPattern location="26:2-29:4">
         <elements xsi:type="atl:SimpleInPatternElement" location="27:3-27:21" varName="table" variableExp="/0/@elements.2/@inPattern/@filter/@source/@source/@source /0/@elements.2/@outPattern/@elements.0/@bindings.1/@value/@arguments.0/@source/@source /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@source/@source /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@arguments.1/@source/@source">
-          <type xsi:type="ocl:OclModelElement" location="27:10-27:21" name="Table" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" location="27:10-27:21" name="Table_" model="/2"/>
         </elements>
         <filter xsi:type="ocl:OperatorCallExp" location="28:4-28:28" operationName=">">
           <source xsi:type="ocl:CollectionOperationCallExp" location="28:4-28:24" operationName="size">
@@ -514,7 +514,7 @@
         <feature xsi:type="ocl:Attribute" location="145:13-146:204" name="allValidTables">
           <initExpression xsi:type="ocl:IteratorExp" location="146:2-146:204" name="select">
             <source xsi:type="ocl:OperationCallExp" location="146:2-146:28" operationName="allInstances">
-              <source xsi:type="ocl:OclModelElement" location="146:2-146:13" name="Table_" model="/2"/>
+              <source xsi:type="ocl:OclModelElement" location="146:2-146:13" name="Table" model="/2"/>
             </source>
             <body xsi:type="ocl:IteratorExp" location="146:43-146:203" name="forAll">
               <source xsi:type="ocl:CollectionOperationCallExp" location="146:43-146:70" operationName="seqWithoutFirst">

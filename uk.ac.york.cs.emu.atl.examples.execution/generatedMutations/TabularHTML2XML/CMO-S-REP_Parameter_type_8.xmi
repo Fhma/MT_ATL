@@ -285,7 +285,7 @@
         <type xsi:type="ocl:StringType" location="123:26-123:32"/>
       </parameters>
       <parameters location="123:34-123:51" varName="attrValue" variableExp="/0/@elements.12/@outPattern/@elements.0/@bindings.1/@value">
-        <type xsi:type="ocl:StringType" location="123:45-123:51"/>
+        <type xsi:type="ocl:RealType"/>
       </parameters>
     </elements>
     <elements xsi:type="atl:CalledRule" location="134:1-145:2" name="Text">
@@ -311,7 +311,7 @@
         </statements>
       </actionBlock>
       <parameters location="134:11-134:24" varName="value" variableExp="/0/@elements.13/@outPattern/@elements.0/@bindings.0/@value/@condition/@source/@source /0/@elements.13/@outPattern/@elements.0/@bindings.0/@value/@thenExpression">
-        <type xsi:type="ocl:IntegerType"/>
+        <type xsi:type="ocl:StringType" location="134:18-134:24"/>
       </parameters>
     </elements>
   </atl:Module>

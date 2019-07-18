@@ -18,7 +18,7 @@
           <bindings location="10:4-10:16" propertyName="head">
             <value xsi:type="ocl:VariableExp" location="10:12-10:16" referredVariable="/0/@elements.1/@outPattern/@elements.1"/>
           </bindings>
-          <bindings location="11:4-11:16" propertyName="body">
+          <bindings location="11:4-11:16" propertyName="head">
             <value xsi:type="ocl:VariableExp" location="11:12-11:16" referredVariable="/0/@elements.1/@outPattern/@elements.3"/>
           </bindings>
         </elements>
@@ -221,7 +221,7 @@
               <source xsi:type="ocl:VariableExp" location="83:13-83:17" referredVariable="/0/@elements.7/@inPattern/@elements.0"/>
             </value>
           </bindings>
-          <bindings location="84:4-84:20" propertyName="value">
+          <bindings location="84:4-84:20" propertyName="align">
             <value xsi:type="ocl:StringExp" location="84:13-84:20" stringSymbol="right"/>
           </bindings>
         </elements>

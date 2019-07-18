@@ -738,7 +738,7 @@
       <outPattern location="132:2-172:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="133:3-143:4" varName="g" variableExp="/0/@elements.18/@actionBlock/@statements.1/@value">
           <type xsi:type="ocl:OclModelElement" location="133:6-133:11" name="G" model="/1"/>
-          <bindings location="134:4-134:34" propertyName="attribute">
+          <bindings location="134:4-134:34" propertyName="groupContent">
             <value xsi:type="ocl:VariableExp" location="134:17-134:34" referredVariable="/0/@elements.18/@outPattern/@elements.4"/>
           </bindings>
           <bindings location="135:4-135:31" propertyName="groupContent">
@@ -1481,7 +1481,7 @@
               <source xsi:type="ocl:VariableExp" location="279:13-279:18" referredVariable="/0/@elements.22/@inPattern/@elements.0"/>
             </value>
           </bindings>
-          <bindings location="280:4-280:38" propertyName="width">
+          <bindings location="280:4-280:38" propertyName="height">
             <value xsi:type="ocl:OperationCallExp" location="280:14-280:38" operationName="captionBoxHeight">
               <source xsi:type="ocl:VariableExp" location="280:14-280:19" referredVariable="/0/@elements.22/@inPattern/@elements.0"/>
             </value>

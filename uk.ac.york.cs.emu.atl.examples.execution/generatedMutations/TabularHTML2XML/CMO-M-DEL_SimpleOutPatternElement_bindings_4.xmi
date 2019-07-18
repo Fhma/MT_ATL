@@ -170,10 +170,15 @@
               </arguments>
             </value>
           </bindings>
+          <bindings location="85:4-85:24" propertyName="children">
+            <value xsi:type="ocl:NavigationOrAttributeCallExp" location="85:16-85:24" name="trs">
+              <source xsi:type="ocl:VariableExp" location="85:16-85:20" referredVariable="/0/@elements.8/@inPattern/@elements.0"/>
+            </value>
+          </bindings>
         </elements>
       </outPattern>
       <inPattern location="76:2-77:19">
-        <elements xsi:type="atl:SimpleInPatternElement" location="77:3-77:19" varName="html" variableExp="/0/@elements.8/@outPattern/@elements.0/@bindings.1/@value/@arguments.1/@condition/@source/@source/@source /0/@elements.8/@outPattern/@elements.0/@bindings.1/@value/@arguments.1/@thenExpression/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="77:3-77:19" varName="html" variableExp="/0/@elements.8/@outPattern/@elements.0/@bindings.1/@value/@arguments.1/@condition/@source/@source/@source /0/@elements.8/@outPattern/@elements.0/@bindings.1/@value/@arguments.1/@thenExpression/@source /0/@elements.8/@outPattern/@elements.0/@bindings.2/@value/@source">
           <type xsi:type="ocl:OclModelElement" location="77:9-77:19" name="TABLE" model="/2"/>
         </elements>
       </inPattern>
@@ -248,9 +253,6 @@
       <outPattern location="117:2-120:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="118:3-120:4" varName="xml">
           <type xsi:type="ocl:OclModelElement" location="118:8-118:19" name="Element" model="/1"/>
-          <bindings location="119:4-119:16" propertyName="name">
-            <value xsi:type="ocl:StringExp" location="119:12-119:16" stringSymbol="th"/>
-          </bindings>
         </elements>
       </outPattern>
       <inPattern location="115:2-116:16">

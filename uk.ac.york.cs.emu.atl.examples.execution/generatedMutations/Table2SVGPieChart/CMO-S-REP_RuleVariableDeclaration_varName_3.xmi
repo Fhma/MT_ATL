@@ -1011,7 +1011,7 @@
           <value xsi:type="ocl:IntegerExp" location="177:27-177:28"/>
         </statements>
       </actionBlock>
-      <variables location="130:3-130:125" varName="valuesSum_" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.3/@value/@elseExpression/@arguments.2 /0/@elements.18/@outPattern/@elements.0/@bindings.4/@value/@arguments.2">
+      <variables location="130:3-130:125" varName="valuesSum" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.3/@value/@elseExpression/@arguments.2 /0/@elements.18/@outPattern/@elements.0/@bindings.4/@value/@arguments.2">
         <type xsi:type="ocl:RealType" location="130:14-130:18"/>
         <initExpression xsi:type="ocl:IterateExp" location="130:21-130:124">
           <source xsi:type="ocl:CollectionOperationCallExp" location="130:21-130:52" operationName="seqWithoutFirst">
@@ -1394,7 +1394,7 @@
           </arguments>
         </initExpression>
       </variables>
-      <variables location="238:3-238:65" varName="y" variableExp="/0/@elements.21/@outPattern/@elements.2/@bindings.0/@value/@source/@arguments.0/@source">
+      <variables location="238:3-238:65" varName="y_" variableExp="/0/@elements.21/@outPattern/@elements.2/@bindings.0/@value/@source/@arguments.0/@source">
         <type xsi:type="ocl:RealType" location="238:6-238:10"/>
         <initExpression xsi:type="ocl:OperatorCallExp" location="238:13-238:64" operationName="*">
           <source xsi:type="ocl:NavigationOrAttributeCallExp" location="238:13-238:30" name="radius">

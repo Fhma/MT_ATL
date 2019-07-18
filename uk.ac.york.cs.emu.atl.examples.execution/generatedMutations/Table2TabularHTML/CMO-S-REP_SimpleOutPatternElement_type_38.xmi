@@ -29,7 +29,7 @@
           </bindings>
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="16:3-18:4" varName="title" variableExp="/0/@elements.1/@outPattern/@elements.1/@bindings.0/@value">
-          <type xsi:type="ocl:OclModelElement" name="TH" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" name="BODY" model="/1"/>
           <bindings location="17:4-17:15" propertyName="value">
             <value xsi:type="ocl:StringExp" location="17:13-17:15" stringSymbol=""/>
           </bindings>

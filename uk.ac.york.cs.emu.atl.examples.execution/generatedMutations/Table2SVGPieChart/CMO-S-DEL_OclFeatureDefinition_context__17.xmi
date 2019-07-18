@@ -1846,9 +1846,6 @@
             <elseExpression xsi:type="ocl:BooleanExp" location="341:3-341:8"/>
           </body>
         </feature>
-        <context_ location="334:8-334:22">
-          <context_ xsi:type="ocl:StringType" location="334:16-334:22"/>
-        </context_>
       </definition>
     </elements>
     <elements xsi:type="atl:Helper" location="344:1-355:9">
@@ -2078,6 +2075,9 @@
             </arguments>
           </body>
         </feature>
+        <context_ location="388:8-388:22">
+          <context_ xsi:type="ocl:OclAnyType" location="388:16-388:22"/>
+        </context_>
       </definition>
     </elements>
     <elements xsi:type="atl:Helper" location="391:1-392:205">

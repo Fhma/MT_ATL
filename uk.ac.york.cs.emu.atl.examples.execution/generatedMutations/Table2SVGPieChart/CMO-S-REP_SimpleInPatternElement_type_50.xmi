@@ -1224,7 +1224,7 @@
           <type xsi:type="ocl:OclModelElement" location="212:10-212:21" name="Table" model="/2"/>
         </elements>
         <elements xsi:type="atl:SimpleInPatternElement" location="213:3-213:15" varName="idx" variableExp="/0/@elements.20/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.2">
-          <type xsi:type="ocl:IntegerType" location="213:8-213:15"/>
+          <type xsi:type="ocl:RealType"/>
         </elements>
         <elements xsi:type="atl:SimpleInPatternElement" location="214:3-214:18" varName="valuesSum" variableExp="/0/@elements.20/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.3">
           <type xsi:type="ocl:RealType" location="214:14-214:18"/>
@@ -1421,7 +1421,7 @@
           <type xsi:type="ocl:IntegerType" location="230:12-230:19"/>
         </elements>
         <elements xsi:type="atl:SimpleInPatternElement" location="231:3-231:18" varName="valuesSum" variableExp="/0/@elements.21/@variables.0/@initExpression/@condition/@source /0/@elements.21/@variables.0/@initExpression/@elseExpression/@source/@arguments.0">
-          <type xsi:type="ocl:BooleanType"/>
+          <type xsi:type="ocl:RealType" location="231:14-231:18"/>
         </elements>
       </inPattern>
     </elements>

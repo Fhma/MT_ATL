@@ -280,7 +280,7 @@
     <elements xsi:type="atl:Helper" location="98:1-109:9">
       <definition location="98:8-109:8">
         <feature xsi:type="ocl:Operation" location="98:28-109:8" name="isReal">
-          <returnType xsi:type="ocl:BooleanType" location="98:38-98:45"/>
+          <returnType xsi:type="ocl:RealType"/>
           <body xsi:type="ocl:LetExp" location="99:2-109:8">
             <variable location="99:6-100:34" varName="dotNb" variableExp="/0/@elements.9/@definition/@feature/@body/@in_/@condition/@source">
               <type xsi:type="ocl:IntegerType" location="99:13-99:20"/>
@@ -335,7 +335,7 @@
     <elements xsi:type="atl:Helper" location="111:1-123:8">
       <definition location="111:8-123:7">
         <feature xsi:type="ocl:Operation" location="111:28-123:7" name="isPercentage">
-          <returnType xsi:type="ocl:StringType"/>
+          <returnType xsi:type="ocl:BooleanType" location="111:44-111:51"/>
           <body xsi:type="ocl:IfExp" location="112:2-123:7">
             <thenExpression xsi:type="ocl:LetExp" location="113:3-120:9">
               <variable location="113:7-114:44" varName="value" variableExp="/0/@elements.10/@definition/@feature/@body/@thenExpression/@in_/@condition/@source/@source /0/@elements.10/@definition/@feature/@body/@thenExpression/@in_/@condition/@arguments.0/@source /0/@elements.10/@definition/@feature/@body/@thenExpression/@in_/@thenExpression/@source/@arguments.0/@source /0/@elements.10/@definition/@feature/@body/@thenExpression/@in_/@thenExpression/@arguments.0/@source/@source">

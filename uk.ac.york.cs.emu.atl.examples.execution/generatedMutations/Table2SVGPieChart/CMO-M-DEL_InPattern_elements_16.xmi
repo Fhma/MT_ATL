@@ -1112,7 +1112,7 @@
                             <source xsi:type="ocl:NavigationOrAttributeCallExp" location="197:92-197:99" name="cells">
                               <source xsi:type="ocl:VariableExp" location="197:92-197:93" referredVariable="/0/@elements.19/@outPattern/@elements.2/@bindings.2/@value/@arguments.0/@source/@source/@source/@source/@iterators.0"/>
                             </source>
-                            <arguments xsi:type="ocl:VariableExp" location="197:106-197:109" referredVariable="/0/@elements.19/@inPattern/@elements.1"/>
+                            <arguments xsi:type="ocl:VariableExp" location="197:106-197:109"/>
                           </source>
                         </body>
                         <iterators location="197:88-197:89" varName="r" variableExp="/0/@elements.19/@outPattern/@elements.2/@bindings.2/@value/@arguments.0/@source/@source/@source/@source/@body/@source/@source/@source"/>
@@ -1155,9 +1155,6 @@
       <inPattern location="182:2-184:15">
         <elements xsi:type="atl:SimpleInPatternElement" location="183:3-183:20" varName="table" variableExp="/0/@elements.19/@outPattern/@elements.1/@bindings.0/@value/@arguments.0/@source/@source/@source /0/@elements.19/@outPattern/@elements.2/@bindings.2/@value/@arguments.0/@source/@source/@source/@source/@source/@source/@source">
           <type xsi:type="ocl:OclModelElement" location="183:10-183:20" name="Cell" model="/2"/>
-        </elements>
-        <elements xsi:type="atl:SimpleInPatternElement" location="184:3-184:15" varName="idx" variableExp="/0/@elements.19/@outPattern/@elements.2/@bindings.2/@value/@arguments.0/@source/@source/@source/@source/@body/@source/@arguments.0">
-          <type xsi:type="ocl:IntegerType" location="184:8-184:15"/>
         </elements>
       </inPattern>
     </elements>
@@ -1449,7 +1446,7 @@
                   <arguments xsi:type="ocl:VariableExp" location="270:120-270:123" referredVariable="/0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@iterators.0"/>
                 </arguments>
                 <arguments xsi:type="ocl:VariableExp" location="270:126-270:129" referredVariable="/0/@elements.22/@inPattern/@elements.1"/>
-                <arguments xsi:type="ocl:VariableExp" location="270:131-270:140"/>
+                <arguments xsi:type="ocl:VariableExp" location="270:131-270:140" referredVariable="/0/@elements.22/@inPattern/@elements.2"/>
               </body>
               <iterators location="270:60-270:63" varName="row" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.1/@arguments.0"/>
             </value>
@@ -1526,6 +1523,9 @@
         </elements>
         <elements xsi:type="atl:SimpleInPatternElement" location="265:3-265:15" varName="idx" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.2">
           <type xsi:type="ocl:IntegerType" location="265:8-265:15"/>
+        </elements>
+        <elements xsi:type="atl:SimpleInPatternElement" location="266:3-266:18" varName="valuesSum" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.3">
+          <type xsi:type="ocl:RealType" location="266:14-266:18"/>
         </elements>
       </inPattern>
     </elements>

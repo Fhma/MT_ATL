@@ -34,7 +34,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="13:1-14:10">
       <definition location="13:8-14:9">
-        <feature xsi:type="ocl:Attribute" location="13:13-14:9" name="stroke_">
+        <feature xsi:type="ocl:Attribute" location="13:13-14:9" name="stroke">
           <initExpression xsi:type="ocl:StringExp" location="14:2-14:9" stringSymbol="black"/>
           <type xsi:type="ocl:StringType" location="13:21-13:27"/>
         </feature>
@@ -426,7 +426,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="79:1-80:8">
       <definition location="79:8-80:7">
-        <feature xsi:type="ocl:Attribute" location="79:13-80:7" name="ColorByElementName">
+        <feature xsi:type="ocl:Attribute" location="79:13-80:7" name="ColorByElementName_">
           <initExpression xsi:type="ocl:MapExp" location="80:2-80:7"/>
           <type xsi:type="ocl:MapType" location="79:33-79:52">
             <valueType xsi:type="ocl:StringType" location="79:45-79:51"/>

@@ -955,7 +955,7 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="171:4-171:84" propertyName="y">
+          <bindings location="171:4-171:84" propertyName="y_">
             <value xsi:type="ocl:OperatorCallExp" location="171:9-171:84" operationName="/">
               <source xsi:type="ocl:OperatorCallExp" location="171:10-171:79" operationName="-">
                 <source xsi:type="ocl:OperatorCallExp" location="171:10-171:59" operationName="-">
@@ -1209,7 +1209,7 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="222:4-222:38" propertyName="ty_">
+          <bindings location="222:4-222:38" propertyName="ty">
             <value xsi:type="ocl:OperatorCallExp" location="222:10-222:38" operationName="-">
               <source xsi:type="ocl:IntegerExp" location="222:10-222:11"/>
               <arguments xsi:type="ocl:NavigationOrAttributeCallExp" location="222:14-222:38" name="titleFontSize">

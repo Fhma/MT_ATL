@@ -4,20 +4,28 @@
 // a lazy rule as unique or not. If lazy rule is unique, this implies
 // the lazy rule will generate same output elements in each
 // execution while not unique rule does not.
-// 
-// Remards:
-// Although the metamodel rquires a value to be contained by
-// isUnique modelling concept, the EMF model that is produced
-// by ATLInjector gives a model that has no value assgined to
-// this required feature isUnique.
 //
 // Inherited operators: Rule, ModuleElement
 ////////////////////////////////////////////////////////////
 
-// Impl 1: change a lazy rule nature to opposite in case 
-// value of isUnique is given in the model
+// Impl 1: change a lazy rule nature to unique to opposite in case 
+// Impl 1.1: change to true
 @action replace
 @property isUnique
-pattern change_LazyMatchedRule_uniqueness_nature_to_opposite
+pattern change_LazyMatchedRule_uniqueness_to_true
 instance: LazyMatchedRule
-	guard: instance.isUnique.isDefined()
+	guard: instance.isUnique.isDefined() and instance.isUnique = false{
+	do {
+		instance.isUnique = true;
+	}
+}
+// Impl 1.2: change to false
+@action replace
+@property isUnique
+pattern change_LazyMatchedRule_uniqueness_to_false
+instance: LazyMatchedRule
+	guard: instance.isUnique.isDefined() and instance.isUnique = true {
+	do {
+		instance.isUnique = false;
+	}
+}

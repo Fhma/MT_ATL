@@ -228,7 +228,7 @@
       </outPattern>
       <inPattern location="79:2-80:19">
         <elements xsi:type="atl:SimpleInPatternElement" location="80:3-80:19" varName="cell" variableExp="/0/@elements.7/@outPattern/@elements.0/@bindings.0/@value/@source">
-          <type xsi:type="ocl:OclModelElement" location="80:9-80:19" name="Cell" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" location="80:9-80:19" name="Cell_" model="/2"/>
         </elements>
       </inPattern>
     </elements>
@@ -554,7 +554,7 @@
             <iterators location="146:39-146:40" varName="t" variableExp="/0/@elements.15/@definition/@feature/@initExpression/@body/@source/@source/@source"/>
           </initExpression>
           <type xsi:type="ocl:SequenceType" location="145:29-145:50">
-            <elementType xsi:type="ocl:OclModelElement" location="145:38-145:49" name="Table_" model="/2"/>
+            <elementType xsi:type="ocl:OclModelElement" location="145:38-145:49" name="Table" model="/2"/>
           </type>
         </feature>
       </definition>

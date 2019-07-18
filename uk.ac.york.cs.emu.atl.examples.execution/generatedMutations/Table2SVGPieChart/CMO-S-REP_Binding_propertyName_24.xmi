@@ -1238,7 +1238,7 @@
           <bindings location="242:4-242:29" propertyName="attribute">
             <value xsi:type="ocl:VariableExp" location="242:17-242:29" referredVariable="/0/@elements.21/@outPattern/@elements.1"/>
           </bindings>
-          <bindings location="243:4-243:26" propertyName="groupContent">
+          <bindings location="243:4-243:26" propertyName="groupContent_">
             <value xsi:type="ocl:VariableExp" location="243:20-243:26" referredVariable="/0/@elements.21/@outPattern/@elements.2"/>
           </bindings>
         </elements>
@@ -1660,7 +1660,7 @@
               <source xsi:type="ocl:VariableExp" location="324:14-324:24" referredVariable="/87"/>
             </value>
           </bindings>
-          <bindings location="325:4-325:46" propertyName="position">
+          <bindings location="325:4-325:46" propertyName="fontSize">
             <value xsi:type="ocl:OperationCallExp" location="325:16-325:46" operationName="toString">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="325:16-325:35" name="fontSize">
                 <source xsi:type="ocl:VariableExp" location="325:16-325:26" referredVariable="/88"/>

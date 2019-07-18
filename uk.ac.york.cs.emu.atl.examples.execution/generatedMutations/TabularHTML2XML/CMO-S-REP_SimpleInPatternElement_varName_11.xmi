@@ -72,7 +72,7 @@
         </elements>
       </outPattern>
       <inPattern location="35:2-36:25">
-        <elements xsi:type="atl:SimpleInPatternElement" location="36:3-36:25" varName="html">
+        <elements xsi:type="atl:SimpleInPatternElement" location="36:3-36:25" varName="html_">
           <type xsi:type="ocl:OclModelElement" location="36:9-36:25" name="HEADElement" model="/2"/>
         </elements>
       </inPattern>
@@ -178,7 +178,7 @@
         </elements>
       </outPattern>
       <inPattern location="76:2-77:19">
-        <elements xsi:type="atl:SimpleInPatternElement" location="77:3-77:19" varName="html_" variableExp="/0/@elements.8/@outPattern/@elements.0/@bindings.1/@value/@arguments.1/@condition/@source/@source/@source /0/@elements.8/@outPattern/@elements.0/@bindings.1/@value/@arguments.1/@thenExpression/@source /0/@elements.8/@outPattern/@elements.0/@bindings.2/@value/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="77:3-77:19" varName="html" variableExp="/0/@elements.8/@outPattern/@elements.0/@bindings.1/@value/@arguments.1/@condition/@source/@source/@source /0/@elements.8/@outPattern/@elements.0/@bindings.1/@value/@arguments.1/@thenExpression/@source /0/@elements.8/@outPattern/@elements.0/@bindings.2/@value/@source">
           <type xsi:type="ocl:OclModelElement" location="77:9-77:19" name="TABLE" model="/2"/>
         </elements>
       </inPattern>

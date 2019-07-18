@@ -154,7 +154,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="38:1-39:73">
       <definition location="38:8-39:72">
-        <feature xsi:type="ocl:Operation" location="38:33-39:72" name="boundingBoxWidth_">
+        <feature xsi:type="ocl:Operation" location="38:33-39:72" name="boundingBoxWidth">
           <returnType xsi:type="ocl:RealType" location="38:53-38:57"/>
           <body xsi:type="ocl:OperatorCallExp" location="39:2-39:72" operationName="+">
             <source xsi:type="ocl:OperatorCallExp" location="39:2-39:48" operationName="+">
@@ -2025,7 +2025,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="381:1-386:8">
       <definition location="381:8-386:7">
-        <feature xsi:type="ocl:Operation" location="381:32-386:7" name="realValue">
+        <feature xsi:type="ocl:Operation" location="381:32-386:7" name="realValue_">
           <returnType xsi:type="ocl:RealType" location="381:45-381:49"/>
           <body xsi:type="ocl:IfExp" location="382:2-386:7">
             <thenExpression xsi:type="ocl:OperatorCallExp" location="383:3-383:74" operationName="/">

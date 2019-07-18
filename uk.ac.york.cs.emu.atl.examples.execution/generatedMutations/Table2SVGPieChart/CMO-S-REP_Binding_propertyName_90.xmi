@@ -451,7 +451,7 @@
           <bindings location="99:4-99:45" propertyName="namespace">
             <value xsi:type="ocl:StringExp" location="99:17-99:45" stringSymbol="http://www.w3.org/2000/svg"/>
           </bindings>
-          <bindings location="100:4-100:20" propertyName="version">
+          <bindings location="100:4-100:20" propertyName="size">
             <value xsi:type="ocl:StringExp" location="100:15-100:20" stringSymbol="1.1"/>
           </bindings>
         </elements>
@@ -1235,7 +1235,7 @@
       <outPattern location="240:2-256:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="241:3-244:4" varName="g">
           <type xsi:type="ocl:OclModelElement" location="241:6-241:11" name="G" model="/1"/>
-          <bindings location="242:4-242:29" propertyName="groupContent">
+          <bindings location="242:4-242:29" propertyName="attribute">
             <value xsi:type="ocl:VariableExp" location="242:17-242:29" referredVariable="/0/@elements.21/@outPattern/@elements.1"/>
           </bindings>
           <bindings location="243:4-243:26" propertyName="groupContent">

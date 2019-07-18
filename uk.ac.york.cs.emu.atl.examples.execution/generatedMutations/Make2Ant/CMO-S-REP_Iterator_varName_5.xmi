@@ -28,7 +28,7 @@
                 <source xsi:type="ocl:VariableExp" location="11:43-11:44" referredVariable="/0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@iterators.0"/>
                 <arguments xsi:type="ocl:OclModelElement" location="11:57-11:67" name="Macro" model="/2"/>
               </body>
-              <iterators location="11:39-11:40" varName="c" variableExp="/0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@body/@source"/>
+              <iterators location="11:39-11:40" varName="c_" variableExp="/0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@body/@source"/>
             </value>
           </bindings>
           <bindings location="12:4-12:65" propertyName="targets">
@@ -111,7 +111,7 @@
                   <source xsi:type="ocl:VariableExp" location="34:44-34:45" referredVariable="/0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@iterators.0"/>
                   <arguments xsi:type="ocl:OclModelElement" location="34:58-34:70" name="RuleDep" model="/2"/>
                 </body>
-                <iterators location="34:40-34:41" varName="e_" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@body/@source"/>
+                <iterators location="34:40-34:41" varName="e" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@body/@source"/>
               </source>
               <body xsi:type="ocl:NavigationOrAttributeCallExp" location="34:88-34:97" name="ruledep">
                 <source xsi:type="ocl:VariableExp" location="34:88-34:89" referredVariable="/0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@iterators.0"/>

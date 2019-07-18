@@ -191,7 +191,7 @@
       </outPattern>
       <inPattern location="60:2-61:17">
         <elements xsi:type="atl:SimpleInPatternElement" location="61:3-61:17" varName="row" variableExp="/0/@elements.5/@outPattern/@elements.0/@bindings.0/@value/@arguments.0/@source/@source /0/@elements.5/@outPattern/@elements.0/@bindings.1/@value/@source/@source/@source /0/@elements.5/@outPattern/@elements.0/@bindings.1/@value/@source/@arguments.1/@source/@source">
-          <type xsi:type="ocl:OclModelElement" location="61:8-61:17" name="Row_" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" location="61:8-61:17" name="Row" model="/2"/>
         </elements>
       </inPattern>
     </elements>
@@ -215,7 +215,7 @@
     <elements xsi:type="atl:LazyMatchedRule" location="78:1-86:2" name="Cell2TDRightAlign">
       <outPattern location="81:2-85:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="82:3-85:4" varName="td">
-          <type xsi:type="ocl:OclModelElement" location="82:7-82:14" name="TD" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="82:7-82:14" name="TD_" model="/1"/>
           <bindings location="83:4-83:25" propertyName="value">
             <value xsi:type="ocl:OperationCallExp" location="83:13-83:25" operationName="value">
               <source xsi:type="ocl:VariableExp" location="83:13-83:17" referredVariable="/0/@elements.7/@inPattern/@elements.0"/>

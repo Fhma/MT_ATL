@@ -451,7 +451,7 @@
           <bindings location="99:4-99:45" propertyName="namespace">
             <value xsi:type="ocl:StringExp" location="99:17-99:45" stringSymbol="http://www.w3.org/2000/svg"/>
           </bindings>
-          <bindings location="100:4-100:20" propertyName="namespace">
+          <bindings location="100:4-100:20" propertyName="version">
             <value xsi:type="ocl:StringExp" location="100:15-100:20" stringSymbol="1.1"/>
           </bindings>
         </elements>
@@ -1317,7 +1317,7 @@
               <arguments xsi:type="ocl:StringExp" location="253:49-253:53" stringSymbol=" z"/>
             </value>
           </bindings>
-          <bindings location="254:4-254:75" propertyName="fill">
+          <bindings location="254:4-254:75" propertyName="fill_">
             <value xsi:type="ocl:OperationCallExp" location="254:12-254:75" operationName="get">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="254:12-254:41" name="ColorByElementName">
                 <source xsi:type="ocl:VariableExp" location="254:12-254:22" referredVariable="/70"/>

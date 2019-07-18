@@ -1092,7 +1092,7 @@
           <bindings location="196:4-196:24" propertyName="position">
             <value xsi:type="ocl:VariableExp" location="196:16-196:24" referredVariable="/0/@elements.19/@outPattern/@elements.4"/>
           </bindings>
-          <bindings location="197:4-197:163" propertyName="fill">
+          <bindings location="197:4-197:163" propertyName="size">
             <value xsi:type="ocl:OperationCallExp" location="197:12-197:163" operationName="get">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="197:12-197:41" name="ColorByElementName">
                 <source xsi:type="ocl:VariableExp" location="197:12-197:22" referredVariable="/58"/>
@@ -1591,7 +1591,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="318:3-321:4" varName="captionCoord" variableExp="/0/@elements.23/@outPattern/@elements.1/@bindings.1/@value /0/@elements.23/@outPattern/@elements.5/@bindings.0/@value/@source/@source/@source /0/@elements.23/@outPattern/@elements.5/@bindings.1/@value/@source/@source/@source">
           <type xsi:type="ocl:OclModelElement" location="318:17-318:34" name="AbsoluteCoord" model="/1"/>
-          <bindings location="319:4-319:105" propertyName="y">
+          <bindings location="319:4-319:105" propertyName="x">
             <value xsi:type="ocl:OperatorCallExp" location="319:9-319:105" operationName="-">
               <source xsi:type="ocl:OperatorCallExp" location="319:9-319:79" operationName="-">
                 <source xsi:type="ocl:OperatorCallExp" location="319:9-319:59" operationName="/">

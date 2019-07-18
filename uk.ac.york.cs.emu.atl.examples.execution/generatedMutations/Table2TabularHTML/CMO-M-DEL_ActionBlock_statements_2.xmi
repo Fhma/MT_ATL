@@ -13,7 +13,7 @@
     </elements>
     <elements xsi:type="atl:CalledRule" location="7:1-23:2" name="HTML" isEntrypoint="true">
       <outPattern location="8:2-19:18">
-        <elements xsi:type="atl:SimpleOutPatternElement" location="9:3-12:4" varName="html">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="9:3-12:4" varName="html" variableExp="/0/@elements.1/@actionBlock/@statements.0/@value">
           <type xsi:type="ocl:OclModelElement" location="9:9-9:18" name="HTML" model="/1"/>
           <bindings location="10:4-10:16" propertyName="head">
             <value xsi:type="ocl:VariableExp" location="10:12-10:16" referredVariable="/0/@elements.1/@outPattern/@elements.1"/>
@@ -38,11 +38,18 @@
           <type xsi:type="ocl:OclModelElement" location="19:9-19:18" name="BODY" model="/1"/>
         </elements>
       </outPattern>
-      <actionBlock location="20:2-22:3"/>
+      <actionBlock location="20:2-22:3">
+        <statements xsi:type="atl:BindingStat" location="21:3-21:27">
+          <source xsi:type="ocl:NavigationOrAttributeCallExp" location="21:3-21:18" name="html">
+            <source xsi:type="ocl:VariableExp" location="21:3-21:13" referredVariable="/3"/>
+          </source>
+          <value xsi:type="ocl:VariableExp" location="21:22-21:26" referredVariable="/0/@elements.1/@outPattern/@elements.0"/>
+        </statements>
+      </actionBlock>
     </elements>
     <elements xsi:type="atl:MatchedRule" location="25:1-39:2" name="Table2TABLE">
       <outPattern location="30:2-35:4">
-        <elements xsi:type="atl:SimpleOutPatternElement" location="31:3-35:4" varName="tab" variableExp="/0/@elements.2/@actionBlock/@statements.0/@value">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="31:3-35:4" varName="tab">
           <type xsi:type="ocl:OclModelElement" location="31:8-31:18" name="TABLE" model="/1"/>
           <bindings location="32:4-32:17" propertyName="border">
             <value xsi:type="ocl:StringExp" location="32:14-32:17" stringSymbol="1"/>
@@ -79,18 +86,7 @@
           </bindings>
         </elements>
       </outPattern>
-      <actionBlock location="36:2-38:3">
-        <statements xsi:type="atl:BindingStat" location="37:3-37:44">
-          <source xsi:type="ocl:NavigationOrAttributeCallExp" location="37:3-37:36" name="bodyElements">
-            <source xsi:type="ocl:NavigationOrAttributeCallExp" location="37:3-37:23" name="body">
-              <source xsi:type="ocl:NavigationOrAttributeCallExp" location="37:3-37:18" name="html">
-                <source xsi:type="ocl:VariableExp" location="37:3-37:13" referredVariable="/6"/>
-              </source>
-            </source>
-          </source>
-          <value xsi:type="ocl:VariableExp" location="37:40-37:43" referredVariable="/0/@elements.2/@outPattern/@elements.0"/>
-        </statements>
-      </actionBlock>
+      <actionBlock location="36:2-38:3"/>
       <inPattern location="26:2-29:4">
         <elements xsi:type="atl:SimpleInPatternElement" location="27:3-27:21" varName="table" variableExp="/0/@elements.2/@inPattern/@filter/@source/@source/@source /0/@elements.2/@outPattern/@elements.0/@bindings.1/@value/@arguments.0/@source/@source /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@source/@source /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@arguments.1/@source/@source">
           <type xsi:type="ocl:OclModelElement" location="27:10-27:21" name="Table" model="/2"/>
@@ -571,10 +567,10 @@
   </atl:Module>
   <ocl:OclModel location="2:13-2:17" name="HTML" elements="/0/@elements.0/@definition/@feature/@type /0/@elements.1/@outPattern/@elements.0/@type /0/@elements.1/@outPattern/@elements.1/@type /0/@elements.1/@outPattern/@elements.2/@type /0/@elements.1/@outPattern/@elements.3/@type /0/@elements.2/@outPattern/@elements.0/@type /0/@elements.3/@outPattern/@elements.0/@type /0/@elements.4/@outPattern/@elements.0/@type /0/@elements.5/@outPattern/@elements.0/@type /0/@elements.6/@outPattern/@elements.0/@type /0/@elements.7/@outPattern/@elements.0/@type" model="/0/@outModels.0"/>
   <ocl:OclModel location="2:27-2:32" name="Table" elements="/0/@elements.2/@inPattern/@elements.0/@type /0/@elements.3/@inPattern/@elements.0/@type /0/@elements.4/@inPattern/@elements.0/@type /0/@elements.5/@inPattern/@elements.0/@type /0/@elements.6/@inPattern/@elements.0/@type /0/@elements.7/@inPattern/@elements.0/@type /0/@elements.12/@definition/@context_/@context_ /0/@elements.13/@definition/@context_/@context_ /0/@elements.15/@definition/@feature/@type/@elementType /0/@elements.15/@definition/@feature/@initExpression/@source/@source /0/@elements.16/@definition/@context_/@context_" model="/0/@inModels.0"/>
-  <ocl:VariableDeclaration location="21:3-21:13" varName="thisModule"/>
+  <ocl:VariableDeclaration location="21:3-21:13" varName="thisModule" variableExp="/0/@elements.1/@actionBlock/@statements.0/@source/@source"/>
   <ocl:VariableDeclaration location="33:11-33:21" varName="thisModule" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.1/@value/@source"/>
   <ocl:VariableDeclaration location="34:79-34:89" varName="thisModule" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@body/@source"/>
-  <ocl:VariableDeclaration location="37:3-37:13" varName="thisModule" variableExp="/0/@elements.2/@actionBlock/@statements.0/@source/@source/@source/@source"/>
+  <ocl:VariableDeclaration location="37:3-37:13" varName="thisModule"/>
   <ocl:VariableDeclaration location="46:39-46:49" varName="thisModule" variableExp="/0/@elements.3/@outPattern/@elements.0/@bindings.0/@value/@body/@source"/>
   <ocl:VariableDeclaration location="64:11-64:21" varName="thisModule" variableExp="/0/@elements.5/@outPattern/@elements.0/@bindings.0/@value/@source"/>
   <ocl:VariableDeclaration location="65:78-65:88" varName="thisModule" variableExp="/0/@elements.5/@outPattern/@elements.0/@bindings.1/@value/@body/@source"/>

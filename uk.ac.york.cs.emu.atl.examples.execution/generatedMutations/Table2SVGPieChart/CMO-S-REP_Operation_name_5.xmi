@@ -154,7 +154,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="38:1-39:73">
       <definition location="38:8-39:72">
-        <feature xsi:type="ocl:Operation" location="38:33-39:72" name="boundingBoxWidth">
+        <feature xsi:type="ocl:Operation" location="38:33-39:72" name="boundingBoxWidth_">
           <returnType xsi:type="ocl:RealType" location="38:53-38:57"/>
           <body xsi:type="ocl:OperatorCallExp" location="39:2-39:72" operationName="+">
             <source xsi:type="ocl:OperatorCallExp" location="39:2-39:48" operationName="+">
@@ -199,7 +199,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="47:1-48:66">
       <definition location="47:8-48:65">
-        <feature xsi:type="ocl:Operation" location="47:33-48:65" name="captionBoxWidth_">
+        <feature xsi:type="ocl:Operation" location="47:33-48:65" name="captionBoxWidth">
           <returnType xsi:type="ocl:RealType" location="47:52-47:56"/>
           <body xsi:type="ocl:OperatorCallExp" location="48:2-48:65" operationName="+">
             <source xsi:type="ocl:OperatorCallExp" location="48:2-48:41" operationName="+">

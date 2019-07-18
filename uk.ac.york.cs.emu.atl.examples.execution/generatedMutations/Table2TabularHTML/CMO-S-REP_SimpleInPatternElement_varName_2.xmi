@@ -148,7 +148,7 @@
         </elements>
       </outPattern>
       <inPattern location="51:2-52:19">
-        <elements xsi:type="atl:SimpleInPatternElement" location="52:3-52:19" varName="cell_" variableExp="/0/@elements.4/@outPattern/@elements.0/@bindings.0/@value/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="52:3-52:19" varName="cell" variableExp="/0/@elements.4/@outPattern/@elements.0/@bindings.0/@value/@source">
           <type xsi:type="ocl:OclModelElement" location="52:9-52:19" name="Cell" model="/2"/>
         </elements>
       </inPattern>
@@ -190,7 +190,7 @@
         </elements>
       </outPattern>
       <inPattern location="60:2-61:17">
-        <elements xsi:type="atl:SimpleInPatternElement" location="61:3-61:17" varName="row" variableExp="/0/@elements.5/@outPattern/@elements.0/@bindings.0/@value/@arguments.0/@source/@source /0/@elements.5/@outPattern/@elements.0/@bindings.1/@value/@source/@source/@source /0/@elements.5/@outPattern/@elements.0/@bindings.1/@value/@source/@arguments.1/@source/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="61:3-61:17" varName="row_" variableExp="/0/@elements.5/@outPattern/@elements.0/@bindings.0/@value/@arguments.0/@source/@source /0/@elements.5/@outPattern/@elements.0/@bindings.1/@value/@source/@source/@source /0/@elements.5/@outPattern/@elements.0/@bindings.1/@value/@source/@arguments.1/@source/@source">
           <type xsi:type="ocl:OclModelElement" location="61:8-61:17" name="Row" model="/2"/>
         </elements>
       </inPattern>

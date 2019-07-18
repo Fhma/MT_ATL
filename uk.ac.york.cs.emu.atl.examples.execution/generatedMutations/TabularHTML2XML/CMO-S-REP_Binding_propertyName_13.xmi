@@ -104,10 +104,10 @@
       <outPattern location="54:2-58:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="55:3-58:4" varName="xml">
           <type xsi:type="ocl:OclModelElement" location="55:8-55:19" name="Element" model="/1"/>
-          <bindings location="56:4-56:18" propertyName="name">
+          <bindings location="56:4-56:18" propertyName="name_">
             <value xsi:type="ocl:StringExp" location="56:12-56:18" stringSymbol="body"/>
           </bindings>
-          <bindings location="57:4-57:33" propertyName="children_">
+          <bindings location="57:4-57:33" propertyName="children">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="57:16-57:33" name="bodyElements">
               <source xsi:type="ocl:VariableExp" location="57:16-57:20" referredVariable="/0/@elements.5/@inPattern/@elements.0"/>
             </value>

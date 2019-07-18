@@ -184,7 +184,7 @@
                 <source xsi:type="ocl:VariableExp" location="65:78-65:88" referredVariable="/9"/>
                 <arguments xsi:type="ocl:VariableExp" location="65:107-65:111" referredVariable="/0/@elements.5/@outPattern/@elements.0/@bindings.1/@value/@iterators.0"/>
               </body>
-              <iterators location="65:71-65:75" varName="cell_" variableExp="/0/@elements.5/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.0"/>
+              <iterators location="65:71-65:75" varName="cell" variableExp="/0/@elements.5/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.0"/>
             </value>
           </bindings>
         </elements>
@@ -547,7 +547,7 @@
                     </source>
                   </arguments>
                 </body>
-                <iterators location="146:124-146:125" varName="c" variableExp="/0/@elements.15/@definition/@feature/@initExpression/@body/@body/@body/@source/@source/@source/@source /0/@elements.15/@definition/@feature/@initExpression/@body/@body/@body/@source/@arguments.0/@source/@source /0/@elements.15/@definition/@feature/@initExpression/@body/@body/@body/@arguments.0/@source/@source"/>
+                <iterators location="146:124-146:125" varName="c_" variableExp="/0/@elements.15/@definition/@feature/@initExpression/@body/@body/@body/@source/@source/@source/@source /0/@elements.15/@definition/@feature/@initExpression/@body/@body/@body/@source/@arguments.0/@source/@source /0/@elements.15/@definition/@feature/@initExpression/@body/@body/@body/@arguments.0/@source/@source"/>
               </body>
               <iterators location="146:81-146:82" varName="r" variableExp="/0/@elements.15/@definition/@feature/@initExpression/@body/@body/@source/@source/@source"/>
             </body>

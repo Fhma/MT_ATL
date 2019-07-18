@@ -42,7 +42,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="16:1-17:5">
       <definition location="16:8-17:4">
-        <feature xsi:type="ocl:Attribute" location="16:13-17:4" name="margin_">
+        <feature xsi:type="ocl:Attribute" location="16:13-17:4" name="margin">
           <initExpression xsi:type="ocl:IntegerExp" location="17:2-17:4" integerSymbol="10"/>
           <type xsi:type="ocl:RealType" location="16:21-16:25"/>
         </feature>
@@ -50,7 +50,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="19:1-20:26">
       <definition location="19:8-20:25">
-        <feature xsi:type="ocl:Attribute" location="19:13-20:25" name="titleFontSize">
+        <feature xsi:type="ocl:Attribute" location="19:13-20:25" name="titleFontSize_">
           <initExpression xsi:type="ocl:OperatorCallExp" location="20:2-20:25" operationName="*">
             <source xsi:type="ocl:NavigationOrAttributeCallExp" location="20:2-20:19" name="radius">
               <source xsi:type="ocl:VariableExp" location="20:2-20:12" referredVariable="/4"/>

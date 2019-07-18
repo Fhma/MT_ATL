@@ -88,7 +88,7 @@
       <definition location="28:8-29:14">
         <feature xsi:type="ocl:Attribute" location="28:13-29:14" name="svgFile">
           <initExpression xsi:type="ocl:OclUndefinedExp" location="29:2-29:14"/>
-          <type xsi:type="ocl:OclModelElement" name="G" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" name="AbsoluteCoord" model="/1"/>
         </feature>
       </definition>
     </elements>

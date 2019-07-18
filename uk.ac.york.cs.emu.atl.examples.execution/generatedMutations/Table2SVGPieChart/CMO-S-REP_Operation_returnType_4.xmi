@@ -226,7 +226,7 @@
     <elements xsi:type="atl:Helper" location="50:1-51:93">
       <definition location="50:8-51:92">
         <feature xsi:type="ocl:Operation" location="50:33-51:92" name="captionBoxHeight">
-          <returnType xsi:type="ocl:RealType" location="50:53-50:57"/>
+          <returnType xsi:type="ocl:BooleanType"/>
           <body xsi:type="ocl:OperatorCallExp" location="51:2-51:92" operationName="-">
             <source xsi:type="ocl:OperatorCallExp" location="51:2-51:68" operationName="*">
               <source xsi:type="ocl:CollectionOperationCallExp" location="51:2-51:21" operationName="size">
@@ -268,7 +268,7 @@
           <parameters location="53:40-53:56" varName="nbColor" variableExp="/0/@elements.15/@definition/@feature/@body/@variable/@initExpression/@source/@arguments.0">
             <type xsi:type="ocl:IntegerType" location="53:49-53:56"/>
           </parameters>
-          <returnType xsi:type="ocl:BooleanType"/>
+          <returnType xsi:type="ocl:StringType" location="53:59-53:65"/>
           <body xsi:type="ocl:LetExp" location="54:2-77:8">
             <variable location="54:6-55:36" varName="value" variableExp="/0/@elements.15/@definition/@feature/@body/@in_/@condition/@source /0/@elements.15/@definition/@feature/@body/@in_/@thenExpression/@source/@arguments.0/@source/@arguments.0 /0/@elements.15/@definition/@feature/@body/@in_/@elseExpression/@condition/@source /0/@elements.15/@definition/@feature/@body/@in_/@elseExpression/@thenExpression/@source/@arguments.0/@source/@arguments.0 /0/@elements.15/@definition/@feature/@body/@in_/@elseExpression/@elseExpression/@condition/@source /0/@elements.15/@definition/@feature/@body/@in_/@elseExpression/@elseExpression/@thenExpression/@source/@arguments.0/@source/@arguments.0/@arguments.0 /0/@elements.15/@definition/@feature/@body/@in_/@elseExpression/@elseExpression/@elseExpression/@condition/@source /0/@elements.15/@definition/@feature/@body/@in_/@elseExpression/@elseExpression/@elseExpression/@thenExpression/@source/@arguments.0/@source/@arguments.0 /0/@elements.15/@definition/@feature/@body/@in_/@elseExpression/@elseExpression/@elseExpression/@elseExpression/@condition/@source /0/@elements.15/@definition/@feature/@body/@in_/@elseExpression/@elseExpression/@elseExpression/@elseExpression/@thenExpression/@source/@arguments.0/@source/@arguments.0/@arguments.0 /0/@elements.15/@definition/@feature/@body/@in_/@elseExpression/@elseExpression/@elseExpression/@elseExpression/@elseExpression/@source/@arguments.0/@source/@arguments.0">
               <type xsi:type="ocl:IntegerType" location="54:13-54:20"/>

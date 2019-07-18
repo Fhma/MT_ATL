@@ -1049,7 +1049,7 @@
     <elements xsi:type="atl:LazyMatchedRule" location="181:1-208:2" name="Table2Circle">
       <outPattern location="185:2-207:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="186:3-189:4" varName="g">
-          <type xsi:type="ocl:OclModelElement" name="Translate" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" name="Dimension" model="/1"/>
           <bindings location="187:4-187:26" propertyName="attribute">
             <value xsi:type="ocl:VariableExp" location="187:17-187:26" referredVariable="/0/@elements.19/@outPattern/@elements.1"/>
           </bindings>

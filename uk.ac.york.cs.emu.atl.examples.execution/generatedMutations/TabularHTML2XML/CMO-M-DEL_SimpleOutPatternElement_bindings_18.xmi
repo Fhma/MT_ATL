@@ -32,15 +32,10 @@
       <outPattern location="18:2-21:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="19:3-21:4" varName="xml">
           <type xsi:type="ocl:OclModelElement" location="19:8-19:19" name="Element" model="/1"/>
-          <bindings location="20:4-20:29" propertyName="children">
-            <value xsi:type="ocl:NavigationOrAttributeCallExp" location="20:16-20:29" name="children">
-              <source xsi:type="ocl:VariableExp" location="20:16-20:20" referredVariable="/0/@elements.1/@inPattern/@elements.0"/>
-            </value>
-          </bindings>
         </elements>
       </outPattern>
       <inPattern location="16:2-17:25">
-        <elements xsi:type="atl:SimpleInPatternElement" location="17:3-17:25" varName="html" variableExp="/0/@elements.1/@outPattern/@elements.0/@bindings.0/@value/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="17:3-17:25" varName="html">
           <type xsi:type="ocl:OclModelElement" location="17:9-17:25" name="HTMLElement" model="/2"/>
         </elements>
       </inPattern>
@@ -190,10 +185,15 @@
           <bindings location="94:4-94:16" propertyName="name">
             <value xsi:type="ocl:StringExp" location="94:12-94:16" stringSymbol="tr"/>
           </bindings>
+          <bindings location="95:4-95:24" propertyName="children">
+            <value xsi:type="ocl:NavigationOrAttributeCallExp" location="95:16-95:24" name="tds">
+              <source xsi:type="ocl:VariableExp" location="95:16-95:20" referredVariable="/0/@elements.9/@inPattern/@elements.0"/>
+            </value>
+          </bindings>
         </elements>
       </outPattern>
       <inPattern location="90:2-91:16">
-        <elements xsi:type="atl:SimpleInPatternElement" location="91:3-91:16" varName="html">
+        <elements xsi:type="atl:SimpleInPatternElement" location="91:3-91:16" varName="html" variableExp="/0/@elements.9/@outPattern/@elements.0/@bindings.1/@value/@source">
           <type xsi:type="ocl:OclModelElement" location="91:9-91:16" name="TR" model="/2"/>
         </elements>
       </inPattern>

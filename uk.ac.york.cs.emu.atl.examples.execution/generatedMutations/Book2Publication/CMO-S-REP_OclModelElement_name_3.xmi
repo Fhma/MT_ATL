@@ -41,7 +41,7 @@
           </body>
         </feature>
         <context_ location="4:8-4:25">
-          <context_ xsi:type="ocl:OclModelElement" location="4:16-4:25" name="Book" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" location="4:16-4:25" name="Book_" model="/2"/>
         </context_>
       </definition>
     </elements>
@@ -98,7 +98,7 @@
       </outPattern>
       <inPattern location="15:2-18:4">
         <elements xsi:type="atl:SimpleInPatternElement" location="16:3-16:15" varName="b" variableExp="/0/@elements.2/@inPattern/@filter/@source/@source /0/@elements.2/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.2/@outPattern/@elements.0/@bindings.1/@value/@source /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source">
-          <type xsi:type="ocl:OclModelElement" location="16:6-16:15" name="Book_" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" location="16:6-16:15" name="Book" model="/2"/>
         </elements>
         <filter xsi:type="ocl:OperatorCallExp" location="17:4-17:22" operationName=">">
           <source xsi:type="ocl:OperationCallExp" location="17:4-17:18" operationName="getNbPages">

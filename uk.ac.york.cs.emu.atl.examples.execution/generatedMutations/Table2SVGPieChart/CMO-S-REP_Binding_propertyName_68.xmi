@@ -451,7 +451,7 @@
           <bindings location="99:4-99:45" propertyName="namespace">
             <value xsi:type="ocl:StringExp" location="99:17-99:45" stringSymbol="http://www.w3.org/2000/svg"/>
           </bindings>
-          <bindings location="100:4-100:20" propertyName="version_">
+          <bindings location="100:4-100:20" propertyName="version">
             <value xsi:type="ocl:StringExp" location="100:15-100:20" stringSymbol="1.1"/>
           </bindings>
         </elements>
@@ -1667,7 +1667,7 @@
               </source>
             </value>
           </bindings>
-          <bindings location="326:4-326:154" propertyName="content">
+          <bindings location="326:4-326:154" propertyName="fontSize">
             <value xsi:type="ocl:OperatorCallExp" location="326:15-326:154" operationName="+">
               <source xsi:type="ocl:OperatorCallExp" location="326:15-326:148" operationName="+">
                 <source xsi:type="ocl:OperatorCallExp" location="326:15-326:92" operationName="+">

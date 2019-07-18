@@ -6,3 +6,51 @@
 //
 // Inherited operators: Statement 
 ////////////////////////////////////////////////////////////
+
+// Impl. 1: change a source name with another one
+@action replace
+@property source
+pattern replace_source_from_another_one
+instance:BindingStat in: BindingStat.all.select(e|e.source.isDefined() and e.source.isTypeOf(NavigationOrAttributeCallExp)
+	and e.source.source.isDefined() and e.source.source.isTypeOf(NavigationOrAttributeCallExp)) {
+	do {
+		var sources = BindingStat.all.select(e| e.source.isDefined() and e.source.isTypeOf(NavigationOrAttributeCallExp)
+			and e.source.source.isDefined() and e.source.source.isTypeOf(NavigationOrAttributeCallExp)
+			and e.source.name <> instance.source.name).collect(e|e.source.name).asSet();
+		var new_source = NavigationOrAttributeCallExp.createInstance();
+		new_source.name = sources.random();
+		new_source.source = instance.source.source;
+		instance.source = new_source;
+	}
+}
+
+// Impl. 2: change a source to another one obtained from called source
+@action replace
+@property source
+pattern replace_source_of_specific_father_source
+instance:BindingStat in: BindingStat.all.select(e|e.source.isDefined() and e.source.isTypeOf(NavigationOrAttributeCallExp)
+	and e.source.source.isDefined() and e.source.source.isTypeOf(NavigationOrAttributeCallExp)) {
+	do {
+		var sources = BindingStat.all.select(e| e.source.isDefined() and e.source.isTypeOf(NavigationOrAttributeCallExp)
+			and e.source.source.isDefined() and e.source.source.isTypeOf(NavigationOrAttributeCallExp)
+			and e.source.source.name <> instance.source.source.name).collect(e|e.source.source.name).asSet();
+		var new_source = NavigationOrAttributeCallExp.createInstance();
+		new_source.name = sources.random();
+		new_source.source = instance.source.source;
+		instance.source = new_source;
+	}
+}
+
+// Impl 3: change a source to another one by omitting a middle NavigationOrAttributeCallExp
+@action replace
+@property source
+pattern replace_omitting_middle_source
+instance:BindingStat in: BindingStat.all.select(e|e.source.isDefined() and e.source.isTypeOf(NavigationOrAttributeCallExp)
+	and e.source.source.isDefined() and e.source.source.isTypeOf(NavigationOrAttributeCallExp)) {
+	do {
+		var new_source = NavigationOrAttributeCallExp.createInstance();
+		new_source.name = instance.source.name;
+		new_source.source = instance.source.source.source;
+		instance.source = new_source;
+	}
+}

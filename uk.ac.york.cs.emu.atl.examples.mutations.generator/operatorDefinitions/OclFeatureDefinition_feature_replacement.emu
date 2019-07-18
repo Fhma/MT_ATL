@@ -1,4 +1,4 @@
-// operator: OclFeatureDefinition.feature-REP
+	// operator: OclFeatureDefinition.feature-REP
 // desc: this operator replaces a feature of OCL.Operation
 // with OCL.Attribute and vice versa.
 //

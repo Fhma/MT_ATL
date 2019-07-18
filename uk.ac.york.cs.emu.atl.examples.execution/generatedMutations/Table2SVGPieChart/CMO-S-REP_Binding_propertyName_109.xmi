@@ -939,7 +939,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="169:3-172:4" varName="textTitleCoord" variableExp="/0/@elements.18/@outPattern/@elements.5/@bindings.0/@value">
           <type xsi:type="ocl:OclModelElement" location="169:19-169:36" name="AbsoluteCoord" model="/1"/>
-          <bindings location="170:4-170:62" propertyName="x">
+          <bindings location="170:4-170:62" propertyName="y">
             <value xsi:type="ocl:OperatorCallExp" location="170:9-170:62" operationName="-">
               <source xsi:type="ocl:IntegerExp" location="170:9-170:10"/>
               <arguments xsi:type="ocl:OperatorCallExp" location="170:13-170:62" operationName="/">
@@ -1086,7 +1086,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="194:3-199:4" varName="pie" variableExp="/0/@elements.19/@outPattern/@elements.0/@bindings.1/@value">
           <type xsi:type="ocl:OclModelElement" location="194:8-194:18" name="Circle" model="/1"/>
-          <bindings location="195:4-195:19" propertyName="size_">
+          <bindings location="195:4-195:19" propertyName="size">
             <value xsi:type="ocl:VariableExp" location="195:12-195:19" referredVariable="/0/@elements.19/@outPattern/@elements.3"/>
           </bindings>
           <bindings location="196:4-196:24" propertyName="position">

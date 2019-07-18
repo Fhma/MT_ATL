@@ -493,7 +493,7 @@
     <elements xsi:type="atl:Helper" location="142:1-143:41">
       <definition location="142:8-143:40">
         <feature xsi:type="ocl:Operation" location="142:28-143:40" name="seqWithoutFirst">
-          <returnType xsi:type="ocl:IntegerType"/>
+          <returnType xsi:type="ocl:RealType"/>
           <body xsi:type="ocl:CollectionOperationCallExp" location="143:2-143:40" operationName="subSequence">
             <source xsi:type="ocl:VariableExp" location="143:2-143:6" referredVariable="/27"/>
             <arguments xsi:type="ocl:IntegerExp" location="143:22-143:23" integerSymbol="2"/>

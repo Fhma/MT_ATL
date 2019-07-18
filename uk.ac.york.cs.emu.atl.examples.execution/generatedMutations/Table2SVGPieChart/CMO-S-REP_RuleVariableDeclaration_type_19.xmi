@@ -1012,7 +1012,7 @@
         </statements>
       </actionBlock>
       <variables location="130:3-130:125" varName="valuesSum" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.3/@value/@elseExpression/@arguments.2 /0/@elements.18/@outPattern/@elements.0/@bindings.4/@value/@arguments.2">
-        <type xsi:type="ocl:IntegerType"/>
+        <type xsi:type="ocl:RealType" location="130:14-130:18"/>
         <initExpression xsi:type="ocl:IterateExp" location="130:21-130:124">
           <source xsi:type="ocl:CollectionOperationCallExp" location="130:21-130:52" operationName="seqWithoutFirst">
             <source xsi:type="ocl:NavigationOrAttributeCallExp" location="130:21-130:31" name="rows">
@@ -1355,7 +1355,7 @@
         </statements>
       </actionBlock>
       <variables location="233:3-236:10" varName="value" variableExp="/0/@elements.21/@variables.1/@initExpression/@arguments.0/@source/@source/@source /0/@elements.21/@variables.2/@initExpression/@arguments.0/@source/@source/@source /0/@elements.21/@outPattern/@elements.2/@bindings.0/@value/@source/@source/@source/@source/@arguments.0/@condition/@source/@arguments.0 /0/@elements.21/@actionBlock/@statements.0/@value/@arguments.0/@arguments.0">
-        <type xsi:type="ocl:RealType" location="233:10-233:14"/>
+        <type xsi:type="ocl:IntegerType"/>
         <initExpression xsi:type="ocl:IfExp" location="233:17-236:9">
           <thenExpression xsi:type="ocl:IntegerExp" location="234:10-234:11"/>
           <condition xsi:type="ocl:OperatorCallExp" location="233:20-233:33" operationName="=">

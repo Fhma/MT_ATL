@@ -744,7 +744,7 @@
           <bindings location="135:4-135:31" propertyName="groupContent">
             <value xsi:type="ocl:VariableExp" location="135:20-135:31" referredVariable="/0/@elements.18/@outPattern/@elements.1"/>
           </bindings>
-          <bindings location="136:4-136:29" propertyName="groupContent_">
+          <bindings location="136:4-136:29" propertyName="groupContent">
             <value xsi:type="ocl:VariableExp" location="136:20-136:29" referredVariable="/0/@elements.18/@outPattern/@elements.5"/>
           </bindings>
           <bindings location="137:4-141:10" propertyName="groupContent">
@@ -1489,7 +1489,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="282:3-285:4" varName="captionBoxCoord" variableExp="/0/@elements.22/@outPattern/@elements.1/@bindings.1/@value">
           <type xsi:type="ocl:OclModelElement" location="282:20-282:37" name="AbsoluteCoord" model="/1"/>
-          <bindings location="283:4-283:75" propertyName="x">
+          <bindings location="283:4-283:75" propertyName="y">
             <value xsi:type="ocl:OperatorCallExp" location="283:9-283:75" operationName="-">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="283:9-283:26" name="radius">
                 <source xsi:type="ocl:VariableExp" location="283:9-283:19" referredVariable="/76"/>

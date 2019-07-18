@@ -14,7 +14,7 @@
     <elements xsi:type="atl:CalledRule" location="7:1-23:2" name="HTML" isEntrypoint="true">
       <outPattern location="8:2-19:18">
         <elements xsi:type="atl:SimpleOutPatternElement" location="9:3-12:4" varName="html" variableExp="/0/@elements.1/@actionBlock/@statements.0/@value">
-          <type xsi:type="ocl:OclModelElement" name="TR" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" name="TITLE" model="/1"/>
           <bindings location="10:4-10:16" propertyName="head">
             <value xsi:type="ocl:VariableExp" location="10:12-10:16" referredVariable="/0/@elements.1/@outPattern/@elements.1"/>
           </bindings>

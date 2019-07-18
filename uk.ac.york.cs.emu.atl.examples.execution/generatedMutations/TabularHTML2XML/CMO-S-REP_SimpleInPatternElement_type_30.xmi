@@ -199,7 +199,7 @@
       </outPattern>
       <inPattern location="90:2-91:16">
         <elements xsi:type="atl:SimpleInPatternElement" location="91:3-91:16" varName="html" variableExp="/0/@elements.9/@outPattern/@elements.0/@bindings.1/@value/@source">
-          <type xsi:type="ocl:OclModelElement" name="BODYElement" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" name="TH" model="/2"/>
         </elements>
       </inPattern>
     </elements>

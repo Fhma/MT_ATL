@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atl="http://www.eclipse.org/gmt/2005/ATL" xmlns:ocl="http://www.eclipse.org/gmt/2005/OCL" xsi:schemaLocation="http://www.eclipse.org/gmt/2005/ATL /Users/AFADF_F/Git/Fhma/MT_ATL_Exp2/uk.ac.york.cs.emu.atl.examples.mutations.generator/bin/uk/ac/york/cs/emu/atl/examples/mutations/generator/metamodels/ATL.ecore#//ATL http://www.eclipse.org/gmt/2005/OCL /Users/AFADF_F/Git/Fhma/MT_ATL_Exp2/uk.ac.york.cs.emu.atl.examples.mutations.generator/bin/uk/ac/york/cs/emu/atl/examples/mutations/generator/metamodels/ATL.ecore#//OCL">
   <atl:Module location="1:1-145:2" name="TabularHTML2XML">
-    <inModels location="2:22-2:30" name="IN_" metamodel="/2"/>
+    <inModels location="2:22-2:30" name="HTML" metamodel="/2"/>
     <outModels location="2:8-2:16" name="OUT" metamodel="/1"/>
     <elements xsi:type="atl:MatchedRule" location="4:1-13:2" name="HTML">
       <outPattern location="7:2-12:4">

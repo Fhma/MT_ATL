@@ -11,22 +11,20 @@
 // define a couple of helping functions to be called
 // throughout operator definitions
 function isComparisonOperator(op:String):Boolean {
-	if(op = ">" or op = ">=" or op = "<" or op = "<="
-		or op = "=" or op = "<>")
+	if(op=">" or op=">=" or op="<" or op="<=" or op="=" or op="<>")
 		return true;
 	return false;
 }
 
-function isLogicalOpeerator(op:String):Boolean {
-	if(op = "and" or op = "or" or op = "xor")
+function isLogicalOperator(op:String):Boolean {
+	if(op="and" or op="or" or op="xor")
 		return true;
 	return false;
 }
 
 // Operator Definitions ////////////////////////////////////
 
-// Impl 1: change the comparison condition of  type
-// OperatorCallExp to greater than
+// Impl 1: change the comparison condition to greater than
 @action replace
 @property condition
 pattern change_condition_of_operatorcallexp_to_gt
@@ -39,14 +37,12 @@ instance:IfStat
 		var call_exp = OperatorCallExp.createInstance();
 		call_exp.source = instance.condition.source;
 		call_exp.arguments.addAll(instance.condition.arguments);
-		call_exp.operationName = ">";
-		
+		call_exp.operationName = ">";	
 		instance.condition = call_exp;
 	}
 }
 
-// Impl 2: change the comparison condition of  type
-// OperatorCallExp to greater than or equal
+// Impl 2: change the comparison condition to greater than or equal
 @action replace
 @property condition
 pattern change_condition_of_operatorcallexp_to_gte
@@ -60,13 +56,11 @@ instance:IfStat
 		call_exp.source = instance.condition.source;
 		call_exp.arguments.addAll(instance.condition.arguments);
 		call_exp.operationName = ">=";
-		
 		instance.condition = call_exp;
 	}
 }
 
-// Impl 3: change the comparison condition of  type
-// OperatorCallExp to less than
+// Impl 3: change the comparison condition less than
 @action replace
 @property condition
 pattern change_condition_of_operatorcallexp_to_lt
@@ -80,13 +74,11 @@ instance:IfStat
 		call_exp.source = instance.condition.source;
 		call_exp.arguments.addAll(instance.condition.arguments);
 		call_exp.operationName = "<";
-		
 		instance.condition = call_exp;
 	}
 }
 
-// Impl 4: change the comparison condition of  type
-// OperatorCallExp to less than
+// Impl 4: change the comparison condition less than or equal
 @action replace
 @property condition
 pattern change_condition_of_operatorcallexp_to_lte
@@ -100,13 +92,11 @@ instance:IfStat
 		call_exp.source = instance.condition.source;
 		call_exp.arguments.addAll(instance.condition.arguments);
 		call_exp.operationName = "<=";
-		
 		instance.condition = call_exp;
 	}
 }
 
-// Impl 5: change the comparison condition of type
-// OperatorCallExp to equal
+// Impl 5: change the comparison condition to equal
 @action replace
 @property condition
 pattern change_condition_of_operatorcallexp_to_equal
@@ -119,14 +109,12 @@ instance:IfStat
 		var call_exp = OperatorCallExp.createInstance();
 		call_exp.source = instance.condition.source;
 		call_exp.arguments.addAll(instance.condition.arguments);
-		call_exp.operationName = "=";
-		
+		call_exp.operationName = "=";	
 		instance.condition = call_exp;
 	}
 }
 
-// Impl 6: change the comparison condition of type
-// OperatorCallExp to not equal
+// Impl 6: change the comparison condition to not equal
 @action replace
 @property condition
 pattern change_condition_of_operatorcallexp_to_not_equal
@@ -140,13 +128,11 @@ instance:IfStat
 		call_exp.source = instance.condition.source;
 		call_exp.arguments.addAll(instance.condition.arguments);
 		call_exp.operationName = "<>";
-		
 		instance.condition = call_exp;
 	}
 }
 
-// Impl 7: replace the logical expression of
-// an operatorCallExp to not logical
+// Impl 7: replace the logical expression to not logical
 @action replace
 @property condition
 pattern negative_state_of_operatorcallexp_using_not
@@ -158,13 +144,11 @@ instance:IfStat
 		var call_exp = OperatorCallExp.createInstance();
 		call_exp.source = instance.condition;
 		call_exp.operationName = "not";
-		
 		instance.condition = call_exp;
 	}
 }
 
-// Impl 8: remove not logical expression of
-// an operatorCallExp
+// Impl 8: remove not logical expression
 @action replace
 @property condition
 pattern remove_not_from_operatorCallExp
@@ -177,62 +161,56 @@ instance:IfStat
 	}
 }
 
-// Impl 9: replace the logical expression of
-// an operatorCallExp to "and"
+// Impl 9: replace the logical expression to "and"
 @action replace
 @property condition
 pattern change_operationname_of_operatorcallexp_to_and
 instance:IfStat
 	in: IfStat.all.select(e|e.condition.isDefined()
 		and e.condition.isTypeOf(OperatorCallExp))
-	guard: isLogicalOpeerator(instance.condition.operationName)
+	guard: isLogicalOperator(instance.condition.operationName)
 		and instance.condition.operationName <> "and" {
 	do {
 		var call_exp = OperatorCallExp.createInstance();
 		call_exp.source = instance.condition.source;
 		call_exp.arguments.addAll(instance.condition.arguments);
 		call_exp.operationName = "and";
-		
 		instance.condition = call_exp;
 	}
 }
 
-// Impl 10: replace the logical expression of
-// an operatorCallExp to "or" logical
+// Impl 10: replace the logical expression to "or" logical
 @action replace
 @property condition
 pattern change_operationname_of_operatorcallexp_to_or
 instance:IfStat
 	in: IfStat.all.select(e|e.condition.isDefined()
 		and e.condition.isTypeOf(OperatorCallExp))
-	guard: isLogicalOpeerator(instance.condition.operationName)
+	guard: isLogicalOperator(instance.condition.operationName)
 		and instance.condition.operationName <> "or" {
 	do {
 		var call_exp = OperatorCallExp.createInstance();
 		call_exp.source = instance.condition.source;
 		call_exp.arguments.addAll(instance.condition.arguments);
 		call_exp.operationName = "or";
-		
 		instance.condition = call_exp;
 	}
 }
 
-// Impl 11: replace the logical expression of
-// an operatorCallExp to "xor" logical
+// Impl 11: replace the logical expression to "xor" logical
 @action replace
 @property condition
 pattern change_operationname_of_operatorcallexp_to_xor
 instance:IfStat
 	in: IfStat.all.select(e|e.condition.isDefined()
 		and e.condition.isTypeOf(OperatorCallExp))
-	guard: isLogicalOpeerator(instance.condition.operationName)
+	guard: isLogicalOperator(instance.condition.operationName)
 		and instance.condition.operationName <> "xor" {
 	do {
 		var call_exp = OperatorCallExp.createInstance();
 		call_exp.source = instance.condition.source;
 		call_exp.arguments.addAll(instance.condition.arguments);
 		call_exp.operationName = "xor";
-		
 		instance.condition = call_exp;
 	}
 }

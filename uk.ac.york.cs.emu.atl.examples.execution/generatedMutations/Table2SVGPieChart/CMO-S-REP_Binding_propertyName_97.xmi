@@ -904,7 +904,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="162:3-168:4" varName="textTitle" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.2/@value">
           <type xsi:type="ocl:OclModelElement" location="162:14-162:22" name="Text" model="/1"/>
-          <bindings location="163:4-163:30" propertyName="position">
+          <bindings location="163:4-163:30" propertyName="position_">
             <value xsi:type="ocl:VariableExp" location="163:16-163:30" referredVariable="/0/@elements.18/@outPattern/@elements.6"/>
           </bindings>
           <bindings location="164:4-164:31" propertyName="stroke">
@@ -1089,7 +1089,7 @@
           <bindings location="195:4-195:19" propertyName="size">
             <value xsi:type="ocl:VariableExp" location="195:12-195:19" referredVariable="/0/@elements.19/@outPattern/@elements.3"/>
           </bindings>
-          <bindings location="196:4-196:24" propertyName="position_">
+          <bindings location="196:4-196:24" propertyName="position">
             <value xsi:type="ocl:VariableExp" location="196:16-196:24" referredVariable="/0/@elements.19/@outPattern/@elements.4"/>
           </bindings>
           <bindings location="197:4-197:163" propertyName="fill">

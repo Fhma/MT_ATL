@@ -1,0 +1,28 @@
+Mutation Operator,Valid,Invalid
+CMO-M-REP_Module_elements,2,0
+CMO-S-DEL_MatchedRule_actionBlock,0,1
+CMO-S-REP_SimpleOutPatternElement_varName,1,0
+CMO-S-DEL_MatchedRule_outPattern,1,0
+CMO-S-REP_IntegerType_name,0,2
+CMO-M-DEL_InPattern_elements,0,1
+CMO-S-REP_InPattern_filter,6,0
+CMO-S-REP_Operation_returnType,6,0
+CMO-S-DEL_OclFeatureDefinition_context_,2,0
+CMO-S-REP_MatchedRule_name,1,0
+CMO-M-DEL_SimpleOutPatternElement_bindings,3,0
+CMO-S-REP_Binding_propertyName,9,0
+CMO-S-REP_OclContextDefinition_context_,4,0
+CMO-M-DEL_Module_inModels,0,1
+CMO-S-DEL_MatchedRule_inPattern,1,0
+CMO-S-DEL_InPattern_filter,1,0
+CMO-S-REP_Operation_name,2,0
+CMO-M-DEL_Module_outModels,0,1
+CMO-S-REP_OclModelElement_name,4,0
+CMO-M-DEL_Module_elements,3,0
+CMO-S-REP_SimpleInPatternElement_varName,1,0
+CMO-S-REP_OclModel_name,13,3
+CMO-S-REP_OclFeatureDefinition_feature,2,0
+CMO-S-REP_Iterator_varName,4,0
+CMO-S-DEL_Iterator_type,0,4
+CMO-S-REP_StringType_name,0,2
+Total Mutants,66,15

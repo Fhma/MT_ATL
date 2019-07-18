@@ -467,7 +467,7 @@
       </outPattern>
       <actionBlock location="106:2-122:3">
         <statements xsi:type="atl:IfStat" location="107:3-121:4">
-          <condition xsi:type="ocl:OperatorCallExp" operationName="&lt;>">
+          <condition xsi:type="ocl:OperatorCallExp" operationName="=">
             <source xsi:type="ocl:CollectionOperationCallExp" location="107:7-107:42" operationName="size">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="107:7-107:32" name="allValidTables">
                 <source xsi:type="ocl:VariableExp" location="107:7-107:17" referredVariable="/28"/>

@@ -234,7 +234,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="88:1-96:8">
       <definition location="88:8-96:7">
-        <feature xsi:type="ocl:Operation" location="88:28-96:7" name="isInteger_">
+        <feature xsi:type="ocl:Operation" location="88:28-96:7" name="isInteger">
           <returnType xsi:type="ocl:BooleanType" location="88:41-88:48"/>
           <body xsi:type="ocl:IfExp" location="89:2-96:7">
             <thenExpression xsi:type="ocl:LetExp" location="90:3-93:33">
@@ -279,7 +279,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="98:1-109:9">
       <definition location="98:8-109:8">
-        <feature xsi:type="ocl:Operation" location="98:28-109:8" name="isReal">
+        <feature xsi:type="ocl:Operation" location="98:28-109:8" name="isReal_">
           <returnType xsi:type="ocl:BooleanType" location="98:38-98:45"/>
           <body xsi:type="ocl:LetExp" location="99:2-109:8">
             <variable location="99:6-100:34" varName="dotNb" variableExp="/0/@elements.9/@definition/@feature/@body/@in_/@condition/@source">

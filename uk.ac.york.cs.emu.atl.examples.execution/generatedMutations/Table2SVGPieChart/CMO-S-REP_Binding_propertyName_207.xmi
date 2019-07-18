@@ -460,7 +460,7 @@
           <bindings location="103:4-103:18" propertyName="width">
             <value xsi:type="ocl:VariableExp" location="103:13-103:18" referredVariable="/0/@elements.17/@variables.0"/>
           </bindings>
-          <bindings location="104:4-104:20" propertyName="height">
+          <bindings location="104:4-104:20" propertyName="width">
             <value xsi:type="ocl:VariableExp" location="104:14-104:20" referredVariable="/0/@elements.17/@variables.1"/>
           </bindings>
         </elements>
@@ -1131,7 +1131,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="200:3-203:4" varName="pieSize" variableExp="/0/@elements.19/@outPattern/@elements.2/@bindings.0/@value /0/@elements.19/@outPattern/@elements.3/@bindings.1/@value/@source">
           <type xsi:type="ocl:OclModelElement" location="200:12-200:25" name="Dimension" model="/1"/>
-          <bindings location="201:4-201:30" propertyName="width_">
+          <bindings location="201:4-201:30" propertyName="width">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="201:13-201:30" name="radius">
               <source xsi:type="ocl:VariableExp" location="201:13-201:23" referredVariable="/60"/>
             </value>

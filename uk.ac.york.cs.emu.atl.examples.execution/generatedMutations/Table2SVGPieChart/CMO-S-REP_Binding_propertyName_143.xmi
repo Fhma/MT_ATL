@@ -809,7 +809,7 @@
               <source xsi:type="ocl:VariableExp" location="147:12-147:22" referredVariable="/39"/>
             </value>
           </bindings>
-          <bindings location="148:4-148:31" propertyName="stroke_">
+          <bindings location="148:4-148:31" propertyName="stroke">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="148:14-148:31" name="stroke">
               <source xsi:type="ocl:VariableExp" location="148:14-148:24" referredVariable="/40"/>
             </value>
@@ -822,7 +822,7 @@
               <source xsi:type="ocl:VariableExp" location="151:13-151:18" referredVariable="/0/@elements.18/@inPattern/@elements.0"/>
             </value>
           </bindings>
-          <bindings location="152:4-152:72" propertyName="height">
+          <bindings location="152:4-152:72" propertyName="width">
             <value xsi:type="ocl:OperatorCallExp" location="152:14-152:72" operationName="-">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="152:14-152:48" name="height">
                 <source xsi:type="ocl:NavigationOrAttributeCallExp" location="152:14-152:41" name="size">

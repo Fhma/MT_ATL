@@ -1528,7 +1528,7 @@
           <type xsi:type="ocl:IntegerType" location="265:8-265:15"/>
         </elements>
         <elements xsi:type="atl:SimpleInPatternElement" location="266:3-266:18" varName="valuesSum" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.3">
-          <type xsi:type="ocl:RealType" location="266:14-266:18"/>
+          <type xsi:type="ocl:IntegerType"/>
         </elements>
       </inPattern>
     </elements>
@@ -1802,7 +1802,7 @@
           <type xsi:type="ocl:IntegerType" location="292:12-292:19"/>
         </elements>
         <elements xsi:type="atl:SimpleInPatternElement" location="293:3-293:18" varName="valuesSum" variableExp="/0/@elements.23/@variables.0/@initExpression/@variable/@initExpression/@condition/@source /0/@elements.23/@variables.0/@initExpression/@variable/@initExpression/@elseExpression/@source/@arguments.0">
-          <type xsi:type="ocl:BooleanType"/>
+          <type xsi:type="ocl:RealType" location="293:14-293:18"/>
         </elements>
       </inPattern>
     </elements>

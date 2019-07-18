@@ -1,4 +1,4 @@
-	\--> Processed mutants-> 2229
-	\--> Invalid mutants-> 80
-	\--> Killed mutants-> 606
+	\--> Processed mutants-> 2234
+	\--> Invalid mutants-> 82
+	\--> Killed mutants-> 605
 	\--> Not killed mutants-> 0

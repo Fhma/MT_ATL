@@ -61,7 +61,7 @@
       </outPattern>
       <inPattern location="5:2-6:19">
         <elements xsi:type="atl:SimpleInPatternElement" location="6:3-6:19" varName="m" variableExp="/0/@elements.0/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.0/@outPattern/@elements.0/@bindings.1/@value/@source/@source /0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@source/@source /0/@elements.0/@outPattern/@elements.0/@bindings.3/@value/@source/@source /0/@elements.0/@outPattern/@elements.0/@bindings.4/@value/@source/@source/@source">
-          <type xsi:type="ocl:OclModelElement" location="6:6-6:19" name="Makefile" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" location="6:6-6:19" name="Makefile_" model="/2"/>
         </elements>
       </inPattern>
     </elements>
@@ -109,7 +109,7 @@
                 </source>
                 <body xsi:type="ocl:OperationCallExp" location="34:44-34:71" operationName="oclIsKindOf">
                   <source xsi:type="ocl:VariableExp" location="34:44-34:45" referredVariable="/0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@iterators.0"/>
-                  <arguments xsi:type="ocl:OclModelElement" location="34:58-34:70" name="RuleDep_" model="/2"/>
+                  <arguments xsi:type="ocl:OclModelElement" location="34:58-34:70" name="RuleDep" model="/2"/>
                 </body>
                 <iterators location="34:40-34:41" varName="e" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@body/@source"/>
               </source>

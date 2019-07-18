@@ -28,7 +28,7 @@
         </elements>
       </inPattern>
     </elements>
-    <elements xsi:type="atl:MatchedRule" location="15:1-22:2" name="HTMLElement" children="/0/@elements.3 /0/@elements.5 /0/@elements.6">
+    <elements xsi:type="atl:MatchedRule" location="15:1-22:2" name="HTMLElement" children="/0/@elements.2 /0/@elements.3 /0/@elements.5 /0/@elements.6">
       <outPattern location="18:2-21:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="19:3-21:4" varName="xml">
           <type xsi:type="ocl:OclModelElement" location="19:8-19:19" name="Element" model="/1"/>
@@ -45,7 +45,7 @@
         </elements>
       </inPattern>
     </elements>
-    <elements xsi:type="atl:MatchedRule" location="24:1-32:2" name="HEAD" superRule="/0/@elements.6">
+    <elements xsi:type="atl:MatchedRule" location="24:1-32:2" name="HEAD" superRule="/0/@elements.1">
       <outPattern location="27:2-31:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="28:3-31:4" varName="xml">
           <type xsi:type="ocl:OclModelElement" location="28:8-28:19" name="Element" model="/1"/>
@@ -120,7 +120,7 @@
         </elements>
       </inPattern>
     </elements>
-    <elements xsi:type="atl:MatchedRule" location="61:1-66:2" name="BODYElement" children="/0/@elements.2" superRule="/0/@elements.1" isAbstract="true">
+    <elements xsi:type="atl:MatchedRule" location="61:1-66:2" name="BODYElement" children="/0/@elements.7" superRule="/0/@elements.1" isAbstract="true">
       <outPattern location="64:2-65:19">
         <elements xsi:type="atl:SimpleOutPatternElement" location="65:3-65:19" varName="xml">
           <type xsi:type="ocl:OclModelElement" location="65:8-65:19" name="Element" model="/1"/>
@@ -132,7 +132,7 @@
         </elements>
       </inPattern>
     </elements>
-    <elements xsi:type="atl:MatchedRule" location="68:1-73:2" name="TABLEElement" children="/0/@elements.8 /0/@elements.9 /0/@elements.10" isAbstract="true">
+    <elements xsi:type="atl:MatchedRule" location="68:1-73:2" name="TABLEElement" children="/0/@elements.9 /0/@elements.10 /0/@elements.11" superRule="/0/@elements.6" isAbstract="true">
       <outPattern location="71:2-72:19">
         <elements xsi:type="atl:SimpleOutPatternElement" location="72:3-72:19" varName="xml">
           <type xsi:type="ocl:OclModelElement" location="72:8-72:19" name="Element" model="/1"/>
@@ -144,7 +144,7 @@
         </elements>
       </inPattern>
     </elements>
-    <elements xsi:type="atl:MatchedRule" location="75:1-87:2" name="TABLE" superRule="/0/@elements.7">
+    <elements xsi:type="atl:MatchedRule" location="75:1-87:2" name="TABLE">
       <outPattern location="78:2-86:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="79:3-86:4" varName="xml">
           <type xsi:type="ocl:OclModelElement" location="79:8-79:19" name="Element" model="/1"/>
@@ -203,7 +203,7 @@
         </elements>
       </inPattern>
     </elements>
-    <elements xsi:type="atl:MatchedRule" location="99:1-112:2" name="TD" children="/0/@elements.11" superRule="/0/@elements.7">
+    <elements xsi:type="atl:MatchedRule" location="99:1-112:2" name="TD" superRule="/0/@elements.7">
       <outPattern location="102:2-106:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="103:3-106:4" varName="xml" variableExp="/0/@elements.10/@actionBlock/@statements.0/@thenStatements.0/@source/@source">
           <type xsi:type="ocl:OclModelElement" location="103:8-103:19" name="Element" model="/1"/>
@@ -249,7 +249,7 @@
         </elements>
       </inPattern>
     </elements>
-    <elements xsi:type="atl:MatchedRule" location="114:1-121:2" name="TH" superRule="/0/@elements.10">
+    <elements xsi:type="atl:MatchedRule" location="114:1-121:2" name="TH" superRule="/0/@elements.7">
       <outPattern location="117:2-120:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="118:3-120:4" varName="xml">
           <type xsi:type="ocl:OclModelElement" location="118:8-118:19" name="Element" model="/1"/>

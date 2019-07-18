@@ -13,8 +13,8 @@
 # (test inputs) used for stage 2 (inModels) and compare the result of each test input of a mutant with corresponding
 # expected models generated in stage 2. A summary of execution of this stage is stored in "mutationsExecution_summary"
 $Stage 3
-Book2Publication
+#Book2Publication
 #Make2Ant
 #Table2TabularHTML
 #TabularHTML2XML
-#Table2SVGPieChart
+Table2SVGPieChart

@@ -571,7 +571,7 @@
           </body>
         </feature>
         <context_ location="148:8-148:26">
-          <context_ xsi:type="ocl:OclModelElement" name="HTML" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" name="Table" model="/2"/>
         </context_>
       </definition>
     </elements>

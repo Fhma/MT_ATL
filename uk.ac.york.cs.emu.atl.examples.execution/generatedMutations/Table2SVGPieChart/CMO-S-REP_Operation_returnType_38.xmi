@@ -268,7 +268,7 @@
           <parameters location="53:40-53:56" varName="nbColor" variableExp="/0/@elements.15/@definition/@feature/@body/@variable/@initExpression/@source/@arguments.0">
             <type xsi:type="ocl:IntegerType" location="53:49-53:56"/>
           </parameters>
-          <returnType xsi:type="ocl:RealType"/>
+          <returnType xsi:type="ocl:StringType" location="53:59-53:65"/>
           <body xsi:type="ocl:LetExp" location="54:2-77:8">
             <variable location="54:6-55:36" varName="value" variableExp="/0/@elements.15/@definition/@feature/@body/@in_/@condition/@source /0/@elements.15/@definition/@feature/@body/@in_/@thenExpression/@source/@arguments.0/@source/@arguments.0 /0/@elements.15/@definition/@feature/@body/@in_/@elseExpression/@condition/@source /0/@elements.15/@definition/@feature/@body/@in_/@elseExpression/@thenExpression/@source/@arguments.0/@source/@arguments.0 /0/@elements.15/@definition/@feature/@body/@in_/@elseExpression/@elseExpression/@condition/@source /0/@elements.15/@definition/@feature/@body/@in_/@elseExpression/@elseExpression/@thenExpression/@source/@arguments.0/@source/@arguments.0/@arguments.0 /0/@elements.15/@definition/@feature/@body/@in_/@elseExpression/@elseExpression/@elseExpression/@condition/@source /0/@elements.15/@definition/@feature/@body/@in_/@elseExpression/@elseExpression/@elseExpression/@thenExpression/@source/@arguments.0/@source/@arguments.0 /0/@elements.15/@definition/@feature/@body/@in_/@elseExpression/@elseExpression/@elseExpression/@elseExpression/@condition/@source /0/@elements.15/@definition/@feature/@body/@in_/@elseExpression/@elseExpression/@elseExpression/@elseExpression/@thenExpression/@source/@arguments.0/@source/@arguments.0/@arguments.0 /0/@elements.15/@definition/@feature/@body/@in_/@elseExpression/@elseExpression/@elseExpression/@elseExpression/@elseExpression/@source/@arguments.0/@source/@arguments.0">
               <type xsi:type="ocl:IntegerType" location="54:13-54:20"/>
@@ -1809,7 +1809,7 @@
     <elements xsi:type="atl:Helper" location="334:1-342:8">
       <definition location="334:8-342:7">
         <feature xsi:type="ocl:Operation" location="334:28-342:7" name="isInteger">
-          <returnType xsi:type="ocl:BooleanType" location="334:41-334:48"/>
+          <returnType xsi:type="ocl:StringType"/>
           <body xsi:type="ocl:IfExp" location="335:2-342:7">
             <thenExpression xsi:type="ocl:LetExp" location="336:3-339:33">
               <variable location="336:7-337:38" varName="value" variableExp="/0/@elements.24/@definition/@feature/@body/@thenExpression/@in_/@source/@source /0/@elements.24/@definition/@feature/@body/@thenExpression/@in_/@arguments.0/@source">

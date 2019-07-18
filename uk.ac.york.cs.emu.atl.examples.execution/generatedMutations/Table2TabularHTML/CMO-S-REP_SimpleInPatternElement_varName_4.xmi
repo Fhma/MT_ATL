@@ -99,7 +99,7 @@
         </statements>
       </actionBlock>
       <inPattern location="26:2-29:4">
-        <elements xsi:type="atl:SimpleInPatternElement" location="27:3-27:21" varName="table_" variableExp="/0/@elements.2/@inPattern/@filter/@source/@source/@source /0/@elements.2/@outPattern/@elements.0/@bindings.1/@value/@arguments.0/@source/@source /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@source/@source /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@arguments.1/@source/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="27:3-27:21" varName="table" variableExp="/0/@elements.2/@inPattern/@filter/@source/@source/@source /0/@elements.2/@outPattern/@elements.0/@bindings.1/@value/@arguments.0/@source/@source /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@source/@source /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@arguments.1/@source/@source">
           <type xsi:type="ocl:OclModelElement" location="27:10-27:21" name="Table" model="/2"/>
         </elements>
         <filter xsi:type="ocl:OperatorCallExp" location="28:4-28:28" operationName=">">
@@ -131,7 +131,7 @@
         </elements>
       </outPattern>
       <inPattern location="42:2-43:17">
-        <elements xsi:type="atl:SimpleInPatternElement" location="43:3-43:17" varName="row" variableExp="/0/@elements.3/@outPattern/@elements.0/@bindings.0/@value/@source/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="43:3-43:17" varName="row_" variableExp="/0/@elements.3/@outPattern/@elements.0/@bindings.0/@value/@source/@source">
           <type xsi:type="ocl:OclModelElement" location="43:8-43:17" name="Row" model="/2"/>
         </elements>
       </inPattern>

@@ -662,7 +662,7 @@
                 </arguments>
               </arguments>
             </body>
-            <iterators location="84:54-84:55" varName="t_" variableExp="/0/@elements.17/@variables.0/@initExpression/@source/@body/@arguments.0/@source/@source/@source/@source /0/@elements.17/@variables.0/@initExpression/@source/@body/@arguments.0/@arguments.0/@source/@source/@source/@source/@source"/>
+            <iterators location="84:54-84:55" varName="t" variableExp="/0/@elements.17/@variables.0/@initExpression/@source/@body/@arguments.0/@source/@source/@source/@source /0/@elements.17/@variables.0/@initExpression/@source/@body/@arguments.0/@arguments.0/@source/@source/@source/@source/@source"/>
             <result location="84:57-84:70" varName="sum" variableExp="/0/@elements.17/@variables.0/@initExpression/@source/@body/@source">
               <type xsi:type="ocl:RealType" location="84:62-84:66"/>
               <initExpression xsi:type="ocl:IntegerExp" location="84:69-84:70"/>
@@ -2123,7 +2123,7 @@
                 </body>
                 <iterators location="392:124-392:125" varName="c" variableExp="/0/@elements.31/@definition/@feature/@initExpression/@body/@body/@body/@source/@source/@source/@source /0/@elements.31/@definition/@feature/@initExpression/@body/@body/@body/@source/@arguments.0/@source/@source /0/@elements.31/@definition/@feature/@initExpression/@body/@body/@body/@arguments.0/@source/@source"/>
               </body>
-              <iterators location="392:81-392:82" varName="r" variableExp="/0/@elements.31/@definition/@feature/@initExpression/@body/@body/@source/@source/@source"/>
+              <iterators location="392:81-392:82" varName="r_" variableExp="/0/@elements.31/@definition/@feature/@initExpression/@body/@body/@source/@source/@source"/>
             </body>
             <iterators location="392:39-392:40" varName="t" variableExp="/0/@elements.31/@definition/@feature/@initExpression/@body/@source/@source/@source"/>
           </initExpression>

@@ -2145,7 +2145,7 @@
           </body>
         </feature>
         <context_ location="394:8-394:26">
-          <context_ xsi:type="ocl:OclModelElement" name="Translate" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" name="Text" model="/2"/>
         </context_>
       </definition>
     </elements>

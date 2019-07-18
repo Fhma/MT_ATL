@@ -736,7 +736,7 @@
     </elements>
     <elements xsi:type="atl:LazyMatchedRule" location="125:1-179:2" name="Table2PieChart">
       <outPattern location="132:2-172:4">
-        <elements xsi:type="atl:SimpleOutPatternElement" location="133:3-143:4" varName="g" variableExp="/0/@elements.18/@actionBlock/@statements.1/@value">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="133:3-143:4" varName="g">
           <type xsi:type="ocl:OclModelElement" location="133:6-133:11" name="G" model="/1"/>
           <bindings location="134:4-134:34" propertyName="attribute">
             <value xsi:type="ocl:VariableExp" location="134:17-134:34" referredVariable="/0/@elements.18/@outPattern/@elements.4"/>
@@ -994,16 +994,6 @@
             </arguments>
           </value>
         </statements>
-        <statements xsi:type="atl:BindingStat" location="176:3-176:40">
-          <source xsi:type="ocl:NavigationOrAttributeCallExp" location="176:3-176:34" name="children">
-            <source xsi:type="ocl:NavigationOrAttributeCallExp" location="176:3-176:25" name="tag">
-              <source xsi:type="ocl:NavigationOrAttributeCallExp" location="176:3-176:21" name="svgFile">
-                <source xsi:type="ocl:VariableExp" location="176:3-176:13" referredVariable="/54"/>
-              </source>
-            </source>
-          </source>
-          <value xsi:type="ocl:VariableExp" location="176:38-176:39" referredVariable="/0/@elements.18/@outPattern/@elements.0"/>
-        </statements>
         <statements xsi:type="atl:BindingStat" location="177:3-177:29">
           <source xsi:type="ocl:NavigationOrAttributeCallExp" location="177:3-177:23" name="prevAngle">
             <source xsi:type="ocl:VariableExp" location="177:3-177:13" referredVariable="/55"/>
@@ -1242,7 +1232,7 @@
             <value xsi:type="ocl:VariableExp" location="243:20-243:26" referredVariable="/0/@elements.21/@outPattern/@elements.2"/>
           </bindings>
         </elements>
-        <elements xsi:type="atl:SimpleOutPatternElement" location="245:3-247:4" varName="sectorRotate" variableExp="/0/@elements.21/@outPattern/@elements.0/@bindings.0/@value">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="245:3-247:4" varName="sectorRotate" variableExp="/0/@elements.21/@outPattern/@elements.0/@bindings.0/@value /0/@elements.21/@actionBlock/@statements.0/@value/@source/@source">
           <type xsi:type="ocl:OclModelElement" location="245:17-245:27" name="Rotate" model="/1"/>
           <bindings location="246:4-246:33" propertyName="angle">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="246:13-246:33" name="prevAngle">
@@ -1338,8 +1328,23 @@
           </bindings>
         </elements>
       </outPattern>
-      <actionBlock location="257:2-259:3"/>
-      <variables location="233:3-236:10" varName="value" variableExp="/0/@elements.21/@variables.1/@initExpression/@arguments.0/@source/@source/@source /0/@elements.21/@variables.2/@initExpression/@arguments.0/@source/@source/@source /0/@elements.21/@outPattern/@elements.2/@bindings.0/@value/@source/@source/@source/@source/@arguments.0/@condition/@source/@arguments.0">
+      <actionBlock location="257:2-259:3">
+        <statements xsi:type="atl:BindingStat" location="258:3-258:60">
+          <source xsi:type="ocl:NavigationOrAttributeCallExp" location="258:3-258:23" name="prevAngle">
+            <source xsi:type="ocl:VariableExp" location="258:3-258:13" referredVariable="/72"/>
+          </source>
+          <value xsi:type="ocl:OperatorCallExp" location="258:27-258:59" operationName="+">
+            <source xsi:type="ocl:NavigationOrAttributeCallExp" location="258:27-258:45" name="angle">
+              <source xsi:type="ocl:VariableExp" location="258:27-258:39" referredVariable="/0/@elements.21/@outPattern/@elements.1"/>
+            </source>
+            <arguments xsi:type="ocl:OperatorCallExp" location="258:48-258:59" operationName="*">
+              <source xsi:type="ocl:RealExp" location="258:48-258:51" realSymbol="3.6"/>
+              <arguments xsi:type="ocl:VariableExp" location="258:54-258:59" referredVariable="/0/@elements.21/@variables.0"/>
+            </arguments>
+          </value>
+        </statements>
+      </actionBlock>
+      <variables location="233:3-236:10" varName="value" variableExp="/0/@elements.21/@variables.1/@initExpression/@arguments.0/@source/@source/@source /0/@elements.21/@variables.2/@initExpression/@arguments.0/@source/@source/@source /0/@elements.21/@outPattern/@elements.2/@bindings.0/@value/@source/@source/@source/@source/@arguments.0/@condition/@source/@arguments.0 /0/@elements.21/@actionBlock/@statements.0/@value/@arguments.0/@arguments.0">
         <type xsi:type="ocl:RealType" location="233:10-233:14"/>
         <initExpression xsi:type="ocl:IfExp" location="233:17-236:9">
           <thenExpression xsi:type="ocl:IntegerExp" location="234:10-234:11"/>
@@ -2188,8 +2193,8 @@
   <ocl:VariableDeclaration location="174:3-174:13" varName="thisModule" variableExp="/0/@elements.18/@actionBlock/@statements.0/@source/@source"/>
   <ocl:VariableDeclaration location="175:4-175:14" varName="thisModule" variableExp="/0/@elements.18/@actionBlock/@statements.0/@value/@source/@source/@source"/>
   <ocl:VariableDeclaration location="175:51-175:61" varName="thisModule" variableExp="/0/@elements.18/@actionBlock/@statements.0/@value/@arguments.0/@source"/>
-  <ocl:VariableDeclaration location="176:3-176:13" varName="thisModule" variableExp="/0/@elements.18/@actionBlock/@statements.1/@source/@source/@source/@source"/>
-  <ocl:VariableDeclaration location="177:3-177:13" varName="thisModule" variableExp="/0/@elements.18/@actionBlock/@statements.2/@source/@source"/>
+  <ocl:VariableDeclaration location="176:3-176:13" varName="thisModule"/>
+  <ocl:VariableDeclaration location="177:3-177:13" varName="thisModule" variableExp="/0/@elements.18/@actionBlock/@statements.1/@source/@source"/>
   <ocl:VariableDeclaration location="191:41-191:51" varName="thisModule" variableExp="/0/@elements.19/@outPattern/@elements.1/@bindings.0/@value/@arguments.0/@source/@arguments.0/@source"/>
   <ocl:VariableDeclaration location="192:14-192:24" varName="thisModule" variableExp="/0/@elements.19/@outPattern/@elements.1/@bindings.1/@value/@arguments.0/@source"/>
   <ocl:VariableDeclaration location="197:12-197:22" varName="thisModule" variableExp="/0/@elements.19/@outPattern/@elements.2/@bindings.2/@value/@source/@source"/>
@@ -2206,7 +2211,7 @@
   <ocl:VariableDeclaration location="249:102-249:112" varName="thisModule" variableExp="/0/@elements.21/@outPattern/@elements.2/@bindings.0/@value/@source/@source/@source/@source/@source/@source/@arguments.0/@source/@source"/>
   <ocl:VariableDeclaration location="254:12-254:22" varName="thisModule" variableExp="/0/@elements.21/@outPattern/@elements.2/@bindings.1/@value/@source/@source"/>
   <ocl:VariableDeclaration location="255:14-255:24" varName="thisModule" variableExp="/0/@elements.21/@outPattern/@elements.2/@bindings.2/@value/@source"/>
-  <ocl:VariableDeclaration location="258:3-258:13" varName="thisModule"/>
+  <ocl:VariableDeclaration location="258:3-258:13" varName="thisModule" variableExp="/0/@elements.21/@actionBlock/@statements.0/@source/@source"/>
   <ocl:VariableDeclaration location="270:66-270:76" varName="thisModule" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@source"/>
   <ocl:VariableDeclaration location="275:12-275:22" varName="thisModule" variableExp="/0/@elements.22/@outPattern/@elements.1/@bindings.2/@value/@source"/>
   <ocl:VariableDeclaration location="276:14-276:24" varName="thisModule" variableExp="/0/@elements.22/@outPattern/@elements.1/@bindings.3/@value/@source"/>

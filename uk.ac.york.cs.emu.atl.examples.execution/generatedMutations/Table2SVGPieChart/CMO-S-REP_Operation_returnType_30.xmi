@@ -95,7 +95,7 @@
     <elements xsi:type="atl:Helper" location="31:1-36:47">
       <definition location="31:8-36:46">
         <feature xsi:type="ocl:Operation" location="31:33-36:46" name="maxSizeName">
-          <returnType xsi:type="ocl:RealType" location="31:48-31:52"/>
+          <returnType xsi:type="ocl:IntegerType"/>
           <body xsi:type="ocl:OperatorCallExp" location="32:2-36:46" operationName="*">
             <source xsi:type="ocl:OperatorCallExp" location="32:3-36:17" operationName="+">
               <source xsi:type="ocl:IterateExp" location="32:3-36:9">
@@ -1854,7 +1854,7 @@
     <elements xsi:type="atl:Helper" location="344:1-355:9">
       <definition location="344:8-355:8">
         <feature xsi:type="ocl:Operation" location="344:28-355:8" name="isReal">
-          <returnType xsi:type="ocl:StringType"/>
+          <returnType xsi:type="ocl:BooleanType" location="344:38-344:45"/>
           <body xsi:type="ocl:LetExp" location="345:2-355:8">
             <variable location="345:6-346:34" varName="dotNb" variableExp="/0/@elements.25/@definition/@feature/@body/@in_/@condition/@source">
               <type xsi:type="ocl:IntegerType" location="345:13-345:20"/>

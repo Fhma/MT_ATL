@@ -1456,7 +1456,7 @@
           </bindings>
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="272:3-277:4" varName="captionBox" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.0/@value">
-          <type xsi:type="ocl:OclModelElement" location="272:15-272:23" name="Rect" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="272:15-272:23" name="Rect_" model="/1"/>
           <bindings location="273:4-273:26" propertyName="size">
             <value xsi:type="ocl:VariableExp" location="273:12-273:26" referredVariable="/0/@elements.22/@outPattern/@elements.2"/>
           </bindings>
@@ -2128,7 +2128,7 @@
             <iterators location="392:39-392:40" varName="t" variableExp="/0/@elements.31/@definition/@feature/@initExpression/@body/@source/@source/@source"/>
           </initExpression>
           <type xsi:type="ocl:SequenceType" location="391:29-391:50">
-            <elementType xsi:type="ocl:OclModelElement" location="391:38-391:49" name="Table_" model="/2"/>
+            <elementType xsi:type="ocl:OclModelElement" location="391:38-391:49" name="Table" model="/2"/>
           </type>
         </feature>
       </definition>

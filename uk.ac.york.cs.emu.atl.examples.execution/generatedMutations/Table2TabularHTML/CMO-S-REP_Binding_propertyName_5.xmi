@@ -54,7 +54,7 @@
           <bindings location="32:4-32:17" propertyName="border">
             <value xsi:type="ocl:StringExp" location="32:14-32:17" stringSymbol="1"/>
           </bindings>
-          <bindings location="33:4-33:57" propertyName="trs_">
+          <bindings location="33:4-33:57" propertyName="trs">
             <value xsi:type="ocl:OperationCallExp" location="33:11-33:57" operationName="Row2TRwithTH">
               <source xsi:type="ocl:VariableExp" location="33:11-33:21" referredVariable="/4"/>
               <arguments xsi:type="ocl:CollectionOperationCallExp" location="33:35-33:56" operationName="first">
@@ -116,7 +116,7 @@
       <outPattern location="44:2-47:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="45:3-47:4" varName="tr">
           <type xsi:type="ocl:OclModelElement" location="45:7-45:14" name="TR" model="/1"/>
-          <bindings location="46:4-46:64" propertyName="tds">
+          <bindings location="46:4-46:64" propertyName="tds_">
             <value xsi:type="ocl:IteratorExp" location="46:11-46:64" name="collect">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="46:11-46:20" name="cells">
                 <source xsi:type="ocl:VariableExp" location="46:11-46:14" referredVariable="/0/@elements.3/@inPattern/@elements.0"/>

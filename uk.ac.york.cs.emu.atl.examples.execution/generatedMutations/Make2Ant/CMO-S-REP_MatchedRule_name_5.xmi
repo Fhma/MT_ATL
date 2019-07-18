@@ -65,7 +65,7 @@
         </elements>
       </inPattern>
     </elements>
-    <elements xsi:type="atl:MatchedRule" location="17:1-25:2" name="Macro2Property">
+    <elements xsi:type="atl:MatchedRule" location="17:1-25:2" name="Macro2Property_">
       <outPattern location="20:2-24:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="21:3-24:4" varName="a">
           <type xsi:type="ocl:OclModelElement" location="21:6-21:23" name="PropertyValue" model="/1"/>
@@ -127,7 +127,7 @@
         </elements>
       </inPattern>
     </elements>
-    <elements xsi:type="atl:MatchedRule" location="38:1-52:2" name="ShellLine2Task_Display_">
+    <elements xsi:type="atl:MatchedRule" location="38:1-52:2" name="ShellLine2Task_Display">
       <outPattern location="43:2-51:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="44:3-47:4" varName="e">
           <type xsi:type="ocl:OclModelElement" location="44:6-44:14" name="Echo" model="/1"/>

@@ -868,7 +868,7 @@
           </bindings>
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="158:3-161:4" varName="boundingBoxTransl" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.0/@value">
-          <type xsi:type="ocl:OclModelElement" location="158:22-158:35" name="Translate_" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="158:22-158:35" name="Translate" model="/1"/>
           <bindings location="159:4-159:78" propertyName="tx">
             <value xsi:type="ocl:OperatorCallExp" location="159:10-159:78" operationName="+">
               <source xsi:type="ocl:OperatorCallExp" location="159:10-159:58" operationName="+">
@@ -1412,7 +1412,7 @@
       </variables>
       <inPattern location="227:2-231:18">
         <elements xsi:type="atl:SimpleInPatternElement" location="228:3-228:17" varName="row" variableExp="/0/@elements.21/@variables.0/@initExpression/@elseExpression/@source/@source/@source/@source/@source /0/@elements.21/@outPattern/@elements.2/@bindings.1/@value/@arguments.0/@source/@source/@source">
-          <type xsi:type="ocl:OclModelElement" location="228:8-228:17" name="Row" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" location="228:8-228:17" name="Row_" model="/2"/>
         </elements>
         <elements xsi:type="atl:SimpleInPatternElement" location="229:3-229:18" varName="rowIdx">
           <type xsi:type="ocl:IntegerType" location="229:11-229:18"/>

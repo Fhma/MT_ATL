@@ -1,5 +1,5 @@
 Mutation Operator,Valid,Invalid
-CMO-M-REP_Module_elements,4,0
+CMO-M-REP_Module_elements,2,0
 CMO-M-REP_MatchedRule_children,82,28
 CMO-S-REP_CalledRule_name,2,0
 CMO-M-DEL_MatchedRule_children,10,0
@@ -20,7 +20,7 @@ CMO-M-DEL_Module_inModels,0,1
 CMO-S-DEL_MatchedRule_inPattern,12,0
 CMO-M-DEL_CalledRule_parameters,3,0
 CMO-M-DEL_ActionBlock_statements,3,0
-CMO-S-REP_MatchedRule_isAbstract,0,3
+CMO-S-REP_MatchedRule_isAbstract,3,0
 CMO-M-DEL_Module_outModels,0,1
 CMO-S-REP_OclModelElement_name,26,0
 CMO-M-DEL_Module_elements,14,0
@@ -31,4 +31,4 @@ CMO-S-REP_SimpleOutPatternElement_type,59,0
 CMO-S-REP_StringType_name,0,3
 CMO-S-DEL_CalledRule_actionBlock,2,0
 CMO-S-REP_Parameter_varName,3,0
-Total Mutants,494,67
+Total Mutants,495,64

@@ -1488,7 +1488,7 @@
           </bindings>
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="282:3-285:4" varName="captionBoxCoord" variableExp="/0/@elements.22/@outPattern/@elements.1/@bindings.1/@value">
-          <type xsi:type="ocl:OclModelElement" name="Rotate" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" name="G" model="/1"/>
           <bindings location="283:4-283:75" propertyName="x">
             <value xsi:type="ocl:OperatorCallExp" location="283:9-283:75" operationName="-">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="283:9-283:26" name="radius">

@@ -74,15 +74,10 @@
               <source xsi:type="ocl:VariableExp" location="22:12-22:13" referredVariable="/0/@elements.1/@inPattern/@elements.0"/>
             </value>
           </bindings>
-          <bindings location="23:4-23:20" propertyName="value">
-            <value xsi:type="ocl:NavigationOrAttributeCallExp" location="23:13-23:20" name="value">
-              <source xsi:type="ocl:VariableExp" location="23:13-23:14" referredVariable="/0/@elements.1/@inPattern/@elements.0"/>
-            </value>
-          </bindings>
         </elements>
       </outPattern>
       <inPattern location="18:2-19:16">
-        <elements xsi:type="atl:SimpleInPatternElement" location="19:3-19:16" varName="m" variableExp="/0/@elements.1/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.1/@outPattern/@elements.0/@bindings.1/@value/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="19:3-19:16" varName="m" variableExp="/0/@elements.1/@outPattern/@elements.0/@bindings.0/@value/@source">
           <type xsi:type="ocl:OclModelElement" location="19:6-19:16" name="Macro" model="/2"/>
         </elements>
       </inPattern>
@@ -149,10 +144,15 @@
               <source xsi:type="ocl:VariableExp" location="49:18-49:19" referredVariable="/0/@elements.3/@inPattern/@elements.0"/>
             </value>
           </bindings>
+          <bindings location="50:4-50:29" propertyName="target">
+            <value xsi:type="ocl:NavigationOrAttributeCallExp" location="50:14-50:29" name="ruleShellLine">
+              <source xsi:type="ocl:VariableExp" location="50:14-50:15" referredVariable="/0/@elements.3/@inPattern/@elements.0"/>
+            </value>
+          </bindings>
         </elements>
       </outPattern>
       <inPattern location="39:2-42:4">
-        <elements xsi:type="atl:SimpleInPatternElement" location="40:3-40:20" varName="m" variableExp="/0/@elements.3/@inPattern/@filter/@source /0/@elements.3/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.3/@outPattern/@elements.0/@bindings.1/@value/@source /0/@elements.3/@outPattern/@elements.1/@bindings.0/@value/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="40:3-40:20" varName="m" variableExp="/0/@elements.3/@inPattern/@filter/@source /0/@elements.3/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.3/@outPattern/@elements.0/@bindings.1/@value/@source /0/@elements.3/@outPattern/@elements.1/@bindings.0/@value/@source /0/@elements.3/@outPattern/@elements.1/@bindings.1/@value/@source">
           <type xsi:type="ocl:OclModelElement" location="40:6-40:20" name="ShellLine" model="/2"/>
         </elements>
         <filter xsi:type="ocl:NavigationOrAttributeCallExp" location="41:4-41:13" name="display">

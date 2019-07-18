@@ -843,7 +843,7 @@
           </bindings>
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="154:3-157:4" varName="boundingBoxCoord" variableExp="/0/@elements.18/@outPattern/@elements.1/@bindings.1/@value">
-          <type xsi:type="ocl:OclModelElement" location="154:21-154:38" name="AbsoluteCoord" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="154:21-154:38" name="AbsoluteCoord_" model="/1"/>
           <bindings location="155:4-155:38" propertyName="x">
             <value xsi:type="ocl:OperatorCallExp" location="155:9-155:38" operationName="-">
               <source xsi:type="ocl:IntegerExp" location="155:9-155:10"/>
@@ -2145,7 +2145,7 @@
           </body>
         </feature>
         <context_ location="394:8-394:26">
-          <context_ xsi:type="ocl:OclModelElement" location="394:16-394:26" name="Cell_" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" location="394:16-394:26" name="Cell" model="/2"/>
         </context_>
       </definition>
     </elements>

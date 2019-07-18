@@ -1012,7 +1012,7 @@
         </statements>
       </actionBlock>
       <variables location="130:3-130:125" varName="valuesSum" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.3/@value/@elseExpression/@arguments.2 /0/@elements.18/@outPattern/@elements.0/@bindings.4/@value/@arguments.2">
-        <type xsi:type="ocl:StringType"/>
+        <type xsi:type="ocl:RealType" location="130:14-130:18"/>
         <initExpression xsi:type="ocl:IterateExp" location="130:21-130:124">
           <source xsi:type="ocl:CollectionOperationCallExp" location="130:21-130:52" operationName="seqWithoutFirst">
             <source xsi:type="ocl:NavigationOrAttributeCallExp" location="130:21-130:31" name="rows">
@@ -1750,7 +1750,7 @@
         </elements>
       </outPattern>
       <variables location="295:3-301:39" varName="value" variableExp="/0/@elements.23/@outPattern/@elements.4/@bindings.3/@value/@source/@source/@source/@source/@source/@arguments.0">
-        <type xsi:type="ocl:StringType" location="295:10-295:16"/>
+        <type xsi:type="ocl:RealType"/>
         <initExpression xsi:type="ocl:LetExp" location="295:19-301:38">
           <variable location="295:23-299:10" varName="realValue" variableExp="/0/@elements.23/@variables.0/@initExpression/@in_/@source/@source/@source">
             <type xsi:type="ocl:RealType" location="295:34-295:38"/>

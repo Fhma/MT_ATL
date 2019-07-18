@@ -1522,7 +1522,7 @@
       </outPattern>
       <inPattern location="263:2-266:18">
         <elements xsi:type="atl:SimpleInPatternElement" location="264:3-264:20" varName="table" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@source/@source/@source /0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.0 /0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.1/@source/@source /0/@elements.22/@outPattern/@elements.2/@bindings.0/@value/@source /0/@elements.22/@outPattern/@elements.2/@bindings.1/@value/@source">
-          <type xsi:type="ocl:OclModelElement" location="264:10-264:20" name="Cell_" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" location="264:10-264:20" name="Cell" model="/2"/>
         </elements>
         <elements xsi:type="atl:SimpleInPatternElement" location="265:3-265:15" varName="idx" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.2">
           <type xsi:type="ocl:IntegerType" location="265:8-265:15"/>
@@ -2145,7 +2145,7 @@
           </body>
         </feature>
         <context_ location="394:8-394:26">
-          <context_ xsi:type="ocl:OclModelElement" location="394:16-394:26" name="Cell" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" location="394:16-394:26" name="Cell_" model="/2"/>
         </context_>
       </definition>
     </elements>

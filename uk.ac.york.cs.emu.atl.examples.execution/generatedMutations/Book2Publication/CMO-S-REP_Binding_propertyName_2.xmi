@@ -89,7 +89,7 @@
               <source xsi:type="ocl:VariableExp" location="22:15-22:16" referredVariable="/0/@elements.2/@inPattern/@elements.0"/>
             </value>
           </bindings>
-          <bindings location="23:4-23:29" propertyName="title">
+          <bindings location="23:4-23:29" propertyName="authors">
             <value xsi:type="ocl:OperationCallExp" location="23:15-23:29" operationName="getNbPages">
               <source xsi:type="ocl:VariableExp" location="23:15-23:16" referredVariable="/0/@elements.2/@inPattern/@elements.0"/>
             </value>

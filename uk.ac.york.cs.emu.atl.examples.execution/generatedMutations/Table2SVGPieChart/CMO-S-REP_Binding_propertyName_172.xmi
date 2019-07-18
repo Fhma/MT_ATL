@@ -1209,7 +1209,7 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="222:4-222:38" propertyName="ty">
+          <bindings location="222:4-222:38" propertyName="tx">
             <value xsi:type="ocl:OperatorCallExp" location="222:10-222:38" operationName="-">
               <source xsi:type="ocl:IntegerExp" location="222:10-222:11"/>
               <arguments xsi:type="ocl:NavigationOrAttributeCallExp" location="222:14-222:38" name="titleFontSize">
@@ -1252,7 +1252,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="248:3-256:4" varName="sector" variableExp="/0/@elements.21/@outPattern/@elements.0/@bindings.1/@value">
           <type xsi:type="ocl:OclModelElement" location="248:11-248:19" name="Path" model="/1"/>
-          <bindings location="249:4-253:53" propertyName="fill">
+          <bindings location="249:4-253:53" propertyName="d">
             <value xsi:type="ocl:OperatorCallExp" location="249:9-253:53" operationName="+">
               <source xsi:type="ocl:OperatorCallExp" location="249:9-253:46" operationName="+">
                 <source xsi:type="ocl:OperatorCallExp" location="249:9-253:31" operationName="+">

@@ -273,7 +273,7 @@
           </body>
         </feature>
         <context_ location="88:8-88:22">
-          <context_ xsi:type="ocl:StringType" location="88:16-88:22"/>
+          <context_ xsi:type="ocl:BooleanType"/>
         </context_>
       </definition>
     </elements>
@@ -328,7 +328,7 @@
           </body>
         </feature>
         <context_ location="98:8-98:22">
-          <context_ xsi:type="ocl:RealType"/>
+          <context_ xsi:type="ocl:StringType" location="98:16-98:22"/>
         </context_>
       </definition>
     </elements>

@@ -199,15 +199,10 @@
       <outPattern location="72:2-75:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="73:3-75:4" varName="td">
           <type xsi:type="ocl:OclModelElement" location="73:7-73:14" name="TD" model="/1"/>
-          <bindings location="74:4-74:25" propertyName="value">
-            <value xsi:type="ocl:OperationCallExp" location="74:13-74:25" operationName="value">
-              <source xsi:type="ocl:VariableExp" location="74:13-74:17" referredVariable="/0/@elements.6/@inPattern/@elements.0"/>
-            </value>
-          </bindings>
         </elements>
       </outPattern>
       <inPattern location="70:2-71:19">
-        <elements xsi:type="atl:SimpleInPatternElement" location="71:3-71:19" varName="cell" variableExp="/0/@elements.6/@outPattern/@elements.0/@bindings.0/@value/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="71:3-71:19" varName="cell">
           <type xsi:type="ocl:OclModelElement" location="71:9-71:19" name="Cell" model="/2"/>
         </elements>
       </inPattern>
@@ -220,6 +215,9 @@
             <value xsi:type="ocl:OperationCallExp" location="83:13-83:25" operationName="value">
               <source xsi:type="ocl:VariableExp" location="83:13-83:17" referredVariable="/0/@elements.7/@inPattern/@elements.0"/>
             </value>
+          </bindings>
+          <bindings location="84:4-84:20" propertyName="align">
+            <value xsi:type="ocl:StringExp" location="84:13-84:20" stringSymbol="right"/>
           </bindings>
         </elements>
       </outPattern>

@@ -738,7 +738,7 @@
       <outPattern location="132:2-172:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="133:3-143:4" varName="g" variableExp="/0/@elements.18/@actionBlock/@statements.1/@value">
           <type xsi:type="ocl:OclModelElement" location="133:6-133:11" name="G" model="/1"/>
-          <bindings location="134:4-134:34" propertyName="attribute">
+          <bindings location="134:4-134:34" propertyName="groupContent">
             <value xsi:type="ocl:VariableExp" location="134:17-134:34" referredVariable="/0/@elements.18/@outPattern/@elements.4"/>
           </bindings>
           <bindings location="135:4-135:31" propertyName="groupContent">
@@ -919,7 +919,7 @@
               </source>
             </value>
           </bindings>
-          <bindings location="166:4-166:28" propertyName="position">
+          <bindings location="166:4-166:28" propertyName="lengthAdjust">
             <value xsi:type="ocl:StringExp" location="166:20-166:28" stringSymbol="middle"/>
           </bindings>
           <bindings location="167:4-167:61" propertyName="content">

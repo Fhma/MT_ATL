@@ -1030,7 +1030,7 @@
               </source>
             </arguments>
           </body>
-          <iterators location="130:64-130:67" varName="row_" variableExp="/0/@elements.18/@variables.0/@initExpression/@body/@arguments.0/@source/@source/@source"/>
+          <iterators location="130:64-130:67" varName="row" variableExp="/0/@elements.18/@variables.0/@initExpression/@body/@arguments.0/@source/@source/@source"/>
           <result location="130:69-130:82" varName="acc" variableExp="/0/@elements.18/@variables.0/@initExpression/@body/@source">
             <type xsi:type="ocl:RealType" location="130:74-130:78"/>
             <initExpression xsi:type="ocl:IntegerExp" location="130:81-130:82"/>
@@ -2121,7 +2121,7 @@
                     </source>
                   </arguments>
                 </body>
-                <iterators location="392:124-392:125" varName="c" variableExp="/0/@elements.31/@definition/@feature/@initExpression/@body/@body/@body/@source/@source/@source/@source /0/@elements.31/@definition/@feature/@initExpression/@body/@body/@body/@source/@arguments.0/@source/@source /0/@elements.31/@definition/@feature/@initExpression/@body/@body/@body/@arguments.0/@source/@source"/>
+                <iterators location="392:124-392:125" varName="c_" variableExp="/0/@elements.31/@definition/@feature/@initExpression/@body/@body/@body/@source/@source/@source/@source /0/@elements.31/@definition/@feature/@initExpression/@body/@body/@body/@source/@arguments.0/@source/@source /0/@elements.31/@definition/@feature/@initExpression/@body/@body/@body/@arguments.0/@source/@source"/>
               </body>
               <iterators location="392:81-392:82" varName="r" variableExp="/0/@elements.31/@definition/@feature/@initExpression/@body/@body/@source/@source/@source"/>
             </body>

@@ -1161,7 +1161,7 @@
         </elements>
       </inPattern>
     </elements>
-    <elements xsi:type="atl:LazyMatchedRule" location="210:1-224:2" name="Table2Sectors_">
+    <elements xsi:type="atl:LazyMatchedRule" location="210:1-224:2" name="Table2Sectors">
       <outPattern location="215:2-223:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="216:3-219:4" varName="g">
           <type xsi:type="ocl:OclModelElement" location="216:6-216:11" name="G" model="/1"/>
@@ -1231,7 +1231,7 @@
         </elements>
       </inPattern>
     </elements>
-    <elements xsi:type="atl:LazyMatchedRule" location="226:1-260:2" name="Row2Sector">
+    <elements xsi:type="atl:LazyMatchedRule" location="226:1-260:2" name="Row2Sector_">
       <outPattern location="240:2-256:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="241:3-244:4" varName="g">
           <type xsi:type="ocl:OclModelElement" location="241:6-241:11" name="G" model="/1"/>

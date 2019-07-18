@@ -486,7 +486,7 @@
           </body>
         </feature>
         <context_ location="135:8-135:26">
-          <context_ xsi:type="ocl:OclModelElement" name="TD" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" name="HEAD" model="/2"/>
         </context_>
       </definition>
     </elements>

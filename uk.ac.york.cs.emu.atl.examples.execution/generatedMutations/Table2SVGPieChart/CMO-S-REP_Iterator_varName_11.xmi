@@ -128,7 +128,7 @@
                   </condition>
                   <elseExpression xsi:type="ocl:VariableExp" location="35:4-35:11" referredVariable="/0/@elements.9/@definition/@feature/@body/@source/@source/@result"/>
                 </body>
-                <iterators location="32:42-32:43" varName="r" variableExp="/0/@elements.9/@definition/@feature/@body/@source/@source/@body/@condition/@source/@source/@source/@source/@source /0/@elements.9/@definition/@feature/@body/@source/@source/@body/@thenExpression/@source/@source/@source/@source"/>
+                <iterators location="32:42-32:43" varName="r_" variableExp="/0/@elements.9/@definition/@feature/@body/@source/@source/@body/@condition/@source/@source/@source/@source/@source /0/@elements.9/@definition/@feature/@body/@source/@source/@body/@thenExpression/@source/@source/@source/@source"/>
                 <result location="32:45-32:65" varName="maxSize" variableExp="/0/@elements.9/@definition/@feature/@body/@source/@source/@body/@condition/@arguments.0 /0/@elements.9/@definition/@feature/@body/@source/@source/@body/@elseExpression">
                   <type xsi:type="ocl:IntegerType" location="32:54-32:61"/>
                   <initExpression xsi:type="ocl:IntegerExp" location="32:64-32:65"/>
@@ -581,7 +581,7 @@
                           <iterators location="114:240-114:241" varName="r" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.1/@source/@source/@body/@source/@source/@source"/>
                         </source>
                         <body xsi:type="ocl:VariableExp" location="114:288-114:289" referredVariable="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.1/@source/@iterators.0"/>
-                        <iterators location="114:284-114:285" varName="n_" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.1/@source/@body"/>
+                        <iterators location="114:284-114:285" varName="n" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.1/@source/@body"/>
                       </source>
                     </arguments>
                   </arguments>

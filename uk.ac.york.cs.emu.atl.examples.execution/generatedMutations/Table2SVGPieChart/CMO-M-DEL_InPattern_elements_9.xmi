@@ -1184,8 +1184,8 @@
                   </source>
                   <arguments xsi:type="ocl:VariableExp" location="218:118-218:121" referredVariable="/0/@elements.20/@outPattern/@elements.0/@bindings.1/@value/@iterators.0"/>
                 </arguments>
-                <arguments xsi:type="ocl:VariableExp" location="218:124-218:127" referredVariable="/0/@elements.20/@inPattern/@elements.1"/>
-                <arguments xsi:type="ocl:VariableExp" location="218:129-218:138"/>
+                <arguments xsi:type="ocl:VariableExp" location="218:124-218:127"/>
+                <arguments xsi:type="ocl:VariableExp" location="218:129-218:138" referredVariable="/0/@elements.20/@inPattern/@elements.1"/>
               </body>
               <iterators location="218:63-218:66" varName="row" variableExp="/0/@elements.20/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.0 /0/@elements.20/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.1/@arguments.0"/>
             </value>
@@ -1223,8 +1223,8 @@
         <elements xsi:type="atl:SimpleInPatternElement" location="212:3-212:21" varName="table" variableExp="/0/@elements.20/@outPattern/@elements.0/@bindings.1/@value/@source/@source/@source /0/@elements.20/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.1/@source/@source /0/@elements.20/@outPattern/@elements.1/@bindings.0/@value/@arguments.0/@source/@source/@source">
           <type xsi:type="ocl:OclModelElement" location="212:10-212:21" name="Table" model="/2"/>
         </elements>
-        <elements xsi:type="atl:SimpleInPatternElement" location="213:3-213:15" varName="idx" variableExp="/0/@elements.20/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.2">
-          <type xsi:type="ocl:IntegerType" location="213:8-213:15"/>
+        <elements xsi:type="atl:SimpleInPatternElement" location="214:3-214:18" varName="valuesSum" variableExp="/0/@elements.20/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.3">
+          <type xsi:type="ocl:RealType" location="214:14-214:18"/>
         </elements>
       </inPattern>
     </elements>

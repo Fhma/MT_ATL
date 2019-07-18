@@ -1143,7 +1143,7 @@
           </bindings>
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="204:3-207:4" varName="pieCoord" variableExp="/0/@elements.19/@outPattern/@elements.2/@bindings.1/@value">
-          <type xsi:type="ocl:OclModelElement" location="204:13-204:30" name="AbsoluteCoord_" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="204:13-204:30" name="AbsoluteCoord" model="/1"/>
           <bindings location="205:4-205:10" propertyName="x">
             <value xsi:type="ocl:IntegerExp" location="205:9-205:10"/>
           </bindings>
@@ -1164,7 +1164,7 @@
     <elements xsi:type="atl:LazyMatchedRule" location="210:1-224:2" name="Table2Sectors">
       <outPattern location="215:2-223:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="216:3-219:4" varName="g">
-          <type xsi:type="ocl:OclModelElement" location="216:6-216:11" name="G" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="216:6-216:11" name="G_" model="/1"/>
           <bindings location="217:4-217:30" propertyName="attribute">
             <value xsi:type="ocl:VariableExp" location="217:17-217:30" referredVariable="/0/@elements.20/@outPattern/@elements.1"/>
           </bindings>

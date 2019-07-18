@@ -887,7 +887,7 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="160:4-160:48" propertyName="ty">
+          <bindings location="160:4-160:48" propertyName="ty_">
             <value xsi:type="ocl:OperatorCallExp" location="160:10-160:48" operationName="/">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="160:10-160:44" name="height">
                 <source xsi:type="ocl:NavigationOrAttributeCallExp" location="160:10-160:37" name="size">
@@ -1660,7 +1660,7 @@
               <source xsi:type="ocl:VariableExp" location="324:14-324:24" referredVariable="/87"/>
             </value>
           </bindings>
-          <bindings location="325:4-325:46" propertyName="content">
+          <bindings location="325:4-325:46" propertyName="fontSize">
             <value xsi:type="ocl:OperationCallExp" location="325:16-325:46" operationName="toString">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="325:16-325:35" name="fontSize">
                 <source xsi:type="ocl:VariableExp" location="325:16-325:26" referredVariable="/88"/>

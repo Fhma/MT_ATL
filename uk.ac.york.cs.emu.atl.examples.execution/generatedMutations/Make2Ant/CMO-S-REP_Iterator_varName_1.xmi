@@ -53,7 +53,7 @@
                   <source xsi:type="ocl:VariableExp" location="13:40-13:41" referredVariable="/0/@elements.0/@outPattern/@elements.0/@bindings.4/@value/@source/@iterators.0"/>
                   <arguments xsi:type="ocl:OclModelElement" location="13:54-13:63" name="Rule" model="/2"/>
                 </body>
-                <iterators location="13:36-13:37" varName="c_" variableExp="/0/@elements.0/@outPattern/@elements.0/@bindings.4/@value/@source/@body/@source"/>
+                <iterators location="13:36-13:37" varName="c" variableExp="/0/@elements.0/@outPattern/@elements.0/@bindings.4/@value/@source/@body/@source"/>
               </source>
             </value>
           </bindings>
@@ -116,7 +116,7 @@
               <body xsi:type="ocl:NavigationOrAttributeCallExp" location="34:88-34:97" name="ruledep">
                 <source xsi:type="ocl:VariableExp" location="34:88-34:89" referredVariable="/0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@iterators.0"/>
               </body>
-              <iterators location="34:84-34:85" varName="e" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@body/@source"/>
+              <iterators location="34:84-34:85" varName="e_" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@body/@source"/>
             </value>
           </bindings>
         </elements>

@@ -167,7 +167,7 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="65:4-65:113" propertyName="tds_">
+          <bindings location="65:4-65:113" propertyName="tds">
             <value xsi:type="ocl:IteratorExp" location="65:11-65:113" name="collect">
               <source xsi:type="ocl:CollectionOperationCallExp" location="65:11-65:59" operationName="subSequence">
                 <source xsi:type="ocl:NavigationOrAttributeCallExp" location="65:11-65:20" name="cells">
@@ -221,7 +221,7 @@
               <source xsi:type="ocl:VariableExp" location="83:13-83:17" referredVariable="/0/@elements.7/@inPattern/@elements.0"/>
             </value>
           </bindings>
-          <bindings location="84:4-84:20" propertyName="align">
+          <bindings location="84:4-84:20" propertyName="align_">
             <value xsi:type="ocl:StringExp" location="84:13-84:20" stringSymbol="right"/>
           </bindings>
         </elements>

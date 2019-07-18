@@ -912,14 +912,14 @@
               <source xsi:type="ocl:VariableExp" location="164:14-164:24" referredVariable="/46"/>
             </value>
           </bindings>
-          <bindings location="165:4-165:51" propertyName="fontSize">
+          <bindings location="165:4-165:51" propertyName="position">
             <value xsi:type="ocl:OperationCallExp" location="165:16-165:51" operationName="toString">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="165:16-165:40" name="titleFontSize">
                 <source xsi:type="ocl:VariableExp" location="165:16-165:26" referredVariable="/47"/>
               </source>
             </value>
           </bindings>
-          <bindings location="166:4-166:28" propertyName="fontSize">
+          <bindings location="166:4-166:28" propertyName="lengthAdjust">
             <value xsi:type="ocl:StringExp" location="166:20-166:28" stringSymbol="middle"/>
           </bindings>
           <bindings location="167:4-167:61" propertyName="content">

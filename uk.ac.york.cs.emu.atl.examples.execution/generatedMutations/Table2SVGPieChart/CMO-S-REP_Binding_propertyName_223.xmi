@@ -451,7 +451,7 @@
           <bindings location="99:4-99:45" propertyName="namespace">
             <value xsi:type="ocl:StringExp" location="99:17-99:45" stringSymbol="http://www.w3.org/2000/svg"/>
           </bindings>
-          <bindings location="100:4-100:20" propertyName="size">
+          <bindings location="100:4-100:20" propertyName="version">
             <value xsi:type="ocl:StringExp" location="100:15-100:20" stringSymbol="1.1"/>
           </bindings>
         </elements>
@@ -907,7 +907,7 @@
           <bindings location="163:4-163:30" propertyName="position">
             <value xsi:type="ocl:VariableExp" location="163:16-163:30" referredVariable="/0/@elements.18/@outPattern/@elements.6"/>
           </bindings>
-          <bindings location="164:4-164:31" propertyName="stroke">
+          <bindings location="164:4-164:31" propertyName="fontSize">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="164:14-164:31" name="stroke">
               <source xsi:type="ocl:VariableExp" location="164:14-164:24" referredVariable="/46"/>
             </value>

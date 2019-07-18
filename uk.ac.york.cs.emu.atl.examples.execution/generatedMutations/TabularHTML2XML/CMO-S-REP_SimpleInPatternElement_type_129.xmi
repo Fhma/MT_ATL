@@ -140,7 +140,7 @@
       </outPattern>
       <inPattern location="69:2-70:26">
         <elements xsi:type="atl:SimpleInPatternElement" location="70:3-70:26" varName="html">
-          <type xsi:type="ocl:OclModelElement" name="BODY" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" name="BODYElement" model="/2"/>
         </elements>
       </inPattern>
     </elements>

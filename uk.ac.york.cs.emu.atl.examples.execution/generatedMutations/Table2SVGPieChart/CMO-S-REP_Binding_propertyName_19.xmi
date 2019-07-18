@@ -1123,7 +1123,7 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="198:4-198:31" propertyName="size">
+          <bindings location="198:4-198:31" propertyName="stroke">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="198:14-198:31" name="stroke">
               <source xsi:type="ocl:VariableExp" location="198:14-198:24" referredVariable="/59"/>
             </value>
@@ -1729,7 +1729,7 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="330:4-330:72" propertyName="y">
+          <bindings location="330:4-330:72" propertyName="y_">
             <value xsi:type="ocl:OperatorCallExp" location="330:9-330:72" operationName="-">
               <source xsi:type="ocl:OperatorCallExp" location="330:9-330:44" operationName="+">
                 <source xsi:type="ocl:NavigationOrAttributeCallExp" location="330:9-330:23" name="y">

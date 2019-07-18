@@ -1507,7 +1507,7 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="284:4-284:38" propertyName="y">
+          <bindings location="284:4-284:38" propertyName="y_">
             <value xsi:type="ocl:OperatorCallExp" location="284:9-284:38" operationName="-">
               <source xsi:type="ocl:IntegerExp" location="284:9-284:10"/>
               <arguments xsi:type="ocl:OperatorCallExp" location="284:13-284:38" operationName="/">
@@ -1539,7 +1539,7 @@
           <bindings location="305:4-305:27" propertyName="groupContent">
             <value xsi:type="ocl:VariableExp" location="305:20-305:27" referredVariable="/0/@elements.23/@outPattern/@elements.1"/>
           </bindings>
-          <bindings location="306:4-306:31" propertyName="groupContent_">
+          <bindings location="306:4-306:31" propertyName="groupContent">
             <value xsi:type="ocl:VariableExp" location="306:20-306:31" referredVariable="/0/@elements.23/@outPattern/@elements.4"/>
           </bindings>
         </elements>

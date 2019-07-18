@@ -787,7 +787,7 @@
               </elseExpression>
             </value>
           </bindings>
-          <bindings location="142:4-142:68" propertyName="groupContent">
+          <bindings location="142:4-142:68" propertyName="groupContent_">
             <value xsi:type="ocl:OperationCallExp" location="142:20-142:68" operationName="Table2Captions">
               <source xsi:type="ocl:VariableExp" location="142:20-142:30" referredVariable="/38"/>
               <arguments xsi:type="ocl:VariableExp" location="142:46-142:51" referredVariable="/0/@elements.18/@inPattern/@elements.0"/>
@@ -955,7 +955,7 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="171:4-171:84" propertyName="x">
+          <bindings location="171:4-171:84" propertyName="y">
             <value xsi:type="ocl:OperatorCallExp" location="171:9-171:84" operationName="/">
               <source xsi:type="ocl:OperatorCallExp" location="171:10-171:79" operationName="-">
                 <source xsi:type="ocl:OperatorCallExp" location="171:10-171:59" operationName="-">

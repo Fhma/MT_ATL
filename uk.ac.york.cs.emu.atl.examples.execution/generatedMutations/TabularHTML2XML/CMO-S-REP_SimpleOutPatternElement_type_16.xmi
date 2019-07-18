@@ -6,7 +6,7 @@
     <elements xsi:type="atl:MatchedRule" location="4:1-13:2" name="HTML">
       <outPattern location="7:2-12:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="8:3-12:4" varName="xml">
-          <type xsi:type="ocl:OclModelElement" name="Element" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="8:8-8:16" name="Root" model="/1"/>
           <bindings location="9:4-9:18" propertyName="name">
             <value xsi:type="ocl:StringExp" location="9:12-9:18" stringSymbol="html"/>
           </bindings>
@@ -267,7 +267,7 @@
     <elements xsi:type="atl:CalledRule" location="123:1-132:2" name="Attribute">
       <outPattern location="124:2-128:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="125:3-128:4" varName="attr" variableExp="/0/@elements.12/@actionBlock/@statements.0/@expression">
-          <type xsi:type="ocl:OclModelElement" location="125:9-125:22" name="Attribute" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" name="Element" model="/1"/>
           <bindings location="126:4-126:20" propertyName="name">
             <value xsi:type="ocl:VariableExp" location="126:12-126:20" referredVariable="/0/@elements.12/@parameters.0"/>
           </bindings>
@@ -315,7 +315,7 @@
       </parameters>
     </elements>
   </atl:Module>
-  <ocl:OclModel location="2:13-2:16" name="XML" elements="/0/@elements.1/@outPattern/@elements.0/@type /0/@elements.2/@outPattern/@elements.0/@type /0/@elements.3/@outPattern/@elements.0/@type /0/@elements.4/@outPattern/@elements.0/@type /0/@elements.5/@outPattern/@elements.0/@type /0/@elements.6/@outPattern/@elements.0/@type /0/@elements.7/@outPattern/@elements.0/@type /0/@elements.8/@outPattern/@elements.0/@type /0/@elements.9/@outPattern/@elements.0/@type /0/@elements.10/@outPattern/@elements.0/@type /0/@elements.11/@outPattern/@elements.0/@type /0/@elements.12/@outPattern/@elements.0/@type /0/@elements.13/@outPattern/@elements.0/@type /0/@elements.0/@outPattern/@elements.0/@type" model="/0/@outModels.0"/>
+  <ocl:OclModel location="2:13-2:16" name="XML" elements="/0/@elements.0/@outPattern/@elements.0/@type /0/@elements.1/@outPattern/@elements.0/@type /0/@elements.2/@outPattern/@elements.0/@type /0/@elements.3/@outPattern/@elements.0/@type /0/@elements.4/@outPattern/@elements.0/@type /0/@elements.5/@outPattern/@elements.0/@type /0/@elements.6/@outPattern/@elements.0/@type /0/@elements.7/@outPattern/@elements.0/@type /0/@elements.8/@outPattern/@elements.0/@type /0/@elements.9/@outPattern/@elements.0/@type /0/@elements.10/@outPattern/@elements.0/@type /0/@elements.11/@outPattern/@elements.0/@type /0/@elements.13/@outPattern/@elements.0/@type /0/@elements.12/@outPattern/@elements.0/@type" model="/0/@outModels.0"/>
   <ocl:OclModel location="2:26-2:30" name="HTML" elements="/0/@elements.0/@inPattern/@elements.0/@type /0/@elements.1/@inPattern/@elements.0/@type /0/@elements.2/@inPattern/@elements.0/@type /0/@elements.3/@inPattern/@elements.0/@type /0/@elements.4/@inPattern/@elements.0/@type /0/@elements.5/@inPattern/@elements.0/@type /0/@elements.6/@inPattern/@elements.0/@type /0/@elements.7/@inPattern/@elements.0/@type /0/@elements.8/@inPattern/@elements.0/@type /0/@elements.9/@inPattern/@elements.0/@type /0/@elements.10/@inPattern/@elements.0/@type /0/@elements.11/@inPattern/@elements.0/@type" model="/0/@inModels.0"/>
   <ocl:VariableDeclaration location="47:16-47:26" varName="thisModule" variableExp="/0/@elements.4/@outPattern/@elements.0/@bindings.1/@value/@source"/>
   <ocl:VariableDeclaration location="81:16-81:26" varName="thisModule" variableExp="/0/@elements.8/@outPattern/@elements.0/@bindings.1/@value/@source"/>

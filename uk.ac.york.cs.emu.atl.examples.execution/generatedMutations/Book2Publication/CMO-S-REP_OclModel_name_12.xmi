@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atl="http://www.eclipse.org/gmt/2005/ATL" xmlns:ocl="http://www.eclipse.org/gmt/2005/OCL" xsi:schemaLocation="http://www.eclipse.org/gmt/2005/ATL /Users/AFADF_F/Git/Fhma/MT_ATL_Exp2/uk.ac.york.cs.emu.atl.examples.mutations.generator/bin/uk/ac/york/cs/emu/atl/examples/mutations/generator/metamodels/ATL.ecore#//ATL http://www.eclipse.org/gmt/2005/OCL /Users/AFADF_F/Git/Fhma/MT_ATL_Exp2/uk.ac.york.cs.emu.atl.examples.mutations.generator/bin/uk/ac/york/cs/emu/atl/examples/mutations/generator/metamodels/ATL.ecore#//OCL">
   <atl:Module location="1:1-25:2" name="Book2Publication">
-    <inModels location="2:30-2:38" name="IN" metamodel="/2"/>
+    <inModels location="2:30-2:38" name="OUT" metamodel="/2"/>
     <outModels location="2:8-2:24" name="OUT" metamodel="/1"/>
     <elements xsi:type="atl:Helper" location="4:1-9:10">
       <definition location="4:8-9:9">
@@ -109,7 +109,7 @@
       </inPattern>
     </elements>
   </atl:Module>
-  <ocl:OclModel location="2:13-2:24" name="OUT" elements="/0/@elements.2/@outPattern/@elements.0/@type" model="/0/@outModels.0"/>
+  <ocl:OclModel location="2:13-2:24" name="Publication" elements="/0/@elements.2/@outPattern/@elements.0/@type" model="/0/@outModels.0"/>
   <ocl:OclModel location="2:34-2:38" name="Book" elements="/0/@elements.0/@definition/@context_/@context_ /0/@elements.1/@definition/@context_/@context_ /0/@elements.2/@inPattern/@elements.0/@type" model="/0/@inModels.0"/>
   <ocl:VariableDeclaration location="5:2-5:6" varName="self" variableExp="/0/@elements.0/@definition/@feature/@body/@source/@source/@source/@source"/>
   <ocl:VariableDeclaration location="12:2-12:6" varName="self" variableExp="/0/@elements.1/@definition/@feature/@body/@source/@source/@source"/>

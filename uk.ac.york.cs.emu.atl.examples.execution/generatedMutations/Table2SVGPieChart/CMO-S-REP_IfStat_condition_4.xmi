@@ -467,15 +467,13 @@
       </outPattern>
       <actionBlock location="106:2-122:3">
         <statements xsi:type="atl:IfStat" location="107:3-121:4">
-          <condition xsi:type="ocl:OperatorCallExp" operationName="not">
-            <source xsi:type="ocl:OperatorCallExp" location="107:7-107:46" operationName=">">
-              <source xsi:type="ocl:CollectionOperationCallExp" location="107:7-107:42" operationName="size">
-                <source xsi:type="ocl:NavigationOrAttributeCallExp" location="107:7-107:32" name="allValidTables">
-                  <source xsi:type="ocl:VariableExp" location="107:7-107:17" referredVariable="/28"/>
-                </source>
+          <condition xsi:type="ocl:OperatorCallExp" operationName="&lt;">
+            <source xsi:type="ocl:CollectionOperationCallExp" location="107:7-107:42" operationName="size">
+              <source xsi:type="ocl:NavigationOrAttributeCallExp" location="107:7-107:32" name="allValidTables">
+                <source xsi:type="ocl:VariableExp" location="107:7-107:17" referredVariable="/28"/>
               </source>
-              <arguments xsi:type="ocl:IntegerExp" location="107:45-107:46"/>
             </source>
+            <arguments xsi:type="ocl:IntegerExp" location="107:45-107:46"/>
           </condition>
           <thenStatements xsi:type="atl:BindingStat" location="108:4-108:34">
             <source xsi:type="ocl:NavigationOrAttributeCallExp" location="108:4-108:22" name="svgFile">
@@ -2179,7 +2177,7 @@
   <ocl:VariableDeclaration location="86:53-86:63" varName="thisModule" variableExp="/0/@elements.17/@variables.1/@initExpression/@variable/@initExpression/@arguments.0/@arguments.0/@source"/>
   <ocl:VariableDeclaration location="89:5-89:15" varName="thisModule" variableExp="/0/@elements.17/@variables.1/@initExpression/@in_/@variable/@initExpression/@source/@source/@source"/>
   <ocl:VariableDeclaration location="89:101-89:111" varName="thisModule" variableExp="/0/@elements.17/@variables.1/@initExpression/@in_/@variable/@initExpression/@arguments.0/@arguments.0/@source"/>
-  <ocl:VariableDeclaration location="107:7-107:17" varName="thisModule" variableExp="/0/@elements.17/@actionBlock/@statements.0/@condition/@source/@source/@source/@source"/>
+  <ocl:VariableDeclaration location="107:7-107:17" varName="thisModule" variableExp="/0/@elements.17/@actionBlock/@statements.0/@condition/@source/@source/@source"/>
   <ocl:VariableDeclaration location="108:4-108:14" varName="thisModule" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.0/@source/@source"/>
   <ocl:VariableDeclaration location="109:4-109:14" varName="thisModule" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.1/@source/@source/@source/@source"/>
   <ocl:VariableDeclaration location="111:18-111:28" varName="thisModule" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@collection/@source"/>

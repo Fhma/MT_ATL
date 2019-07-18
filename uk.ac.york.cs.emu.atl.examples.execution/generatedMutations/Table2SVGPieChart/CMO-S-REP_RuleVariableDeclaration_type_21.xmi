@@ -674,7 +674,7 @@
         </initExpression>
       </variables>
       <variables location="85:3-91:52" varName="height" variableExp="/0/@elements.17/@outPattern/@elements.2/@bindings.1/@value /0/@elements.17/@actionBlock/@statements.0/@thenStatements.1/@value/@arguments.0/@source">
-        <type xsi:type="ocl:BooleanType"/>
+        <type xsi:type="ocl:RealType" location="85:11-85:15"/>
         <initExpression xsi:type="ocl:LetExp" location="85:18-91:51">
           <variable location="85:22-86:78" varName="heightWithoutCaption" variableExp="/0/@elements.17/@variables.1/@initExpression/@in_/@in_/@source">
             <type xsi:type="ocl:RealType" location="85:44-85:48"/>
@@ -1379,7 +1379,7 @@
         </initExpression>
       </variables>
       <variables location="237:3-237:65" varName="x" variableExp="/0/@elements.21/@outPattern/@elements.2/@bindings.0/@value/@source/@source/@source/@arguments.0/@source">
-        <type xsi:type="ocl:RealType" location="237:6-237:10"/>
+        <type xsi:type="ocl:BooleanType"/>
         <initExpression xsi:type="ocl:OperatorCallExp" location="237:13-237:64" operationName="*">
           <source xsi:type="ocl:NavigationOrAttributeCallExp" location="237:13-237:30" name="radius">
             <source xsi:type="ocl:VariableExp" location="237:13-237:23" referredVariable="/64"/>

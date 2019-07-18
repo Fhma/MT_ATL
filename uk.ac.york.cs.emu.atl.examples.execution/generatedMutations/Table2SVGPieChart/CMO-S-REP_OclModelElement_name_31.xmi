@@ -903,7 +903,7 @@
           </bindings>
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="162:3-168:4" varName="textTitle" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.2/@value">
-          <type xsi:type="ocl:OclModelElement" location="162:14-162:22" name="Text_" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="162:14-162:22" name="Text" model="/1"/>
           <bindings location="163:4-163:30" propertyName="position">
             <value xsi:type="ocl:VariableExp" location="163:16-163:30" referredVariable="/0/@elements.18/@outPattern/@elements.6"/>
           </bindings>
@@ -1058,7 +1058,7 @@
           </bindings>
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="190:3-193:4" varName="pieTransl" variableExp="/0/@elements.19/@outPattern/@elements.0/@bindings.0/@value">
-          <type xsi:type="ocl:OclModelElement" location="190:14-190:27" name="Translate" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="190:14-190:27" name="Translate_" model="/1"/>
           <bindings location="191:4-191:63" propertyName="tx">
             <value xsi:type="ocl:OperatorCallExp" location="191:10-191:63" operationName="-">
               <source xsi:type="ocl:IntegerExp" location="191:10-191:11"/>

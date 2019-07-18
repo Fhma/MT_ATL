@@ -787,7 +787,7 @@
               </elseExpression>
             </value>
           </bindings>
-          <bindings location="142:4-142:68" propertyName="groupContent">
+          <bindings location="142:4-142:68" propertyName="attribute">
             <value xsi:type="ocl:OperationCallExp" location="142:20-142:68" operationName="Table2Captions">
               <source xsi:type="ocl:VariableExp" location="142:20-142:30" referredVariable="/38"/>
               <arguments xsi:type="ocl:VariableExp" location="142:46-142:51" referredVariable="/0/@elements.18/@inPattern/@elements.0"/>
@@ -817,7 +817,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="150:3-153:4" varName="boundingBoxSize" variableExp="/0/@elements.18/@outPattern/@elements.1/@bindings.0/@value /0/@elements.18/@outPattern/@elements.3/@bindings.0/@value/@arguments.0/@source/@source /0/@elements.18/@outPattern/@elements.3/@bindings.1/@value/@arguments.0/@source/@source /0/@elements.18/@outPattern/@elements.4/@bindings.0/@value/@source/@arguments.0/@source/@source /0/@elements.18/@outPattern/@elements.6/@bindings.1/@value/@source/@source/@source/@source /0/@elements.18/@actionBlock/@statements.0/@value/@source/@arguments.0/@source">
           <type xsi:type="ocl:OclModelElement" location="150:20-150:33" name="Dimension" model="/1"/>
-          <bindings location="151:4-151:37" propertyName="width_">
+          <bindings location="151:4-151:37" propertyName="width">
             <value xsi:type="ocl:OperationCallExp" location="151:13-151:37" operationName="boundingBoxWidth">
               <source xsi:type="ocl:VariableExp" location="151:13-151:18" referredVariable="/0/@elements.18/@inPattern/@elements.0"/>
             </value>

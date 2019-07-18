@@ -44,7 +44,7 @@
       <definition location="16:8-17:4">
         <feature xsi:type="ocl:Attribute" location="16:13-17:4" name="margin">
           <initExpression xsi:type="ocl:IntegerExp" location="17:2-17:4" integerSymbol="10"/>
-          <type xsi:type="ocl:RealType" location="16:21-16:25"/>
+          <type xsi:type="ocl:BooleanType"/>
         </feature>
       </definition>
     </elements>
@@ -193,7 +193,7 @@
       <definition location="44:8-45:3">
         <feature xsi:type="ocl:Attribute" location="44:13-45:3" name="prevWidth">
           <initExpression xsi:type="ocl:IntegerExp" location="45:2-45:3"/>
-          <type xsi:type="ocl:IntegerType"/>
+          <type xsi:type="ocl:RealType" location="44:24-44:28"/>
         </feature>
       </definition>
     </elements>

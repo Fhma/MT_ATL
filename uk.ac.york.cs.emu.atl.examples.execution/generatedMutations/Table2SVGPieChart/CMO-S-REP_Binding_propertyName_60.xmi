@@ -741,13 +741,13 @@
           <bindings location="134:4-134:34" propertyName="attribute">
             <value xsi:type="ocl:VariableExp" location="134:17-134:34" referredVariable="/0/@elements.18/@outPattern/@elements.4"/>
           </bindings>
-          <bindings location="135:4-135:31" propertyName="groupContent">
+          <bindings location="135:4-135:31" propertyName="groupContent_">
             <value xsi:type="ocl:VariableExp" location="135:20-135:31" referredVariable="/0/@elements.18/@outPattern/@elements.1"/>
           </bindings>
           <bindings location="136:4-136:29" propertyName="groupContent">
             <value xsi:type="ocl:VariableExp" location="136:20-136:29" referredVariable="/0/@elements.18/@outPattern/@elements.5"/>
           </bindings>
-          <bindings location="137:4-141:10" propertyName="attribute">
+          <bindings location="137:4-141:10" propertyName="groupContent">
             <value xsi:type="ocl:IfExp" location="137:20-141:10">
               <thenExpression xsi:type="ocl:OperationCallExp" location="138:6-138:41" operationName="Table2Circle">
                 <source xsi:type="ocl:VariableExp" location="138:6-138:16" referredVariable="/36"/>

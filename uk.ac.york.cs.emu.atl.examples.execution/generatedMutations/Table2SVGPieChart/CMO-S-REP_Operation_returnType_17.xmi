@@ -1809,7 +1809,7 @@
     <elements xsi:type="atl:Helper" location="334:1-342:8">
       <definition location="334:8-342:7">
         <feature xsi:type="ocl:Operation" location="334:28-342:7" name="isInteger">
-          <returnType xsi:type="ocl:StringType"/>
+          <returnType xsi:type="ocl:IntegerType"/>
           <body xsi:type="ocl:IfExp" location="335:2-342:7">
             <thenExpression xsi:type="ocl:LetExp" location="336:3-339:33">
               <variable location="336:7-337:38" varName="value" variableExp="/0/@elements.24/@definition/@feature/@body/@thenExpression/@in_/@source/@source /0/@elements.24/@definition/@feature/@body/@thenExpression/@in_/@arguments.0/@source">

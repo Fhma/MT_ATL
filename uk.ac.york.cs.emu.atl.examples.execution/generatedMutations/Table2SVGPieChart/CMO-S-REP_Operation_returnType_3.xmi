@@ -2067,7 +2067,7 @@
     <elements xsi:type="atl:Helper" location="388:1-389:41">
       <definition location="388:8-389:40">
         <feature xsi:type="ocl:Operation" location="388:28-389:40" name="seqWithoutFirst">
-          <returnType xsi:type="ocl:SequenceType" location="388:47-388:63">
+          <returnType xsi:type="ocl:SetType">
             <elementType xsi:type="ocl:OclAnyType" location="388:56-388:62"/>
           </returnType>
           <body xsi:type="ocl:CollectionOperationCallExp" location="389:2-389:40" operationName="subSequence">
@@ -2136,7 +2136,7 @@
     <elements xsi:type="atl:Helper" location="394:1-395:24">
       <definition location="394:8-395:23">
         <feature xsi:type="ocl:Operation" location="394:32-395:23" name="valueNotNull">
-          <returnType xsi:type="ocl:StringType"/>
+          <returnType xsi:type="ocl:BooleanType" location="394:48-394:55"/>
           <body xsi:type="ocl:OperatorCallExp" location="395:2-395:23" operationName="&lt;>">
             <source xsi:type="ocl:OperationCallExp" location="395:2-395:18" operationName="realValue">
               <source xsi:type="ocl:VariableExp" location="395:2-395:6" referredVariable="/112"/>

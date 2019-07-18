@@ -7,7 +7,7 @@
       <definition location="4:8-5:3">
         <feature xsi:type="ocl:Attribute" location="4:13-5:3" name="scale">
           <initExpression xsi:type="ocl:IntegerExp" location="5:2-5:3" integerSymbol="1"/>
-          <type xsi:type="ocl:IntegerType"/>
+          <type xsi:type="ocl:RealType" location="4:20-4:24"/>
         </feature>
       </definition>
     </elements>
@@ -36,7 +36,7 @@
       <definition location="13:8-14:9">
         <feature xsi:type="ocl:Attribute" location="13:13-14:9" name="stroke">
           <initExpression xsi:type="ocl:StringExp" location="14:2-14:9" stringSymbol="black"/>
-          <type xsi:type="ocl:StringType" location="13:21-13:27"/>
+          <type xsi:type="ocl:RealType"/>
         </feature>
       </definition>
     </elements>

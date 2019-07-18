@@ -734,7 +734,7 @@
         </initExpression>
       </variables>
     </elements>
-    <elements xsi:type="atl:LazyMatchedRule" location="125:1-179:2" name="Table2PieChart_">
+    <elements xsi:type="atl:LazyMatchedRule" location="125:1-179:2" name="Table2PieChart">
       <outPattern location="132:2-172:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="133:3-143:4" varName="g" variableExp="/0/@elements.18/@actionBlock/@statements.1/@value">
           <type xsi:type="ocl:OclModelElement" location="133:6-133:11" name="G" model="/1"/>
@@ -1425,7 +1425,7 @@
         </elements>
       </inPattern>
     </elements>
-    <elements xsi:type="atl:LazyMatchedRule" location="262:1-286:2" name="Table2Captions">
+    <elements xsi:type="atl:LazyMatchedRule" location="262:1-286:2" name="Table2Captions_">
       <outPattern location="267:2-285:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="268:3-271:4" varName="g">
           <type xsi:type="ocl:OclModelElement" location="268:6-268:11" name="G" model="/1"/>

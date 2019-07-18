@@ -24,7 +24,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="13:3-15:4" varName="head" variableExp="/0/@elements.1/@outPattern/@elements.0/@bindings.0/@value">
           <type xsi:type="ocl:OclModelElement" location="13:9-13:18" name="HEAD" model="/1"/>
-          <bindings location="14:4-14:25" propertyName="headElements_">
+          <bindings location="14:4-14:25" propertyName="headElements">
             <value xsi:type="ocl:VariableExp" location="14:20-14:25" referredVariable="/0/@elements.1/@outPattern/@elements.2"/>
           </bindings>
         </elements>
@@ -216,7 +216,7 @@
       <outPattern location="81:2-85:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="82:3-85:4" varName="td">
           <type xsi:type="ocl:OclModelElement" location="82:7-82:14" name="TD" model="/1"/>
-          <bindings location="83:4-83:25" propertyName="value">
+          <bindings location="83:4-83:25" propertyName="value_">
             <value xsi:type="ocl:OperationCallExp" location="83:13-83:25" operationName="value">
               <source xsi:type="ocl:VariableExp" location="83:13-83:17" referredVariable="/0/@elements.7/@inPattern/@elements.0"/>
             </value>

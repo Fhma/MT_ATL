@@ -335,7 +335,7 @@
     <elements xsi:type="atl:Helper" location="111:1-123:8">
       <definition location="111:8-123:7">
         <feature xsi:type="ocl:Operation" location="111:28-123:7" name="isPercentage">
-          <returnType xsi:type="ocl:RealType"/>
+          <returnType xsi:type="ocl:BooleanType" location="111:44-111:51"/>
           <body xsi:type="ocl:IfExp" location="112:2-123:7">
             <thenExpression xsi:type="ocl:LetExp" location="113:3-120:9">
               <variable location="113:7-114:44" varName="value" variableExp="/0/@elements.10/@definition/@feature/@body/@thenExpression/@in_/@condition/@source/@source /0/@elements.10/@definition/@feature/@body/@thenExpression/@in_/@condition/@arguments.0/@source /0/@elements.10/@definition/@feature/@body/@thenExpression/@in_/@thenExpression/@source/@arguments.0/@source /0/@elements.10/@definition/@feature/@body/@thenExpression/@in_/@thenExpression/@arguments.0/@source/@source">
@@ -493,9 +493,7 @@
     <elements xsi:type="atl:Helper" location="142:1-143:41">
       <definition location="142:8-143:40">
         <feature xsi:type="ocl:Operation" location="142:28-143:40" name="seqWithoutFirst">
-          <returnType xsi:type="ocl:SequenceType" location="142:47-142:63">
-            <elementType xsi:type="ocl:OclAnyType" location="142:56-142:62"/>
-          </returnType>
+          <returnType xsi:type="ocl:IntegerType"/>
           <body xsi:type="ocl:CollectionOperationCallExp" location="143:2-143:40" operationName="subSequence">
             <source xsi:type="ocl:VariableExp" location="143:2-143:6" referredVariable="/27"/>
             <arguments xsi:type="ocl:IntegerExp" location="143:22-143:23" integerSymbol="2"/>

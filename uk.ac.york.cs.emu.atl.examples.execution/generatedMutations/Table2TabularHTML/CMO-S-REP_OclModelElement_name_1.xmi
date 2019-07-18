@@ -7,7 +7,7 @@
       <definition location="4:8-5:14">
         <feature xsi:type="ocl:Attribute" location="4:13-5:14" name="html">
           <initExpression xsi:type="ocl:OclUndefinedExp" location="5:2-5:14"/>
-          <type xsi:type="ocl:OclModelElement" location="4:19-4:28" name="HTML" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="4:19-4:28" name="HTML_" model="/1"/>
         </feature>
       </definition>
     </elements>
@@ -215,7 +215,7 @@
     <elements xsi:type="atl:LazyMatchedRule" location="78:1-86:2" name="Cell2TDRightAlign">
       <outPattern location="81:2-85:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="82:3-85:4" varName="td">
-          <type xsi:type="ocl:OclModelElement" location="82:7-82:14" name="TD_" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="82:7-82:14" name="TD" model="/1"/>
           <bindings location="83:4-83:25" propertyName="value">
             <value xsi:type="ocl:OperationCallExp" location="83:13-83:25" operationName="value">
               <source xsi:type="ocl:VariableExp" location="83:13-83:17" referredVariable="/0/@elements.7/@inPattern/@elements.0"/>

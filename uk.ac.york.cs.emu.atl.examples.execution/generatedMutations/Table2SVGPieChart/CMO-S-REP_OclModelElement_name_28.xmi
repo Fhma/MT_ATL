@@ -1049,7 +1049,7 @@
     <elements xsi:type="atl:LazyMatchedRule" location="181:1-208:2" name="Table2Circle">
       <outPattern location="185:2-207:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="186:3-189:4" varName="g">
-          <type xsi:type="ocl:OclModelElement" location="186:6-186:11" name="G_" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="186:6-186:11" name="G" model="/1"/>
           <bindings location="187:4-187:26" propertyName="attribute">
             <value xsi:type="ocl:VariableExp" location="187:17-187:26" referredVariable="/0/@elements.19/@outPattern/@elements.1"/>
           </bindings>
@@ -1130,7 +1130,7 @@
           </bindings>
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="200:3-203:4" varName="pieSize" variableExp="/0/@elements.19/@outPattern/@elements.2/@bindings.0/@value /0/@elements.19/@outPattern/@elements.3/@bindings.1/@value/@source">
-          <type xsi:type="ocl:OclModelElement" location="200:12-200:25" name="Dimension" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="200:12-200:25" name="Dimension_" model="/1"/>
           <bindings location="201:4-201:30" propertyName="width">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="201:13-201:30" name="radius">
               <source xsi:type="ocl:VariableExp" location="201:13-201:23" referredVariable="/60"/>

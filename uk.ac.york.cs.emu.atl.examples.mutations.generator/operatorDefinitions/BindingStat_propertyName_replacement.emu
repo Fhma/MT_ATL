@@ -21,17 +21,29 @@ instance:BindingStat {
 	}
 }
 
-// Impl 2: replace with a name from other binding from
-// same ActionBlock
+// Impl 2: replace with a name from other binding from same ActionBlock
 @action replace
 @property propertyName
 @role instance
-pattern replace_with_another_name
+pattern replace_with_another_name_from_same_block
 instance:BindingStat,
 statement:BindingStat
 	from: BindingStat.all.excluding(instance)
 	guard: statement.propertyName <> instance.propertyName {
 	do {
 		instance.propertyName = statement.propertyName; 
+	}
+}
+// Impl 3: replace with a name from other bindingstats
+@action replace
+@property propertyName
+pattern replace_propertyName_with_anther_one
+instance:BindingStat in: BindingStat.all.select(e|e.source.isDefined() and e.source.isTypeOf(NavigationOrAttributeCallExp)
+	and e.source.source.isDefined() and e.source.source.isTypeOf(NavigationOrAttributeCallExp)) {
+	do {
+		var names = BindingStat.all.select(e| e.source.isDefined() and e.source.isTypeOf(NavigationOrAttributeCallExp)
+			and e.source.source.isDefined() and e.source.source.isTypeOf(NavigationOrAttributeCallExp)
+			).collect(e|e.source.name).asSet();
+			instance.propertyName = names.random();
 	}
 }

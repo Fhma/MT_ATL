@@ -280,7 +280,7 @@
     <elements xsi:type="atl:Helper" location="98:1-109:9">
       <definition location="98:8-109:8">
         <feature xsi:type="ocl:Operation" location="98:28-109:8" name="isReal">
-          <returnType xsi:type="ocl:RealType"/>
+          <returnType xsi:type="ocl:StringType"/>
           <body xsi:type="ocl:LetExp" location="99:2-109:8">
             <variable location="99:6-100:34" varName="dotNb" variableExp="/0/@elements.9/@definition/@feature/@body/@in_/@condition/@source">
               <type xsi:type="ocl:IntegerType" location="99:13-99:20"/>

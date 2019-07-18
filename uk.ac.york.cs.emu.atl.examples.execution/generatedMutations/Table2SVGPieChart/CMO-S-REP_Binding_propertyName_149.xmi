@@ -887,7 +887,7 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="160:4-160:48" propertyName="tx">
+          <bindings location="160:4-160:48" propertyName="ty">
             <value xsi:type="ocl:OperatorCallExp" location="160:10-160:48" operationName="/">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="160:10-160:44" name="height">
                 <source xsi:type="ocl:NavigationOrAttributeCallExp" location="160:10-160:37" name="size">
@@ -1144,7 +1144,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="204:3-207:4" varName="pieCoord" variableExp="/0/@elements.19/@outPattern/@elements.2/@bindings.1/@value">
           <type xsi:type="ocl:OclModelElement" location="204:13-204:30" name="AbsoluteCoord" model="/1"/>
-          <bindings location="205:4-205:10" propertyName="x">
+          <bindings location="205:4-205:10" propertyName="x_">
             <value xsi:type="ocl:IntegerExp" location="205:9-205:10"/>
           </bindings>
           <bindings location="206:4-206:10" propertyName="y">

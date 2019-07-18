@@ -15,23 +15,23 @@
       <outPattern location="8:2-19:18">
         <elements xsi:type="atl:SimpleOutPatternElement" location="9:3-12:4" varName="html" variableExp="/0/@elements.1/@actionBlock/@statements.0/@value">
           <type xsi:type="ocl:OclModelElement" location="9:9-9:18" name="HTML" model="/1"/>
-          <bindings location="10:4-10:16" propertyName="head">
-            <value xsi:type="ocl:VariableExp" location="10:12-10:16" referredVariable="/0/@elements.1/@outPattern/@elements.1"/>
-          </bindings>
           <bindings location="11:4-11:16" propertyName="body">
             <value xsi:type="ocl:VariableExp" location="11:12-11:16" referredVariable="/0/@elements.1/@outPattern/@elements.3"/>
           </bindings>
         </elements>
-        <elements xsi:type="atl:SimpleOutPatternElement" location="13:3-15:4" varName="head" variableExp="/0/@elements.1/@outPattern/@elements.0/@bindings.0/@value">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="13:3-15:4" varName="head">
           <type xsi:type="ocl:OclModelElement" location="13:9-13:18" name="HEAD" model="/1"/>
+          <bindings location="14:4-14:25" propertyName="headElements">
+            <value xsi:type="ocl:VariableExp" location="14:20-14:25" referredVariable="/0/@elements.1/@outPattern/@elements.2"/>
+          </bindings>
         </elements>
-        <elements xsi:type="atl:SimpleOutPatternElement" location="16:3-18:4" varName="title">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="16:3-18:4" varName="title" variableExp="/0/@elements.1/@outPattern/@elements.1/@bindings.0/@value">
           <type xsi:type="ocl:OclModelElement" location="16:10-16:20" name="TITLE" model="/1"/>
           <bindings location="17:4-17:15" propertyName="value">
             <value xsi:type="ocl:StringExp" location="17:13-17:15" stringSymbol=""/>
           </bindings>
         </elements>
-        <elements xsi:type="atl:SimpleOutPatternElement" location="19:3-19:18" varName="body" variableExp="/0/@elements.1/@outPattern/@elements.0/@bindings.1/@value">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="19:3-19:18" varName="body" variableExp="/0/@elements.1/@outPattern/@elements.0/@bindings.0/@value">
           <type xsi:type="ocl:OclModelElement" location="19:9-19:18" name="BODY" model="/1"/>
         </elements>
       </outPattern>

@@ -123,7 +123,7 @@
     <elements xsi:type="atl:MatchedRule" location="61:1-66:2" name="BODYElement" children="/0/@elements.7" superRule="/0/@elements.1" isAbstract="true">
       <outPattern location="64:2-65:19">
         <elements xsi:type="atl:SimpleOutPatternElement" location="65:3-65:19" varName="xml">
-          <type xsi:type="ocl:OclModelElement" location="65:8-65:19" name="Element_" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="65:8-65:19" name="Element" model="/1"/>
         </elements>
       </outPattern>
       <inPattern location="62:2-63:25">
@@ -291,7 +291,7 @@
     <elements xsi:type="atl:CalledRule" location="134:1-145:2" name="Text">
       <outPattern location="135:2-141:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="136:3-141:4" varName="text" variableExp="/0/@elements.13/@actionBlock/@statements.0/@expression">
-          <type xsi:type="ocl:OclModelElement" location="136:9-136:17" name="Text" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="136:9-136:17" name="Text_" model="/1"/>
           <bindings location="137:4-140:10" propertyName="value">
             <value xsi:type="ocl:IfExp" location="137:13-140:10">
               <thenExpression xsi:type="ocl:VariableExp" location="138:11-138:16" referredVariable="/0/@elements.13/@parameters.0"/>

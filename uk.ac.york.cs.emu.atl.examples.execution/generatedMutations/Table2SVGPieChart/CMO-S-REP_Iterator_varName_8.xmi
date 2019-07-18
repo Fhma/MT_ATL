@@ -1187,7 +1187,7 @@
                 <arguments xsi:type="ocl:VariableExp" location="218:124-218:127" referredVariable="/0/@elements.20/@inPattern/@elements.1"/>
                 <arguments xsi:type="ocl:VariableExp" location="218:129-218:138" referredVariable="/0/@elements.20/@inPattern/@elements.2"/>
               </body>
-              <iterators location="218:63-218:66" varName="row" variableExp="/0/@elements.20/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.0 /0/@elements.20/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.1/@arguments.0"/>
+              <iterators location="218:63-218:66" varName="row_" variableExp="/0/@elements.20/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.0 /0/@elements.20/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.1/@arguments.0"/>
             </value>
           </bindings>
         </elements>
@@ -2125,7 +2125,7 @@
               </body>
               <iterators location="392:81-392:82" varName="r" variableExp="/0/@elements.31/@definition/@feature/@initExpression/@body/@body/@source/@source/@source"/>
             </body>
-            <iterators location="392:39-392:40" varName="t_" variableExp="/0/@elements.31/@definition/@feature/@initExpression/@body/@source/@source/@source"/>
+            <iterators location="392:39-392:40" varName="t" variableExp="/0/@elements.31/@definition/@feature/@initExpression/@body/@source/@source/@source"/>
           </initExpression>
           <type xsi:type="ocl:SequenceType" location="391:29-391:50">
             <elementType xsi:type="ocl:OclModelElement" location="391:38-391:49" name="Table" model="/2"/>

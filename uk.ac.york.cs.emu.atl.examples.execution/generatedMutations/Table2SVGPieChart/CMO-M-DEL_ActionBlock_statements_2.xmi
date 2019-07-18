@@ -736,7 +736,7 @@
     </elements>
     <elements xsi:type="atl:LazyMatchedRule" location="125:1-179:2" name="Table2PieChart">
       <outPattern location="132:2-172:4">
-        <elements xsi:type="atl:SimpleOutPatternElement" location="133:3-143:4" varName="g">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="133:3-143:4" varName="g" variableExp="/0/@elements.18/@actionBlock/@statements.1/@value">
           <type xsi:type="ocl:OclModelElement" location="133:6-133:11" name="G" model="/1"/>
           <bindings location="134:4-134:34" propertyName="attribute">
             <value xsi:type="ocl:VariableExp" location="134:17-134:34" referredVariable="/0/@elements.18/@outPattern/@elements.4"/>
@@ -994,11 +994,15 @@
             </arguments>
           </value>
         </statements>
-        <statements xsi:type="atl:BindingStat" location="177:3-177:29">
-          <source xsi:type="ocl:NavigationOrAttributeCallExp" location="177:3-177:23" name="prevAngle">
-            <source xsi:type="ocl:VariableExp" location="177:3-177:13" referredVariable="/55"/>
+        <statements xsi:type="atl:BindingStat" location="176:3-176:40">
+          <source xsi:type="ocl:NavigationOrAttributeCallExp" location="176:3-176:34" name="children">
+            <source xsi:type="ocl:NavigationOrAttributeCallExp" location="176:3-176:25" name="tag">
+              <source xsi:type="ocl:NavigationOrAttributeCallExp" location="176:3-176:21" name="svgFile">
+                <source xsi:type="ocl:VariableExp" location="176:3-176:13" referredVariable="/54"/>
+              </source>
+            </source>
           </source>
-          <value xsi:type="ocl:IntegerExp" location="177:27-177:28"/>
+          <value xsi:type="ocl:VariableExp" location="176:38-176:39" referredVariable="/0/@elements.18/@outPattern/@elements.0"/>
         </statements>
       </actionBlock>
       <variables location="130:3-130:125" varName="valuesSum" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.3/@value/@elseExpression/@arguments.2 /0/@elements.18/@outPattern/@elements.0/@bindings.4/@value/@arguments.2">
@@ -2193,8 +2197,8 @@
   <ocl:VariableDeclaration location="174:3-174:13" varName="thisModule" variableExp="/0/@elements.18/@actionBlock/@statements.0/@source/@source"/>
   <ocl:VariableDeclaration location="175:4-175:14" varName="thisModule" variableExp="/0/@elements.18/@actionBlock/@statements.0/@value/@source/@source/@source"/>
   <ocl:VariableDeclaration location="175:51-175:61" varName="thisModule" variableExp="/0/@elements.18/@actionBlock/@statements.0/@value/@arguments.0/@source"/>
-  <ocl:VariableDeclaration location="176:3-176:13" varName="thisModule"/>
-  <ocl:VariableDeclaration location="177:3-177:13" varName="thisModule" variableExp="/0/@elements.18/@actionBlock/@statements.1/@source/@source"/>
+  <ocl:VariableDeclaration location="176:3-176:13" varName="thisModule" variableExp="/0/@elements.18/@actionBlock/@statements.1/@source/@source/@source/@source"/>
+  <ocl:VariableDeclaration location="177:3-177:13" varName="thisModule"/>
   <ocl:VariableDeclaration location="191:41-191:51" varName="thisModule" variableExp="/0/@elements.19/@outPattern/@elements.1/@bindings.0/@value/@arguments.0/@source/@arguments.0/@source"/>
   <ocl:VariableDeclaration location="192:14-192:24" varName="thisModule" variableExp="/0/@elements.19/@outPattern/@elements.1/@bindings.1/@value/@arguments.0/@source"/>
   <ocl:VariableDeclaration location="197:12-197:22" varName="thisModule" variableExp="/0/@elements.19/@outPattern/@elements.2/@bindings.2/@value/@source/@source"/>

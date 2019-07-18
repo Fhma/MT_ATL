@@ -400,7 +400,7 @@
     <elements xsi:type="atl:Helper" location="125:1-126:7">
       <definition location="125:8-126:6">
         <feature xsi:type="ocl:Operation" location="125:28-126:6" name="value">
-          <returnType xsi:type="ocl:RealType"/>
+          <returnType xsi:type="ocl:StringType" location="125:37-125:43"/>
           <body xsi:type="ocl:VariableExp" location="126:2-126:6" referredVariable="/18"/>
         </feature>
         <context_ location="125:8-125:22">
@@ -452,7 +452,7 @@
     <elements xsi:type="atl:Helper" location="135:1-140:8">
       <definition location="135:8-140:7">
         <feature xsi:type="ocl:Operation" location="135:32-140:7" name="realValue">
-          <returnType xsi:type="ocl:RealType" location="135:45-135:49"/>
+          <returnType xsi:type="ocl:IntegerType"/>
           <body xsi:type="ocl:IfExp" location="136:2-140:7">
             <thenExpression xsi:type="ocl:OperatorCallExp" location="137:3-137:74" operationName="/">
               <source xsi:type="ocl:OperationCallExp" location="137:3-137:68" operationName="toReal">

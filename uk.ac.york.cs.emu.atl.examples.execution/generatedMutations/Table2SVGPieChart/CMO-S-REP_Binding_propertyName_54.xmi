@@ -1050,7 +1050,7 @@
       <outPattern location="185:2-207:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="186:3-189:4" varName="g">
           <type xsi:type="ocl:OclModelElement" location="186:6-186:11" name="G" model="/1"/>
-          <bindings location="187:4-187:26" propertyName="groupContent">
+          <bindings location="187:4-187:26" propertyName="attribute">
             <value xsi:type="ocl:VariableExp" location="187:17-187:26" referredVariable="/0/@elements.19/@outPattern/@elements.1"/>
           </bindings>
           <bindings location="188:4-188:23" propertyName="groupContent">
@@ -1147,7 +1147,7 @@
           <bindings location="205:4-205:10" propertyName="x">
             <value xsi:type="ocl:IntegerExp" location="205:9-205:10"/>
           </bindings>
-          <bindings location="206:4-206:10" propertyName="y">
+          <bindings location="206:4-206:10" propertyName="y_">
             <value xsi:type="ocl:IntegerExp" location="206:9-206:10"/>
           </bindings>
         </elements>

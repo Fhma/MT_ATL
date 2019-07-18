@@ -142,7 +142,7 @@
             </value>
           </bindings>
         </elements>
-        <elements xsi:type="atl:SimpleOutPatternElement" location="48:3-51:4" varName="x_">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="48:3-51:4" varName="x">
           <type xsi:type="ocl:OclModelElement" location="48:6-48:14" name="Exec" model="/1"/>
           <bindings location="49:4-49:27" propertyName="executable">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="49:18-49:27" name="command">
@@ -167,7 +167,7 @@
     </elements>
     <elements xsi:type="atl:MatchedRule" location="54:1-64:2" name="ShellLine2Task_NoDisplay">
       <outPattern location="59:2-63:4">
-        <elements xsi:type="atl:SimpleOutPatternElement" location="60:3-63:4" varName="x">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="60:3-63:4" varName="x_">
           <type xsi:type="ocl:OclModelElement" location="60:6-60:14" name="Exec" model="/1"/>
           <bindings location="61:4-61:27" propertyName="executable">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="61:18-61:27" name="command">

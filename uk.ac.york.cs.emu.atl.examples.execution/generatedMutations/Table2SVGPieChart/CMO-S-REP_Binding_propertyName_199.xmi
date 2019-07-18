@@ -822,7 +822,7 @@
               <source xsi:type="ocl:VariableExp" location="151:13-151:18" referredVariable="/0/@elements.18/@inPattern/@elements.0"/>
             </value>
           </bindings>
-          <bindings location="152:4-152:72" propertyName="height">
+          <bindings location="152:4-152:72" propertyName="height_">
             <value xsi:type="ocl:OperatorCallExp" location="152:14-152:72" operationName="-">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="152:14-152:48" name="height">
                 <source xsi:type="ocl:NavigationOrAttributeCallExp" location="152:14-152:41" name="size">
@@ -1457,7 +1457,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="272:3-277:4" varName="captionBox" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.0/@value">
           <type xsi:type="ocl:OclModelElement" location="272:15-272:23" name="Rect" model="/1"/>
-          <bindings location="273:4-273:26" propertyName="position">
+          <bindings location="273:4-273:26" propertyName="size">
             <value xsi:type="ocl:VariableExp" location="273:12-273:26" referredVariable="/0/@elements.22/@outPattern/@elements.2"/>
           </bindings>
           <bindings location="274:4-274:31" propertyName="position">

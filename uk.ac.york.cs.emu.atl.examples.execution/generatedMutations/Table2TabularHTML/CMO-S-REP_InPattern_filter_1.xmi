@@ -102,7 +102,7 @@
         <elements xsi:type="atl:SimpleInPatternElement" location="27:3-27:21" varName="table" variableExp="/0/@elements.2/@inPattern/@filter/@source/@source/@source /0/@elements.2/@outPattern/@elements.0/@bindings.1/@value/@arguments.0/@source/@source /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@source/@source /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@arguments.1/@source/@source">
           <type xsi:type="ocl:OclModelElement" location="27:10-27:21" name="Table" model="/2"/>
         </elements>
-        <filter xsi:type="ocl:OperatorCallExp" operationName="&lt;=">
+        <filter xsi:type="ocl:OperatorCallExp" operationName=">=">
           <source xsi:type="ocl:CollectionOperationCallExp" location="28:4-28:24" operationName="size">
             <source xsi:type="ocl:NavigationOrAttributeCallExp" location="28:4-28:14" name="rows">
               <source xsi:type="ocl:VariableExp" location="28:4-28:9" referredVariable="/0/@elements.2/@inPattern/@elements.0"/>

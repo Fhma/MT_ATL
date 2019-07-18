@@ -15,6 +15,10 @@
 // the opposite state.
 @action replace
 @property isAbstract
-pattern change_abstract_of_a_rule_to_opposite
+pattern change_abstract_of_a_rule_to_false
 instance: MatchedRule
-	guard: instance.isAbstract.isDefined()
+	guard: instance.isAbstract.isDefined() and instance.isAbstract = true {
+	do {
+		instance.isAbstract = false;
+	}
+}

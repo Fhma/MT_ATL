@@ -79,12 +79,12 @@
       <outPattern location="19:2-24:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="20:3-24:4" varName="out">
           <type xsi:type="ocl:OclModelElement" location="20:8-20:31" name="Publication" model="/1"/>
-          <bindings location="21:4-21:20" propertyName="title">
+          <bindings location="21:4-21:20" propertyName="title_">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="21:13-21:20" name="title">
               <source xsi:type="ocl:VariableExp" location="21:13-21:14" referredVariable="/0/@elements.2/@inPattern/@elements.0"/>
             </value>
           </bindings>
-          <bindings location="22:4-22:29" propertyName="title">
+          <bindings location="22:4-22:29" propertyName="authors">
             <value xsi:type="ocl:OperationCallExp" location="22:15-22:29" operationName="getAuthors">
               <source xsi:type="ocl:VariableExp" location="22:15-22:16" referredVariable="/0/@elements.2/@inPattern/@elements.0"/>
             </value>

@@ -1448,8 +1448,8 @@
                   </source>
                   <arguments xsi:type="ocl:VariableExp" location="270:120-270:123" referredVariable="/0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@iterators.0"/>
                 </arguments>
-                <arguments xsi:type="ocl:VariableExp" location="270:126-270:129"/>
-                <arguments xsi:type="ocl:VariableExp" location="270:131-270:140" referredVariable="/0/@elements.22/@inPattern/@elements.1"/>
+                <arguments xsi:type="ocl:VariableExp" location="270:126-270:129" referredVariable="/0/@elements.22/@inPattern/@elements.1"/>
+                <arguments xsi:type="ocl:VariableExp" location="270:131-270:140" referredVariable="/0/@elements.22/@inPattern/@elements.2"/>
               </body>
               <iterators location="270:60-270:63" varName="row" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.1/@arguments.0"/>
             </value>
@@ -1523,6 +1523,9 @@
       <inPattern location="263:2-266:18">
         <elements xsi:type="atl:SimpleInPatternElement" location="264:3-264:20" varName="table" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@source/@source/@source /0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.0 /0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.1/@source/@source /0/@elements.22/@outPattern/@elements.2/@bindings.0/@value/@source /0/@elements.22/@outPattern/@elements.2/@bindings.1/@value/@source">
           <type xsi:type="ocl:OclModelElement" location="264:10-264:20" name="Cell" model="/2"/>
+        </elements>
+        <elements xsi:type="atl:SimpleInPatternElement" location="265:3-265:15" varName="idx" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.2">
+          <type xsi:type="ocl:IntegerType" location="265:8-265:15"/>
         </elements>
         <elements xsi:type="atl:SimpleInPatternElement" location="266:3-266:18" varName="valuesSum" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.3">
           <type xsi:type="ocl:RealType" location="266:14-266:18"/>
@@ -1701,7 +1704,7 @@
                         <arguments xsi:type="ocl:VariableExp" location="326:112-326:118" referredVariable="/0/@elements.23/@inPattern/@elements.1"/>
                       </source>
                     </source>
-                    <arguments xsi:type="ocl:VariableExp" location="326:132-326:139" referredVariable="/0/@elements.23/@inPattern/@elements.2"/>
+                    <arguments xsi:type="ocl:VariableExp" location="326:132-326:139"/>
                   </source>
                 </arguments>
               </source>
@@ -1754,7 +1757,7 @@
             <initExpression xsi:type="ocl:IfExp" location="296:4-299:10">
               <thenExpression xsi:type="ocl:IntegerExp" location="297:11-297:12"/>
               <condition xsi:type="ocl:OperatorCallExp" location="296:7-296:20" operationName="=">
-                <source xsi:type="ocl:VariableExp" location="296:7-296:16" referredVariable="/0/@elements.23/@inPattern/@elements.3"/>
+                <source xsi:type="ocl:VariableExp" location="296:7-296:16" referredVariable="/0/@elements.23/@inPattern/@elements.2"/>
                 <arguments xsi:type="ocl:IntegerExp" location="296:19-296:20"/>
               </condition>
               <elseExpression xsi:type="ocl:OperatorCallExp" location="298:11-298:86" operationName="*">
@@ -1769,10 +1772,10 @@
                           <arguments xsi:type="ocl:VariableExp" location="298:28-298:34" referredVariable="/0/@elements.23/@inPattern/@elements.1"/>
                         </source>
                       </source>
-                      <arguments xsi:type="ocl:VariableExp" location="298:48-298:55" referredVariable="/0/@elements.23/@inPattern/@elements.2"/>
+                      <arguments xsi:type="ocl:VariableExp" location="298:48-298:55"/>
                     </source>
                   </source>
-                  <arguments xsi:type="ocl:VariableExp" location="298:71-298:80" referredVariable="/0/@elements.23/@inPattern/@elements.3"/>
+                  <arguments xsi:type="ocl:VariableExp" location="298:71-298:80" referredVariable="/0/@elements.23/@inPattern/@elements.2"/>
                 </source>
                 <arguments xsi:type="ocl:IntegerExp" location="298:83-298:86" integerSymbol="100"/>
               </elseExpression>
@@ -1794,9 +1797,6 @@
         </elements>
         <elements xsi:type="atl:SimpleInPatternElement" location="291:3-291:18" varName="rowIdx" variableExp="/0/@elements.23/@variables.0/@initExpression/@variable/@initExpression/@elseExpression/@source/@source/@source/@source/@source/@arguments.0 /0/@elements.23/@outPattern/@elements.1/@bindings.2/@value/@arguments.0/@source/@source/@source/@arguments.0 /0/@elements.23/@outPattern/@elements.3/@bindings.1/@value/@arguments.0/@source/@source /0/@elements.23/@outPattern/@elements.4/@bindings.3/@value/@source/@source/@source/@arguments.0/@source/@source/@source/@arguments.0 /0/@elements.23/@outPattern/@elements.4/@bindings.3/@value/@source/@arguments.0/@source/@source/@source/@arguments.0">
           <type xsi:type="ocl:IntegerType" location="291:11-291:18"/>
-        </elements>
-        <elements xsi:type="atl:SimpleInPatternElement" location="292:3-292:19" varName="cellIdx" variableExp="/0/@elements.23/@variables.0/@initExpression/@variable/@initExpression/@elseExpression/@source/@source/@source/@arguments.0 /0/@elements.23/@outPattern/@elements.4/@bindings.3/@value/@source/@arguments.0/@source/@arguments.0">
-          <type xsi:type="ocl:IntegerType" location="292:12-292:19"/>
         </elements>
         <elements xsi:type="atl:SimpleInPatternElement" location="293:3-293:18" varName="valuesSum" variableExp="/0/@elements.23/@variables.0/@initExpression/@variable/@initExpression/@condition/@source /0/@elements.23/@variables.0/@initExpression/@variable/@initExpression/@elseExpression/@source/@arguments.0">
           <type xsi:type="ocl:RealType" location="293:14-293:18"/>

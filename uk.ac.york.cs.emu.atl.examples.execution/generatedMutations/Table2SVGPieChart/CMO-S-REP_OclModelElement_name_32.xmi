@@ -903,7 +903,7 @@
           </bindings>
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="162:3-168:4" varName="textTitle" variableExp="/0/@elements.18/@outPattern/@elements.0/@bindings.2/@value">
-          <type xsi:type="ocl:OclModelElement" location="162:14-162:22" name="Text" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="162:14-162:22" name="Text_" model="/1"/>
           <bindings location="163:4-163:30" propertyName="position">
             <value xsi:type="ocl:VariableExp" location="163:16-163:30" referredVariable="/0/@elements.18/@outPattern/@elements.6"/>
           </bindings>
@@ -2060,7 +2060,7 @@
           </body>
         </feature>
         <context_ location="381:8-381:26">
-          <context_ xsi:type="ocl:OclModelElement" location="381:16-381:26" name="Cell_" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" location="381:16-381:26" name="Cell" model="/2"/>
         </context_>
       </definition>
     </elements>

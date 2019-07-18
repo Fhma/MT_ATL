@@ -41,7 +41,7 @@
       </outPattern>
       <inPattern location="16:2-17:25">
         <elements xsi:type="atl:SimpleInPatternElement" location="17:3-17:25" varName="html" variableExp="/0/@elements.1/@outPattern/@elements.0/@bindings.0/@value/@source">
-          <type xsi:type="ocl:OclModelElement" name="TITLE" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" name="BODYElement" model="/2"/>
         </elements>
       </inPattern>
     </elements>

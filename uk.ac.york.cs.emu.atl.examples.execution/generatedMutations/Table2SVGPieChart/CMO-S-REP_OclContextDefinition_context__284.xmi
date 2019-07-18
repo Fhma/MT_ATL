@@ -1967,7 +1967,7 @@
           </body>
         </feature>
         <context_ location="357:8-357:22">
-          <context_ xsi:type="ocl:BooleanType"/>
+          <context_ xsi:type="ocl:StringType" location="357:16-357:22"/>
         </context_>
       </definition>
     </elements>
@@ -2145,7 +2145,7 @@
           </body>
         </feature>
         <context_ location="394:8-394:26">
-          <context_ xsi:type="ocl:OclModelElement" location="394:16-394:26" name="Cell" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" name="SvgFile" model="/2"/>
         </context_>
       </definition>
     </elements>

@@ -1050,11 +1050,11 @@
       <outPattern location="185:2-207:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="186:3-189:4" varName="g">
           <type xsi:type="ocl:OclModelElement" location="186:6-186:11" name="G" model="/1"/>
-          <bindings location="187:4-187:26" propertyName="attribute">
-            <value xsi:type="ocl:VariableExp" location="187:17-187:26" referredVariable="/0/@elements.19/@outPattern/@elements.1"/>
+          <bindings location="188:4-188:23" propertyName="groupContent">
+            <value xsi:type="ocl:VariableExp" location="188:20-188:23" referredVariable="/0/@elements.19/@outPattern/@elements.2"/>
           </bindings>
         </elements>
-        <elements xsi:type="atl:SimpleOutPatternElement" location="190:3-193:4" varName="pieTransl" variableExp="/0/@elements.19/@outPattern/@elements.0/@bindings.0/@value">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="190:3-193:4" varName="pieTransl">
           <type xsi:type="ocl:OclModelElement" location="190:14-190:27" name="Translate" model="/1"/>
           <bindings location="191:4-191:63" propertyName="tx">
             <value xsi:type="ocl:OperatorCallExp" location="191:10-191:63" operationName="-">
@@ -1081,7 +1081,7 @@
             </value>
           </bindings>
         </elements>
-        <elements xsi:type="atl:SimpleOutPatternElement" location="194:3-199:4" varName="pie">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="194:3-199:4" varName="pie" variableExp="/0/@elements.19/@outPattern/@elements.0/@bindings.0/@value">
           <type xsi:type="ocl:OclModelElement" location="194:8-194:18" name="Circle" model="/1"/>
           <bindings location="195:4-195:19" propertyName="size">
             <value xsi:type="ocl:VariableExp" location="195:12-195:19" referredVariable="/0/@elements.19/@outPattern/@elements.3"/>

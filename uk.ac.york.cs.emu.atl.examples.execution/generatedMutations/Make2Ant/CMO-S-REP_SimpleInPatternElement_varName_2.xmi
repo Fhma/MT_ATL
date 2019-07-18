@@ -60,7 +60,7 @@
         </elements>
       </outPattern>
       <inPattern location="5:2-6:19">
-        <elements xsi:type="atl:SimpleInPatternElement" location="6:3-6:19" varName="m_" variableExp="/0/@elements.0/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.0/@outPattern/@elements.0/@bindings.1/@value/@source/@source /0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@source/@source /0/@elements.0/@outPattern/@elements.0/@bindings.3/@value/@source/@source /0/@elements.0/@outPattern/@elements.0/@bindings.4/@value/@source/@source/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="6:3-6:19" varName="m" variableExp="/0/@elements.0/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.0/@outPattern/@elements.0/@bindings.1/@value/@source/@source /0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@source/@source /0/@elements.0/@outPattern/@elements.0/@bindings.3/@value/@source/@source /0/@elements.0/@outPattern/@elements.0/@bindings.4/@value/@source/@source/@source">
           <type xsi:type="ocl:OclModelElement" location="6:6-6:19" name="Makefile" model="/2"/>
         </elements>
       </inPattern>
@@ -122,7 +122,7 @@
         </elements>
       </outPattern>
       <inPattern location="28:2-29:15">
-        <elements xsi:type="atl:SimpleInPatternElement" location="29:3-29:15" varName="m" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.2/@outPattern/@elements.0/@bindings.1/@value/@source /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@source/@source">
+        <elements xsi:type="atl:SimpleInPatternElement" location="29:3-29:15" varName="m_" variableExp="/0/@elements.2/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.2/@outPattern/@elements.0/@bindings.1/@value/@source /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@source/@source">
           <type xsi:type="ocl:OclModelElement" location="29:6-29:15" name="Rule" model="/2"/>
         </elements>
       </inPattern>

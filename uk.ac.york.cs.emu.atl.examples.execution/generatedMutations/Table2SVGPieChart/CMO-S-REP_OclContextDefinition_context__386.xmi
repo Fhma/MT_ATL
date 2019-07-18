@@ -255,7 +255,7 @@
           </body>
         </feature>
         <context_ location="50:8-50:27">
-          <context_ xsi:type="ocl:OclModelElement" name="AbsoluteCoord" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" name="Dimension" model="/2"/>
         </context_>
       </definition>
     </elements>

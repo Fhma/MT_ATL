@@ -156,7 +156,7 @@
     <elements xsi:type="atl:LazyMatchedRule" location="59:1-67:2" name="Row2TRwithTD">
       <outPattern location="62:2-66:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="63:3-66:4" varName="tr">
-          <type xsi:type="ocl:OclModelElement" location="63:7-63:14" name="TR_" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="63:7-63:14" name="TR" model="/1"/>
           <bindings location="64:4-64:51" propertyName="tds">
             <value xsi:type="ocl:OperationCallExp" location="64:11-64:51" operationName="Cell2TD">
               <source xsi:type="ocl:VariableExp" location="64:11-64:21" referredVariable="/8"/>
@@ -208,7 +208,7 @@
       </outPattern>
       <inPattern location="70:2-71:19">
         <elements xsi:type="atl:SimpleInPatternElement" location="71:3-71:19" varName="cell" variableExp="/0/@elements.6/@outPattern/@elements.0/@bindings.0/@value/@source">
-          <type xsi:type="ocl:OclModelElement" location="71:9-71:19" name="Cell" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" location="71:9-71:19" name="Cell_" model="/2"/>
         </elements>
       </inPattern>
     </elements>

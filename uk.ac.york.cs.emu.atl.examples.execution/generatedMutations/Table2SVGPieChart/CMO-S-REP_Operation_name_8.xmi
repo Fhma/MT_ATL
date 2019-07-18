@@ -199,7 +199,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="47:1-48:66">
       <definition location="47:8-48:65">
-        <feature xsi:type="ocl:Operation" location="47:33-48:65" name="captionBoxWidth">
+        <feature xsi:type="ocl:Operation" location="47:33-48:65" name="captionBoxWidth_">
           <returnType xsi:type="ocl:RealType" location="47:52-47:56"/>
           <body xsi:type="ocl:OperatorCallExp" location="48:2-48:65" operationName="+">
             <source xsi:type="ocl:OperatorCallExp" location="48:2-48:41" operationName="+">
@@ -1984,7 +1984,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="374:1-379:8">
       <definition location="374:8-379:7">
-        <feature xsi:type="ocl:Operation" location="374:32-379:7" name="value_">
+        <feature xsi:type="ocl:Operation" location="374:32-379:7" name="value">
           <returnType xsi:type="ocl:StringType" location="374:41-374:47"/>
           <body xsi:type="ocl:IfExp" location="375:2-379:7">
             <thenExpression xsi:type="ocl:OperatorCallExp" location="376:3-376:73" operationName="+">

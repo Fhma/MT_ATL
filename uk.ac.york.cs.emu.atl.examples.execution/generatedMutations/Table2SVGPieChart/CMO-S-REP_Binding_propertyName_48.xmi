@@ -448,7 +448,7 @@
           <bindings location="98:4-98:19" propertyName="size">
             <value xsi:type="ocl:VariableExp" location="98:12-98:19" referredVariable="/0/@elements.17/@outPattern/@elements.2"/>
           </bindings>
-          <bindings location="99:4-99:45" propertyName="namespace_">
+          <bindings location="99:4-99:45" propertyName="namespace">
             <value xsi:type="ocl:StringExp" location="99:17-99:45" stringSymbol="http://www.w3.org/2000/svg"/>
           </bindings>
           <bindings location="100:4-100:20" propertyName="version">
@@ -922,7 +922,7 @@
           <bindings location="166:4-166:28" propertyName="lengthAdjust">
             <value xsi:type="ocl:StringExp" location="166:20-166:28" stringSymbol="middle"/>
           </bindings>
-          <bindings location="167:4-167:61" propertyName="content">
+          <bindings location="167:4-167:61" propertyName="fontSize">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="167:15-167:61" name="content">
               <source xsi:type="ocl:CollectionOperationCallExp" location="167:15-167:53" operationName="at">
                 <source xsi:type="ocl:NavigationOrAttributeCallExp" location="167:15-167:42" name="cells">

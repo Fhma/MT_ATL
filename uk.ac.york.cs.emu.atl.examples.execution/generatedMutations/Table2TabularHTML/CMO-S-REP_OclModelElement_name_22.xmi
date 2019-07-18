@@ -100,7 +100,7 @@
       </actionBlock>
       <inPattern location="26:2-29:4">
         <elements xsi:type="atl:SimpleInPatternElement" location="27:3-27:21" varName="table" variableExp="/0/@elements.2/@inPattern/@filter/@source/@source/@source /0/@elements.2/@outPattern/@elements.0/@bindings.1/@value/@arguments.0/@source/@source /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@source/@source /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@arguments.1/@source/@source">
-          <type xsi:type="ocl:OclModelElement" location="27:10-27:21" name="Table_" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" location="27:10-27:21" name="Table" model="/2"/>
         </elements>
         <filter xsi:type="ocl:OperatorCallExp" location="28:4-28:28" operationName=">">
           <source xsi:type="ocl:CollectionOperationCallExp" location="28:4-28:24" operationName="size">
@@ -571,7 +571,7 @@
           </body>
         </feature>
         <context_ location="148:8-148:26">
-          <context_ xsi:type="ocl:OclModelElement" location="148:16-148:26" name="Cell" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" location="148:16-148:26" name="Cell_" model="/2"/>
         </context_>
       </definition>
     </elements>

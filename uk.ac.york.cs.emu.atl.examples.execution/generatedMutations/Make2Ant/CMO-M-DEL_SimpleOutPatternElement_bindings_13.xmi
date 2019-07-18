@@ -12,11 +12,16 @@
               <source xsi:type="ocl:VariableExp" location="9:12-9:13" referredVariable="/0/@elements.0/@inPattern/@elements.0"/>
             </value>
           </bindings>
-          <bindings location="10:4-10:33" propertyName="description">
-            <value xsi:type="ocl:NavigationOrAttributeCallExp" location="10:19-10:33" name="text">
-              <source xsi:type="ocl:NavigationOrAttributeCallExp" location="10:19-10:28" name="comment">
-                <source xsi:type="ocl:VariableExp" location="10:19-10:20" referredVariable="/0/@elements.0/@inPattern/@elements.0"/>
+          <bindings location="11:4-11:69" propertyName="properties">
+            <value xsi:type="ocl:IteratorExp" location="11:18-11:69" name="select">
+              <source xsi:type="ocl:NavigationOrAttributeCallExp" location="11:18-11:28" name="elements">
+                <source xsi:type="ocl:VariableExp" location="11:18-11:19" referredVariable="/0/@elements.0/@inPattern/@elements.0"/>
               </source>
+              <body xsi:type="ocl:OperationCallExp" location="11:43-11:68" operationName="oclIsKindOf">
+                <source xsi:type="ocl:VariableExp" location="11:43-11:44" referredVariable="/0/@elements.0/@outPattern/@elements.0/@bindings.1/@value/@iterators.0"/>
+                <arguments xsi:type="ocl:OclModelElement" location="11:57-11:67" name="Macro" model="/2"/>
+              </body>
+              <iterators location="11:39-11:40" varName="c" variableExp="/0/@elements.0/@outPattern/@elements.0/@bindings.1/@value/@body/@source"/>
             </value>
           </bindings>
           <bindings location="12:4-12:65" propertyName="targets">
@@ -182,5 +187,5 @@
     </elements>
   </atl:Module>
   <ocl:OclModel location="2:13-2:16" name="Ant" elements="/0/@elements.0/@outPattern/@elements.0/@type /0/@elements.1/@outPattern/@elements.0/@type /0/@elements.2/@outPattern/@elements.0/@type /0/@elements.3/@outPattern/@elements.0/@type /0/@elements.3/@outPattern/@elements.1/@type /0/@elements.4/@outPattern/@elements.0/@type" model="/0/@outModels.0"/>
-  <ocl:OclModel location="2:26-2:30" name="Make" elements="/0/@elements.0/@inPattern/@elements.0/@type /0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@body/@arguments.0 /0/@elements.0/@outPattern/@elements.0/@bindings.3/@value/@source/@body/@arguments.0 /0/@elements.1/@inPattern/@elements.0/@type /0/@elements.2/@inPattern/@elements.0/@type /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@body/@arguments.0 /0/@elements.3/@inPattern/@elements.0/@type /0/@elements.4/@inPattern/@elements.0/@type" model="/0/@inModels.0"/>
+  <ocl:OclModel location="2:26-2:30" name="Make" elements="/0/@elements.0/@inPattern/@elements.0/@type /0/@elements.0/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.0 /0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@body/@arguments.0 /0/@elements.0/@outPattern/@elements.0/@bindings.3/@value/@source/@body/@arguments.0 /0/@elements.1/@inPattern/@elements.0/@type /0/@elements.2/@inPattern/@elements.0/@type /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@body/@arguments.0 /0/@elements.3/@inPattern/@elements.0/@type /0/@elements.4/@inPattern/@elements.0/@type" model="/0/@inModels.0"/>
 </xmi:XMI>

@@ -445,7 +445,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="97:3-101:4" varName="svg" variableExp="/0/@elements.17/@outPattern/@elements.0/@bindings.0/@value">
           <type xsi:type="ocl:OclModelElement" location="97:8-97:15" name="Svg" model="/1"/>
-          <bindings location="98:4-98:19" propertyName="size">
+          <bindings location="98:4-98:19" propertyName="namespace">
             <value xsi:type="ocl:VariableExp" location="98:12-98:19" referredVariable="/0/@elements.17/@outPattern/@elements.2"/>
           </bindings>
           <bindings location="99:4-99:45" propertyName="namespace">
@@ -1614,7 +1614,7 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="320:4-320:125" propertyName="y_">
+          <bindings location="320:4-320:125" propertyName="y">
             <value xsi:type="ocl:OperatorCallExp" location="320:9-320:125" operationName="+">
               <source xsi:type="ocl:OperatorCallExp" location="320:9-320:63" operationName="-">
                 <source xsi:type="ocl:OperatorCallExp" location="320:9-320:43" operationName="/">

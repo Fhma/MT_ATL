@@ -1809,7 +1809,7 @@
     <elements xsi:type="atl:Helper" location="334:1-342:8">
       <definition location="334:8-342:7">
         <feature xsi:type="ocl:Operation" location="334:28-342:7" name="isInteger">
-          <returnType xsi:type="ocl:IntegerType"/>
+          <returnType xsi:type="ocl:BooleanType" location="334:41-334:48"/>
           <body xsi:type="ocl:IfExp" location="335:2-342:7">
             <thenExpression xsi:type="ocl:LetExp" location="336:3-339:33">
               <variable location="336:7-337:38" varName="value" variableExp="/0/@elements.24/@definition/@feature/@body/@thenExpression/@in_/@source/@source /0/@elements.24/@definition/@feature/@body/@thenExpression/@in_/@arguments.0/@source">
@@ -1854,7 +1854,7 @@
     <elements xsi:type="atl:Helper" location="344:1-355:9">
       <definition location="344:8-355:8">
         <feature xsi:type="ocl:Operation" location="344:28-355:8" name="isReal">
-          <returnType xsi:type="ocl:BooleanType" location="344:38-344:45"/>
+          <returnType xsi:type="ocl:RealType"/>
           <body xsi:type="ocl:LetExp" location="345:2-355:8">
             <variable location="345:6-346:34" varName="dotNb" variableExp="/0/@elements.25/@definition/@feature/@body/@in_/@condition/@source">
               <type xsi:type="ocl:IntegerType" location="345:13-345:20"/>

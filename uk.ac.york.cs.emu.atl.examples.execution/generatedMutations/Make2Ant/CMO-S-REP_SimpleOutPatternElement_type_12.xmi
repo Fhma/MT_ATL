@@ -130,7 +130,7 @@
     <elements xsi:type="atl:MatchedRule" location="38:1-52:2" name="ShellLine2Task_Display">
       <outPattern location="43:2-51:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="44:3-47:4" varName="e">
-          <type xsi:type="ocl:OclModelElement" name="Exec" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" name="Target" model="/1"/>
           <bindings location="45:4-45:24" propertyName="message">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="45:15-45:24" name="command">
               <source xsi:type="ocl:VariableExp" location="45:15-45:16" referredVariable="/0/@elements.3/@inPattern/@elements.0"/>

@@ -208,7 +208,7 @@
       </outPattern>
       <inPattern location="70:2-71:19">
         <elements xsi:type="atl:SimpleInPatternElement" location="71:3-71:19" varName="cell" variableExp="/0/@elements.6/@outPattern/@elements.0/@bindings.0/@value/@source">
-          <type xsi:type="ocl:OclModelElement" name="Table" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" name="Row" model="/2"/>
         </elements>
       </inPattern>
     </elements>

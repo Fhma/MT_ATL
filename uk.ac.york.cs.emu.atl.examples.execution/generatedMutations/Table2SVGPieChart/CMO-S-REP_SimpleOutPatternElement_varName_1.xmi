@@ -937,7 +937,7 @@
             </value>
           </bindings>
         </elements>
-        <elements xsi:type="atl:SimpleOutPatternElement" location="169:3-172:4" varName="textTitleCoord" variableExp="/0/@elements.18/@outPattern/@elements.5/@bindings.0/@value">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="169:3-172:4" varName="textTitleCoord_" variableExp="/0/@elements.18/@outPattern/@elements.5/@bindings.0/@value">
           <type xsi:type="ocl:OclModelElement" location="169:19-169:36" name="AbsoluteCoord" model="/1"/>
           <bindings location="170:4-170:62" propertyName="x">
             <value xsi:type="ocl:OperatorCallExp" location="170:9-170:62" operationName="-">
@@ -1163,7 +1163,7 @@
     </elements>
     <elements xsi:type="atl:LazyMatchedRule" location="210:1-224:2" name="Table2Sectors">
       <outPattern location="215:2-223:4">
-        <elements xsi:type="atl:SimpleOutPatternElement" location="216:3-219:4" varName="g_">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="216:3-219:4" varName="g">
           <type xsi:type="ocl:OclModelElement" location="216:6-216:11" name="G" model="/1"/>
           <bindings location="217:4-217:30" propertyName="attribute">
             <value xsi:type="ocl:VariableExp" location="217:17-217:30" referredVariable="/0/@elements.20/@outPattern/@elements.1"/>

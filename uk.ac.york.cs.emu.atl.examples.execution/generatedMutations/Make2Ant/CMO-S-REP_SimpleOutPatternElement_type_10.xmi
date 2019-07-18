@@ -68,7 +68,7 @@
     <elements xsi:type="atl:MatchedRule" location="17:1-25:2" name="Macro2Property">
       <outPattern location="20:2-24:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="21:3-24:4" varName="a">
-          <type xsi:type="ocl:OclModelElement" name="Exec" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="21:6-21:23" name="PropertyValue" model="/1"/>
           <bindings location="22:4-22:18" propertyName="name">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="22:12-22:18" name="name">
               <source xsi:type="ocl:VariableExp" location="22:12-22:13" referredVariable="/0/@elements.1/@inPattern/@elements.0"/>
@@ -130,7 +130,7 @@
     <elements xsi:type="atl:MatchedRule" location="38:1-52:2" name="ShellLine2Task_Display">
       <outPattern location="43:2-51:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="44:3-47:4" varName="e">
-          <type xsi:type="ocl:OclModelElement" location="44:6-44:14" name="Echo" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" name="PropertyValue" model="/1"/>
           <bindings location="45:4-45:24" propertyName="message">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="45:15-45:24" name="command">
               <source xsi:type="ocl:VariableExp" location="45:15-45:16" referredVariable="/0/@elements.3/@inPattern/@elements.0"/>
@@ -193,6 +193,6 @@
       </inPattern>
     </elements>
   </atl:Module>
-  <ocl:OclModel location="2:13-2:16" name="Ant" elements="/0/@elements.0/@outPattern/@elements.0/@type /0/@elements.2/@outPattern/@elements.0/@type /0/@elements.3/@outPattern/@elements.0/@type /0/@elements.3/@outPattern/@elements.1/@type /0/@elements.4/@outPattern/@elements.0/@type /0/@elements.1/@outPattern/@elements.0/@type" model="/0/@outModels.0"/>
+  <ocl:OclModel location="2:13-2:16" name="Ant" elements="/0/@elements.0/@outPattern/@elements.0/@type /0/@elements.1/@outPattern/@elements.0/@type /0/@elements.2/@outPattern/@elements.0/@type /0/@elements.3/@outPattern/@elements.1/@type /0/@elements.4/@outPattern/@elements.0/@type /0/@elements.3/@outPattern/@elements.0/@type" model="/0/@outModels.0"/>
   <ocl:OclModel location="2:26-2:30" name="Make" elements="/0/@elements.0/@inPattern/@elements.0/@type /0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@body/@arguments.0 /0/@elements.0/@outPattern/@elements.0/@bindings.3/@value/@body/@arguments.0 /0/@elements.0/@outPattern/@elements.0/@bindings.4/@value/@source/@body/@arguments.0 /0/@elements.1/@inPattern/@elements.0/@type /0/@elements.2/@inPattern/@elements.0/@type /0/@elements.2/@outPattern/@elements.0/@bindings.2/@value/@source/@body/@arguments.0 /0/@elements.3/@inPattern/@elements.0/@type /0/@elements.4/@inPattern/@elements.0/@type" model="/0/@inModels.0"/>
 </xmi:XMI>

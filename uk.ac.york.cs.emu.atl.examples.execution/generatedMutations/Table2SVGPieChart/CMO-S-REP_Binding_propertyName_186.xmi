@@ -804,7 +804,7 @@
           <bindings location="146:4-146:32" propertyName="position">
             <value xsi:type="ocl:VariableExp" location="146:16-146:32" referredVariable="/0/@elements.18/@outPattern/@elements.3"/>
           </bindings>
-          <bindings location="147:4-147:27" propertyName="fill">
+          <bindings location="147:4-147:27" propertyName="fill_">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="147:12-147:27" name="fill">
               <source xsi:type="ocl:VariableExp" location="147:12-147:22" referredVariable="/39"/>
             </value>
@@ -1086,7 +1086,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="194:3-199:4" varName="pie" variableExp="/0/@elements.19/@outPattern/@elements.0/@bindings.1/@value">
           <type xsi:type="ocl:OclModelElement" location="194:8-194:18" name="Circle" model="/1"/>
-          <bindings location="195:4-195:19" propertyName="fill">
+          <bindings location="195:4-195:19" propertyName="size">
             <value xsi:type="ocl:VariableExp" location="195:12-195:19" referredVariable="/0/@elements.19/@outPattern/@elements.3"/>
           </bindings>
           <bindings location="196:4-196:24" propertyName="position">

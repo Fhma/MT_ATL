@@ -7,7 +7,7 @@
       <outPattern location="7:2-14:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="8:3-14:4" varName="a">
           <type xsi:type="ocl:OclModelElement" location="8:6-8:17" name="Project" model="/1"/>
-          <bindings location="9:4-9:18" propertyName="properties">
+          <bindings location="9:4-9:18" propertyName="name">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="9:12-9:18" name="name">
               <source xsi:type="ocl:VariableExp" location="9:12-9:13" referredVariable="/0/@elements.0/@inPattern/@elements.0"/>
             </value>
@@ -174,7 +174,7 @@
               <source xsi:type="ocl:VariableExp" location="61:18-61:19" referredVariable="/0/@elements.4/@inPattern/@elements.0"/>
             </value>
           </bindings>
-          <bindings location="62:4-62:29" propertyName="target">
+          <bindings location="62:4-62:29" propertyName="target_">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="62:14-62:29" name="ruleShellLine">
               <source xsi:type="ocl:VariableExp" location="62:14-62:15" referredVariable="/0/@elements.4/@inPattern/@elements.0"/>
             </value>

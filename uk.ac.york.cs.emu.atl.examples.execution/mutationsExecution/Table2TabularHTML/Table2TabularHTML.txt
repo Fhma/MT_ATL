@@ -1,5 +1,5 @@
-	\--> Processed mutants-> 494
-	\--> Invalid mutants-> 18
+	\--> Processed mutants-> 496
+	\--> Invalid mutants-> 20
 	\--> Killed mutants-> 0
 	\--> Not killed mutants-> 187
 		\-->CMO-S-REP_SequenceType_elementType_21.xmi <E> the operation/helper that contains the modification never has been called

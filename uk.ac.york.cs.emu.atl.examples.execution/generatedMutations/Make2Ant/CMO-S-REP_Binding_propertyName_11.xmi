@@ -12,7 +12,7 @@
               <source xsi:type="ocl:VariableExp" location="9:12-9:13" referredVariable="/0/@elements.0/@inPattern/@elements.0"/>
             </value>
           </bindings>
-          <bindings location="10:4-10:33" propertyName="description">
+          <bindings location="10:4-10:33" propertyName="name">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="10:19-10:33" name="text">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="10:19-10:28" name="comment">
                 <source xsi:type="ocl:VariableExp" location="10:19-10:20" referredVariable="/0/@elements.0/@inPattern/@elements.0"/>
@@ -149,7 +149,7 @@
               <source xsi:type="ocl:VariableExp" location="49:18-49:19" referredVariable="/0/@elements.3/@inPattern/@elements.0"/>
             </value>
           </bindings>
-          <bindings location="50:4-50:29" propertyName="executable">
+          <bindings location="50:4-50:29" propertyName="target">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="50:14-50:29" name="ruleShellLine">
               <source xsi:type="ocl:VariableExp" location="50:14-50:15" referredVariable="/0/@elements.3/@inPattern/@elements.0"/>
             </value>

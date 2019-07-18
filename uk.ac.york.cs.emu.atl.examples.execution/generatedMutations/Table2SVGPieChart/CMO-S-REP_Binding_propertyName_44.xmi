@@ -809,7 +809,7 @@
               <source xsi:type="ocl:VariableExp" location="147:12-147:22" referredVariable="/39"/>
             </value>
           </bindings>
-          <bindings location="148:4-148:31" propertyName="position">
+          <bindings location="148:4-148:31" propertyName="size">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="148:14-148:31" name="stroke">
               <source xsi:type="ocl:VariableExp" location="148:14-148:24" referredVariable="/40"/>
             </value>

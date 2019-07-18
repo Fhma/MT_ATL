@@ -1808,7 +1808,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="334:1-342:8">
       <definition location="334:8-342:7">
-        <feature xsi:type="ocl:Operation" location="334:28-342:7" name="isInteger">
+        <feature xsi:type="ocl:Operation" location="334:28-342:7" name="isInteger_">
           <returnType xsi:type="ocl:BooleanType" location="334:41-334:48"/>
           <body xsi:type="ocl:IfExp" location="335:2-342:7">
             <thenExpression xsi:type="ocl:LetExp" location="336:3-339:33">
@@ -2025,7 +2025,7 @@
     </elements>
     <elements xsi:type="atl:Helper" location="381:1-386:8">
       <definition location="381:8-386:7">
-        <feature xsi:type="ocl:Operation" location="381:32-386:7" name="realValue_">
+        <feature xsi:type="ocl:Operation" location="381:32-386:7" name="realValue">
           <returnType xsi:type="ocl:RealType" location="381:45-381:49"/>
           <body xsi:type="ocl:IfExp" location="382:2-386:7">
             <thenExpression xsi:type="ocl:OperatorCallExp" location="383:3-383:74" operationName="/">

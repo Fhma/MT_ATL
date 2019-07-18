@@ -269,10 +269,10 @@
         <elements xsi:type="atl:SimpleOutPatternElement" location="125:3-128:4" varName="attr" variableExp="/0/@elements.12/@actionBlock/@statements.0/@expression">
           <type xsi:type="ocl:OclModelElement" location="125:9-125:22" name="Attribute" model="/1"/>
           <bindings location="126:4-126:20" propertyName="name">
-            <value xsi:type="ocl:VariableExp" location="126:12-126:20" referredVariable="/0/@elements.12/@parameters.0"/>
+            <value xsi:type="ocl:VariableExp" location="126:12-126:20"/>
           </bindings>
           <bindings location="127:4-127:22" propertyName="value">
-            <value xsi:type="ocl:VariableExp" location="127:13-127:22" referredVariable="/0/@elements.12/@parameters.1"/>
+            <value xsi:type="ocl:VariableExp" location="127:13-127:22" referredVariable="/0/@elements.12/@parameters.0"/>
           </bindings>
         </elements>
       </outPattern>
@@ -281,9 +281,6 @@
           <expression xsi:type="ocl:VariableExp" location="130:3-130:7" referredVariable="/0/@elements.12/@outPattern/@elements.0"/>
         </statements>
       </actionBlock>
-      <parameters location="123:16-123:32" varName="attrName" variableExp="/0/@elements.12/@outPattern/@elements.0/@bindings.0/@value">
-        <type xsi:type="ocl:StringType" location="123:26-123:32"/>
-      </parameters>
       <parameters location="123:34-123:51" varName="attrValue" variableExp="/0/@elements.12/@outPattern/@elements.0/@bindings.1/@value">
         <type xsi:type="ocl:StringType" location="123:45-123:51"/>
       </parameters>
@@ -294,10 +291,10 @@
           <type xsi:type="ocl:OclModelElement" location="136:9-136:17" name="Text" model="/1"/>
           <bindings location="137:4-140:10" propertyName="value">
             <value xsi:type="ocl:IfExp" location="137:13-140:10">
-              <thenExpression xsi:type="ocl:VariableExp" location="138:11-138:16"/>
+              <thenExpression xsi:type="ocl:VariableExp" location="138:11-138:16" referredVariable="/0/@elements.13/@parameters.0"/>
               <condition xsi:type="ocl:OperatorCallExp" location="137:16-137:42" operationName="not">
                 <source xsi:type="ocl:OperationCallExp" location="137:20-137:42" operationName="oclIsUndefined">
-                  <source xsi:type="ocl:VariableExp" location="137:20-137:25"/>
+                  <source xsi:type="ocl:VariableExp" location="137:20-137:25" referredVariable="/0/@elements.13/@parameters.0"/>
                 </source>
               </condition>
               <elseExpression xsi:type="ocl:StringExp" location="139:11-139:13" stringSymbol=""/>
@@ -310,6 +307,9 @@
           <expression xsi:type="ocl:VariableExp" location="143:3-143:7" referredVariable="/0/@elements.13/@outPattern/@elements.0"/>
         </statements>
       </actionBlock>
+      <parameters location="134:11-134:24" varName="value" variableExp="/0/@elements.13/@outPattern/@elements.0/@bindings.0/@value/@condition/@source/@source /0/@elements.13/@outPattern/@elements.0/@bindings.0/@value/@thenExpression">
+        <type xsi:type="ocl:StringType" location="134:18-134:24"/>
+      </parameters>
     </elements>
   </atl:Module>
   <ocl:OclModel location="2:13-2:16" name="XML" elements="/0/@elements.0/@outPattern/@elements.0/@type /0/@elements.1/@outPattern/@elements.0/@type /0/@elements.2/@outPattern/@elements.0/@type /0/@elements.3/@outPattern/@elements.0/@type /0/@elements.4/@outPattern/@elements.0/@type /0/@elements.5/@outPattern/@elements.0/@type /0/@elements.6/@outPattern/@elements.0/@type /0/@elements.7/@outPattern/@elements.0/@type /0/@elements.8/@outPattern/@elements.0/@type /0/@elements.9/@outPattern/@elements.0/@type /0/@elements.10/@outPattern/@elements.0/@type /0/@elements.11/@outPattern/@elements.0/@type /0/@elements.12/@outPattern/@elements.0/@type /0/@elements.13/@outPattern/@elements.0/@type" model="/0/@outModels.0"/>

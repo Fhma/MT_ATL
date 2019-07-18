@@ -1238,9 +1238,6 @@
           <bindings location="242:4-242:29" propertyName="attribute">
             <value xsi:type="ocl:VariableExp" location="242:17-242:29" referredVariable="/0/@elements.21/@outPattern/@elements.1"/>
           </bindings>
-          <bindings location="243:4-243:26" propertyName="groupContent">
-            <value xsi:type="ocl:VariableExp" location="243:20-243:26" referredVariable="/0/@elements.21/@outPattern/@elements.2"/>
-          </bindings>
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="245:3-247:4" varName="sectorRotate" variableExp="/0/@elements.21/@outPattern/@elements.0/@bindings.0/@value /0/@elements.21/@actionBlock/@statements.0/@value/@source/@source">
           <type xsi:type="ocl:OclModelElement" location="245:17-245:27" name="Rotate" model="/1"/>
@@ -1250,7 +1247,7 @@
             </value>
           </bindings>
         </elements>
-        <elements xsi:type="atl:SimpleOutPatternElement" location="248:3-256:4" varName="sector" variableExp="/0/@elements.21/@outPattern/@elements.0/@bindings.1/@value">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="248:3-256:4" varName="sector">
           <type xsi:type="ocl:OclModelElement" location="248:11-248:19" name="Path" model="/1"/>
           <bindings location="249:4-253:53" propertyName="d">
             <value xsi:type="ocl:OperatorCallExp" location="249:9-253:53" operationName="+">
@@ -1474,7 +1471,7 @@
             </value>
           </bindings>
         </elements>
-        <elements xsi:type="atl:SimpleOutPatternElement" location="278:3-281:4" varName="captionBoxSize" variableExp="/0/@elements.22/@outPattern/@elements.1/@bindings.0/@value /0/@elements.22/@outPattern/@elements.3/@bindings.0/@value/@arguments.0/@source/@source/@source">
+        <elements xsi:type="atl:SimpleOutPatternElement" location="278:3-281:4" varName="captionBoxSize" variableExp="/0/@elements.22/@outPattern/@elements.1/@bindings.0/@value /0/@elements.22/@outPattern/@elements.3/@bindings.0/@value/@arguments.0/@source/@source/@source /0/@elements.22/@outPattern/@elements.3/@bindings.1/@value/@arguments.0/@source/@source">
           <type xsi:type="ocl:OclModelElement" location="278:19-278:32" name="Dimension" model="/1"/>
           <bindings location="279:4-279:36" propertyName="width">
             <value xsi:type="ocl:OperationCallExp" location="279:13-279:36" operationName="captionBoxWidth">
@@ -1504,6 +1501,17 @@
                   </arguments>
                 </source>
                 <arguments xsi:type="ocl:IntegerExp" location="283:74-283:75" integerSymbol="2"/>
+              </arguments>
+            </value>
+          </bindings>
+          <bindings location="284:4-284:38" propertyName="y">
+            <value xsi:type="ocl:OperatorCallExp" location="284:9-284:38" operationName="-">
+              <source xsi:type="ocl:IntegerExp" location="284:9-284:10"/>
+              <arguments xsi:type="ocl:OperatorCallExp" location="284:13-284:38" operationName="/">
+                <source xsi:type="ocl:NavigationOrAttributeCallExp" location="284:13-284:34" name="height">
+                  <source xsi:type="ocl:VariableExp" location="284:13-284:27" referredVariable="/0/@elements.22/@outPattern/@elements.2"/>
+                </source>
+                <arguments xsi:type="ocl:IntegerExp" location="284:37-284:38" integerSymbol="2"/>
               </arguments>
             </value>
           </bindings>

@@ -6,7 +6,7 @@
     <elements xsi:type="atl:MatchedRule" location="4:1-15:2" name="Makefile2Project">
       <outPattern location="7:2-14:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="8:3-14:4" varName="a">
-          <type xsi:type="ocl:OclModelElement" location="8:6-8:17" name="Project_" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="8:6-8:17" name="Project" model="/1"/>
           <bindings location="9:4-9:18" propertyName="name">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="9:12-9:18" name="name">
               <source xsi:type="ocl:VariableExp" location="9:12-9:13" referredVariable="/0/@elements.0/@inPattern/@elements.0"/>
@@ -83,7 +83,7 @@
       </outPattern>
       <inPattern location="18:2-19:16">
         <elements xsi:type="atl:SimpleInPatternElement" location="19:3-19:16" varName="m" variableExp="/0/@elements.1/@outPattern/@elements.0/@bindings.0/@value/@source /0/@elements.1/@outPattern/@elements.0/@bindings.1/@value/@source">
-          <type xsi:type="ocl:OclModelElement" location="19:6-19:16" name="Macro" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" location="19:6-19:16" name="Macro_" model="/2"/>
         </elements>
       </inPattern>
     </elements>

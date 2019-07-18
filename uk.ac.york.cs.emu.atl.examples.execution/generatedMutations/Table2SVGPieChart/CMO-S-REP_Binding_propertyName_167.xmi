@@ -1136,7 +1136,7 @@
               <source xsi:type="ocl:VariableExp" location="201:13-201:23" referredVariable="/60"/>
             </value>
           </bindings>
-          <bindings location="202:4-202:27" propertyName="height">
+          <bindings location="202:4-202:27" propertyName="width">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="202:14-202:27" name="width">
               <source xsi:type="ocl:VariableExp" location="202:14-202:21" referredVariable="/0/@elements.19/@outPattern/@elements.3"/>
             </value>
@@ -1235,7 +1235,7 @@
       <outPattern location="240:2-256:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="241:3-244:4" varName="g">
           <type xsi:type="ocl:OclModelElement" location="241:6-241:11" name="G" model="/1"/>
-          <bindings location="242:4-242:29" propertyName="attribute_">
+          <bindings location="242:4-242:29" propertyName="attribute">
             <value xsi:type="ocl:VariableExp" location="242:17-242:29" referredVariable="/0/@elements.21/@outPattern/@elements.1"/>
           </bindings>
           <bindings location="243:4-243:26" propertyName="groupContent">

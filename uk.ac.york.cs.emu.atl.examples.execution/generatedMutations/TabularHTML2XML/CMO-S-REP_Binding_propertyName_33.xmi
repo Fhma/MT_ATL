@@ -15,7 +15,7 @@
               <source xsi:type="ocl:VariableExp" location="10:16-10:20" referredVariable="/0/@elements.0/@inPattern/@elements.0"/>
             </value>
           </bindings>
-          <bindings location="11:4-11:25" propertyName="children">
+          <bindings location="11:4-11:25" propertyName="children_">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="11:16-11:25" name="body">
               <source xsi:type="ocl:VariableExp" location="11:16-11:20" referredVariable="/0/@elements.0/@inPattern/@elements.0"/>
             </value>
@@ -32,7 +32,7 @@
       <outPattern location="18:2-21:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="19:3-21:4" varName="xml">
           <type xsi:type="ocl:OclModelElement" location="19:8-19:19" name="Element" model="/1"/>
-          <bindings location="20:4-20:29" propertyName="children_">
+          <bindings location="20:4-20:29" propertyName="children">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="20:16-20:29" name="children">
               <source xsi:type="ocl:VariableExp" location="20:16-20:20" referredVariable="/0/@elements.1/@inPattern/@elements.0"/>
             </value>

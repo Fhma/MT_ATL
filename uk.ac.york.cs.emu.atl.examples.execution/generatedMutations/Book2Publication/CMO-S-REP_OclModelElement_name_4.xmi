@@ -71,14 +71,14 @@
           </body>
         </feature>
         <context_ location="11:8-11:25">
-          <context_ xsi:type="ocl:OclModelElement" location="11:16-11:25" name="Book_" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" location="11:16-11:25" name="Book" model="/2"/>
         </context_>
       </definition>
     </elements>
     <elements xsi:type="atl:MatchedRule" location="14:1-25:2" name="Book2Publication">
       <outPattern location="19:2-24:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="20:3-24:4" varName="out">
-          <type xsi:type="ocl:OclModelElement" location="20:8-20:31" name="Publication" model="/1"/>
+          <type xsi:type="ocl:OclModelElement" location="20:8-20:31" name="Publication_" model="/1"/>
           <bindings location="21:4-21:20" propertyName="title">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="21:13-21:20" name="title">
               <source xsi:type="ocl:VariableExp" location="21:13-21:14" referredVariable="/0/@elements.2/@inPattern/@elements.0"/>

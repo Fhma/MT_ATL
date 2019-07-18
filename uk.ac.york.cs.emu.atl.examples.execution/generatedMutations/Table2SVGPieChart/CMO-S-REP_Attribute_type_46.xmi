@@ -28,7 +28,7 @@
       <definition location="10:8-11:8">
         <feature xsi:type="ocl:Attribute" location="10:13-11:8" name="fill">
           <initExpression xsi:type="ocl:StringExp" location="11:2-11:8" stringSymbol="none"/>
-          <type xsi:type="ocl:IntegerType"/>
+          <type xsi:type="ocl:StringType" location="10:19-10:25"/>
         </feature>
       </definition>
     </elements>
@@ -185,7 +185,7 @@
       <definition location="41:8-42:3">
         <feature xsi:type="ocl:Attribute" location="41:13-42:3" name="prevAngle">
           <initExpression xsi:type="ocl:IntegerExp" location="42:2-42:3"/>
-          <type xsi:type="ocl:RealType" location="41:24-41:28"/>
+          <type xsi:type="ocl:BooleanType"/>
         </feature>
       </definition>
     </elements>

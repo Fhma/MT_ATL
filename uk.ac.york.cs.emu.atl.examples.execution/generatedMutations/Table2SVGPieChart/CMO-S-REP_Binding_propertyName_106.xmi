@@ -919,7 +919,7 @@
               </source>
             </value>
           </bindings>
-          <bindings location="166:4-166:28" propertyName="stroke">
+          <bindings location="166:4-166:28" propertyName="lengthAdjust">
             <value xsi:type="ocl:StringExp" location="166:20-166:28" stringSymbol="middle"/>
           </bindings>
           <bindings location="167:4-167:61" propertyName="content">
@@ -1086,7 +1086,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="194:3-199:4" varName="pie" variableExp="/0/@elements.19/@outPattern/@elements.0/@bindings.1/@value">
           <type xsi:type="ocl:OclModelElement" location="194:8-194:18" name="Circle" model="/1"/>
-          <bindings location="195:4-195:19" propertyName="size">
+          <bindings location="195:4-195:19" propertyName="stroke">
             <value xsi:type="ocl:VariableExp" location="195:12-195:19" referredVariable="/0/@elements.19/@outPattern/@elements.3"/>
           </bindings>
           <bindings location="196:4-196:24" propertyName="position">

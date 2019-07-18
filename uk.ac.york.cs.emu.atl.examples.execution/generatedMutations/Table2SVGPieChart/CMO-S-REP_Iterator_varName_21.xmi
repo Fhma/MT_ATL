@@ -589,7 +589,7 @@
               </statements>
             </statements>
             <statements xsi:type="atl:ForStat" location="117:5-119:6">
-              <iterator location="117:10-117:14" varName="cell" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.1/@statements.0/@expression/@arguments.1/@arguments.0"/>
+              <iterator location="117:10-117:14" varName="cell_" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.1/@statements.0/@expression/@arguments.1/@arguments.0"/>
               <collection xsi:type="ocl:CollectionOperationCallExp" location="117:18-117:66" operationName="seqWithoutFirst">
                 <source xsi:type="ocl:NavigationOrAttributeCallExp" location="117:18-117:45" name="cells">
                   <source xsi:type="ocl:CollectionOperationCallExp" location="117:18-117:39" operationName="first">
@@ -1451,7 +1451,7 @@
                 <arguments xsi:type="ocl:VariableExp" location="270:126-270:129" referredVariable="/0/@elements.22/@inPattern/@elements.1"/>
                 <arguments xsi:type="ocl:VariableExp" location="270:131-270:140" referredVariable="/0/@elements.22/@inPattern/@elements.2"/>
               </body>
-              <iterators location="270:60-270:63" varName="row_" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.1/@arguments.0"/>
+              <iterators location="270:60-270:63" varName="row" variableExp="/0/@elements.22/@outPattern/@elements.0/@bindings.1/@value/@body/@arguments.1/@arguments.0"/>
             </value>
           </bindings>
         </elements>

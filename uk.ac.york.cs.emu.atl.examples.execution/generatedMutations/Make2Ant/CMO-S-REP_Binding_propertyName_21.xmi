@@ -131,12 +131,12 @@
       <outPattern location="43:2-51:4">
         <elements xsi:type="atl:SimpleOutPatternElement" location="44:3-47:4" varName="e">
           <type xsi:type="ocl:OclModelElement" location="44:6-44:14" name="Echo" model="/1"/>
-          <bindings location="45:4-45:24" propertyName="message">
+          <bindings location="45:4-45:24" propertyName="message_">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="45:15-45:24" name="command">
               <source xsi:type="ocl:VariableExp" location="45:15-45:16" referredVariable="/0/@elements.3/@inPattern/@elements.0"/>
             </value>
           </bindings>
-          <bindings location="46:4-46:29" propertyName="message">
+          <bindings location="46:4-46:29" propertyName="target">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="46:14-46:29" name="ruleShellLine">
               <source xsi:type="ocl:VariableExp" location="46:14-46:15" referredVariable="/0/@elements.3/@inPattern/@elements.0"/>
             </value>

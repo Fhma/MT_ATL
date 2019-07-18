@@ -177,7 +177,7 @@
           </body>
         </feature>
         <context_ location="38:8-38:27">
-          <context_ xsi:type="ocl:OclModelElement" name="AbsoluteCoord" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" name="Rotate" model="/2"/>
         </context_>
       </definition>
     </elements>

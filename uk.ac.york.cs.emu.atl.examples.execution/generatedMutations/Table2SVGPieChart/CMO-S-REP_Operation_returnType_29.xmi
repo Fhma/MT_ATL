@@ -155,7 +155,7 @@
     <elements xsi:type="atl:Helper" location="38:1-39:73">
       <definition location="38:8-39:72">
         <feature xsi:type="ocl:Operation" location="38:33-39:72" name="boundingBoxWidth">
-          <returnType xsi:type="ocl:BooleanType"/>
+          <returnType xsi:type="ocl:RealType" location="38:53-38:57"/>
           <body xsi:type="ocl:OperatorCallExp" location="39:2-39:72" operationName="+">
             <source xsi:type="ocl:OperatorCallExp" location="39:2-39:48" operationName="+">
               <source xsi:type="ocl:OperationCallExp" location="39:2-39:24" operationName="captionBoxWidth">
@@ -1809,7 +1809,7 @@
     <elements xsi:type="atl:Helper" location="334:1-342:8">
       <definition location="334:8-342:7">
         <feature xsi:type="ocl:Operation" location="334:28-342:7" name="isInteger">
-          <returnType xsi:type="ocl:BooleanType" location="334:41-334:48"/>
+          <returnType xsi:type="ocl:RealType"/>
           <body xsi:type="ocl:IfExp" location="335:2-342:7">
             <thenExpression xsi:type="ocl:LetExp" location="336:3-339:33">
               <variable location="336:7-337:38" varName="value" variableExp="/0/@elements.24/@definition/@feature/@body/@thenExpression/@in_/@source/@source /0/@elements.24/@definition/@feature/@body/@thenExpression/@in_/@arguments.0/@source">

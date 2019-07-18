@@ -1147,7 +1147,7 @@
           <bindings location="205:4-205:10" propertyName="x">
             <value xsi:type="ocl:IntegerExp" location="205:9-205:10"/>
           </bindings>
-          <bindings location="206:4-206:10" propertyName="y_">
+          <bindings location="206:4-206:10" propertyName="y">
             <value xsi:type="ocl:IntegerExp" location="206:9-206:10"/>
           </bindings>
         </elements>
@@ -1614,7 +1614,7 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="320:4-320:125" propertyName="y">
+          <bindings location="320:4-320:125" propertyName="y_">
             <value xsi:type="ocl:OperatorCallExp" location="320:9-320:125" operationName="+">
               <source xsi:type="ocl:OperatorCallExp" location="320:9-320:63" operationName="-">
                 <source xsi:type="ocl:OperatorCallExp" location="320:9-320:43" operationName="/">

@@ -1053,7 +1053,7 @@
           <bindings location="187:4-187:26" propertyName="attribute">
             <value xsi:type="ocl:VariableExp" location="187:17-187:26" referredVariable="/0/@elements.19/@outPattern/@elements.1"/>
           </bindings>
-          <bindings location="188:4-188:23" propertyName="groupContent">
+          <bindings location="188:4-188:23" propertyName="groupContent_">
             <value xsi:type="ocl:VariableExp" location="188:20-188:23" referredVariable="/0/@elements.19/@outPattern/@elements.2"/>
           </bindings>
         </elements>
@@ -1144,7 +1144,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="204:3-207:4" varName="pieCoord" variableExp="/0/@elements.19/@outPattern/@elements.2/@bindings.1/@value">
           <type xsi:type="ocl:OclModelElement" location="204:13-204:30" name="AbsoluteCoord" model="/1"/>
-          <bindings location="205:4-205:10" propertyName="y">
+          <bindings location="205:4-205:10" propertyName="x">
             <value xsi:type="ocl:IntegerExp" location="205:9-205:10"/>
           </bindings>
           <bindings location="206:4-206:10" propertyName="y">

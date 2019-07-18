@@ -96,7 +96,7 @@
       </outPattern>
       <inPattern location="42:2-43:19">
         <elements xsi:type="atl:SimpleInPatternElement" location="43:3-43:19" varName="html" variableExp="/0/@elements.4/@outPattern/@elements.0/@bindings.1/@value/@arguments.0/@source">
-          <type xsi:type="ocl:OclModelElement" name="HTML" model="/2"/>
+          <type xsi:type="ocl:OclModelElement" name="HEAD" model="/2"/>
         </elements>
       </inPattern>
     </elements>

@@ -101,7 +101,7 @@
               <source xsi:type="ocl:VariableExp" location="33:13-33:14" referredVariable="/0/@elements.2/@inPattern/@elements.0"/>
             </value>
           </bindings>
-          <bindings location="34:4-34:98" propertyName="depends">
+          <bindings location="34:4-34:98" propertyName="tasks">
             <value xsi:type="ocl:IteratorExp" location="34:15-34:98" name="collect">
               <source xsi:type="ocl:IteratorExp" location="34:15-34:72" name="select">
                 <source xsi:type="ocl:NavigationOrAttributeCallExp" location="34:15-34:29" name="dependencies">
@@ -144,7 +144,7 @@
         </elements>
         <elements xsi:type="atl:SimpleOutPatternElement" location="48:3-51:4" varName="x">
           <type xsi:type="ocl:OclModelElement" location="48:6-48:14" name="Exec" model="/1"/>
-          <bindings location="49:4-49:27" propertyName="target">
+          <bindings location="49:4-49:27" propertyName="executable">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="49:18-49:27" name="command">
               <source xsi:type="ocl:VariableExp" location="49:18-49:19" referredVariable="/0/@elements.3/@inPattern/@elements.0"/>
             </value>

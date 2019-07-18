@@ -148,7 +148,7 @@
           </body>
         </feature>
         <context_ location="31:8-31:27">
-          <context_ xsi:type="ocl:OclModelElement" name="Svg" model="/2"/>
+          <context_ xsi:type="ocl:OclModelElement" name="Rect" model="/2"/>
         </context_>
       </definition>
     </elements>

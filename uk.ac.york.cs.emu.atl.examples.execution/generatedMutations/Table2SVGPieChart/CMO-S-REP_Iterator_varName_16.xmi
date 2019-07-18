@@ -510,7 +510,7 @@
               <source xsi:type="ocl:VariableExp" location="111:18-111:28" referredVariable="/31"/>
             </collection>
             <statements xsi:type="atl:ForStat" location="112:5-115:6">
-              <iterator location="112:10-112:18" varName="elmtName" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.0 /0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.0/@arguments.0"/>
+              <iterator location="112:10-112:18" varName="elmtName_" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.0 /0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@statements.0/@value/@arguments.1/@arguments.0/@arguments.0"/>
               <collection xsi:type="ocl:IteratorExp" location="112:22-112:115" name="sortedBy">
                 <source xsi:type="ocl:IteratorExp" location="112:22-112:96" name="collect">
                   <source xsi:type="ocl:CollectionOperationCallExp" location="112:22-112:53" operationName="seqWithoutFirst">
@@ -528,7 +528,7 @@
                   <iterators location="112:65-112:66" varName="r" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@collection/@source/@body/@source/@source/@source"/>
                 </source>
                 <body xsi:type="ocl:VariableExp" location="112:113-112:114" referredVariable="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@collection/@iterators.0"/>
-                <iterators location="112:109-112:110" varName="n_" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@collection/@body"/>
+                <iterators location="112:109-112:110" varName="n" variableExp="/0/@elements.17/@actionBlock/@statements.0/@thenStatements.2/@statements.0/@collection/@body"/>
               </collection>
               <statements xsi:type="atl:BindingStat" location="113:6-114:303">
                 <source xsi:type="ocl:NavigationOrAttributeCallExp" location="113:6-113:35" name="ColorByElementName">

@@ -31,7 +31,7 @@
               <iterators location="11:39-11:40" varName="c" variableExp="/0/@elements.0/@outPattern/@elements.0/@bindings.2/@value/@body/@source"/>
             </value>
           </bindings>
-          <bindings location="12:4-12:65" propertyName="targets">
+          <bindings location="12:4-12:65" propertyName="properties">
             <value xsi:type="ocl:IteratorExp" location="12:15-12:65" name="select">
               <source xsi:type="ocl:NavigationOrAttributeCallExp" location="12:15-12:25" name="elements">
                 <source xsi:type="ocl:VariableExp" location="12:15-12:16" referredVariable="/0/@elements.0/@inPattern/@elements.0"/>
@@ -74,7 +74,7 @@
               <source xsi:type="ocl:VariableExp" location="22:12-22:13" referredVariable="/0/@elements.1/@inPattern/@elements.0"/>
             </value>
           </bindings>
-          <bindings location="23:4-23:20" propertyName="name">
+          <bindings location="23:4-23:20" propertyName="value">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="23:13-23:20" name="value">
               <source xsi:type="ocl:VariableExp" location="23:13-23:14" referredVariable="/0/@elements.1/@inPattern/@elements.0"/>
             </value>

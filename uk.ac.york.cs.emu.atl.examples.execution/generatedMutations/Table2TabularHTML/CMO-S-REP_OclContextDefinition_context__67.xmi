@@ -328,7 +328,7 @@
           </body>
         </feature>
         <context_ location="98:8-98:22">
-          <context_ xsi:type="ocl:IntegerType"/>
+          <context_ xsi:type="ocl:StringType" location="98:16-98:22"/>
         </context_>
       </definition>
     </elements>
@@ -404,7 +404,7 @@
           <body xsi:type="ocl:VariableExp" location="126:2-126:6" referredVariable="/18"/>
         </feature>
         <context_ location="125:8-125:22">
-          <context_ xsi:type="ocl:StringType" location="125:16-125:22"/>
+          <context_ xsi:type="ocl:IntegerType"/>
         </context_>
       </definition>
     </elements>

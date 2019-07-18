@@ -1468,7 +1468,7 @@
               <source xsi:type="ocl:VariableExp" location="275:12-275:22" referredVariable="/74"/>
             </value>
           </bindings>
-          <bindings location="276:4-276:31" propertyName="stroke">
+          <bindings location="276:4-276:31" propertyName="stroke_">
             <value xsi:type="ocl:NavigationOrAttributeCallExp" location="276:14-276:31" name="stroke">
               <source xsi:type="ocl:VariableExp" location="276:14-276:24" referredVariable="/75"/>
             </value>
@@ -1507,7 +1507,7 @@
               </arguments>
             </value>
           </bindings>
-          <bindings location="284:4-284:38" propertyName="y_">
+          <bindings location="284:4-284:38" propertyName="y">
             <value xsi:type="ocl:OperatorCallExp" location="284:9-284:38" operationName="-">
               <source xsi:type="ocl:IntegerExp" location="284:9-284:10"/>
               <arguments xsi:type="ocl:OperatorCallExp" location="284:13-284:38" operationName="/">
