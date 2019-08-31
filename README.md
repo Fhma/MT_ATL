@@ -63,8 +63,3 @@ Contains the summary of the execution of all mutation of all transformation prog
 *Project name:* uk.ac.york.cs.mutation.operators.generator
 
 *Executable java file:* OperatorsGeneratorController.java
-
-### Overview
-This is a side project that takes a metamodel (expressed in Ecore) and generates a set of concrete mutation operators for that metamodel. The generated mutation operators are persisted as EMF model (ie. as xmi model) that conforms to MutationOperator metamodel located in
-"/uk.ac.york.cs.mutation.operators.generator/src/uk/ac/york/cs/mutation/operators/generator/resources/MutationOperatorMM.ecore".
-
