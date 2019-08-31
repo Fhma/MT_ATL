@@ -1,4 +1,4 @@
-This repository contains the elements of an empirical study against a concrete mutation operator set for ATL. It's recommended to use Eclipse IDE to import all presented projects.
+This repository contains the elements of an empirical mutation testing using a concrete mutation operator set for ATL. This project must be imported into an Eclipse project.
 
 # Requirements
 1. Epsilon (version: 1.4): it can be found [here](https://eclipse.org/epsilon/download/).
@@ -13,19 +13,19 @@ This repository contains the elements of an empirical study against a concrete m
 *Executable java file:* Stage1.java
 
 ### Overview
-This java project can be used to execute the concrete mutation operators of ATL against all loaded ATL model transformation modules and produce all valid mutations.
+This java project can be used to execute the concrete mutation operators of ATL against candidate ATL program models.
 
 ### configurations package
-Contains the configuration java files to be loaded by *Stage1.java*. The configurations names of files are given in the file *modules.configurations*.
+Contains configuration files to be loaded by *Stage1.java*. The configurations names of files are given in the file *modules.configurations*.
 
 ### metamodels package
-Contains the metamodels of input and output of the original transformation modules.
+Contains metamodels of input/output of the candidate transformation programs.
 
 ### transformations package
-Contains all transformation programs that are loaded by the *Single1.java*
+Contains all candidate programs that are loaded by the *Single1.java*
 
 ### operatorDefinitions folder
-Contains all implementation of concrete mutation operators that are executed against the transformation programs.
+Contains all implementation of concrete mutation operators.
 
 ### generatedMutations folder
 Holds the output of the execution of the mutation operators (mutants).
@@ -36,22 +36,16 @@ Holds the output of the execution of the mutation operators (mutants).
 *Executable java file:* Stage2.java
 
 ### Overview
-This project handle the execution of ATL programs and ATL mutants.
+This project handles the execution of ATL programs and ATL mutants.
 
 ### configurations package
-Contains the configuration java files to be loaded by *Stage2N3.java*. The configurations names of files are given in the file *modules.configurations*.
+Contains the configuration files to be loaded by *Stage2N3.java*. The configurations names of files are given in the file *modules.configurations*.
 
 ### transformations.launcher package
 Holds the a normal launcher that execute the original model transformation modules against he input models located in folder "inModels". The output of this execution is stored in folder "expectedModels", which then are used as oracles for mutation analysis.
 
 ### mutations.launcher package
-Holds the a mutations launcher that execute the mutated model transformation models found in folder "generatedMutations", which can be obtained from stage 1 **Mutatin Generation** against the input models located in folder "inModels". The output of each exectuion is compared with correspondence expected output model located in"expectedModels".
-
-### metamodels package
-Contains the metamodels of input and output of the original transformation modules.
-
-### transformations package
-Contains all transformation programs that are loaded by the *Stage2N3.java*
+Holds the mutation launcher that execute the mutated model of ATL candidate programs found in folder "generatedMutations", which can be obtained from stage 1 **Mutatin Generation** against the input models located in folder "inModels". The output of each exectuion is compared with a correspondence expected output model located in "expectedModels".
 
 ### inModels folder
 Contains the input test models
