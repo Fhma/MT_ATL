@@ -1,0 +1,145 @@
+module TabularHTML2XML;
+create OUT: XML from IN: HTML;
+
+rule HTML {
+	from
+		html: HTML!HTML
+	to
+		xml: XML!Root (
+			name <- 'html',
+			children <- html.head,
+			children <- html.body
+		)
+}
+
+rule HTMLElement {
+	from
+		html: HTML!HTMLElement
+	to
+		xml: XML!Element (
+			children <- html.children
+		)
+}
+
+rule HEAD extends HTMLElement {
+	from
+		html: HTML!HEAD
+	to
+		xml: XML!Element (
+			name <- 'head',
+			children <- html.headElements
+		)
+}
+
+abstract rule HEADElement extends HTMLElement {
+	from
+		html: HTML!HEADElement
+	to
+		xml: XML!Element
+}
+
+rule TITLE extends HEADElement {
+	from
+		html: HTML!TITLE
+	to
+		xml: XML!Element (
+			name <- 'title',
+			children <- thisModule.Text(html.value)
+		)
+}
+
+rule BODY extends HTMLElement {
+	from
+		html: HTML!BODY
+	to
+		xml: XML!Element (
+			name <- 'body',
+			children <- html.bodyElements
+		)
+}
+
+abstract rule BODYElement extends HTMLElement {
+	from
+		html: HTML!BODYElement
+	to
+		xml: XML!Element
+}
+
+abstract rule TABLEElement extends BODYElement {
+	from
+		html: HTML!TABLEElement
+	to
+		xml: XML!Element
+}
+
+rule TABLE extends TABLEElement {
+	from
+		html: HTML!TABLE
+	to
+		xml: XML!Element (
+			name <- 'table',
+			children <- thisModule.Attribute('border', if not html.border.oclIsUndefined()
+					then html.border
+					else '0'
+				endif),
+			children <- html.trs
+		)
+}
+
+rule TR extends TABLEElement {
+	from
+		html: HTML!TR
+	to
+		xml: XML!Element (
+			name <- 'tr',
+			children <- html.tds
+		)
+}
+
+rule TD extends TABLEElement {
+	from
+		html: HTML!TD
+	to
+		xml: XML!Element (
+			name <- 'td',
+			children <- thisModule.Text(html.value)
+		)
+	do {
+		if (not html.align.oclIsUndefined()) {
+			xml.children <- thisModule.Attribute('align', html.align);
+		}
+	}
+}
+
+rule TH extends TD {
+	from
+		html: HTML!TH
+	to
+		xml: XML!Element (
+			name <- 'th'
+		)
+}
+
+rule Attribute(attrName: String, attrValue: String) {
+	to
+		attr: XML!Attribute (
+			name <- attrName,
+			value <- attrValue
+		)
+	do {
+		attr; 
+	}
+}
+
+rule Text(value: String) {
+	to
+		text: XML!Text (
+			value <- if not value.oclIsUndefined()
+					then value
+					else ''
+				endif
+		)
+	do {
+		text; 
+	}
+}

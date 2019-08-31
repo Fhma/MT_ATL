@@ -1,0 +1,40 @@
+// operator: Rule.actionBlock-DEL
+// desc: this operator deletes the action block value of
+// a Rule. There are three types of rules: MatchedRule,
+// LazyRule and CalledRule.
+//
+// Inherited operators: ModuleElement
+////////////////////////////////////////////////////////////
+
+// Impl 1: deletes the actionBlock of a MatchedRule
+@action delete
+@property actionBlock
+pattern delete_actionBlock_of_MatchedRule
+instance:Rule
+	in: Rule.all.select(e|e.isTypeOf(MatchedRule)) {
+	do {
+		instance.actionBlock = null;
+	}
+}
+
+// Impl 2: deletes the actionBlock of a LazyMatchedRule
+@action delete
+@property actionBlock
+pattern delete_actionBlock_of_LazyMatchedRule
+instance:Rule
+	in: Rule.all.select(e|e.isTypeOf(LazyMatchedRule)) {
+	do {
+		instance.actionBlock = null;
+	}
+}
+
+// Impl 3: deletes the actionBlock of a CalledRule
+@action delete
+@property actionBlock
+pattern delete_actionBlock_of_CalledRule
+instance:Rule
+	in: Rule.all.select(e|e.isTypeOf(CalledRule)) {
+	do {
+		instance.actionBlock = null;
+	}
+}

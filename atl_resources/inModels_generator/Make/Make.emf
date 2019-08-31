@@ -1,0 +1,48 @@
+@namespace(uri="Make", prefix="make")
+package make;
+
+abstract class NamedElement {
+  attr String[1] name;
+}
+
+class Makefile extends NamedElement {
+  val Comment comment;
+  val Element[+]#makefile elements;
+}
+
+abstract class Element extends NamedElement {
+  ref Makefile[1]#elements makefile;
+}
+
+class Rule extends Element {
+  val Dependency[*]#belog_to_rule dependencies;
+  val ShellLine[+]#ruleShellLine shellLines;
+}
+
+class Macro extends Element {
+  attr String[1] value;
+}
+
+class ShellLine {
+  attr String[1] command;
+  attr boolean[1] display;
+  ref Rule[1]#shellLines ruleShellLine;
+}
+
+abstract class Dependency {
+  ref Rule#dependencies belog_to_rule;
+}
+
+class RuleDep extends Dependency {
+  ref Rule[1] ruledep;
+}
+
+class FileDep extends Dependency {
+  attr String[1] date;
+  attr String[1] name;
+}
+
+class Comment {
+  attr String[1] text;
+}
+

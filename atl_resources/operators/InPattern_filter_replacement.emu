@@ -1,0 +1,238 @@
+// operator: InPattern.filter-REP
+// desc: This operator replaces the filter condition associated
+// with input matching InPattern. The value that can be assigned
+// to InPattern.filter is of type "Ocl.OperatorCallExp"
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////
+
+// Helping Functions ///////////////////////////////////////
+// define a couple of helping functions to be called
+// throughout operator definitions
+function isComparisonOperator(op:String):Boolean {
+	if(op = ">" or op = ">=" or op = "<" or op = "<="
+		or op = "=" or op = "<>")
+		return true;
+	return false;
+}
+
+function isLogicalOperator(op:String):Boolean {
+	if(op = "and" or op = "or" or op = "xor")
+		return true;
+	return false;
+}
+
+// Operator Definitions ////////////////////////////////////
+
+// Impl 1: change the comparison filter of  type
+// OperatorCallExp to greater than
+@action replace
+@property filter
+pattern change_condition_of_operatorcallexp_to_gt
+instance:InPattern
+	in: InPattern.all.select(e|e.filter.isDefined()
+		and e.filter.isTypeOf(OperatorCallExp))
+	guard: isComparisonOperator(instance.filter.operationName)
+		and instance.filter.operationName <> ">" {
+	do {
+		var call_exp = OperatorCallExp.createInstance();
+		call_exp.source = instance.filter.source;
+		call_exp.arguments.addAll(instance.filter.arguments);
+		call_exp.operationName = ">";
+		
+		instance.filter = call_exp;
+	}
+}
+
+// Impl 2: change the comparison filter of 
+// operatorCallExp to greater than or equal
+@action replace
+@property filter
+pattern change_condition_of_operatorcallexp_to_gte
+instance:InPattern
+	in: InPattern.all.select(e|e.filter.isDefined()
+		and e.filter.isTypeOf(OperatorCallExp))
+	guard: isComparisonOperator(instance.filter.operationName)
+		and instance.filter.operationName <> ">=" {
+	do {
+		var call_exp = OperatorCallExp.createInstance();
+		call_exp.source = instance.filter.source;
+		call_exp.arguments.addAll(instance.filter.arguments);
+		call_exp.operationName = ">=";
+		
+		instance.filter = call_exp;
+	}
+}
+
+// Impl 3:replace the comparison filter of 
+// operatorCallExp to less than
+@action replace
+@property filter
+pattern change_condition_of_operatorcallexp_to_lt
+instance:InPattern
+	in: InPattern.all.select(e|e.filter.isDefined()
+		and e.filter.isTypeOf(OperatorCallExp))
+	guard: isComparisonOperator(instance.filter.operationName)
+		and instance.filter.operationName <> "<" {
+	do {
+		var call_exp = OperatorCallExp.createInstance();
+		call_exp.source = instance.filter.source;
+		call_exp.arguments.addAll(instance.filter.arguments);
+		call_exp.operationName = "<";
+		
+		instance.filter = call_exp;
+	}
+}
+
+// Impl 4: replace the comparison filter of 
+// operatorCallExp to less than or equal
+@action replace
+@property filter
+pattern change_condition_of_operatorcallexp_to_lte
+instance:InPattern
+	in: InPattern.all.select(e|e.filter.isDefined()
+		and e.filter.isTypeOf(OperatorCallExp))
+	guard: isComparisonOperator(instance.filter.operationName)
+		and instance.filter.operationName <> "<=" {
+	do {
+		var call_exp = OperatorCallExp.createInstance();
+		call_exp.source = instance.filter.source;
+		call_exp.arguments.addAll(instance.filter.arguments);
+		call_exp.operationName = "<=";
+		
+		instance.filter = call_exp;
+	}
+}
+
+// Impl 5: replace the comparison filter of 
+// operatorCallExp to equal
+@action replace
+@property filter
+pattern change_condition_of_operatorcallexp_to_equal
+instance:InPattern
+	in: InPattern.all.select(e|e.filter.isDefined()
+		and e.filter.isTypeOf(OperatorCallExp))
+	guard: isComparisonOperator(instance.filter.operationName)
+		and instance.filter.operationName <> "=" {
+	do {
+		var call_exp = OperatorCallExp.createInstance();
+		call_exp.source = instance.filter.source;
+		call_exp.arguments.addAll(instance.filter.arguments);
+		call_exp.operationName = "=";
+		
+		instance.filter = call_exp;
+	}
+}
+
+// Impl 6: replace the comparison filter of 
+// operatorCallExp to not equal
+@action replace
+@property filter
+pattern change_condition_of_operatorcallexp_to_not_equal
+instance:InPattern
+	in: InPattern.all.select(e|e.filter.isDefined()
+		and e.filter.isTypeOf(OperatorCallExp))
+	guard: isComparisonOperator(instance.filter.operationName)
+		and instance.filter.operationName <> "<>" {
+	do {
+		var call_exp = OperatorCallExp.createInstance();
+		call_exp.source = instance.filter.source;
+		call_exp.arguments.addAll(instance.filter.arguments);
+		call_exp.operationName = "<>";
+		
+		instance.filter = call_exp;
+	}
+}
+
+// Impl 7: replace the logical expression of
+// an operatorCallExp to not logical
+@action replace
+@property filter
+pattern negative_state_of_operatorcallexp_using_not
+instance:InPattern
+	in: InPattern.all.select(e|e.filter.isDefined())
+	guard: not (instance.filter.isTypeOf(OperatorCallExp)
+		and instance.filter.operationName = "not" ){
+	do {
+		var call_exp = OperatorCallExp.createInstance();
+		call_exp.source = instance.filter;
+		call_exp.operationName = "not";
+		
+		instance.filter = call_exp;
+	}
+}
+
+
+// Impl 8: remove the "not" logical expression of
+// a filter
+@action replace
+@property filter
+pattern remove_not_from_operatorcallexp
+instance:InPattern
+	in: InPattern.all.select(e|e.filter.isDefined()
+		and e.filter.isTypeOf(OperatorCallExp))
+	guard: instance.filter.operationName = "not" {
+	do {
+		instance.filter = instance.filter.source;
+	}
+}
+
+// Impl 9: replace the logical expression of
+// an operatorCallExp to "and"
+@action replace
+@property filter
+pattern change_operationname_of_operatorcallexp_to_and
+instance:InPattern
+	in: InPattern.all.select(e|e.filter.isDefined()
+		and e.filter.isTypeOf(OperatorCallExp))
+	guard: isLogicalOperator(instance.filter.operationName)
+		and instance.filter.operationName <> "and" {
+	do {
+		var call_exp = OperatorCallExp.createInstance();
+		call_exp.source = instance.filter.source;
+		call_exp.arguments.addAll(instance.filter.arguments);
+		call_exp.operationName = "and";
+		
+		instance.filter = call_exp;
+	}
+}
+
+// Impl 10: replace the logical expression of
+// an operatorCallExp to "or" logical
+@action replace
+@property filter
+pattern change_operationname_of_operatorcallexp_to_or
+instance:InPattern
+	in: InPattern.all.select(e|e.filter.isDefined()
+		and e.filter.isTypeOf(OperatorCallExp))
+	guard: isLogicalOperator(instance.filter.operationName)
+		and instance.filter.operationName <> "or" {
+	do {
+		var call_exp = OperatorCallExp.createInstance();
+		call_exp.source = instance.filter.source;
+		call_exp.arguments.addAll(instance.filter.arguments);
+		call_exp.operationName = "or";
+		
+		instance.filter = call_exp;
+	}
+}
+
+// Impl 11: replace the logical expression of
+// an operatorCallExp to "xor" logical
+@action replace
+@property filter
+pattern change_operationname_of_operatorcallexp_to_xor
+instance:InPattern
+	in: InPattern.all.select(e|e.filter.isDefined()
+		and e.filter.isTypeOf(OperatorCallExp))
+	guard: isLogicalOperator(instance.filter.operationName)
+		and instance.filter.operationName <> "xor" {
+	do {
+		var call_exp = OperatorCallExp.createInstance();
+		call_exp.source = instance.filter.source;
+		call_exp.arguments.addAll(instance.filter.arguments);
+		call_exp.operationName = "xor";
+		
+		instance.filter = call_exp;
+	}
+}

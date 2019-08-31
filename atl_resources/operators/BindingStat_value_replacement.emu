@@ -1,0 +1,8 @@
+// operator: BindingStat.value-REP
+// desc: There is no replacement operator implementation
+// for this modelling concept because an instance of
+// BindingStat.value:OclExpression has no suitable sibling
+// to replace with the original instance.
+//
+// Inherited operators: Statement 
+////////////////////////////////////////////////////////////

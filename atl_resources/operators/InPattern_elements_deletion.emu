@@ -1,0 +1,22 @@
+// operator: InPattern.elements-DEL
+// desc: This operator deletes one InPatternElement from
+// list of elements in InPattern.elements. This operator
+// imitates the error where the user forgets a matching 
+// pattern in the input model.
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////
+
+// Impl 1: delete one InPatternElement at a time
+@action delete
+@property elements
+@role instance
+pattern delete_an_inPattern_element
+instance:InPattern,
+element:InPatternElement
+	from: instance.elements
+{
+	do {
+		instance.elements.remove(element);
+	}
+}

@@ -1,0 +1,24 @@
+// operator: MatchedRule.isAbstract-REP
+// desc: this operator alter the MatchedRule inheritance.
+// The operator imitates the error of whether specifying 
+// a rule is a parent rule or not.
+// 
+// Remards:
+// Although the metamodel rquires a value to be contained by
+// isAbstract modelling concept of a MatchedRule, the EMF
+// model that is produced by ATLInjector gives a model that
+// has no value assgined to this required property isAbstract.
+////////////////////////////////////////////////////////////
+
+// Sec 1: alter inheritance of a MacthedRule
+// Impl 1.1: change the abstract nature of a MatchedRule to
+// the opposite state.
+@action replace
+@property isAbstract
+pattern change_abstract_of_a_rule_to_false
+instance: MatchedRule
+	guard: instance.isAbstract.isDefined() and instance.isAbstract = true {
+	do {
+		instance.isAbstract = false;
+	}
+}

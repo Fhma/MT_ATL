@@ -1,0 +1,16 @@
+// operator: InPattern.filter-DEL
+// desc: This operator deletes the filter condition associated
+// with input matching InPattern. 
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////
+
+@action delete
+@property filter
+pattern delete_inPattern_filter
+instance:InPattern
+	in:InPattern.all.select(e|e.filter.isDefined()) {
+	do {
+		instance.filter = null;
+	}
+}

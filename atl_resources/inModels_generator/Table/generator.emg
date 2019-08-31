@@ -1,0 +1,43 @@
+pre {
+	var t_num:Integer = (0.10 * total).ceiling();
+	var r_num:Integer = (0.50 * total).ceiling();
+	var c_num:Integer = (0.40 * total).ceiling();
+	
+	var columns = Sequence{"full_name","string","id","boolean","year","tiny_integer","small_integer","mid_integer","big_ineger","tiny_real","small_real","mid_real","big_real","percentage","character","characters_digits_2","characters_digits_10"};
+}
+
+$instances t_num
+@list tables_list
+operation Table create()
+{
+	var max_rows:Integer = nextInteger(2,r_num);
+	while(max_rows.mod(2) <> 0)
+	{
+		max_rows = nextInteger(2,r_num);
+	}
+	
+	var counter:Integer = 1;
+	var cells_max:Integer = nextInteger(1,c_num);
+	while(counter <= max_rows)
+	{
+		var row = Table!Row.createInstance();
+		self.rows.add(row);
+		var counter_cells = 1;	
+		while(counter_cells <= cells_max)
+		{
+			var cell= Cell.createInstance();
+			row.cells.add(cell);
+			if(counter = 1) 
+			{
+				// first row = cells are headers and hence must be strings
+				cell.content = StringDB!Row.all.random().string;
+			}
+			else
+			{
+				cell.content = nextInteger(1,100).toString();
+			}
+			counter_cells = counter_cells + 1;
+		}
+		counter = counter + 1;
+	}	
+}

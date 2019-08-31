@@ -1,0 +1,9 @@
+// operator: InPattern.elements-REP
+// desc: There is no replacement operator implementation
+// for this modelling concept because an instance of
+// InPattern.elements:InPatternElement has no compatible
+// sibling to be used and to be replaced with the original
+// instance.
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////

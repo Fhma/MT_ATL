@@ -1,0 +1,38 @@
+// operator: Module.isRefining-REP
+// desc: this operator change a transformation approach,
+// whether mapping transformation or in-place transformation.
+// This operator mimics the error of the user when specifying
+// wrong transformation approach.
+//
+// Remards:
+// Any EMF model optainted from ATLInjector for mapping 
+// transformation does not have a value for this attribute
+// (isRefining) ie. it always "null". In case of in-place
+// transformation, the ATLInjector does produce an EMF model
+// that contains a value for isRefining modelling concept. 
+// 
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////
+
+// Sec 1: change the value of isRefining
+// Impl 1.1: change isRefining if it is defined
+@action replace
+@property isRefining
+pattern change_isRefining_value_2_true
+instance:Module
+	guard: instance.isRefining.isDefined() and instance.isRefining = false {
+	do {
+		instance.isRefining = true;
+	}
+}
+
+// Impl 1.1: change isRefining if it is defined
+@action replace
+@property isRefining
+pattern change_isRefining_value_2_false
+instance:Module
+	guard: instance.isRefining.isDefined() and instance.isRefining = true {
+	do {
+		instance.isRefining = false;
+	}
+}

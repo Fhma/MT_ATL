@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:book="Book">
+  <book:Book title="sed tristique in tempus sit amet sem fusce consequat"/>
+  <book:Book title="lacinia sapien quis libero nullam">
+    <chapters title="ipsum aliquam non mauris morbi non" nbPages="3" author="Burtie Boc"/>
+  </book:Book>
+  <book:Book title="lobortis vel dapibus at diam nam tristique tortor eu pede">
+    <chapters title="sit amet nunc viverra dapibus nulla suscipit ligula" nbPages="4" author="Baldwin Pawelczyk"/>
+    <chapters title="duis at velit eu est" nbPages="2" author="Jule Francesco"/>
+  </book:Book>
+  <book:Book title="in hac habitasse platea dictumst etiam faucibus cursus">
+    <chapters title="dui luctus rutrum nulla tellus in" nbPages="7" author="Lanette Gierek"/>
+    <chapters title="nunc nisl duis bibendum felis sed interdum venenatis turpis enim" nbPages="4" author="Crin Civitillo"/>
+  </book:Book>
+</xmi:XMI>

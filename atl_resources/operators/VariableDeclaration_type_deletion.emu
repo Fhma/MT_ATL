@@ -1,0 +1,65 @@
+// operator: VariableDeclaration.type-DEL
+// desc: this operator deletes the value of type property of 
+// a VariableDeclaration. This mimics the error of missing
+// the type of vairable. The targeted VariableDeclaration
+// types that are related ATL modelling concepts are:
+//	1) RuleVariableDeclaration
+//	2) PatternElement (subtypes: (In|Out)PatternElements)
+//	3) Parameter
+//	4) Iterator
+// 
+// Remard:
+// Altough the EMU allows this mutation based on original metamodel of
+// ATL ("http://www.eclipse.org/gmt/2005/ATL"), this operator always
+// generates invalid mutants. Hence, the
+// ATL metamodel that is used need to be modified such that the 
+// property "type" is mandatory (ie. from [0..1] to [1]).
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////
+
+// Impl 1: remove the type of RuleVariableDeclaration
+@action delete
+@property type
+pattern remove_ruleVariableDeclaration_type
+instance: VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isTypeOf(RuleVariableDeclaration)) {
+	do {
+		instance.type = null;
+	}
+}
+
+
+// Impl 2: remove the type of PatternElement
+@action delete
+@property type
+pattern remove_PatternElement_type
+instance: VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isTypeOf(PatternElement)) {
+	do {
+		instance.type = null;
+	}
+}
+
+// Impl 3: remove the type of Parameter
+@action delete
+@property type
+pattern remove_Parameter_type
+instance: VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isTypeOf(Parameter)) {
+	do {
+		instance.type = null;
+	}
+}
+
+// Impl 4: remove the type of Iterator
+@action delete
+@property type
+pattern remove_Iterator_type
+instance: VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isTypeOf(Iterator)) {
+	do {
+		instance.type = null;
+	}
+}
+

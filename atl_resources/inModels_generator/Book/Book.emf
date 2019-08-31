@@ -1,0 +1,15 @@
+@namespace(uri="www.york.ac.uk/cs/model/generator/book", prefix="book")
+package book;
+
+class Book {
+  attr String[1] title;
+  val Chapter[*]#book chapters;
+}
+
+class Chapter {
+  attr String[1] title;
+  attr int[1] nbPages;
+  attr String[1] author;
+  ref Book[1]#chapters book;
+}
+

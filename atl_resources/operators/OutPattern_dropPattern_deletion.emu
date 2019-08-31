@@ -1,0 +1,17 @@
+// operator: OutPattern.dropPattern-DEL
+// desc: This operator deletes the dropPattern instance that
+// is associated with the OutPattern instance.
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////
+
+// Impl 1.0: delete the dropPattern of an OutPattern
+@action delete
+@property dropPattern
+pattern delete_dropPattern_from_outPattern
+instance:OutPattern
+	in: OutPattern.all.select(e|e.dropPattern.isDefined()) {
+	do {
+		instance.dropPattern = null;
+	}
+}

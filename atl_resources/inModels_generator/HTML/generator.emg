@@ -1,0 +1,93 @@
+pre {
+	var t_num:Integer = (0.10 * total).ceiling();
+	var r_num:Integer = (0.50 * total).ceiling();
+	var c_num:Integer = (0.40 * total).ceiling();
+		
+	var columns = Sequence{"full_name","string","id","boolean","year","tiny_integer","small_integer","mid_integer","big_ineger","tiny_real","small_real","mid_real","big_real","percentage","character","characters_digits_2","characters_digits_10"};
+}
+
+$instances t_num
+operation TABLE create()
+{
+	self.value = StringDB!Row.all.random().string;
+	self.bgcolor = "white";
+	self.background = "white";
+	self.width = nextInteger(1,10).toString();
+	self.cellspacing = nextInteger(0,2).toString();
+	self.cellpadding = nextInteger(0,2).toString();
+	self.border = nextInteger(0,5).toString();
+	
+	var max_rows:Integer = nextInteger(2,r_num);
+	while(max_rows.mod(2) <> 0)
+	{
+		max_rows = nextInteger(2,r_num);
+	}
+	
+	var counter:Integer = 1;
+	var cells_max:Integer = nextInteger(1,c_num);
+	
+	while(counter <= max_rows)
+	{
+		var row = TR.createInstance();
+		self.trs.add(row);
+		row.value = StringDB!Row.all.random().string;
+		row.bgcolor = "white";
+		row.background = "white";
+		row.valign = "left";
+		row.align = "left";
+		// create cells and add them to row
+		var counter_cells = 1;	
+		while(counter_cells <= cells_max)
+		{
+			var cell;
+			if(counter = 1) 
+			{
+				// first row = cells are headers and hence must be strings
+				cell = TH.createInstance();
+				cell.value = StringDB!Row.all.random().string;
+			}
+			else
+			{
+				cell = TD.createInstance();
+				cell.value = nextInteger(1,100).toString();
+			}
+			cell.bgcolor = "white";
+			cell.background = "white";
+			cell.colspan=0.toString();
+			cell.rowspan=0.toString();
+			cell.valign = "left";
+			cell.align = "left";
+			cell.width = nextInteger(1,10).toString();
+			// add cell to row
+			row.tds.add(cell);
+			counter_cells = counter_cells + 1;
+		}
+		counter = counter + 1;
+	}	
+}
+
+post {
+	// create a body and add all table elements to it
+	var body = new BODY;
+	body.value = StringDB!Row.all.random().string;
+	body.background = "Oxfffff";
+	body.bgcolor = "Ox00000";
+	body.text = StringDB!Row.all.random().string;
+	body.link = "www.website.com/"+StringDB!Row.all.random().first_name;
+	body.alink = "www.website.com/"+StringDB!Row.all.random().first_name;
+	body.vlink = "www.website.com/"+StringDB!Row.all.random().first_name;
+	// add all tables to only body
+	body.bodyElements.addAll(TABLE.all);
+	
+	// create a head to be added later to html
+	var title = new TITLE;
+	title.value = StringDB!Row.all.random().string;
+	var head = HEAD.createInstance();
+	head.value = StringDB!Row.all.random().string;
+	head.headElements.add(title);
+	
+	// add head and body to html
+	var html = new HTML;
+	html.head = head;
+	html.body = body;
+}

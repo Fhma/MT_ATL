@@ -1,0 +1,32 @@
+// operator: CalledRule.isEndpoint-REP
+// desc: This operator changes the value of isEndpoint 
+// modelling concept.
+//
+// Inherited operators: Rule, ModuleElement
+////////////////////////////////////////////////////////////
+
+// Impl 1: change the value of isEndpoint to true
+@action replace
+@property isEndpoint
+@role instance
+pattern change_isEndpoint_to_true
+instance:CalledRule 
+	guard: (instance.isEndpoint.isDefined()
+		and instance.isEndpoint <> true) {
+	do {
+		instance.isEndpoint = true;
+	}
+}
+
+// Impl 2: change the value of isEndpoint to false
+@action replace
+@property isEndpoint
+@role instance
+pattern change_isEndpoint_to_false
+instance:CalledRule 
+	guard: (instance.isEndpoint.isDefined()
+		and instance.isEndpoint <> false) {
+	do {
+		instance.isEndpoint = false;
+	}
+}

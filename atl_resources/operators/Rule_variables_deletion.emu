@@ -1,0 +1,21 @@
+// operator: Rule.variables-DEL
+// desc: this operator delete RuleVariableDeclaration instances
+// of a rule 
+//
+// Inherited operators: ModuleElement
+////////////////////////////////////////////////////////////////
+
+// Impl 1: delete RulevariableDeclaration instance from property
+// RuleVariableDeclaration.variables: delete one at a time 
+@action delete
+@property variables
+@role instance
+pattern delete_one_variables_of_rule
+instance:Rule
+	in: Rule.all.select(e|e.variables.isDefined and e.variables.size()>=1),
+variable:RuleVariableDeclaration
+	from: instance.variables {
+	do {
+		instance.variables.remove(variable);
+	}
+}

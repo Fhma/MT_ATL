@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ASCII"?>
+<make:Makefile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:make="Make" name="in faucibus orci luctus et ultrices posuere">
+  <comment text="orci luctus et ultrices posuere cubilia"/>
+  <elements xsi:type="make:Rule" name="interdum mauris ullamcorper purus sit amet nulla quisque">
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.7"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.6"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.8"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.12"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.2"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.9"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.10"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.10"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.1"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.8"/>
+    <dependencies xsi:type="make:FileDep" date="21/08/2018" name="erat id mauris vulputate elementum nullam varius nulla facilisi"/>
+    <dependencies xsi:type="make:FileDep" date="03/05/2016" name="ante ipsum primis in faucibus orci"/>
+    <dependencies xsi:type="make:FileDep" date="31/03/2017" name="primis in faucibus orci luctus et ultrices posuere cubilia"/>
+    <dependencies xsi:type="make:FileDep" date="13/11/2016" name="semper sapien a libero nam dui"/>
+    <dependencies xsi:type="make:FileDep" date="15/02/2016" name="ut massa quis augue luctus tincidunt"/>
+    <dependencies xsi:type="make:FileDep" date="29/09/2016" name="ut massa quis augue luctus tincidunt"/>
+    <dependencies xsi:type="make:FileDep" date="23/08/2016" name="consequat nulla nisl nunc nisl duis bibendum felis sed interdum"/>
+    <shellLines command="clang++"/>
+    <shellLines command="cvlabel"/>
+    <shellLines command="cvupdatefs" display="true"/>
+    <shellLines command="dosepsbin" display="true"/>
+    <shellLines command="db_printlog" display="true"/>
+    <shellLines command="cfftot1"/>
+    <shellLines command="cvmkfile"/>
+    <shellLines command="dosepsbin"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="interdum mauris non ligula pellentesque ultrices">
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.5"/>
+    <dependencies xsi:type="make:FileDep" date="28/08/2015" name="arcu adipiscing molestie hendrerit at vulputate vitae nisl"/>
+    <shellLines command="comm"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate">
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.9"/>
+    <dependencies xsi:type="make:FileDep" date="12/09/2018" name="diam id ornare imperdiet sapien urna pretium"/>
+    <dependencies xsi:type="make:FileDep" date="28/08/2016" name="congue diam id ornare imperdiet sapien urna pretium nisl"/>
+    <dependencies xsi:type="make:FileDep" date="21/05/2018" name="pellentesque at nulla suspendisse potenti cras in purus eu"/>
+    <dependencies xsi:type="make:FileDep" date="30/07/2017" name="blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing"/>
+    <shellLines command="dtruss"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl">
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.10"/>
+    <dependencies xsi:type="make:FileDep" date="20/03/2017" name="felis sed interdum venenatis turpis enim blandit"/>
+    <shellLines command="db_printlog" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="luctus et ultrices posuere cubilia curae nulla dapibus dolor vel">
+    <shellLines command="ar" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="lacus morbi quis tortor id nulla ultrices aliquet">
+    <shellLines command="autoconf"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="eu magna vulputate luctus cum sociis natoque penatibus et">
+    <shellLines command="auvaltool" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="vehicula consequat morbi a ipsum integer a">
+    <shellLines command="checknr" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="ac diam cras pellentesque volutpat dui">
+    <shellLines command="javac" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="nunc commodo placerat praesent blandit nam">
+    <shellLines command="cvgather" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="accumsan tortor quis turpis sed ante vivamus tortor">
+    <shellLines command="dev_mkdb" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="at velit vivamus vel nulla eget">
+    <shellLines command="dtxgen" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="bibendum imperdiet nullam orci pede venenatis non sodales sed">
+    <shellLines command="amstex"/>
+  </elements>
+  <elements xsi:type="make:Macro" name="eget rutrum at lorem integer tincidunt ante" value="id ligula suspendisse ornare consequat lectus in est risus"/>
+  <elements xsi:type="make:Macro" name="dolor sit amet consectetuer adipiscing elit" value="eget rutrum at lorem integer tincidunt ante"/>
+  <elements xsi:type="make:Macro" name="nunc nisl duis bibendum felis sed interdum venenatis turpis enim" value="commodo placerat praesent blandit nam nulla integer pede justo"/>
+  <elements xsi:type="make:Macro" name="est lacinia nisi venenatis tristique" value="accumsan odio curabitur convallis duis"/>
+  <elements xsi:type="make:Macro" name="vestibulum ante ipsum primis in faucibus orci luctus et ultrices" value="nisl venenatis lacinia aenean sit"/>
+  <elements xsi:type="make:Macro" name="nunc proin at turpis a pede posuere" value="elementum nullam varius nulla facilisi cras non velit nec"/>
+  <elements xsi:type="make:Macro" name="hendrerit at vulputate vitae nisl" value="nullam molestie nibh in lectus pellentesque"/>
+</make:Makefile>

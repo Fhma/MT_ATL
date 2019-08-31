@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<make:Makefile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:make="Make" name="vel enim sit amet nunc viverra dapibus nulla">
+  <comment text="pede ullamcorper augue a suscipit"/>
+  <elements xsi:type="make:Rule" name="sollicitudin vitae consectetuer eget rutrum at">
+    <dependencies xsi:type="make:FileDep" date="04/05/2015" name="mauris non ligula pellentesque ultrices phasellus id"/>
+    <shellLines command="cvfsdb" display="true"/>
+    <shellLines command="dtxgen" display="true"/>
+  </elements>
+  <elements xsi:type="make:Macro" name="diam id ornare imperdiet sapien urna pretium nisl ut volutpat" value="ultrices mattis odio donec vitae nisi nam ultrices libero"/>
+</make:Makefile>

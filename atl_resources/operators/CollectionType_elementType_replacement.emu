@@ -1,0 +1,92 @@
+// operator: CollectionType.elementType-REP
+// desc: This operator replaces the element collection type.
+// 
+// Inherited operators: OclType
+////////////////////////////////////////////////////////////
+
+// Sec 1: change the type of Primitive type of elementType   
+// Impl 1.1: change to StringType
+@action replace
+@property elementType
+pattern elementType_primitive_change2string
+instance:CollectionType
+	in: CollectionType.all.select(e|e.elementType.isKindOf(Primitive))
+	guard: not (instance.elementType.isTypeOf(StringType)) {
+	do { 
+		instance.elementType = StringType.createInstance();
+	}
+}
+
+// Impl 1.2: change to BooleanType
+@action replace
+@property elementType
+pattern elementType_primitive_change2boolean
+instance:CollectionType
+	in: CollectionType.all.select(e|e.elementType.isKindOf(Primitive))
+	guard: not (instance.elementType.isTypeOf(BooleanType)) {
+	do { 
+		instance.elementType = BooleanType.createInstance();
+	}
+}
+
+// Impl 1.3: change to IntegerType
+@action replace
+@property elementType
+pattern elementType_primitive_change2integer
+instance:CollectionType
+	in: CollectionType.all.select(e|e.elementType.isKindOf(Primitive))
+	guard: not (instance.elementType.isTypeOf(IntegerType)) {
+	do { 
+		instance.elementType = IntegerType.createInstance();
+	}
+}
+
+// Impl 1.4: change to RealType
+@action replace
+@property elementType
+pattern elementType_primitive_change2real
+instance:CollectionType
+	in: CollectionType.all.select(e|e.elementType.isKindOf(Primitive))
+	guard: not (instance.elementType.isTypeOf(RealType)) {
+	do { 
+		instance.elementType = RealType.createInstance();
+	}
+}
+
+// Sec 2: change the OclModelElement of an elementType
+// to other OclModelElement type
+// Impl 2.1: change OclModelElement.name
+@action replace
+@property elementType
+@role instance
+pattern elementType_change_name_oclmodelelement
+instance:CollectionType
+	in: CollectionType.all.select(e| e.elementType.isTypeOf(OclModelElement)),
+othertype:OclModelElement
+	in: OclModelElement.all.select(e| e <> instance.elementType)
+	guard: instance.elementType.name <> othertype.name {
+	do {
+		var new_type = OclModelElement.createInstance();
+		new_type.name = othertype.name;
+		new_type.`model` = instance.elementType.`model`; 
+		instance.elementType = new_type;
+	}
+}
+
+// Impl 2.2: change OclModelElement.model
+@action replace
+@property elementType
+@role instance
+pattern elementType_change_model_oclmodelelement
+instance:CollectionType
+	in: CollectionType.all.select(e| e.elementType.isTypeOf(OclModelElement)),
+othertype:OclModelElement
+	in: OclModelElement.all.select(e| e <> instance.elementType)
+	guard: instance.elementType.`model` <> othertype.`model` {
+	do {
+		var new_type = OclModelElement.createInstance();
+		new_type.name = instance.elementType.name;
+		new_type.`model` = othertype.`model`; 
+		instance.elementType = new_type;
+	}
+}

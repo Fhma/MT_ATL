@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:book="Book">
+  <book:Book title="nibh fusce lacus purus aliquet">
+    <chapters title="rhoncus dui vel sem sed sagittis nam congue risus" nbPages="3" author="Rufus Rosi"/>
+  </book:Book>
+  <book:Book title="tellus nisi eu orci mauris lacinia sapien">
+    <chapters title="turpis enim blandit mi in porttitor pede" nbPages="7" author="Torrence Anscott"/>
+    <chapters title="morbi non lectus aliquam sit amet" nbPages="4" author="Guy Bonnefin"/>
+  </book:Book>
+</xmi:XMI>

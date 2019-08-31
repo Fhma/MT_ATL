@@ -1,0 +1,31 @@
+// operator: LazyMatchedRule.isUnique-REP
+// desc: this operator alter the nature of a lazy rule.
+// The operator imitates the error of whether specifying 
+// a lazy rule as unique or not. If lazy rule is unique, this implies
+// the lazy rule will generate same output elements in each
+// execution while not unique rule does not.
+//
+// Inherited operators: Rule, ModuleElement
+////////////////////////////////////////////////////////////
+
+// Impl 1: change a lazy rule nature to unique to opposite in case 
+// Impl 1.1: change to true
+@action replace
+@property isUnique
+pattern change_LazyMatchedRule_uniqueness_to_true
+instance: LazyMatchedRule
+	guard: instance.isUnique.isDefined() and instance.isUnique = false{
+	do {
+		instance.isUnique = true;
+	}
+}
+// Impl 1.2: change to false
+@action replace
+@property isUnique
+pattern change_LazyMatchedRule_uniqueness_to_false
+instance: LazyMatchedRule
+	guard: instance.isUnique.isDefined() and instance.isUnique = true {
+	do {
+		instance.isUnique = false;
+	}
+}

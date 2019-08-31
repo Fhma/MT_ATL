@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<make:Makefile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:make="Make" name="in hac habitasse platea dictumst maecenas ut massa quis augue">
+  <comment text="lobortis vel dapibus at diam nam tristique tortor eu pede"/>
+  <elements xsi:type="make:Rule" name="accumsan odio curabitur convallis duis">
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.3"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.3"/>
+    <dependencies xsi:type="make:FileDep" date="13/11/2017" name="tincidunt nulla mollis molestie lorem"/>
+    <shellLines command="compress" display="true"/>
+    <shellLines command="arp" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="lorem vitae mattis nibh ligula nec sem">
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.3"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.2"/>
+    <dependencies xsi:type="make:FileDep" date="09/11/2018" name="diam id ornare imperdiet sapien urna pretium nisl ut volutpat"/>
+    <dependencies xsi:type="make:FileDep" date="27/09/2016" name="diam id ornare imperdiet sapien urna pretium nisl ut volutpat"/>
+    <dependencies xsi:type="make:FileDep" date="13/11/2017" name="pellentesque quisque porta volutpat erat quisque erat eros"/>
+    <shellLines command="as" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="molestie sed justo pellentesque viverra pede">
+    <shellLines command="corelist"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="ut massa quis augue luctus tincidunt">
+    <shellLines command="crlrefresh"/>
+  </elements>
+  <elements xsi:type="make:Macro" name="vel enim sit amet nunc viverra dapibus nulla" value="sollicitudin mi sit amet lobortis"/>
+  <elements xsi:type="make:Macro" name="interdum mauris non ligula pellentesque ultrices" value="enim sit amet nunc viverra dapibus nulla suscipit ligula in"/>
+</make:Makefile>

@@ -1,0 +1,39 @@
+// operator: OutPattern.elements-DEL
+// desc: This operator deletes the elements of an
+// OutPattern. The operator mimics the error of not speicifing
+// the pattern element that to be created in output model. 
+// This will result in producing a model that messes output
+// element. There are two types OutPatternElement:
+// 1) SimpleOutPatternElement
+// 2) ForEachOutPatternElement
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////
+
+// Impl 1: delete one SimpleOutPatternElement at a time
+@action delete
+@property elements
+@role instance
+pattern delete_one_simpleOutPatternElement
+instance:OutPattern
+	in: OutPattern.all.select(e|e.elements.size>1),
+element:SimpleOutPatternElement
+	from: instance.elements.select(e|e.isTypeOf(SimpleOutPatternElement)) {
+	do {
+		instance.elements.remove(element);
+	}
+}
+
+// Impl 2: delete one ForEachOutPatternElement at a time
+@action delete
+@property elements
+@role instance
+pattern delete_one_forEachOutPatternElement
+instance:OutPattern
+	in: OutPattern.all.select(e|e.elements.size>1),
+element:ForEachOutPatternElement
+	from: instance.elements.select(e|e.isTypeOf(ForEachOutPatternElement)) {
+	do {
+		instance.elements.remove(element);
+	}
+}

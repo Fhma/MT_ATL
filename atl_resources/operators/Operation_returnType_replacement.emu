@@ -1,0 +1,152 @@
+// operator: Operation.returnType-REP
+// desc: this operator replace the returning tyoe of an
+// operation to differnt type
+//
+// Inherited operators: OclFeature
+////////////////////////////////////////////////////////////
+
+// Sec 1: change the returnType of an OclOperation of
+// Primitive type
+// Impl 1.1: change to StringType
+@action replace
+@property returnType
+pattern change_returntype_2string
+instance:Operation
+	guard: not(instance.returnType.isTypeOf(StringType)) {
+	do {
+		instance.returnType = StringType.createInstance(); 
+	}
+}
+
+// Impl 1.2: to BooleanType
+@action replace
+@property returnType
+pattern change_returntype_2boolean
+instance:Operation
+	guard: not(instance.returnType.isTypeOf(BooleanType)) {
+	do {
+		instance.returnType = BooleanType.createInstance(); 
+	}
+}
+
+// Impl 1.3: to IntegerType
+@action replace
+@property returnType
+pattern change_returntype_2integer
+instance:Operation
+	guard: not(instance.returnType.isTypeOf(IntegerType)) {
+	do {
+		instance.returnType = IntegerType.createInstance(); 
+	}
+}
+
+// Impl 1.4: to RealType
+@action replace
+@property returnType
+pattern operation_returntype_primitive_change2real
+instance:Operation
+	guard: not(instance.returnType.isTypeOf(RealType)) {
+	do {
+		instance.returnType = RealType.createInstance(); 		
+	}
+}
+
+// Sec 2: change the returnType of type OclModelElement
+// of an OclOperation of to other type 
+// Impl 2.1: change OclModelElement.name
+@action replace
+@property returnType
+@role instance
+pattern operation_returntype_change_name_oclmodelelement
+instance:Operation
+	in: Operation.all.select(e| e.returnType.isTypeOf(OclModelElement)),
+othertype:OclModelElement
+	in: OclModelElement.all.select(e| e <> instance.returnType)
+	guard: instance.returnType.name <> othertype.name {
+	do {
+		var new_type = OclModelElement.createInstance();
+		new_type.name = othertype.name;
+		new_type.`model` = instance.returnType.`model`; 
+		instance.returnType = new_type;
+	}
+}
+
+
+// Impl 2.2: change OclModelElement.model
+@action replace
+@property returnType
+@role instance
+pattern operation_returntype_change_model_oclmodelelement
+instance:Operation
+	in: Operation.all.select(e| e.returnType.isTypeOf(OclModelElement)),
+othertype:OclModelElement
+	in: OclModelElement.all.select(e| e <> instance.returnType)
+	guard: instance.returnType.`model` <> othertype.`model` {
+	do {
+		var new_type = OclModelElement.createInstance();
+		new_type.name = instance.returnType.name;
+		new_type.`model` = othertype.`model`; 
+		instance.returnType = new_type;
+	}
+}
+
+// Sec 3: change the returnType of type OCL.Collection
+// Impl3.1: change the collection to BagType
+@action replace
+@property returnType
+pattern operation_returntype_change_collection2BagType
+instance:Operation
+	in: Operation.all.select(e| e.returnType.isKindOf(CollectionType))
+	guard: not instance.returnType.isTypeOf(BagType) {
+	do {
+		var new_type = BagType.createInstance();
+		new_type.elementType = instance.returnType.elementType;
+		new_type.`operation` = instance.returnType.`operation`;  
+		instance.returnType = new_type;
+	}
+}
+
+// Impl3.2: change the collection to OrderedSetType
+@action replace
+@property returnType
+pattern operation_returntype_change_collection2OrderedSetType
+instance:Operation
+	in: Operation.all.select(e| e.returnType.isKindOf(CollectionType))
+	guard: not instance.returnType.isTypeOf(OrderedSetType) {
+	do {
+		var new_type = OrderedSetType.createInstance();
+		new_type.elementType = instance.returnType.elementType;
+		new_type.`operation` = instance.returnType.`operation`;  
+		instance.returnType = new_type;
+	}
+}
+
+// Impl3.3: change the collection to SequenceType
+@action replace
+@property returnType
+pattern operation_returntype_change_collection2SequenceType
+instance:Operation
+	in: Operation.all.select(e| e.returnType.isKindOf(CollectionType))
+	guard: not instance.returnType.isTypeOf(SequenceType) {
+	do {
+		var new_type = SequenceType.createInstance();
+		new_type.elementType = instance.returnType.elementType;
+		new_type.`operation` = instance.returnType.`operation`;  
+		instance.returnType = new_type;
+	}
+}
+
+// Impl3.4: change the collection to SetType
+@action replace
+@property returnType
+pattern operation_returntype_change_collection2SetType
+instance:Operation
+	in: Operation.all.select(e| e.returnType.isKindOf(CollectionType))
+	guard: not instance.returnType.isTypeOf(SetType) {
+	do {
+		var new_type = SetType.createInstance();
+		new_type.elementType = instance.returnType.elementType;
+		new_type.`operation` = instance.returnType.`operation`;  
+		instance.returnType = new_type;
+	}
+}

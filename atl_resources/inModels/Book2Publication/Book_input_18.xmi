@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:book="Book">
+  <book:Book title="nec molestie sed justo pellentesque viverra pede ac diam cras"/>
+  <book:Book title="proin risus praesent lectus vestibulum quam sapien">
+    <chapters title="tristique fusce congue diam id ornare imperdiet sapien urna" nbPages="3" author="Ed Kirkwood"/>
+  </book:Book>
+  <book:Book title="aenean auctor gravida sem praesent id massa id nisl venenatis">
+    <chapters title="pede libero quis orci nullam" nbPages="4" author="Atlante Carlyle"/>
+    <chapters title="elementum eu interdum eu tincidunt in" nbPages="2" author="Sherwood Favey"/>
+  </book:Book>
+  <book:Book title="sagittis dui vel nisl duis ac nibh fusce lacus">
+    <chapters title="sapien sapien non mi integer ac neque duis bibendum" nbPages="7" author="Gregoor Rasmus"/>
+    <chapters title="scelerisque mauris sit amet eros suspendisse accumsan tortor" nbPages="4" author="Umberto Shambroke"/>
+  </book:Book>
+</xmi:XMI>

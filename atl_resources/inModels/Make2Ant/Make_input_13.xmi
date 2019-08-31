@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<make:Makefile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:make="Make" name="porttitor pede justo eu massa donec dapibus">
+  <comment text="ac diam cras pellentesque volutpat dui maecenas tristique est et"/>
+  <elements xsi:type="make:Rule" name="felis sed interdum venenatis turpis enim blandit">
+    <dependencies xsi:type="make:FileDep" date="28/10/2016" name="orci luctus et ultrices posuere cubilia curae nulla"/>
+    <shellLines command="cefpdflatex" display="true"/>
+    <shellLines command="corelist5.18" display="true"/>
+  </elements>
+  <elements xsi:type="make:Macro" name="bibendum imperdiet nullam orci pede venenatis non sodales sed" value="lectus in est risus auctor sed tristique in tempus"/>
+</make:Makefile>

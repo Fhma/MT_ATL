@@ -1,0 +1,17 @@
+@namespace(uri="Table", prefix="table")
+package table;
+
+class Table {
+  val Row[+]#table rows;
+}
+
+class Row {
+  ref Table[1]#rows table;
+  val Cell[+]#row cells;
+}
+
+class Cell {
+  ref Row[1]#cells row;
+  !unique attr String[1] content;
+}
+

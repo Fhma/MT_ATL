@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:book="Book">
+  <book:Book title="dolor sit amet consectetuer adipiscing"/>
+  <book:Book title="semper sapien a libero nam dui">
+    <chapters title="in hac habitasse platea dictumst etiam faucibus cursus" nbPages="6" author="Wenda Pigdon"/>
+  </book:Book>
+  <book:Book title="nisl nunc nisl duis bibendum felis sed">
+    <chapters title="tempor convallis nulla neque libero convallis eget eleifend" nbPages="8" author="Mart Sharpus"/>
+  </book:Book>
+  <book:Book title="at velit eu est congue">
+    <chapters title="ipsum dolor sit amet consectetuer" nbPages="10" author="Chevalier Finker"/>
+  </book:Book>
+  <book:Book title="donec pharetra magna vestibulum aliquet ultrices erat tortor">
+    <chapters title="nisl duis bibendum felis sed interdum" nbPages="2" author="Filbert Bentinck"/>
+  </book:Book>
+  <book:Book title="justo morbi ut odio cras">
+    <chapters title="id pretium iaculis diam erat fermentum justo nec condimentum" nbPages="3" author="Bert Lasslett"/>
+    <chapters title="tempor convallis nulla neque libero convallis eget eleifend" nbPages="4" author="Konrad Piatti"/>
+  </book:Book>
+  <book:Book title="duis faucibus accumsan odio curabitur convallis duis consequat">
+    <chapters title="odio elementum eu interdum eu tincidunt in leo" nbPages="4" author="Seward Bettleson"/>
+    <chapters title="ut blandit non interdum in ante vestibulum" nbPages="4" author="Jefferey Camplejohn"/>
+    <chapters title="sapien ut nunc vestibulum ante ipsum" nbPages="6" author="Shelli Matthias"/>
+    <chapters title="sed tristique in tempus sit amet sem fusce consequat" nbPages="9" author="Maren Heasley"/>
+    <chapters title="scelerisque mauris sit amet eros suspendisse accumsan tortor" nbPages="9" author="Mallory Sewill"/>
+  </book:Book>
+  <book:Book title="scelerisque mauris sit amet eros suspendisse accumsan tortor"/>
+  <book:Book title="potenti nullam porttitor lacus at turpis donec posuere metus">
+    <chapters title="vitae quam suspendisse potenti nullam porttitor lacus at" nbPages="10" author="Gabriela Knapp"/>
+  </book:Book>
+  <book:Book title="in libero ut massa volutpat convallis">
+    <chapters title="suscipit a feugiat et eros vestibulum" nbPages="4" author="Pansie Cormode"/>
+  </book:Book>
+  <book:Book title="blandit ultrices enim lorem ipsum dolor sit amet consectetuer">
+    <chapters title="scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis" nbPages="7" author="Gerrie Polden"/>
+    <chapters title="sit amet justo morbi ut" nbPages="1" author="Lyon Mozzi"/>
+  </book:Book>
+  <book:Book title="magna bibendum imperdiet nullam orci pede venenatis non sodales">
+    <chapters title="dolor sit amet consectetuer adipiscing" nbPages="2" author="Pansie Cormode"/>
+    <chapters title="nec condimentum neque sapien placerat ante" nbPages="7" author="Sibyl Wheelton"/>
+  </book:Book>
+  <book:Book title="sit amet erat nulla tempus vivamus in felis eu">
+    <chapters title="duis consequat dui nec nisi volutpat eleifend donec ut" nbPages="7" author="Jammal Odams"/>
+    <chapters title="sem sed sagittis nam congue risus semper" nbPages="9" author="Corry Middas"/>
+    <chapters title="sit amet justo morbi ut" nbPages="1" author="Gabe Kerrich"/>
+  </book:Book>
+</xmi:XMI>

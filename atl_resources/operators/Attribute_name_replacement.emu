@@ -1,0 +1,18 @@
+// operator: Attribute.name-REP
+// desc: this operator changes the name of an OCL.Attribute.
+// The operator imitates the error of referening a wrong 
+// Attribute definition.
+//
+// Inherited operators: OclFeature
+////////////////////////////////////////////////////////////
+
+// Impl 1: replaces the name with a new name
+@action replace
+@property name
+pattern change_ocl_attribute_name
+instance:Attribute
+{
+	do {
+		instance.name = instance.name + "_";
+	}
+}

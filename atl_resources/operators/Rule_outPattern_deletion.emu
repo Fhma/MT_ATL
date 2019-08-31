@@ -1,0 +1,44 @@
+// operator: Rule.outpattern-DEL
+// desc: this operator deletes an OutPattern instance from
+// a Rule. This will results in deleting all OutPatternElements
+// that would have been created in the output model of
+// ATL transformation. There are three types of Rule
+// 1) MatchedRule
+// 2) LazyMatchedRule
+// 1) CalledRule 
+//
+// Inherited operators: ModuleElement
+////////////////////////////////////////////////////////////
+
+// Impl 1: deletes the OutPattern of a MatchedRule
+@action delete
+@property outPattern
+pattern delete_outpattern_of_MatchedRule
+instance:Rule
+	in: Rule.all.select(e|e.isTypeOf(MatchedRule)) {
+	do {
+		instance.outPattern = null;
+	}
+}
+
+// Impl 2: deletes the OutPattern of a LazyMatchedRule
+@action delete
+@property outPattern
+pattern delete_outpattern_of_LazyMatchedRule
+instance:Rule
+	in: Rule.all.select(e|e.isTypeOf(LazyMatchedRule)) {
+	do {
+		instance.outPattern = null;
+	}
+}
+
+// Impl 3: deletes the OutPattern of a CalledRule
+@action delete
+@property outPattern
+pattern delete_outpattern_of_CalledRule
+instance:Rule
+	in: Rule.all.select(e|e.isTypeOf(CalledRule)) {
+	do {
+		instance.outPattern = null;
+	}
+}

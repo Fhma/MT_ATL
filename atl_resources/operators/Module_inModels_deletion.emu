@@ -1,0 +1,20 @@
+// operator: Module.inModels-DEL
+// desc: this operator deletes one of input models of a model
+// transformation. This mimics the situation where the user 
+// of the language forgets to spcify the in models.
+// 
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////
+
+// Impl 1: delete one inModel at a time
+@action delete
+@property inModels
+@role instance
+pattern delete_one_inModel
+instance:Module,
+_model:OclModel
+	from: instance.inModels {
+	do {
+		instance.inModels.remove(_model);
+	}
+}

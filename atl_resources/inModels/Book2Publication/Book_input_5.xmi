@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:book="Book">
+  <book:Book title="mi integer ac neque duis bibendum"/>
+  <book:Book title="cubilia curae nulla dapibus dolor vel est">
+    <chapters title="pellentesque at nulla suspendisse potenti cras" nbPages="6" author="Dorey Chazelas"/>
+  </book:Book>
+  <book:Book title="sapien ut nunc vestibulum ante ipsum">
+    <chapters title="convallis nulla neque libero convallis eget eleifend luctus ultricies eu" nbPages="8" author="Bat Antonovic"/>
+  </book:Book>
+  <book:Book title="aenean sit amet justo morbi ut odio cras mi">
+    <chapters title="duis consequat dui nec nisi volutpat eleifend donec ut" nbPages="10" author="Charlotta Flight"/>
+  </book:Book>
+  <book:Book title="diam id ornare imperdiet sapien urna pretium">
+    <chapters title="vel enim sit amet nunc viverra dapibus nulla" nbPages="2" author="Harriette Kerwen"/>
+  </book:Book>
+  <book:Book title="magna bibendum imperdiet nullam orci pede venenatis">
+    <chapters title="iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate" nbPages="3" author="Marian Glawsop"/>
+    <chapters title="porta volutpat erat quisque erat eros" nbPages="4" author="Ian Silverton"/>
+  </book:Book>
+  <book:Book title="aliquam erat volutpat in congue etiam justo etiam pretium">
+    <chapters title="tincidunt nulla mollis molestie lorem" nbPages="4" author="Cathy Crampton"/>
+    <chapters title="sed tristique in tempus sit amet sem fusce consequat" nbPages="4" author="Cathy Crampton"/>
+    <chapters title="ac diam cras pellentesque volutpat dui maecenas tristique est et" nbPages="6" author="Colan Mandrake"/>
+    <chapters title="scelerisque mauris sit amet eros suspendisse accumsan tortor" nbPages="9" author="Jessalyn Rampage"/>
+    <chapters title="at turpis a pede posuere" nbPages="9" author="Elissa Miranda"/>
+  </book:Book>
+  <book:Book title="vel nulla eget eros elementum pellentesque quisque porta volutpat"/>
+  <book:Book title="nunc proin at turpis a pede posuere">
+    <chapters title="sagittis dui vel nisl duis ac" nbPages="10" author="Toby Titley"/>
+  </book:Book>
+  <book:Book title="consequat nulla nisl nunc nisl duis bibendum felis sed interdum">
+    <chapters title="non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla" nbPages="4" author="Hardy Klement"/>
+  </book:Book>
+  <book:Book title="donec ut mauris eget massa tempor">
+    <chapters title="in hac habitasse platea dictumst maecenas ut massa quis augue" nbPages="7" author="Aindrea Stadden"/>
+    <chapters title="morbi non lectus aliquam sit" nbPages="1" author="Chrissie Adolfson"/>
+  </book:Book>
+  <book:Book title="vitae nisl aenean lectus pellentesque eget nunc donec quis orci">
+    <chapters title="ut massa quis augue luctus tincidunt" nbPages="2" author="Nanette Kigelman"/>
+    <chapters title="pellentesque at nulla suspendisse potenti cras" nbPages="7" author="Shelli Matthias"/>
+  </book:Book>
+  <book:Book title="enim sit amet nunc viverra dapibus nulla suscipit ligula in">
+    <chapters title="vestibulum vestibulum ante ipsum primis" nbPages="7" author="Karoly Squelch"/>
+    <chapters title="interdum mauris non ligula pellentesque ultrices" nbPages="9" author="Lilla Verman"/>
+    <chapters title="quis orci eget orci vehicula condimentum" nbPages="1" author="Vinita Mapp"/>
+  </book:Book>
+</xmi:XMI>

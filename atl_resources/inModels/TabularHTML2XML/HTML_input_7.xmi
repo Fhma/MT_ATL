@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<html:HTML xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="HTML">
+  <head value="cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam">
+    <headElements xsi:type="html:TITLE" value="donec ut mauris eget massa tempor"/>
+  </head>
+  <body value="diam erat fermentum justo nec condimentum neque sapien placerat" background="Oxfffff" bgcolor="Ox00000" text="porttitor pede justo eu massa donec dapibus" link="www.website.com/Rodolphe" alink="www.website.com/Creight" vlink="www.website.com/Rodd">
+    <bodyElements xsi:type="html:TABLE" value="in magna bibendum imperdiet nullam orci" bgcolor="white" background="white" border="0" width="7" cellspacing="1" cellpadding="0">
+      <trs value="montes nascetur ridiculus mus etiam vel" bgcolor="white" background="white" valign="left" align="left">
+        <tds xsi:type="html:TH" value="aliquet at feugiat non pretium quis lectus suspendisse potenti in" bgcolor="white" background="white" colspan="0" rowspan="0" valign="left" align="left" width="2"/>
+      </trs>
+      <trs value="cursus id turpis integer aliquet massa id" bgcolor="white" background="white" valign="left" align="left">
+        <tds value="53" bgcolor="white" background="white" colspan="0" rowspan="0" valign="left" align="left" width="4"/>
+      </trs>
+    </bodyElements>
+  </body>
+</html:HTML>

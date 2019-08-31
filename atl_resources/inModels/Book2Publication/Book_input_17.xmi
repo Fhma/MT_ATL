@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:book="Book">
+  <book:Book title="risus auctor sed tristique in tempus sit amet sem fusce">
+    <chapters title="magna bibendum imperdiet nullam orci pede venenatis non sodales" nbPages="3" author="Olivia Luetkemeyer"/>
+  </book:Book>
+  <book:Book title="adipiscing elit proin risus praesent lectus">
+    <chapters title="magna bibendum imperdiet nullam orci pede venenatis non sodales" nbPages="7" author="Filbert Bentinck"/>
+    <chapters title="accumsan tortor quis turpis sed ante vivamus tortor" nbPages="4" author="Ulla Scotney"/>
+  </book:Book>
+</xmi:XMI>

@@ -1,0 +1,8 @@
+// operator: Attribute.initExpression-REP
+// desc: There is no replacement operator implementation
+// for this modelling concept because an instance of
+// Attribute.initExpression:OclExpression has no sibling
+// to replace with the original instance.
+//
+// Inherited operators: OclFeature 
+////////////////////////////////////////////////////////////

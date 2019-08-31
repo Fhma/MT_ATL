@@ -1,0 +1,62 @@
+// operator: ForStat.statements-DEL
+// desc: This operator deletes an instance of Statement
+// from list of statements given be ForStat.statements.
+//
+// Inherited operators: Statement 
+////////////////////////////////////////////////////////////
+
+// Impl 1: delete an ExpressionStat instance from list of 
+// statements given by ForStat.statements
+@action delete
+@property statements
+@role instance
+pattern delete_ExpressionStat
+instance:ForStat,
+statement:Statement
+	from: instance.statements.select(e|e.isTypeOf(ExpressionStat)) {
+	do {
+		instance.statements.remove(statement);
+	}		
+}
+
+// Impl 2: delete an BindingStat instance from list of 
+// statements given by ForStat.statements
+@action delete
+@property statements
+@role instance
+pattern delete_BindingStat
+instance:ForStat,
+statement:Statement
+	from: instance.statements.select(e|e.isTypeOf(BindingStat)) {
+	do {
+		instance.statements.remove(statement);
+	}		
+}
+
+// Impl 3: delete an IfStat instance from list of 
+// statements given by ForStat.statements
+@action delete
+@property statements
+@role instance
+pattern delete_IfStat
+instance:ForStat,
+statement:Statement
+	from: instance.statements.select(e|e.isTypeOf(IfStat)) {
+	do {
+		instance.statements.remove(statement);
+	}		
+}
+
+// Impl 4: delete an ForStat instance from list of 
+// statements given by ForStat.statements
+@action delete
+@property statements
+@role instance
+pattern delete_ForStat
+instance:ForStat,
+statement:Statement
+	from: instance.statements.select(e|e.isTypeOf(ForStat)) {
+	do {
+		instance.statements.remove(statement);
+	}		
+}

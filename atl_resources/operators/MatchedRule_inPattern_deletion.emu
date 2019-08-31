@@ -1,0 +1,39 @@
+// operator: MatchedRule.inPattern-DEL
+// desc: this operator delete the inpattern of a matchedrule.
+// There are two types of matchedrule: MatchedRule and 
+// LazyMatchedRule.
+// 
+// Remark: although this operator is allowed by the EMU 
+// engine, the operator allways generates invalid mutants.
+// Hence, the original (and used) ATL metamodel has a fault
+// regarding this modelling concept. One fix can be changing:
+// {MatchedRule->InPattern[0..1] inPattern}
+// to
+// {MatchedRule->InPattern[1] inPattern} 
+// 
+// Inherited operators: Rule, ModuleElement
+////////////////////////////////////////////////////////////
+
+// Impl 1: delete an inPattern of matchedRule
+@action delete
+@property inPattern
+pattern delete_inpattern_of_matchedrule
+instance:MatchedRule
+	in: MatchedRule.all.select(e|e.isTypeOf(MatchedRule)) 
+{
+	do {
+		instance.inPattern = null;
+	}
+}
+
+// Impl 2: delete an inPattern of LazyMatchedRule
+@action delete
+@property inPattern
+pattern delete_inpattern_of_LazyMatchedRule
+instance:MatchedRule
+	in: MatchedRule.all.select(e|e.isTypeOf(LazyMatchedRule)) 
+{
+	do {
+		instance.inPattern = null;
+	}
+}

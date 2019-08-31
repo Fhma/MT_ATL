@@ -1,0 +1,607 @@
+// operator: VariableDeclaration.type-REP
+// desc: this operator replaces the value of type property of 
+// a VariableDeclaration. This mimics the error of providing
+// wrong type of vairable. The targeted VariableDeclaration
+// types that are related ATL modelling concepts and therefore,
+// will be targeted for modifications are:
+//	1) RuleVariableDeclaration
+//	2) PatternElement (subtypes: (In|Out)PatternElements)
+//	3) Parameter
+//	4) Iterator 
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////
+
+// Sec 1: repalce the type of RuleVariableDeclaration
+// Impl 1.1: replace the type of primitive type to StringType
+@action replace
+@property type
+pattern change_ruleVariableDeclaration_type2StringType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isTypeOf(RuleVariableDeclaration))
+	guard: instance.type.isKindOf(Primitive)
+		and not instance.type.isTypeOf(StringType) {
+	do {
+		instance.type = StringType.createInstance();
+	}
+}
+
+// Impl 1.2: replace the type of primitive to BooleanType
+@action replace
+@property type
+pattern change_ruleVariableDeclaration_type2BooleanType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isTypeOf(RuleVariableDeclaration))
+	guard: instance.type.isKindOf(Primitive)
+		and not instance.type.isTypeOf(BooleanType) {
+	do {
+		instance.type = BooleanType.createInstance();
+	}
+}
+
+// Impl 1.3: replace the type of primitive to IntegerType
+@action replace
+@property type
+pattern change_ruleVariableDeclaration_type2IntegerType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isTypeOf(RuleVariableDeclaration))
+	guard: instance.type.isKindOf(Primitive)
+		and not instance.type.isTypeOf(IntegerType){
+	do {
+		instance.type = IntegerType.createInstance();
+	}
+}
+
+// Impl 1.4: replace the type of primitive to RealType
+@action replace
+@property type
+pattern change_ruleVariableDeclaration_type2RealType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isTypeOf(RuleVariableDeclaration))
+	guard: instance.type.isKindOf(Primitive)
+		and not instance.type.isTypeOf(RealType){
+	do {
+		instance.type = RealType.createInstance();
+	}
+}
+
+// Impl 1.5: replace the type of collection to BagType
+@action replace
+@property type
+pattern change_ruleVariableDeclaration_type2BagType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isTypeOf(RuleVariableDeclaration))
+	guard: instance.type.isKindOf(CollectionType)
+		and not instance.type.isTypeOf(BagType){
+	do {
+		instance.type = BagType.createInstance();
+	}
+}
+
+// Impl 1.6: replace the type of collection to OrderedSetType
+@action replace
+@property type
+pattern change_ruleVariableDeclaration_type2OrderedSetType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isTypeOf(RuleVariableDeclaration))
+	guard: instance.type.isKindOf(CollectionType)
+		and not instance.type.isTypeOf(OrderedSetType){
+	do {
+		instance.type = OrderedSetType.createInstance();
+	}
+}
+
+// Impl 1.7: replace the type of collection to SequenceType
+@action replace
+@property type
+pattern change_ruleVariableDeclaration_type2SequenceType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isTypeOf(RuleVariableDeclaration))
+	guard: instance.type.isKindOf(CollectionType)
+		and not instance.type.isTypeOf(SequenceType){
+	do {
+		instance.type = SequenceType.createInstance();
+	}
+}
+
+// Impl 1.8: replace the type of collection to SetType
+@action replace
+@property type
+pattern change_ruleVariableDeclaration_type2SetType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isTypeOf(RuleVariableDeclaration))
+	guard: instance.type.isKindOf(CollectionType)
+		and not instance.type.isTypeOf(SetType){
+	do {
+		instance.type = SetType.createInstance();
+	}
+}
+
+// Impl 1.9: replace the type to different OclModelElement:
+// change name
+@action replace
+@property type
+@role instance
+pattern change_ruleVariableDeclaration_type_change_name
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isTypeOf(RuleVariableDeclaration))
+	guard: instance.type.isTypeOf(OclModelElement),
+otherType:OclModelElement
+	in: OclModelElement.all.select(e|e <> instance.type)
+	guard: instance.type.name <> otherType.name
+		and instance.type.`model`.name = otherType.`model`.name {
+	do {
+		var new_type = OclModelElement.createInstance();
+		new_type.`model` = instance.type.`model`;
+		new_type.name = otherType.name;
+		instance.type = new_type;
+	}
+}
+
+// Impl 1.10: replace the type to different OclModelElement:
+// change model
+@action replace
+@property type
+@role instance
+pattern change_ruleVariableDeclaration_type_change_model
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isTypeOf(RuleVariableDeclaration))
+	guard: instance.type.isTypeOf(OclModelElement),
+otherType:OclModelElement
+	in: OclModelElement.all.select(e|e <> instance.type)
+	guard: instance.type.name = otherType.name
+		and instance.type.`model`.name <> otherType.`model`.name {
+	do {
+		var new_type = OclModelElement.createInstance();
+		new_type.`model` = otherType.`model`;
+		new_type.name = instance.type.name;
+		instance.type = new_type;
+	}
+}
+
+///////////////////////////////////////////////////////////////////////
+
+// Sec 2: repalce the type of PatternElement
+// Impl 2.1: replace the type of primitive type to StringType
+@action replace
+@property type
+pattern change_PatternElement_type2StringType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(PatternElement))
+	guard: instance.type.isKindOf(Primitive)
+		and not instance.type.isTypeOf(StringType){
+	do {
+		instance.type = StringType.createInstance();
+	}
+}
+
+// Impl 2.2: replace the type of primitive to BooleanType
+@action replace
+@property type
+pattern change_PatternElement_type2BooleanType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(PatternElement))
+	guard: instance.type.isKindOf(Primitive)
+		and not instance.type.isTypeOf(BooleanType){
+	do {
+		instance.type = BooleanType.createInstance();
+	}
+}
+
+// Impl 2.3: replace the type of primitive to IntegerType
+@action replace
+@property type
+pattern change_PatternElement_type2IntegerType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(PatternElement))
+	guard: instance.type.isKindOf(Primitive)
+		and not instance.type.isTypeOf(IntegerType){
+	do {
+		instance.type = IntegerType.createInstance();
+	}
+}
+
+// Impl 2.4: replace the type of primitive to RealType
+@action replace
+@property type
+pattern change_PatternElement_type2RealType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(PatternElement))
+	guard: instance.type.isKindOf(Primitive)
+		and not instance.type.isTypeOf(RealType){
+	do {
+		instance.type = RealType.createInstance();
+	}
+}
+
+// Impl 2.5: replace the type of collection to BagType
+@action replace
+@property type
+pattern change_PatternElement_type2BagType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(PatternElement))
+	guard: instance.type.isKindOf(CollectionType)
+		and not instance.type.isTypeOf(BagType) {
+	do {
+		instance.type = BagType.createInstance();
+	}
+}
+
+// Impl 2.6: replace the type of collection to OrderedSetType
+@action replace
+@property type
+pattern change_PatternElement_type2OrderedSetType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(PatternElement))
+	guard: instance.type.isKindOf(CollectionType)
+		and not instance.type.isTypeOf(OrderedSetType) {
+	do {
+		instance.type = OrderedSetType.createInstance();
+	}
+}
+
+// Impl 2.7: replace the type of collection to SequenceType
+@action replace
+@property type
+pattern change_PatternElement_type2SequenceType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(PatternElement))
+	guard: instance.type.isKindOf(CollectionType)
+		and not instance.type.isTypeOf(SequenceType) {
+	do {
+		instance.type = SequenceType.createInstance();
+	}
+}
+
+// Impl 2.8: replace the type of collection to SetType
+@action replace
+@property type
+pattern change_PatternElement_type2SetType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(PatternElement))
+	guard: instance.type.isKindOf(CollectionType)
+		and not instance.type.isTypeOf(SetType) {
+	do {
+		instance.type = SetType.createInstance();
+	}
+}
+
+// Impl 2.9: replace the type to different OclModelElement:
+// change name
+@action replace
+@property type
+@role instance
+pattern change_PatternElement_type_change_name
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(PatternElement))
+	guard: instance.type.isTypeOf(OclModelElement),
+otherType:OclModelElement
+	in: OclModelElement.all.select(e|e <> instance.type)
+	guard: instance.type.name <> otherType.name
+		and instance.type.`model`.name = otherType.`model`.name {
+	do {
+		var new_type = OclModelElement.createInstance();
+		new_type.`model` = instance.type.`model`;
+		new_type.name = otherType.name;
+		instance.type = new_type;
+	}
+}
+
+// Impl 2.10: replace the type to different OclModelElement:
+// change model
+@action replace
+@property type
+@role instance
+pattern change_PatternElement_type_change_model
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(PatternElement))
+	guard: instance.type.isTypeOf(OclModelElement),
+otherType:OclModelElement
+	in: OclModelElement.all.select(e|e <> instance.type)
+	guard: instance.type.name = otherType.name
+		and instance.type.`model`.name <> otherType.`model`.name {
+	do {
+		var new_type = OclModelElement.createInstance();
+		new_type.`model` = otherType.`model`;
+		new_type.name = instance.type.name;
+		instance.type = new_type;
+	}
+}
+
+///////////////////////////////////////////////////////////////////////
+
+// Sec 3: repalce the type of Parameter
+// Impl 3.1: replace the type of primitive type to StringType
+@action replace
+@property type
+pattern change_Parameter_type2StringType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Parameter))
+	guard: instance.type.isKindOf(Primitive)
+		and not instance.type.isTypeOf(StringType){
+	do {
+		instance.type = StringType.createInstance();
+	}
+}
+
+// Impl 3.2: replace the type of primitive to BooleanType
+@action replace
+@property type
+pattern change_Parameter_type2BooleanType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Parameter))
+	guard: instance.type.isKindOf(Primitive)
+		and not instance.type.isTypeOf(BooleanType){
+	do {
+		instance.type = BooleanType.createInstance();
+	}
+}
+
+// Impl 3.3: replace the type of primitive to IntegerType
+@action replace
+@property type
+pattern change_Parameter_type2IntegerType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Parameter))
+	guard: instance.type.isKindOf(Primitive)
+		and not instance.type.isTypeOf(IntegerType){
+	do {
+		instance.type = IntegerType.createInstance();
+	}
+}
+
+// Impl 3.4: replace the type of primitive to RealType
+@action replace
+@property type
+pattern change_Parameter_type2RealType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Parameter))
+	guard: instance.type.isKindOf(Primitive)
+		and not instance.type.isTypeOf(RealType){
+	do {
+		instance.type = RealType.createInstance();
+	}
+}
+
+// Impl 3.5: replace the type of collection to BagType
+@action replace
+@property type
+pattern change_Parameter_type2BagType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Parameter))
+	guard: instance.type.isKindOf(CollectionType)
+		and not instance.type.isTypeOf(BagType) {
+	do {
+		instance.type = BagType.createInstance();
+	}
+}
+
+// Impl 3.6: replace the type of collection to OrderedSetType
+@action replace
+@property type
+pattern change_Parameter_type2OrderedSetType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Parameter))
+	guard: instance.type.isKindOf(CollectionType)
+		and not instance.type.isTypeOf(OrderedSetType) {
+	do {
+		instance.type = OrderedSetType.createInstance();
+	}
+}
+
+// Impl 3.7: replace the type of collection to SequenceType
+@action replace
+@property type
+pattern change_Parameter_type2SequenceType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Parameter))
+	guard: instance.type.isKindOf(CollectionType)
+		and not instance.type.isTypeOf(SequenceType) {
+	do {
+		instance.type = SequenceType.createInstance();
+	}
+}
+
+// Impl 3.8: replace the type of collection to SetType
+@action replace
+@property type
+pattern change_Parameter_type2SetType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Parameter))
+	guard: instance.type.isKindOf(CollectionType)
+		and not instance.type.isTypeOf(SetType) {
+	do {
+		instance.type = SetType.createInstance();
+	}
+}
+
+// Impl 3.9: replace the type to different OclModelElement:
+// change name
+@action replace
+@property type
+@role instance
+pattern change_Parameter_type_change_name
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Parameter))
+	guard: instance.type.isTypeOf(OclModelElement),
+otherType:OclModelElement
+	in: OclModelElement.all.select(e|e <> instance.type)
+	guard: instance.type.name <> otherType.name
+		and instance.type.`model`.name = otherType.`model`.name {
+	do {
+		var new_type = OclModelElement.createInstance();
+		new_type.`model` = instance.type.`model`;
+		new_type.name = otherType.name;
+		instance.type = new_type;
+	}
+}
+
+// Impl 3.10: replace the type to different OclModelElement:
+// change model
+@action replace
+@property type
+@role instance
+pattern change_Parameter_type_change_model
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Parameter))
+	guard: instance.type.isTypeOf(OclModelElement),
+otherType:OclModelElement
+	in: OclModelElement.all.select(e|e <> instance.type)
+	guard: instance.type.name = otherType.name
+		and instance.type.`model`.name <> otherType.`model`.name {
+	do {
+		var new_type = OclModelElement.createInstance();
+		new_type.`model` = otherType.`model`;
+		new_type.name = instance.type.name;
+		instance.type = new_type;
+	}
+}
+
+///////////////////////////////////////////////////////////////////////
+
+// Sec 4: repalce the type of Iterator
+// Impl 4.1: replace the type of primitive type to StringType
+@action replace
+@property type
+pattern change_Iterator_type2StringType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Iterator))
+	guard: instance.type.isKindOf(Primitive)
+		and not instance.type.isTypeOf(StringType){
+	do {
+		instance.type = StringType.createInstance();
+	}
+}
+
+// Impl 4.2: replace the type of primitive to BooleanType
+@action replace
+@property type
+pattern change_Iterator_type2BooleanType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Iterator))
+	guard: instance.type.isKindOf(Primitive)
+		and not instance.type.isTypeOf(BooleanType){
+	do {
+		instance.type = BooleanType.createInstance();
+	}
+}
+
+// Impl 4.3: replace the type of primitive to IntegerType
+@action replace
+@property type
+pattern change_Iterator_type2IntegerType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Iterator))
+	guard: instance.type.isKindOf(Primitive)
+		and not instance.type.isTypeOf(IntegerType){
+	do {
+		instance.type = IntegerType.createInstance();
+	}
+}
+
+// Impl 4.4: replace the type of primitive to RealType
+@action replace
+@property type
+pattern change_Iterator_type2RealType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Iterator))
+	guard: instance.type.isKindOf(Primitive)
+		and not instance.type.isTypeOf(RealType){
+	do {
+		instance.type = RealType.createInstance();
+	}
+}
+
+// Impl 4.5: replace the type of collection to BagType
+@action replace
+@property type
+pattern change_Iterator_type2BagType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Iterator))
+	guard: instance.type.isKindOf(CollectionType)
+		and not instance.type.isTypeOf(BagType) {
+	do {
+		instance.type = BagType.createInstance();
+	}
+}
+
+// Impl 4.6: replace the type of collection to OrderedSetType
+@action replace
+@property type
+pattern change_Iterator_type2OrderedSetType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Iterator))
+	guard: instance.type.isKindOf(CollectionType)
+		and not instance.type.isTypeOf(OrderedSetType) {
+	do {
+		instance.type = OrderedSetType.createInstance();
+	}
+}
+
+// Impl 4.7: replace the type of collection to SequenceType
+@action replace
+@property type
+pattern change_Iterator_type2SequenceType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Iterator))
+	guard: instance.type.isKindOf(CollectionType)
+		and not instance.type.isTypeOf(SequenceType) {
+	do {
+		instance.type = SequenceType.createInstance();
+	}
+}
+
+// Impl 4.8: replace the type of collection to SetType
+@action replace
+@property type
+pattern change_Iterator_type2SetType
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Iterator))
+	guard: instance.type.isKindOf(CollectionType)
+		and not instance.type.isTypeOf(SetType) {
+	do {
+		instance.type = SetType.createInstance();
+	}
+}
+
+// Impl 4.9: replace the type to different OclModelElement:
+// change name
+@action replace
+@property type
+@role instance
+pattern change_Iterator_type_change_name
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Iterator))
+	guard: instance.type.isTypeOf(OclModelElement),
+otherType:OclModelElement
+	in: OclModelElement.all.select(e|e <> instance.type)
+	guard: instance.type.name <> otherType.name
+		and instance.type.`model`.name = otherType.`model`.name {
+	do {
+		var new_type = OclModelElement.createInstance();
+		new_type.`model` = instance.type.`model`;
+		new_type.name = otherType.name;
+		instance.type = new_type;
+	}
+}
+
+// Impl 4.10: replace the type to different OclModelElement:
+// change model
+@action replace
+@property type
+@role instance
+pattern change_Iterator_type_change_model
+instance:VariableDeclaration
+	in: VariableDeclaration.all.select(e|e.isKindOf(Iterator))
+	guard: instance.type.isTypeOf(OclModelElement),
+otherType:OclModelElement
+	in: OclModelElement.all.select(e|e <> instance.type)
+	guard: instance.type.name = otherType.name
+		and instance.type.`model`.name <> otherType.`model`.name {
+	do {
+		var new_type = OclModelElement.createInstance();
+		new_type.`model` = otherType.`model`;
+		new_type.name = instance.type.name;
+		instance.type = new_type;
+	}
+}

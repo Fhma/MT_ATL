@@ -1,0 +1,61 @@
+// operator: Module.elements-DEL
+// desc: this mutation program manipulates Module.elements 
+// modelling concept. This operator mimics the error of 
+// lefting out an imporant module element. Module elements are:
+// rules (Matchedrule, calledrule, and lazyrule) and helpers
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////
+
+
+// Impl 1: delete a matchedrule
+@action delete
+@property elements
+@role instance
+pattern matchedrule_deletion
+instance:Module,
+rule:MatchedRule
+	from: instance.elements.select(e|e.isTypeOf(MatchedRule)) {
+	do {
+		instance.elements.remove(rule);
+	}
+}
+
+// Impl 2: delete a calledrule
+@action delete
+@property elements
+@role instance
+pattern calledrule_deletion
+instance:Module,
+rules:CalledRule
+	from: instance.elements.select(e|e.isTypeOf(CalledRule)) {
+	do {
+		instance.elements.remove(rules);
+	}
+}
+
+// Impl 3: delete a lazyrule
+@action delete
+@property elements
+@role instance
+pattern lazyrule_deletion
+instance:Module,
+rules:LazyMatchedRule
+	from: instance.elements.select(e|e.isTypeOf(LazyMatchedRule)) {
+	do {
+		instance.elements.remove(rules);
+	}
+}
+
+// Impl 4: delete helper
+@action delete
+@property elements
+@role instance
+pattern helper_deletion
+instance:Module,
+rules:Helper
+	from: instance.elements.select(e|e.isTypeOf(Helper)){
+	do {
+		instance.elements.remove(rules);
+	}
+}

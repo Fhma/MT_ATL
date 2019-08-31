@@ -1,0 +1,58 @@
+// operator: ActionBlock_statements-DEL
+// desc: This operator deletes one instance of Statement
+// from list of statements give by ActionBlock.statements.
+//
+// Inherited operators: n/a 
+////////////////////////////////////////////////////////////
+
+// Impl 1: delete one statement instance of type ExpressionStat
+@action delete
+@property statements
+@role instance
+pattern delete_expressionStat
+instance:ActionBlock,
+statement:Statement
+	from: instance.statements.select(e|e.isTypeOf(ExpressionStat)) {
+	do {
+		instance.statements.remove(statement);
+	}
+}
+
+// Impl 2: delete one statement instance of type BindingStat
+@action delete
+@property statements
+@role instance
+pattern delete_BindingStat
+instance:ActionBlock,
+statement:Statement
+	from: instance.statements.select(e|e.isTypeOf(BindingStat)) {
+	do {
+		instance.statements.remove(statement);
+	}
+}
+
+// Impl 3: delete one statement instance of type IfStat
+@action delete
+@property statements
+@role instance
+pattern delete_IfStat
+instance:ActionBlock,
+statement:Statement
+	from: instance.statements.select(e|e.isTypeOf(IfStat)) {
+	do {
+		instance.statements.remove(statement);
+	}
+}
+
+// Impl 4: delete one statement instance of type ForStat
+@action delete
+@property statements
+@role instance
+pattern delete_ForStat
+instance:ActionBlock,
+statement:Statement
+	from: instance.statements.select(e|e.isTypeOf(ForStat)) {
+	do {
+		instance.statements.remove(statement);
+	}
+}

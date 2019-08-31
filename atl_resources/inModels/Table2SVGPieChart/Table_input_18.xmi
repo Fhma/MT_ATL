@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:table="Table">
+  <table:Table>
+    <rows>
+      <cells content="tristique fusce congue diam id ornare imperdiet sapien urna"/>
+    </rows>
+    <rows>
+      <cells content="33"/>
+    </rows>
+  </table:Table>
+  <table:Table>
+    <rows>
+      <cells content="porttitor lorem id ligula suspendisse ornare"/>
+      <cells content="donec pharetra magna vestibulum aliquet ultrices erat tortor"/>
+      <cells content="luctus et ultrices posuere cubilia curae nulla dapibus dolor vel"/>
+      <cells content="commodo placerat praesent blandit nam nulla integer pede justo"/>
+      <cells content="aliquam erat volutpat in congue etiam justo etiam pretium"/>
+    </rows>
+    <rows>
+      <cells content="64"/>
+      <cells content="41"/>
+      <cells content="78"/>
+      <cells content="65"/>
+      <cells content="7"/>
+    </rows>
+    <rows>
+      <cells content="61"/>
+      <cells content="30"/>
+      <cells content="28"/>
+      <cells content="76"/>
+      <cells content="62"/>
+    </rows>
+    <rows>
+      <cells content="92"/>
+      <cells content="90"/>
+      <cells content="57"/>
+      <cells content="41"/>
+      <cells content="81"/>
+    </rows>
+    <rows>
+      <cells content="37"/>
+      <cells content="60"/>
+      <cells content="87"/>
+      <cells content="19"/>
+      <cells content="93"/>
+    </rows>
+    <rows>
+      <cells content="36"/>
+      <cells content="49"/>
+      <cells content="89"/>
+      <cells content="75"/>
+      <cells content="1"/>
+    </rows>
+    <rows>
+      <cells content="6"/>
+      <cells content="14"/>
+      <cells content="90"/>
+      <cells content="44"/>
+      <cells content="90"/>
+    </rows>
+    <rows>
+      <cells content="79"/>
+      <cells content="80"/>
+      <cells content="89"/>
+      <cells content="85"/>
+      <cells content="29"/>
+    </rows>
+  </table:Table>
+</xmi:XMI>

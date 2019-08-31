@@ -1,0 +1,21 @@
+pre {
+	var b_num:Integer = (0.4 * total).ceiling();
+	var c_num:Integer = (0.6 * total).ceiling();
+}
+
+$instances b_num
+@list books_list
+operation Book create()
+{
+	self.title = StringDB!Row.all.random().string;
+}
+
+$instances c_num
+@list chapters_list
+operation Chapter create()
+{
+	self.title = StringDB!Row.all.random().string;
+	self.nbPages = nextInteger(1,10);
+	self.author = StringDB!Row.all.random().full_name;
+	self.book = nextFromList("books_list");
+}

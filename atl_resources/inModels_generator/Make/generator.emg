@@ -1,0 +1,114 @@
+pre {
+	var r_num:Integer = (0.2 * total).ceiling(); // rules
+	var mr_num:Integer = (0.1 * total).ceiling(); // macros
+	var s_numb:Integer = (0.3 * total).ceiling(); // shellLine
+	var r_de_num:Integer = (0.2 * total).ceiling(); // ruleDep
+	var f_de_num:Integer = (0.2 * total).ceiling(); //fileDep
+}
+
+$instances s_numb
+@list shell_line_list
+operation ShellLine create()
+{
+	self.command = StringDB!Row.all.random().command;
+	self.display = nextBoolean();
+}
+
+$instances r_de_num
+@list rule_deps
+operation RuleDep create()
+{
+}
+
+$instances f_de_num
+@list file_deps
+operation FileDep create()
+{
+	self.date = StringDB!Row.all.random().date;
+	self.name = StringDB!Row.all.random().string;
+}
+
+$instances r_num
+operation Rule create()
+{
+	self.name = StringDB!Row.all.random().string;
+	var count_rule;
+	if(RuleDep.all.select(e|e.belog_to_rule.isUndefined()).size()>=1)
+		count_rule = nextInteger(1,RuleDep.all.select(e|e.belog_to_rule.isUndefined()).size());
+	else 
+		count_rule = nextInteger(0,RuleDep.all.select(e|e.belog_to_rule.isUndefined()).size());
+	while(count_rule>=1) {
+		self.dependencies.add(nextFromCollection(RuleDep.all.select(e|e.belog_to_rule.isUndefined())));		count_rule = count_rule - 1;
+	}
+	
+	var count_file;
+	if(FileDep.all.select(e|e.belog_to_rule.isUndefined()).size()>=1)
+		count_file = nextInteger(1,FileDep.all.select(e|e.belog_to_rule.isUndefined()).size());
+	else
+		count_file = nextInteger(0,FileDep.all.select(e|e.belog_to_rule.isUndefined()).size());
+		
+	while(count_file>=1) {
+		self.dependencies.add(nextFromCollection(FileDep.all.select(e|e.belog_to_rule.isUndefined())));
+		count_file = count_file - 1;
+	}
+	
+	var count_shells;
+	if(ShellLine.all.select(e|e.ruleShellLine.isUndefined()).size()>=1) {
+		count_shells = nextInteger(1,ShellLine.all.select(e|e.ruleShellLine.isUndefined()).size());
+		while(count_shells >= 1) {
+		self.shellLines.add(nextFromCollection(ShellLine.all.select(e|e.ruleShellLine.isUndefined())));
+		count_shells = count_shells - 1;
+	}
+	}
+	else {
+		// No shell line available to link to this rule
+		// so, select from other shell lines of rules that 
+		// have more than one shell line
+		var shell_line = Rule.all.select(e|e.shellLines.size() >= 2).random().shellLines.random();
+		self.shellLines.add(shell_line);
+	}
+}
+
+$instances mr_num
+operation Macro create()
+{
+	self.name = StringDB!Row.all.random().string;
+	self.value = StringDB!Row.all.random().string;
+}
+
+
+post {	
+	for(r in Rule.all) {
+		for (dr in r.dependencies.select(e|e.isTypeOf(RuleDep))) {
+			var other_rules = Rule.all.excluding(r);
+			if(other_rules.size()==0)
+				r.dependencies.remove(dr);
+			else
+				dr.ruledep = nextFromCollection(other_rules);
+		}
+	}
+	
+	var makeFile_var = new Makefile;
+	makeFile_var.name = StringDB!Row.all.random().string;
+	var com = Comment.createInstance();
+	com.text = StringDB!Row.all.random().string;
+	makeFile_var.comment = com;
+	makeFile_var.elements.addAll(Rule.all);
+	makeFile_var.elements.addAll(Macro.all);
+	
+	// checking model
+	// check that a make file has at least one element
+	if (makeFile_var.elements.size()==0)
+		throw "A makefile must have at least one element";
+		
+	// check that a rule must have at least a shell line
+	for(r in Rule.all) {
+		if (r.shellLines.size()==0)
+			throw "A rule must have at least one shell line";
+		// check  that a rule dependent must points to another rule
+		for(dr in r.dependencies.select(e|e.isTypeOf(RuleDep))){
+			if(dr.ruledep.isUndefined())
+				throw "A dependent rule must point to another rule";
+		}
+	}
+}

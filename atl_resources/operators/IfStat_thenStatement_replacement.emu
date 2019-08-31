@@ -1,0 +1,8 @@
+// operator: IfStat.thenStatement-REP
+// desc: There is no replacement operator implementation
+// for this modelling concept because an instance of
+// IfStat.thenStatement:Statement has no suitable sibling
+// to be replaced with.
+//
+// Inherited operators: Statement 
+////////////////////////////////////////////////////////////

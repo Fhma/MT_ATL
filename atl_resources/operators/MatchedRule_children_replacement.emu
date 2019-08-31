@@ -1,0 +1,24 @@
+// operator: MatchedRule.children-REP
+// desc: this operator replaces one extending matchedrule from
+// list from MatchedRule.children. This operator mimics the
+// error of extending wrong matchedrule
+// 
+// Inherited operators: Rule, ModuleElement
+////////////////////////////////////////////////////////////
+
+// Sec 1: replaces one extending matched rule with another one
+@action replace
+@property children
+@role instance
+pattern replace_one_child_at_a_time_with_different_matchedrule
+instance:MatchedRule,
+child:MatchedRule
+	from: instance.children,
+new_child:MatchedRule
+	in: MatchedRule.all.select(e| (e <> instance)
+		or (instance.children.isDefined() and instance.children.includes(e))) {
+	do {
+		instance.children.remove(child);
+		instance.children.add(new_child);
+	}
+}

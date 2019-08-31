@@ -1,0 +1,36 @@
+// operator: MatchedRule.children-DEL
+// desc: this operator deletes one extending matchedrule from
+// list from MatchedRule.children. This operator mimics the
+// error of not extending a particular matchedrule. There
+// two types of MatchedRule: MatchedRule and LazyMatchedRule
+//
+// Inherited operators: Rule, ModuleElement
+////////////////////////////////////////////////////////////
+
+// Impl 1: delete one child of a MatchedRule at a time.
+@action delete
+@property children
+@role instance
+pattern delete_one_child_MatchedRule
+instance:MatchedRule
+	in: MatchedRule.all.select(e|e.isTypeOf(MatchedRule)),
+child:MatchedRule
+	from: instance.children {
+	do {
+		instance.children.remove(child);
+	}
+}
+
+// Impl 2: delete one child of a LazyMatchedRule at a time.
+@action delete
+@property children
+@role instance
+pattern delete_one_child_LazyMatchedRules
+instance:MatchedRule
+	in: MatchedRule.all.select(e|e.isTypeOf(LazyMatchedRule)),
+child:MatchedRule
+	from: instance.children {
+	do {
+		instance.children.remove(child);
+	}
+}

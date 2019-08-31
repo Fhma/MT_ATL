@@ -1,0 +1,47 @@
+	// operator: OclFeatureDefinition.feature-REP
+// desc: this operator replaces a feature of OCL.Operation
+// with OCL.Attribute and vice versa.
+//
+// Inherited operators: n/a
+////////////////////////////////////////////////////////////
+
+
+// Sec 1: replace a feature of type Operation with Attribute
+// and change copy over
+//		1) Operation.name -> Attribute.name
+//		2) Operatioin.body -> Attribute.initExpression
+//		3) Operation.returnType -> Attribute.type
+@action replace
+@property feature
+pattern replace_oclOperation_with_oclAttribute
+instance:OclFeatureDefinition
+	in: OclFeatureDefinition.all.select(e|e.feature.isTypeOf(Operation))
+	guard:instance.feature.parameters.size = 0 {
+	do {
+		var attribute = Attribute.createInstance();
+		attribute.name = instance.feature.name;
+		attribute.initExpression = instance.feature.body;
+		attribute.type = instance.feature.returnType;
+		instance.feature = attribute;
+	}
+}
+
+
+// Sec 2: replace a feature of type Attribute with Operation
+// and change copy over
+//		1) Attribute.name -> Attribute.name
+//		2) Attribute.initExpression -> Operatioin.body
+//		3) Attribute.type -> Operation.returnType 
+@action replace
+@property feature
+pattern replace_oclAttribute_with_oclOperation
+instance:OclFeatureDefinition
+	in: OclFeatureDefinition.all.select(e|e.feature.isTypeOf(Attribute)) {
+	do {
+		var operation_ = Operation.createInstance();
+		operation_.name = instance.feature.name;
+		operation_.body = instance.feature.initExpression;
+		operation_.returnType = instance.feature.type;
+		instance.feature = operation_;
+	}
+}

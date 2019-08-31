@@ -1,0 +1,8 @@
+// operator: Rule.outpattern-REP
+// desc: There is no replacement operator implementation
+// for this modelling concept because an instance of
+// Rule.outPattern:OutPattern has no compatible sibling
+// that could be used to replace with the original instance. 
+//
+// Inherited operators: ModuleElement
+////////////////////////////////////////////////////////////

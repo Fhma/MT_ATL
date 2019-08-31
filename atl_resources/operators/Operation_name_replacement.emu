@@ -1,0 +1,17 @@
+// operator: Operation.name-REP
+// desc: this operator replace the name of an OCL operation
+// to a different name.
+//
+// Inherited operators: OclFeature
+////////////////////////////////////////////////////////////
+
+// Impl 1.1: change the name of an operation of a OclFeatureDefinition
+// to another name.
+@action replace
+@property name
+pattern ocloperation_name_change
+instance:Operation {
+	do {
+		instance.name = instance.name + "_"; 
+	}
+}

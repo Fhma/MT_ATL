@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<make:Makefile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:make="Make" name="ante ipsum primis in faucibus orci luctus et ultrices">
+  <comment text="convallis nulla neque libero convallis eget eleifend luctus ultricies eu"/>
+  <elements xsi:type="make:Rule" name="duis consequat dui nec nisi volutpat eleifend donec ut">
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.3"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.3"/>
+    <dependencies xsi:type="make:FileDep" date="09/05/2016" name="consectetuer adipiscing elit proin risus praesent"/>
+    <shellLines command="asctl"/>
+    <shellLines command="cvt" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="ut at dolor quis odio consequat varius integer ac">
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.3"/>
+    <dependencies xsi:type="make:RuleDep" ruledep="//@elements.2"/>
+    <dependencies xsi:type="make:FileDep" date="06/11/2016" name="sit amet nunc viverra dapibus nulla suscipit ligula"/>
+    <dependencies xsi:type="make:FileDep" date="06/01/2017" name="consequat metus sapien ut nunc"/>
+    <dependencies xsi:type="make:FileDep" date="27/11/2016" name="posuere nonummy integer non velit donec diam neque"/>
+    <shellLines command="gc"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="pellentesque quisque porta volutpat erat quisque erat eros">
+    <shellLines command="chktex" display="true"/>
+  </elements>
+  <elements xsi:type="make:Rule" name="magna bibendum imperdiet nullam orci pede venenatis non sodales">
+    <shellLines command="gc" display="true"/>
+  </elements>
+  <elements xsi:type="make:Macro" name="sapien varius ut blandit non" value="proin leo odio porttitor id consequat in"/>
+  <elements xsi:type="make:Macro" name="dolor sit amet consectetuer adipiscing" value="accumsan odio curabitur convallis duis consequat dui"/>
+</make:Makefile>

@@ -1,0 +1,40 @@
+// operator: Rule.name-REP
+// desc: this operator replaces the name of a rule. There
+// are three types of rules: MatchedRule, LazyRule and 
+// CalledRule.
+//
+// Inherited operators: ModuleElement
+////////////////////////////////////////////////////////////
+
+// Impl 1: change the name of matched rule 
+@action replace
+@property name
+pattern change_matchedrule_name
+instance:Rule
+	in: Rule.all.select(e|e.isTypeOf(MatchedRule)) {
+	do {
+		instance.name = instance.name + "_";
+	}
+}
+
+// Impl 2: change the name of called rule 
+@action replace
+@property name
+pattern change_calledrule_name
+instance:Rule
+	in: Rule.all.select(e|e.isTypeOf(CalledRule)) {
+	do {
+		instance.name = instance.name + "_";
+	}
+}
+
+// Impl 3: change the name of lazy rule
+@action replace
+@property name
+pattern change_lazyrule_name
+instance:Rule
+	in: Rule.all.select(e|e.isTypeOf(LazyMatchedRule)) {
+	do {
+		instance.name = instance.name + "_";
+	}
+}
