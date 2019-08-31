@@ -58,8 +58,3 @@ Holds the mutations generated at **Mutatin Generation**.
 
 ### mutationsExecution folder
 Contains the summary of the execution of all mutation of all transformation programs. 
-
-## 3. Mutation Operator Generator Section
-*Project name:* uk.ac.york.cs.mutation.operators.generator
-
-*Executable java file:* OperatorsGeneratorController.java
