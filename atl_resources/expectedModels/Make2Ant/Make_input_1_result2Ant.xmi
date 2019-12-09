@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ant:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ant="Ant" name="cubilia curae nulla dapibus dolor vel est" description="felis sed interdum venenatis turpis enim blandit" default="//@targets.0">
+  <properties xsi:type="ant:PropertyValue" name="primis in faucibus orci luctus et ultrices posuere cubilia" value="sit amet sapien dignissim vestibulum"/>
+  <targets name="ipsum aliquam non mauris morbi non">
+    <tasks xsi:type="ant:Echo" message="ctangle"/>
+    <tasks xsi:type="ant:Echo" message="codesign"/>
+    <tasks xsi:type="ant:Exec" executable="ctangle"/>
+    <tasks xsi:type="ant:Exec" executable="codesign"/>
+  </targets>
+</ant:Project>

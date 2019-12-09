@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ant:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ant="Ant" name="semper sapien a libero nam dui" description="quis orci eget orci vehicula condimentum" default="//@targets.0">
+  <properties xsi:type="ant:PropertyValue" name="elementum nullam varius nulla facilisi cras non velit nec" value="praesent lectus vestibulum quam sapien varius ut"/>
+  <targets name="luctus et ultrices posuere cubilia">
+    <tasks xsi:type="ant:Echo" message="cupsaddsmb"/>
+    <tasks xsi:type="ant:Echo" message="automator"/>
+    <tasks xsi:type="ant:Exec" executable="cupsaddsmb"/>
+    <tasks xsi:type="ant:Exec" executable="automator"/>
+  </targets>
+</ant:Project>

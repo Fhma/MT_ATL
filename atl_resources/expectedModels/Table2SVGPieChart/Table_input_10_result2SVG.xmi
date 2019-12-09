@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:svg="SVG">
+  <svg:SvgFile tag="/1"/>
+  <svg:Svg viewBox="0 0 1666.0 280.0" owner_SVG="/0" namespace="http://www.w3.org/2000/svg" version="1.1">
+    <size width="1666.0" height="280.0"/>
+    <children xsi:type="svg:G" attribute="/2">
+      <groupContent xsi:type="svg:Rect" fill="none" stroke="black">
+        <position xsi:type="svg:AbsoluteCoord" x="-202.0" y="-130.0"/>
+        <size width="404.0" height="260.0"/>
+      </groupContent>
+      <groupContent xsi:type="svg:Text" stroke="black" fontSize="20.0" lengthAdjust="middle" content="sagittis dui vel nisl duis ac nibh fusce lacus">
+        <position xsi:type="svg:AbsoluteCoord" x="-92.0" y="115.0"/>
+      </groupContent>
+      <groupContent xsi:type="svg:G" attribute="/3">
+        <groupContent xsi:type="svg:G" attribute="/4">
+          <groupContent xsi:type="svg:Path" fill="rgb(72,0,255)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 75.98451601445787,65.01040936687443 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/5">
+          <groupContent xsi:type="svg:Path" fill="rgb(0,146,255)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 86.88879687250066,49.50087855835814 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/6">
+          <groupContent xsi:type="svg:Path" fill="rgb(255,0,0)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 1.7260640905388351,99.98510240408494 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/7">
+          <groupContent xsi:type="svg:Path" fill="rgb(73,255,0)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 50.993260439013596,86.02143564135007 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/8">
+          <groupContent xsi:type="svg:Path" fill="rgb(255,255,37)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 66.31226582407953,74.8510748171101 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/9">
+          <groupContent xsi:type="svg:Path" fill="rgb(0,255,145)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 97.0941817426052,23.931566428755776 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/10">
+          <groupContent xsi:type="svg:Path" fill="rgb(255,0,219)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 18.873759545291673,98.20275556534304 z"/>
+        </groupContent>
+      </groupContent>
+      <groupContent xsi:type="svg:G">
+        <groupContent xsi:type="svg:Rect" fill="none" stroke="black">
+          <position xsi:type="svg:AbsoluteCoord" x="18.0" y="-81.5"/>
+          <size width="174.0" height="163.0"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(72,0,255)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="-70.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(11.263736263736265%) 64 (41)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="-56.1"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(0,146,255)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="-49.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(8.241758241758241%) 61 (30)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="-35.1"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(255,0,0)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="-28.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(24.725274725274726%) 92 (90)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="-14.1"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(73,255,0)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="-7.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(16.483516483516482%) 37 (60)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="6.9"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(255,255,37)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="13.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(13.461538461538462%) 36 (49)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="27.9"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(0,255,145)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="34.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(3.8461538461538463%) 6 (14)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="48.9"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(255,0,219)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="55.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(21.978021978021978%) 79 (80)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="69.9"/>
+          </groupContent>
+        </groupContent>
+      </groupContent>
+    </children>
+    <children xsi:type="svg:G" attribute="/11">
+      <groupContent xsi:type="svg:Rect" fill="none" stroke="black">
+        <position xsi:type="svg:AbsoluteCoord" x="-202.0" y="-130.0"/>
+        <size width="404.0" height="260.0"/>
+      </groupContent>
+      <groupContent xsi:type="svg:Text" stroke="black" fontSize="20.0" lengthAdjust="middle" content="justo sit amet sapien dignissim vestibulum vestibulum">
+        <position xsi:type="svg:AbsoluteCoord" x="-92.0" y="115.0"/>
+      </groupContent>
+      <groupContent xsi:type="svg:G" attribute="/12">
+        <groupContent xsi:type="svg:G" attribute="/13">
+          <groupContent xsi:type="svg:Path" fill="rgb(72,0,255)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 58.48374268026644,81.11505311659718 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/14">
+          <groupContent xsi:type="svg:Path" fill="rgb(0,146,255)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 94.28774454610843,33.31397947420576 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/15">
+          <groupContent xsi:type="svg:Path" fill="rgb(255,0,0)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 77.0358584851463,63.76108929007182 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/16">
+          <groupContent xsi:type="svg:Path" fill="rgb(73,255,0)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 49.29806423240583,87.00402785467803 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/17">
+          <groupContent xsi:type="svg:Path" fill="rgb(255,255,37)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 47.173099800142445,88.17425165685162 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/18">
+          <groupContent xsi:type="svg:Path" fill="rgb(0,255,145)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 46.10012844737621,88.739946794752 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/19">
+          <groupContent xsi:type="svg:Path" fill="rgb(255,0,219)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 47.173099800142445,88.17425165685162 z"/>
+        </groupContent>
+      </groupContent>
+      <groupContent xsi:type="svg:G">
+        <groupContent xsi:type="svg:Rect" fill="none" stroke="black">
+          <position xsi:type="svg:AbsoluteCoord" x="18.0" y="-81.5"/>
+          <size width="174.0" height="163.0"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(72,0,255)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="-70.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(15.057915057915059%) 64 (78)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="-56.1"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(0,146,255)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="-49.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(5.405405405405405%) 61 (28)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="-35.1"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(255,0,0)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="-28.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(11.003861003861005%) 92 (57)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="-14.1"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(73,255,0)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="-7.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(16.795366795366796%) 37 (87)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="6.9"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(255,255,37)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="13.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(17.18146718146718%) 36 (89)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="27.9"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(0,255,145)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="34.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(17.374517374517374%) 6 (90)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="48.9"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(255,0,219)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="55.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(17.18146718146718%) 79 (89)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="69.9"/>
+          </groupContent>
+        </groupContent>
+      </groupContent>
+    </children>
+    <children xsi:type="svg:G" attribute="/20">
+      <groupContent xsi:type="svg:Rect" fill="none" stroke="black">
+        <position xsi:type="svg:AbsoluteCoord" x="-202.0" y="-130.0"/>
+        <size width="404.0" height="260.0"/>
+      </groupContent>
+      <groupContent xsi:type="svg:Text" stroke="black" fontSize="20.0" lengthAdjust="middle" content="justo morbi ut odio cras">
+        <position xsi:type="svg:AbsoluteCoord" x="-92.0" y="115.0"/>
+      </groupContent>
+      <groupContent xsi:type="svg:G" attribute="/21">
+        <groupContent xsi:type="svg:G" attribute="/22">
+          <groupContent xsi:type="svg:Path" fill="rgb(72,0,255)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 53.32044328016914,84.5986425919841 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/23">
+          <groupContent xsi:type="svg:Path" fill="rgb(0,146,255)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 38.17874337362351,92.42501584750201 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/24">
+          <groupContent xsi:type="svg:Path" fill="rgb(255,0,0)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 80.4433239092622,59.40430656467194 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/25">
+          <groupContent xsi:type="svg:Path" fill="rgb(73,255,0)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 95.68699406260014,29.051663760685482 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/26">
+          <groupContent xsi:type="svg:Path" fill="rgb(255,255,37)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 39.607976603915674,91.8216106880274 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/27">
+          <groupContent xsi:type="svg:Path" fill="rgb(0,255,145)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 77.59240883709745,63.08262907375312 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/28">
+          <groupContent xsi:type="svg:Path" fill="rgb(255,0,219)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 24.94411440579816,96.83899605278057 z"/>
+        </groupContent>
+      </groupContent>
+      <groupContent xsi:type="svg:G">
+        <groupContent xsi:type="svg:Rect" fill="none" stroke="black">
+          <position xsi:type="svg:AbsoluteCoord" x="18.0" y="-81.5"/>
+          <size width="174.0" height="163.0"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(72,0,255)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="-70.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(16.049382716049383%) 64 (65)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="-56.1"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(0,146,255)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="-49.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(18.765432098765434%) 61 (76)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="-35.1"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(255,0,0)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="-28.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(10.123456790123457%) 92 (41)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="-14.1"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(73,255,0)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="-7.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(4.691358024691358%) 37 (19)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="6.9"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(255,255,37)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="13.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(18.51851851851852%) 36 (75)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="27.9"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(0,255,145)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="34.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(10.864197530864198%) 6 (44)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="48.9"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(255,0,219)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="55.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(20.98765432098765%) 79 (85)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="69.9"/>
+          </groupContent>
+        </groupContent>
+      </groupContent>
+    </children>
+    <children xsi:type="svg:G" attribute="/29">
+      <groupContent xsi:type="svg:Rect" fill="none" stroke="black">
+        <position xsi:type="svg:AbsoluteCoord" x="-202.0" y="-130.0"/>
+        <size width="404.0" height="260.0"/>
+      </groupContent>
+      <groupContent xsi:type="svg:Text" stroke="black" fontSize="20.0" lengthAdjust="middle" content="scelerisque mauris sit amet eros suspendisse accumsan tortor">
+        <position xsi:type="svg:AbsoluteCoord" x="-92.0" y="115.0"/>
+      </groupContent>
+      <groupContent xsi:type="svg:G" attribute="/30">
+        <groupContent xsi:type="svg:G" attribute="/31">
+          <groupContent xsi:type="svg:Path" fill="rgb(72,0,255)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 99.26686964973811,12.086711295547008 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/32">
+          <groupContent xsi:type="svg:Path" fill="rgb(0,146,255)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 47.73488927110631,87.87138525296628 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/33">
+          <groupContent xsi:type="svg:Path" fill="rgb(255,0,0)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 16.796328987016487,98.5793250766098 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/34">
+          <groupContent xsi:type="svg:Path" fill="rgb(73,255,0)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 -3.893551921373762,99.92417251814281 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/35">
+          <groupContent xsi:type="svg:Path" fill="rgb(255,255,37)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 99.98502021266037,1.7308186138054966 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/36">
+          <groupContent xsi:type="svg:Path" fill="rgb(0,255,145)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 1.2981423197930875,99.99157377758169 z"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G" attribute="/37">
+          <groupContent xsi:type="svg:Path" fill="rgb(255,0,219)" stroke="black" d="M0,0 L100,0 A100,100 0 0,1 87.66400179274287,48.114683722144285 z"/>
+        </groupContent>
+      </groupContent>
+      <groupContent xsi:type="svg:G">
+        <groupContent xsi:type="svg:Rect" fill="none" stroke="black">
+          <position xsi:type="svg:AbsoluteCoord" x="18.0" y="-81.5"/>
+          <size width="174.0" height="163.0"/>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(72,0,255)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="-70.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(1.9283746556473829%) 64 (7)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="-56.1"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(0,146,255)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="-49.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(17.079889807162534%) 61 (62)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="-35.1"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(255,0,0)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="-28.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(22.31404958677686%) 92 (81)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="-14.1"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(73,255,0)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="-7.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(25.6198347107438%) 37 (93)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="6.9"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(255,255,37)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="13.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(0.27548209366391185%) 36 (1)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="27.9"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(0,255,145)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="34.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(24.793388429752067%) 6 (90)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="48.9"/>
+          </groupContent>
+        </groupContent>
+        <groupContent xsi:type="svg:G">
+          <groupContent xsi:type="svg:Rect" fill="rgb(255,0,219)" stroke="black">
+            <position xsi:type="svg:AbsoluteCoord" x="23.0" y="55.5"/>
+            <size width="16.0" height="16.0"/>
+          </groupContent>
+          <groupContent xsi:type="svg:Text" stroke="black" fontSize="16.0" content="(7.988980716253444%) 79 (29)">
+            <position xsi:type="svg:AbsoluteCoord" x="55.0" y="69.9"/>
+          </groupContent>
+        </groupContent>
+      </groupContent>
+    </children>
+  </svg:Svg>
+  <svg:Translate attOwner="/1/@children.0" tx="212.0" ty="140.0"/>
+  <svg:Translate attOwner="/1/@children.0/@groupContent.2" tx="-92.0" ty="-20.0"/>
+  <svg:Rotate attOwner="/1/@children.0/@groupContent.2/@groupContent.0"/>
+  <svg:Rotate attOwner="/1/@children.0/@groupContent.2/@groupContent.1" angle="40.549450549450555"/>
+  <svg:Rotate attOwner="/1/@children.0/@groupContent.2/@groupContent.2" angle="70.21978021978022"/>
+  <svg:Rotate attOwner="/1/@children.0/@groupContent.2/@groupContent.3" angle="159.23076923076923"/>
+  <svg:Rotate attOwner="/1/@children.0/@groupContent.2/@groupContent.4" angle="218.57142857142856"/>
+  <svg:Rotate attOwner="/1/@children.0/@groupContent.2/@groupContent.5" angle="267.032967032967"/>
+  <svg:Rotate attOwner="/1/@children.0/@groupContent.2/@groupContent.6" angle="280.8791208791209"/>
+  <svg:Translate attOwner="/1/@children.1" tx="626.0" ty="140.0"/>
+  <svg:Translate attOwner="/1/@children.1/@groupContent.2" tx="-92.0" ty="-20.0"/>
+  <svg:Rotate attOwner="/1/@children.1/@groupContent.2/@groupContent.0"/>
+  <svg:Rotate attOwner="/1/@children.1/@groupContent.2/@groupContent.1" angle="54.208494208494216"/>
+  <svg:Rotate attOwner="/1/@children.1/@groupContent.2/@groupContent.2" angle="73.66795366795367"/>
+  <svg:Rotate attOwner="/1/@children.1/@groupContent.2/@groupContent.3" angle="113.28185328185329"/>
+  <svg:Rotate attOwner="/1/@children.1/@groupContent.2/@groupContent.4" angle="173.74517374517376"/>
+  <svg:Rotate attOwner="/1/@children.1/@groupContent.2/@groupContent.5" angle="235.59845559845562"/>
+  <svg:Rotate attOwner="/1/@children.1/@groupContent.2/@groupContent.6" angle="298.1467181467182"/>
+  <svg:Translate attOwner="/1/@children.2" tx="1040.0" ty="140.0"/>
+  <svg:Translate attOwner="/1/@children.2/@groupContent.2" tx="-92.0" ty="-20.0"/>
+  <svg:Rotate attOwner="/1/@children.2/@groupContent.2/@groupContent.0"/>
+  <svg:Rotate attOwner="/1/@children.2/@groupContent.2/@groupContent.1" angle="57.77777777777778"/>
+  <svg:Rotate attOwner="/1/@children.2/@groupContent.2/@groupContent.2" angle="125.33333333333334"/>
+  <svg:Rotate attOwner="/1/@children.2/@groupContent.2/@groupContent.3" angle="161.7777777777778"/>
+  <svg:Rotate attOwner="/1/@children.2/@groupContent.2/@groupContent.4" angle="178.66666666666669"/>
+  <svg:Rotate attOwner="/1/@children.2/@groupContent.2/@groupContent.5" angle="245.33333333333337"/>
+  <svg:Rotate attOwner="/1/@children.2/@groupContent.2/@groupContent.6" angle="284.44444444444446"/>
+  <svg:Translate attOwner="/1/@children.3" tx="1454.0" ty="140.0"/>
+  <svg:Translate attOwner="/1/@children.3/@groupContent.2" tx="-92.0" ty="-20.0"/>
+  <svg:Rotate attOwner="/1/@children.3/@groupContent.2/@groupContent.0"/>
+  <svg:Rotate attOwner="/1/@children.3/@groupContent.2/@groupContent.1" angle="6.9421487603305785"/>
+  <svg:Rotate attOwner="/1/@children.3/@groupContent.2/@groupContent.2" angle="68.4297520661157"/>
+  <svg:Rotate attOwner="/1/@children.3/@groupContent.2/@groupContent.3" angle="148.7603305785124"/>
+  <svg:Rotate attOwner="/1/@children.3/@groupContent.2/@groupContent.4" angle="240.99173553719007"/>
+  <svg:Rotate attOwner="/1/@children.3/@groupContent.2/@groupContent.5" angle="241.98347107438016"/>
+  <svg:Rotate attOwner="/1/@children.3/@groupContent.2/@groupContent.6" angle="331.23966942148763"/>
+</xmi:XMI>

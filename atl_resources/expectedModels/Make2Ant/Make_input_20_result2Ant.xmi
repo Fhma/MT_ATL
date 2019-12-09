@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ant:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ant="Ant" name="vel enim sit amet nunc viverra dapibus nulla" description="pede ullamcorper augue a suscipit" default="//@targets.0">
+  <properties xsi:type="ant:PropertyValue" name="diam id ornare imperdiet sapien urna pretium nisl ut volutpat" value="ultrices mattis odio donec vitae nisi nam ultrices libero"/>
+  <targets name="sollicitudin vitae consectetuer eget rutrum at">
+    <tasks xsi:type="ant:Echo" message="cvfsdb"/>
+    <tasks xsi:type="ant:Echo" message="dtxgen"/>
+    <tasks xsi:type="ant:Exec" executable="cvfsdb"/>
+    <tasks xsi:type="ant:Exec" executable="dtxgen"/>
+  </targets>
+</ant:Project>

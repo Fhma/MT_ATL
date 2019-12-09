@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html:HTML xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html="HTML">
+  <head>
+    <headElements xsi:type="html:TITLE" value=""/>
+  </head>
+  <body>
+    <bodyElements xsi:type="html:TABLE" border="1">
+      <trs>
+        <tds xsi:type="html:TH" value="donec odio justo sollicitudin ut"/>
+        <tds xsi:type="html:TH" value="justo sit amet sapien dignissim vestibulum vestibulum"/>
+      </trs>
+      <trs>
+        <tds value="4"/>
+        <tds value="77" align="right"/>
+      </trs>
+    </bodyElements>
+  </body>
+</html:HTML>

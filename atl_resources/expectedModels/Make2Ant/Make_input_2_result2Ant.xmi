@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ant:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ant="Ant" name="risus auctor sed tristique in tempus sit amet sem fusce" description="leo pellentesque ultrices mattis odio donec vitae nisi" default="//@targets.0">
+  <properties xsi:type="ant:PropertyValue" name="lectus pellentesque at nulla suspendisse" value="pede venenatis non sodales sed tincidunt eu felis"/>
+  <targets name="sit amet sapien dignissim vestibulum" depends="//@targets.1">
+    <tasks xsi:type="ant:Echo" message="accton"/>
+    <tasks xsi:type="ant:Exec" executable="column"/>
+    <tasks xsi:type="ant:Exec" executable="accton"/>
+  </targets>
+  <targets name="duis at velit eu est">
+    <tasks xsi:type="ant:Echo" message="apropos"/>
+    <tasks xsi:type="ant:Exec" executable="apropos"/>
+  </targets>
+</ant:Project>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:publication="Publication">
+  <publication:Publication title="nullam molestie nibh in lectus pellentesque" authors="Guy Bonnefin" nbPages="3"/>
+  <publication:Publication title="interdum mauris ullamcorper purus sit amet nulla quisque" authors="Dniren Domengue and Amargo Jellings" nbPages="6"/>
+  <publication:Publication title="mi integer ac neque duis bibendum" authors="Adeline Gariff and Ryley Gornal" nbPages="11"/>
+</xmi:XMI>

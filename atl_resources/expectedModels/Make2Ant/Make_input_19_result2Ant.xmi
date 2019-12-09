@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ant:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ant="Ant" name="nibh fusce lacus purus aliquet" description="imperdiet sapien urna pretium nisl ut volutpat" default="//@targets.0">
+  <properties xsi:type="ant:PropertyValue" name="mauris non ligula pellentesque ultrices phasellus id" value="vestibulum vestibulum ante ipsum primis in faucibus"/>
+  <properties xsi:type="ant:PropertyValue" name="rhoncus dui vel sem sed sagittis nam congue risus" value="proin risus praesent lectus vestibulum quam sapien"/>
+  <properties xsi:type="ant:PropertyValue" name="dui luctus rutrum nulla tellus in sagittis" value="eu magna vulputate luctus cum sociis natoque penatibus et"/>
+  <properties xsi:type="ant:PropertyValue" name="pellentesque at nulla suspendisse potenti cras in purus eu" value="morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed"/>
+  <targets name="velit donec diam neque vestibulum eget vulputate ut ultrices" depends="//@targets.4 //@targets.3 //@targets.1 //@targets.6">
+    <tasks xsi:type="ant:Echo" message="afconvert"/>
+    <tasks xsi:type="ant:Exec" executable="crlrefresh"/>
+    <tasks xsi:type="ant:Echo" message="colldef"/>
+    <tasks xsi:type="ant:Echo" message="cupsctl"/>
+    <tasks xsi:type="ant:Exec" executable="afconvert"/>
+    <tasks xsi:type="ant:Exec" executable="colldef"/>
+    <tasks xsi:type="ant:Exec" executable="cupsctl"/>
+  </targets>
+  <targets name="duis consequat dui nec nisi volutpat eleifend donec ut">
+    <tasks xsi:type="ant:Exec" executable="caffeinate"/>
+  </targets>
+  <targets name="imperdiet nullam orci pede venenatis non sodales">
+    <tasks xsi:type="ant:Echo" message="case"/>
+    <tasks xsi:type="ant:Exec" executable="case"/>
+  </targets>
+  <targets name="tempus sit amet sem fusce consequat nulla nisl nunc">
+    <tasks xsi:type="ant:Echo" message="allneeded"/>
+    <tasks xsi:type="ant:Exec" executable="allneeded"/>
+  </targets>
+  <targets name="dapibus nulla suscipit ligula in lacus curabitur at">
+    <tasks xsi:type="ant:Exec" executable="clang"/>
+  </targets>
+  <targets name="iaculis diam erat fermentum justo nec">
+    <tasks xsi:type="ant:Exec" executable="crlrefresh"/>
+  </targets>
+  <targets name="iaculis diam erat fermentum justo">
+    <tasks xsi:type="ant:Echo" message="cpuwalk.d"/>
+    <tasks xsi:type="ant:Exec" executable="cpuwalk.d"/>
+  </targets>
+</ant:Project>

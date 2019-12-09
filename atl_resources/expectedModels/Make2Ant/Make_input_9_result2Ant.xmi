@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ant:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ant="Ant" name="sagittis dui vel nisl duis" description="placerat ante nulla justo aliquam quis turpis eget elit sodales" default="//@targets.0">
+  <properties xsi:type="ant:PropertyValue" name="semper sapien a libero nam dui" value="tristique fusce congue diam id ornare imperdiet sapien urna"/>
+  <properties xsi:type="ant:PropertyValue" name="eros suspendisse accumsan tortor quis turpis sed ante vivamus" value="sapien dignissim vestibulum vestibulum ante"/>
+  <properties xsi:type="ant:PropertyValue" name="est phasellus sit amet erat nulla tempus vivamus" value="leo odio condimentum id luctus nec"/>
+  <properties xsi:type="ant:PropertyValue" name="sit amet nunc viverra dapibus" value="a suscipit nulla elit ac nulla sed"/>
+  <properties xsi:type="ant:PropertyValue" name="praesent lectus vestibulum quam sapien varius ut" value="viverra pede ac diam cras pellentesque volutpat"/>
+  <properties xsi:type="ant:PropertyValue" name="sapien ut nunc vestibulum ante ipsum" value="at velit eu est congue"/>
+  <properties xsi:type="ant:PropertyValue" name="congue diam id ornare imperdiet sapien urna pretium nisl" value="nunc commodo placerat praesent blandit nam"/>
+  <targets name="aenean lectus pellentesque eget nunc donec quis" depends="//@targets.7 //@targets.6 //@targets.8 //@targets.12 //@targets.2 //@targets.9 //@targets.10 //@targets.1">
+    <tasks xsi:type="ant:Exec" executable="dappprof"/>
+    <tasks xsi:type="ant:Exec" executable="autoupdate"/>
+    <tasks xsi:type="ant:Echo" message="chpass"/>
+    <tasks xsi:type="ant:Echo" message="ceflatex"/>
+    <tasks xsi:type="ant:Echo" message="compress"/>
+    <tasks xsi:type="ant:Echo" message="dvigif"/>
+    <tasks xsi:type="ant:Exec" executable="c++filt"/>
+    <tasks xsi:type="ant:Exec" executable="cmp"/>
+    <tasks xsi:type="ant:Exec" executable="chpass"/>
+    <tasks xsi:type="ant:Exec" executable="ceflatex"/>
+    <tasks xsi:type="ant:Exec" executable="compress"/>
+    <tasks xsi:type="ant:Exec" executable="dvigif"/>
+  </targets>
+  <targets name="ipsum dolor sit amet consectetuer" depends="//@targets.5">
+    <tasks xsi:type="ant:Echo" message="javapackager"/>
+    <tasks xsi:type="ant:Exec" executable="javapackager"/>
+  </targets>
+  <targets name="pede venenatis non sodales sed tincidunt eu felis" depends="//@targets.9">
+    <tasks xsi:type="ant:Exec" executable="cvmkfile"/>
+  </targets>
+  <targets name="dapibus nulla suscipit ligula in lacus curabitur at" depends="//@targets.10">
+    <tasks xsi:type="ant:Echo" message="accton"/>
+    <tasks xsi:type="ant:Exec" executable="accton"/>
+  </targets>
+  <targets name="in faucibus orci luctus et ultrices posuere">
+    <tasks xsi:type="ant:Echo" message="afm2tfm"/>
+    <tasks xsi:type="ant:Exec" executable="afm2tfm"/>
+  </targets>
+  <targets name="pellentesque at nulla suspendisse potenti cras in purus eu">
+    <tasks xsi:type="ant:Echo" message="codesign"/>
+    <tasks xsi:type="ant:Exec" executable="codesign"/>
+  </targets>
+  <targets name="volutpat dui maecenas tristique est et tempus">
+    <tasks xsi:type="ant:Exec" executable="afscexpand"/>
+  </targets>
+  <targets name="vitae nisi nam ultrices libero non mattis pulvinar nulla pede">
+    <tasks xsi:type="ant:Echo" message="cp"/>
+    <tasks xsi:type="ant:Exec" executable="cp"/>
+  </targets>
+  <targets name="montes nascetur ridiculus mus etiam vel">
+    <tasks xsi:type="ant:Exec" executable="automator"/>
+  </targets>
+  <targets name="sagittis dui vel nisl duis ac nibh fusce lacus">
+    <tasks xsi:type="ant:Exec" executable="colldef"/>
+  </targets>
+  <targets name="proin leo odio porttitor id consequat in">
+    <tasks xsi:type="ant:Echo" message="config_data5.16"/>
+    <tasks xsi:type="ant:Exec" executable="config_data5.16"/>
+  </targets>
+  <targets name="ornare consequat lectus in est risus">
+    <tasks xsi:type="ant:Exec" executable="checkgid"/>
+  </targets>
+  <targets name="arcu adipiscing molestie hendrerit at vulputate vitae nisl">
+    <tasks xsi:type="ant:Echo" message="cupsaccept"/>
+    <tasks xsi:type="ant:Exec" executable="cupsaccept"/>
+  </targets>
+</ant:Project>

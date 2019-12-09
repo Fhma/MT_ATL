@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ant:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ant="Ant" name="primis in faucibus orci luctus et ultrices posuere cubilia" description="a suscipit nulla elit ac nulla sed" default="//@targets.0">
+  <properties xsi:type="ant:PropertyValue" name="luctus et ultrices posuere cubilia" value="turpis enim blandit mi in porttitor pede"/>
+  <properties xsi:type="ant:PropertyValue" name="nibh in quis justo maecenas rhoncus aliquam lacus morbi" value="a ipsum integer a nibh in quis justo maecenas rhoncus"/>
+  <properties xsi:type="ant:PropertyValue" name="bibendum felis sed interdum venenatis turpis enim blandit mi in" value="tortor quis turpis sed ante"/>
+  <properties xsi:type="ant:PropertyValue" name="leo odio condimentum id luctus nec" value="lacus morbi quis tortor id nulla ultrices aliquet"/>
+  <properties xsi:type="ant:PropertyValue" name="velit vivamus vel nulla eget eros elementum" value="nisl duis bibendum felis sed interdum"/>
+  <properties xsi:type="ant:PropertyValue" name="rhoncus dui vel sem sed sagittis nam congue risus" value="consequat metus sapien ut nunc"/>
+  <properties xsi:type="ant:PropertyValue" name="imperdiet nullam orci pede venenatis non sodales" value="duis bibendum felis sed interdum venenatis turpis enim"/>
+  <targets name="blandit ultrices enim lorem ipsum dolor sit amet consectetuer" depends="//@targets.7 //@targets.6 //@targets.8 //@targets.12 //@targets.2 //@targets.9 //@targets.10 //@targets.1">
+    <tasks xsi:type="ant:Echo" message="corelist5.18"/>
+    <tasks xsi:type="ant:Echo" message="config_data5.16"/>
+    <tasks xsi:type="ant:Echo" message="afhash"/>
+    <tasks xsi:type="ant:Echo" message="autoreconf"/>
+    <tasks xsi:type="ant:Echo" message="avbdeviced"/>
+    <tasks xsi:type="ant:Echo" message="cmp"/>
+    <tasks xsi:type="ant:Exec" executable="cat"/>
+    <tasks xsi:type="ant:Exec" executable="codesign_allocate"/>
+    <tasks xsi:type="ant:Exec" executable="corelist5.18"/>
+    <tasks xsi:type="ant:Exec" executable="config_data5.16"/>
+    <tasks xsi:type="ant:Exec" executable="afhash"/>
+    <tasks xsi:type="ant:Exec" executable="autoreconf"/>
+    <tasks xsi:type="ant:Exec" executable="avbdeviced"/>
+    <tasks xsi:type="ant:Exec" executable="cmp"/>
+  </targets>
+  <targets name="turpis a pede posuere nonummy" depends="//@targets.5">
+    <tasks xsi:type="ant:Exec" executable="dispqlen.d"/>
+  </targets>
+  <targets name="mauris non ligula pellentesque ultrices phasellus id" depends="//@targets.9">
+    <tasks xsi:type="ant:Exec" executable="cron"/>
+  </targets>
+  <targets name="id ligula suspendisse ornare consequat lectus in est risus" depends="//@targets.10">
+    <tasks xsi:type="ant:Exec" executable="chat"/>
+  </targets>
+  <targets name="lectus in est risus auctor sed tristique in tempus">
+    <tasks xsi:type="ant:Echo" message="animate"/>
+    <tasks xsi:type="ant:Exec" executable="animate"/>
+  </targets>
+  <targets name="eu magna vulputate luctus cum sociis natoque penatibus et">
+    <tasks xsi:type="ant:Exec" executable="corelist5.18"/>
+  </targets>
+  <targets name="id ligula suspendisse ornare consequat lectus in est risus">
+    <tasks xsi:type="ant:Echo" message="de-macro"/>
+    <tasks xsi:type="ant:Exec" executable="de-macro"/>
+  </targets>
+  <targets name="nulla nisl nunc nisl duis bibendum felis sed interdum venenatis">
+    <tasks xsi:type="ant:Exec" executable="checkcites"/>
+  </targets>
+  <targets name="duis consequat dui nec nisi volutpat eleifend donec ut">
+    <tasks xsi:type="ant:Exec" executable="apply"/>
+  </targets>
+  <targets name="dolor sit amet consectetuer adipiscing">
+    <tasks xsi:type="ant:Exec" executable="chat"/>
+  </targets>
+  <targets name="vitae nisl aenean lectus pellentesque eget nunc donec quis orci">
+    <tasks xsi:type="ant:Echo" message="auvaltool"/>
+    <tasks xsi:type="ant:Exec" executable="auvaltool"/>
+  </targets>
+  <targets name="rhoncus dui vel sem sed sagittis nam congue risus">
+    <tasks xsi:type="ant:Echo" message="afhash"/>
+    <tasks xsi:type="ant:Exec" executable="afhash"/>
+  </targets>
+  <targets name="arcu adipiscing molestie hendrerit at vulputate vitae nisl">
+    <tasks xsi:type="ant:Echo" message="csrutil"/>
+    <tasks xsi:type="ant:Exec" executable="csrutil"/>
+  </targets>
+</ant:Project>

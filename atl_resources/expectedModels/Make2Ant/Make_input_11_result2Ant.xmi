@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ant:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ant="Ant" name="in hac habitasse platea dictumst maecenas ut massa quis augue" description="lobortis vel dapibus at diam nam tristique tortor eu pede" default="//@targets.0">
+  <properties xsi:type="ant:PropertyValue" name="vel enim sit amet nunc viverra dapibus nulla" value="sollicitudin mi sit amet lobortis"/>
+  <properties xsi:type="ant:PropertyValue" name="interdum mauris non ligula pellentesque ultrices" value="enim sit amet nunc viverra dapibus nulla suscipit ligula in"/>
+  <targets name="accumsan odio curabitur convallis duis" depends="//@targets.3">
+    <tasks xsi:type="ant:Echo" message="compress"/>
+    <tasks xsi:type="ant:Echo" message="arp"/>
+    <tasks xsi:type="ant:Exec" executable="compress"/>
+    <tasks xsi:type="ant:Exec" executable="arp"/>
+  </targets>
+  <targets name="lorem vitae mattis nibh ligula nec sem" depends="//@targets.3 //@targets.2">
+    <tasks xsi:type="ant:Echo" message="as"/>
+    <tasks xsi:type="ant:Exec" executable="as"/>
+  </targets>
+  <targets name="molestie sed justo pellentesque viverra pede">
+    <tasks xsi:type="ant:Exec" executable="corelist"/>
+  </targets>
+  <targets name="ut massa quis augue luctus tincidunt">
+    <tasks xsi:type="ant:Exec" executable="crlrefresh"/>
+  </targets>
+</ant:Project>

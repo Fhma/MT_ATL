@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ant:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ant="Ant" name="amet sem fusce consequat nulla nisl nunc" description="eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor" default="//@targets.0">
+  <properties xsi:type="ant:PropertyValue" name="duis consequat dui nec nisi volutpat eleifend donec ut" value="lobortis vel dapibus at diam nam tristique tortor eu pede"/>
+  <properties xsi:type="ant:PropertyValue" name="mi integer ac neque duis bibendum" value="tincidunt ante vel ipsum praesent blandit"/>
+  <properties xsi:type="ant:PropertyValue" name="congue diam id ornare imperdiet sapien urna pretium" value="blandit ultrices enim lorem ipsum dolor sit amet consectetuer"/>
+  <properties xsi:type="ant:PropertyValue" name="tempor convallis nulla neque libero convallis eget eleifend" value="a ipsum integer a nibh in quis justo maecenas rhoncus"/>
+  <properties xsi:type="ant:PropertyValue" name="luctus et ultrices posuere cubilia" value="interdum mauris non ligula pellentesque ultrices"/>
+  <properties xsi:type="ant:PropertyValue" name="lobortis vel dapibus at diam nam tristique tortor eu pede" value="mauris ullamcorper purus sit amet nulla quisque"/>
+  <properties xsi:type="ant:PropertyValue" name="scelerisque mauris sit amet eros suspendisse accumsan tortor" value="pulvinar sed nisl nunc rhoncus"/>
+  <targets name="in magna bibendum imperdiet nullam orci" depends="//@targets.7 //@targets.6 //@targets.8 //@targets.12 //@targets.2 //@targets.9 //@targets.10 //@targets.1">
+    <tasks xsi:type="ant:Echo" message="a2ping"/>
+    <tasks xsi:type="ant:Echo" message="corelist5.18"/>
+    <tasks xsi:type="ant:Echo" message="cvadmin"/>
+    <tasks xsi:type="ant:Echo" message="crc325.16"/>
+    <tasks xsi:type="ant:Echo" message="cfftot1"/>
+    <tasks xsi:type="ant:Echo" message="dosepsbin"/>
+    <tasks xsi:type="ant:Exec" executable="afhash"/>
+    <tasks xsi:type="ant:Exec" executable="checklistings"/>
+    <tasks xsi:type="ant:Exec" executable="a2ping"/>
+    <tasks xsi:type="ant:Exec" executable="corelist5.18"/>
+    <tasks xsi:type="ant:Exec" executable="cvadmin"/>
+    <tasks xsi:type="ant:Exec" executable="crc325.16"/>
+    <tasks xsi:type="ant:Exec" executable="cfftot1"/>
+    <tasks xsi:type="ant:Exec" executable="dosepsbin"/>
+  </targets>
+  <targets name="ipsum aliquam non mauris morbi non" depends="//@targets.5">
+    <tasks xsi:type="ant:Exec" executable="c2ph"/>
+  </targets>
+  <targets name="libero convallis eget eleifend luctus ultricies eu nibh quisque id" depends="//@targets.9">
+    <tasks xsi:type="ant:Echo" message="amt"/>
+    <tasks xsi:type="ant:Exec" executable="amt"/>
+  </targets>
+  <targets name="aliquet at feugiat non pretium quis lectus suspendisse potenti in" depends="//@targets.10">
+    <tasks xsi:type="ant:Echo" message="aslmanager"/>
+    <tasks xsi:type="ant:Exec" executable="aslmanager"/>
+  </targets>
+  <targets name="magna bibendum imperdiet nullam orci pede venenatis">
+    <tasks xsi:type="ant:Exec" executable="cpan2dist5.18"/>
+  </targets>
+  <targets name="volutpat dui maecenas tristique est et">
+    <tasks xsi:type="ant:Exec" executable="afida"/>
+  </targets>
+  <targets name="primis in faucibus orci luctus et ultrices posuere cubilia">
+    <tasks xsi:type="ant:Exec" executable="appletviewer"/>
+  </targets>
+  <targets name="morbi non lectus aliquam sit">
+    <tasks xsi:type="ant:Echo" message="afida"/>
+    <tasks xsi:type="ant:Exec" executable="afida"/>
+  </targets>
+  <targets name="leo odio condimentum id luctus nec">
+    <tasks xsi:type="ant:Exec" executable="afmtodit"/>
+  </targets>
+  <targets name="lectus suspendisse potenti in eleifend quam a odio in hac">
+    <tasks xsi:type="ant:Exec" executable="cvmkdir"/>
+  </targets>
+  <targets name="molestie hendrerit at vulputate vitae">
+    <tasks xsi:type="ant:Echo" message="ctie"/>
+    <tasks xsi:type="ant:Exec" executable="ctie"/>
+  </targets>
+  <targets name="donec ut mauris eget massa tempor">
+    <tasks xsi:type="ant:Echo" message="a2p5.18"/>
+    <tasks xsi:type="ant:Exec" executable="a2p5.18"/>
+  </targets>
+  <targets name="tempus vivamus in felis eu">
+    <tasks xsi:type="ant:Exec" executable="animate"/>
+  </targets>
+</ant:Project>
