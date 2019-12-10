@@ -1,60 +1,20 @@
-This repository contains the elements of an empirical mutation testing using a concrete mutation operator set for ATL. This project must be imported into an Eclipse project.
+# Mutation Testing on ATL Programs
+This repository contains the elements of an empirical mutation testing against ATL candidate programs to evaluate ATL mutation operators implemented using Epsilon Mutator (EMU).
 
-# Requirements
+## Requirements
 1. Epsilon (version: 1.4): it can be found [here](https://eclipse.org/epsilon/download/).
 2. Atlas Model Transformation (version 3.6): it can be found [here](http://www.eclipse.org/atl/downloads/).
 3. Eclipse Modelling Framework (version 2.12): it can be obtained from Eclipse update site
 4. EMFCompare (version 3.x): it can be obtained from Eclipse update site
 
-# Contents
-## 1. Mutation Generation Section
-*Project name:* uk.ac.york.cs.emu.atl.examples.mutations.generator
+## Experiment resources
+The experiment resources are located in the folder (ATL_resources), which contains the following:
 
-*Executable java file:* Stage1.java
-
-### Overview
-This java project can be used to execute the concrete mutation operators of ATL against candidate ATL program models.
-
-### configurations package
-Contains configuration files to be loaded by *Stage1.java*. The configurations names of files are given in the file *modules.configurations*.
-
-### metamodels package
-Contains metamodels of input/output of the candidate transformation programs.
-
-### transformations package
-Contains all candidate programs that are loaded by the *Single1.java*
-
-### operatorDefinitions folder
-Contains all implementation of concrete mutation operators.
-
-### generatedMutations folder
-Holds the output of the execution of the mutation operators (mutants).
-
-## 2. Mutation Execution Section
-*Project name:* uk.ac.york.cs.emu.atl.examples.execution
-
-*Executable java file:* Stage2.java
-
-### Overview
-This project handles the execution of ATL programs and ATL mutants.
-
-### configurations package
-Contains the configuration files to be loaded by *Stage2N3.java*. The configurations names of files are given in the file *modules.configurations*.
-
-### transformations.launcher package
-Holds the a normal launcher that execute the original model transformation modules against he input models located in folder "inModels". The output of this execution is stored in folder "expectedModels", which then are used as oracles for mutation analysis.
-
-### mutations.launcher package
-Holds the mutation launcher that execute the mutated model of ATL candidate programs found in folder "generatedMutations", which can be obtained from stage 1 **Mutatin Generation** against the input models located in folder "inModels". The output of each exectuion is compared with a correspondence expected output model located in "expectedModels".
-
-### inModels folder
-Contains the input test models
-
-### expectedModels folder
-Contains the the output of the original ATL model transformation modules.
-
-### generatedMutations folder
-Holds the mutations generated at **Mutatin Generation**.
-
-### mutationsExecution folder
-Contains the summary of the execution of all mutation of all transformation programs. 
+1. candidates: contains candidate ATL programs.
+2. inModels_generator: contains EMG code used to semi-automatically generate input models. The model-generator project can be found [here](https://github.com/Fhma/Model-Generator).
+3. inModels: contains input models used to executed ATL programs.
+4. expectedModels: contains expected after executing ATL programs. Models were generated using the Java project
+(uk.ac.york.cs.emu.atl.examples.execution.Stage2).
+5. metamodels: contains metamodels expressed in Ecore to load/write input/output models.
+6. operators: contains mutation operators expressed in EMU.
+7. mutations: contains mutations generated from executing all operators against ATL programs. Mutations were generated using Java project (uk.ac.york.cs.emu.atl.examples.mutations.generator.Stage1), and then executed using the Java project (uk.ac.york.cs.emu.atl.examples.execution.Stage3).
